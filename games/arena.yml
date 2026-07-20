@@ -1,0 +1,42 @@
+# First game mode: the flagship head-to-head arena.
+# A new game = a new file like this one; arena/runner.py --game games/<name>.yml
+
+name: arena
+description: S&P 100, one decision per trading day, executed at next open.
+
+universe: sp100          # arena/universe.py resolves this to a ticker list
+starting_cash: 100000
+max_position_pct: 0.50   # 50% of portfolio in a single name, max
+fee_pct: 0.001           # 0.1% simulated friction
+long_only: true
+lookback_days: 20        # OHLCV history handed to the model each day
+season_length_days: 63   # ~3 trading months; ledger resets, history archived
+
+traders:
+  - id: gpt
+    persona: personas/gpt.md
+    kind: openai
+    model_id: gpt-4o
+    display_name: GPT-4o
+
+  - id: claude
+    persona: personas/claude.md
+    kind: anthropic
+    model_id: claude-sonnet-4-5
+    display_name: Claude Sonnet 4.5
+
+  - id: deepseek
+    persona: personas/deepseek.md
+    kind: openai_compat
+    model_id: deepseek-chat
+    base_url: https://api.deepseek.com
+    api_key_env: DEEPSEEK_API_KEY
+    display_name: DeepSeek-V3
+
+  - id: llama
+    persona: personas/llama.md
+    kind: openai_compat
+    model_id: llama-3.3-70b-versatile
+    base_url: https://api.groq.com/openai/v1
+    api_key_env: GROQ_API_KEY
+    display_name: Llama 3.3 70B

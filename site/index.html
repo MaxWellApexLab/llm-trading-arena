@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LLM Trading Arena — live leaderboard</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --panel: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --green: #00e676;
+    --red: #f85149;
+    --gpt: #2dd4bf;
+    --claude: #fb923c;
+    --deepseek: #60a5fa;
+    --llama: #c084fc;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--bg); color: var(--text); }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    padding: 24px 16px 40px;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; }
+
+  /* ---------- header ---------- */
+  header { text-align: center; margin-bottom: 28px; }
+  header h1 { font-size: 1.9rem; letter-spacing: -0.5px; }
+  header .tagline { color: var(--muted); margin-top: 4px; font-size: 1.05rem; }
+  header .repo { display: inline-block; margin-top: 8px; font-size: 0.85rem; color: var(--green); text-decoration: none; border: 1px solid var(--border); border-radius: 999px; padding: 3px 14px; }
+  header .repo:hover { border-color: var(--green); }
+
+  /* ---------- standings ---------- */
+  .standings { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 28px; }
+  .stand-card {
+    flex: 1 1 210px; min-width: 160px;
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    padding: 14px 16px; border-top: 3px solid var(--muted);
+  }
+  .stand-card .rank { font-size: 1.3rem; }
+  .stand-card .who { font-weight: 600; font-size: 0.95rem; margin-top: 2px; }
+  .stand-card .nav { font-size: 1.45rem; font-weight: 700; margin-top: 6px; font-variant-numeric: tabular-nums; }
+  .stand-card .ret { font-size: 0.9rem; font-weight: 600; margin-top: 2px; font-variant-numeric: tabular-nums; }
+  .pos { color: var(--green); }
+  .neg { color: var(--red); }
+  .flat { color: var(--muted); }
+
+  /* ---------- chart ---------- */
+  .panel {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    padding: 18px; margin-bottom: 28px;
+  }
+  .panel h2 { font-size: 1.1rem; margin-bottom: 12px; }
+  #chart svg { width: 100%; height: auto; display: block; }
+  .chart-placeholder {
+    color: var(--muted); text-align: center; padding: 56px 12px;
+    border: 1px dashed var(--border); border-radius: 8px; font-size: 0.95rem;
+  }
+  .legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px; font-size: 0.85rem; color: var(--muted); }
+  .legend .chip { display: inline-flex; align-items: center; gap: 6px; }
+  .legend .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+
+  /* ---------- trader cards ---------- */
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; margin-bottom: 32px; }
+  .tcard { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 16px; border-top: 3px solid var(--muted); }
+  .tcard h3 { font-size: 1.02rem; display: flex; align-items: center; gap: 8px; }
+  .tcard h3 .dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; flex: none; }
+  .tcard .subnav { color: var(--muted); font-size: 0.85rem; margin: 2px 0 10px; font-variant-numeric: tabular-nums; }
+  .tcard h4 { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 12px 0 6px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.83rem; font-variant-numeric: tabular-nums; }
+  th { color: var(--muted); font-weight: 500; text-align: left; padding: 3px 6px 3px 0; border-bottom: 1px solid var(--border); font-size: 0.75rem; }
+  td { padding: 4px 6px 4px 0; border-bottom: 1px solid var(--border); }
+  tr:last-child td { border-bottom: none; }
+  td.num, th.num { text-align: right; padding-right: 0; }
+  .empty-row { color: var(--muted); font-style: italic; }
+  .quote { font-style: italic; color: var(--text); font-size: 0.88rem; margin-top: 4px; word-wrap: break-word; }
+  .quote.fallback { color: var(--muted); }
+
+  /* ---------- footer ---------- */
+  footer { text-align: center; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); padding-top: 20px; }
+  footer p { margin-bottom: 6px; }
+  footer .warn { font-weight: 700; color: var(--text); }
+  footer a { color: var(--green); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  @media (max-width: 480px) {
+    header h1 { font-size: 1.5rem; }
+    .stand-card { flex-basis: 100%; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>🏟️ LLM Trading Arena</h1>
+    <p class="tagline">Four LLMs. $100k each. One leaderboard.</p>
+    <a class="repo" href="https://github.com/maxwellapexlab/llm-trading-arena">Source on GitHub →</a>
+  </header>
+
+  <section class="standings" id="standings" aria-label="Standings"></section>
+
+  <section class="panel" aria-label="NAV race">
+    <h2>📈 NAV Race</h2>
+    <div id="chart"></div>
+    <div class="legend" id="legend"></div>
+  </section>
+
+  <section class="grid" id="traders" aria-label="Trader details"></section>
+
+  <footer>
+    <p>S&amp;P 100 · long-only · max 50% single position · 0.1% fee · orders fill at next open</p>
+    <p class="warn">Paper trading only. Educational purposes only. Not investment advice.</p>
+    <p>Provided as-is — no support, no roadmap, no promises.</p>
+    <p><a href="https://github.com/maxwellapexlab/llm-trading-arena">MIT License</a></p>
+  </footer>
+
+</div>
+
+<script>
+"use strict";
+
+const START_CASH = 100000;
+const TRADERS = [
+  { id: "gpt",      name: "GPT-4o",            color: "#2dd4bf" },
+  { id: "claude",   name: "Claude Sonnet 4.5", color: "#fb923c" },
+  { id: "deepseek", name: "DeepSeek-V3",       color: "#60a5fa" },
+  { id: "llama",    name: "Llama 3.3 70B",     color: "#c084fc" },
+];
+const MEDALS = ["🥇", "🥈", "🥉", "#4"];
+
+const fmtUSD0 = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
+const fmtNum2 = new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 });
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+function emptyBook() {
+  return { cash: START_CASH, positions: {}, pending_orders: [], trades: [], nav_history: [], rejected: [] };
+}
+
+async function loadJSON(path, fallback) {
+  try {
+    const res = await fetch(path);
+    if (!res.ok) throw new Error(res.status);
+    return await res.json();
+  } catch (_) {
+    return fallback;
+  }
+}
+
+function currentNav(book) {
+  const h = book.nav_history;
+  return (Array.isArray(h) && h.length) ? h[h.length - 1].nav : START_CASH;
+}
+
+function retClass(pct) {
+  return pct > 0 ? "pos" : (pct < 0 ? "neg" : "flat");
+}
+
+function lastFillPrice(book, ticker) {
+  const trades = book.trades || [];
+  for (let i = trades.length - 1; i >= 0; i--) {
+    if (trades[i].ticker === ticker && trades[i].price > 0) return trades[i].price;
+  }
+  return null;
+}
+
+function shortDate(d) {
+  // "2026-07-21" -> "07-21"; anything else passes through
+  return /^\d{4}-\d{2}-\d{2}/.test(d) ? d.slice(5, 10) : d;
+}
+
+/* ---------- standings ---------- */
+function renderStandings(rows) {
+  const el = document.getElementById("standings");
+  el.innerHTML = rows.map((r, i) => {
+    const pct = (r.nav / START_CASH - 1) * 100;
+    const sign = pct > 0 ? "+" : "";
+    return `
+      <div class="stand-card" style="border-top-color:${r.color}">
+        <div class="rank">${MEDALS[i] || "#" + (i + 1)}</div>
+        <div class="who" style="color:${r.color}">${esc(r.name)}</div>
+        <div class="nav">${fmtUSD0.format(r.nav)}</div>
+        <div class="ret ${retClass(pct)}">${sign}${pct.toFixed(2)}%</div>
+      </div>`;
+  }).join("");
+}
+
+/* ---------- NAV race chart (inline SVG, no libraries) ---------- */
+function renderChart(rows) {
+  const chartEl = document.getElementById("chart");
+  const legendEl = document.getElementById("legend");
+
+  const series = rows.map(r => ({
+    name: r.name, color: r.color,
+    points: (r.book.nav_history || []).filter(p => typeof p.nav === "number"),
+  }));
+  const maxLen = Math.max(0, ...series.map(s => s.points.length));
+
+  legendEl.innerHTML = series.map(s =>
+    `<span class="chip"><span class="dot" style="background:${s.color}"></span>${esc(s.name)}</span>`
+  ).join("");
+
+  if (maxLen < 2) {
+    chartEl.innerHTML = `<div class="chart-placeholder">Season starts soon — first trading day pending</div>`;
+    return;
+  }
+
+  const W = 860, H = 340, ML = 62, MR = 14, MT = 14, MB = 34;
+  const pw = W - ML - MR, ph = H - MT - MB;
+
+  let lo = START_CASH, hi = START_CASH;
+  for (const s of series) for (const p of s.points) {
+    if (p.nav < lo) lo = p.nav;
+    if (p.nav > hi) hi = p.nav;
+  }
+  const pad = Math.max((hi - lo) * 0.08, START_CASH * 0.005);
+  lo -= pad; hi += pad;
+
+  const x = i => ML + (i / (maxLen - 1)) * pw;
+  const y = v => MT + ((hi - v) / (hi - lo)) * ph;
+  const fmtK = v => "$" + (v / 1000).toFixed(v % 1000 === 0 ? 0 : 1) + "k";
+
+  let svg = `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NAV race chart">`;
+
+  // horizontal gridlines + y labels
+  const TICKS = 5;
+  for (let t = 0; t <= TICKS; t++) {
+    const v = lo + (t / TICKS) * (hi - lo);
+    const yy = y(v);
+    svg += `<line x1="${ML}" y1="${yy.toFixed(1)}" x2="${W - MR}" y2="${yy.toFixed(1)}" stroke="#21262d" stroke-width="1"/>`;
+    svg += `<text x="${ML - 8}" y="${(yy + 4).toFixed(1)}" text-anchor="end" font-size="12" fill="#8b949e">${fmtK(v)}</text>`;
+  }
+
+  // $100k baseline (dashed)
+  if (START_CASH >= lo && START_CASH <= hi) {
+    const by = y(START_CASH);
+    svg += `<line x1="${ML}" y1="${by.toFixed(1)}" x2="${W - MR}" y2="${by.toFixed(1)}" stroke="#8b949e" stroke-width="1.2" stroke-dasharray="5 5"/>`;
+    svg += `<text x="${W - MR}" y="${(by - 6).toFixed(1)}" text-anchor="end" font-size="11" fill="#8b949e">$100k start</text>`;
+  }
+
+  // x-axis date labels: first, middle, last (from the longest series)
+  const longest = series.reduce((a, b) => (b.points.length > a.points.length ? b : a), series[0]);
+  const labelIdx = maxLen >= 5 ? [0, Math.floor((maxLen - 1) / 2), maxLen - 1] : [0, maxLen - 1];
+  for (const i of labelIdx) {
+    const p = longest.points[i];
+    if (!p) continue;
+    const anchor = i === 0 ? "start" : (i === maxLen - 1 ? "end" : "middle");
+    svg += `<text x="${x(i).toFixed(1)}" y="${H - 10}" text-anchor="${anchor}" font-size="12" fill="#8b949e">${esc(p.date || "")}</text>`;
+  }
+
+  // one polyline per trader
+  for (const s of series) {
+    if (s.points.length < 2) continue;
+    const pts = s.points.map((p, i) => `${x(i).toFixed(1)},${y(p.nav).toFixed(1)}`).join(" ");
+    svg += `<polyline points="${pts}" fill="none" stroke="${s.color}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>`;
+    const last = s.points[s.points.length - 1];
+    svg += `<circle cx="${x(s.points.length - 1).toFixed(1)}" cy="${y(last.nav).toFixed(1)}" r="3.5" fill="${s.color}"/>`;
+  }
+
+  svg += `</svg>`;
+  chartEl.innerHTML = svg;
+}
+
+/* ---------- per-trader cards ---------- */
+function positionsTable(book) {
+  const entries = Object.entries(book.positions || {});
+  if (!entries.length) {
+    return `<table><thead><tr><th>Ticker</th><th class="num">Shares</th><th class="num">Est. value</th></tr></thead>
+      <tbody><tr><td class="empty-row" colspan="3">No positions yet</td></tr></tbody></table>`;
+  }
+  const rows = entries.map(([ticker, shares]) => {
+    const px = lastFillPrice(book, ticker);
+    const val = px !== null ? shares * px : null;
+    return { ticker, shares, val };
+  }).sort((a, b) => (b.val || 0) - (a.val || 0));
+
+  return `<table><thead><tr><th>Ticker</th><th class="num">Shares</th><th class="num">Est. value</th></tr></thead><tbody>` +
+    rows.map(r =>
+      `<tr><td>${esc(r.ticker)}</td><td class="num">${fmtNum2.format(r.shares)}</td>` +
+      `<td class="num">${r.val !== null ? fmtUSD0.format(r.val) : "—"}</td></tr>`
+    ).join("") + `</tbody></table>`;
+}
+
+function tradesTable(book) {
+  const trades = (book.trades || []).slice(-5).reverse();
+  if (!trades.length) {
+    return `<table><thead><tr><th>Date</th><th>Action</th><th>Ticker</th><th class="num">Amount</th></tr></thead>
+      <tbody><tr><td class="empty-row" colspan="4">No trades yet</td></tr></tbody></table>`;
+  }
+  return `<table><thead><tr><th>Date</th><th>Action</th><th>Ticker</th><th class="num">Amount</th></tr></thead><tbody>` +
+    trades.map(t => {
+      const amt = (typeof t.shares === "number" && typeof t.price === "number") ? t.shares * t.price : null;
+      const cls = t.action === "buy" ? "pos" : "neg";
+      return `<tr><td>${esc(shortDate(t.date || ""))}</td>` +
+        `<td class="${cls}">${esc((t.action || "").toUpperCase())}</td>` +
+        `<td>${esc(t.ticker || "")}</td>` +
+        `<td class="num">${amt !== null ? fmtUSD0.format(amt) : "—"}</td></tr>`;
+    }).join("") + `</tbody></table>`;
+}
+
+function latestCommentary(commentary, traderId) {
+  if (!Array.isArray(commentary)) return null;
+  for (let i = commentary.length - 1; i >= 0; i--) {
+    const c = commentary[i];
+    if (c && c.trader === traderId && c.commentary) return c.commentary;
+  }
+  return null;
+}
+
+function renderTraders(rows, commentary) {
+  const el = document.getElementById("traders");
+  el.innerHTML = rows.map(r => {
+    const pct = (r.nav / START_CASH - 1) * 100;
+    const sign = pct > 0 ? "+" : "";
+    const quote = latestCommentary(commentary, r.id);
+    const quoteHtml = quote
+      ? `<p class="quote">“${esc(quote)}”</p>`
+      : `<p class="quote fallback">“Warming up...”</p>`;
+    return `
+      <div class="tcard" style="border-top-color:${r.color}">
+        <h3><span class="dot" style="background:${r.color}"></span>${esc(r.name)}</h3>
+        <p class="subnav">${fmtUSD0.format(r.nav)} · <span class="${retClass(pct)}">${sign}${pct.toFixed(2)}%</span></p>
+        <h4>Positions</h4>
+        ${positionsTable(r.book)}
+        <h4>Last 5 trades</h4>
+        ${tradesTable(r.book)}
+        <h4>Latest take</h4>
+        ${quoteHtml}
+      </div>`;
+  }).join("");
+}
+
+/* ---------- boot ---------- */
+(async function main() {
+  const [ledger, commentary] = await Promise.all([
+    loadJSON("data/ledger.json", {}),
+    loadJSON("data/commentary.json", []),
+  ]);
+
+  const rows = TRADERS.map(t => {
+    const book = (ledger && typeof ledger === "object" && ledger[t.id]) ? ledger[t.id] : emptyBook();
+    return { ...t, book, nav: currentNav(book) };
+  }).sort((a, b) => b.nav - a.nav);
+
+  renderStandings(rows);
+  renderChart(rows);
+  renderTraders(rows, commentary);
+})();
+</script>
+</body>
+</html>
