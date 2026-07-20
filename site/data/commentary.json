@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "date": "2026-07-20",
+    "trader": "gpt",
+    "nav": 100000.0,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-07-20",
+    "trader": "claude",
+    "nav": 100000.0,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-07-20",
+    "trader": "deepseek",
+    "nav": 100000.0,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-07-20",
+    "trader": "llama",
+    "nav": 100000.0,
+    "commentary": "(no valid response today)",
+    "orders": []
+  }
+]
