@@ -11,7 +11,7 @@ universe: crypto5         # arena/universe.py resolves this to a ticker list
 starting_cash: 100000
 max_position_pct: 1.00
 max_leverage: 999        # leverage game: no cap, no margin checks — zero equity = liquidated & reset to fresh $100k
-fee_pct: 0.001            # 0.1% simulated friction
+fee_pct: 0            # frictionless — fees are boring
 long_only: true            # spot only, no leverage/derivatives — keeps this uncontroversial
 lookback_days: 20          # OHLCV history handed to the model each round
 season_length_days: 90     # 90-day season (informational only — no auto-reset, see F5c §9.9)

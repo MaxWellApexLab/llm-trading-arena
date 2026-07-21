@@ -135,6 +135,18 @@
   .event-row .ts { color: var(--muted); font-size: 0.78rem; margin-right: 8px; }
   .events-empty { color: var(--muted); font-style: italic; font-size: 0.9rem; }
   .event-row .live-tag { color: #00e676; font-weight: 700; }
+  .ret-total { font-size: 0.72rem; color: var(--muted); }
+  .stand-card.card-up { animation: cardUp .9s ease-out; }
+  .stand-card.card-down { animation: cardDown .9s ease-out; }
+  @keyframes cardUp { 0% { box-shadow: inset 0 0 0 999px rgba(0,230,118,.15); } 100% { box-shadow: inset 0 0 0 999px rgba(0,230,118,0); } }
+  @keyframes cardDown { 0% { box-shadow: inset 0 0 0 999px rgba(248,81,73,.15); } 100% { box-shadow: inset 0 0 0 999px rgba(248,81,73,0); } }
+  .stand-card.overtake-pulse { animation: opulse 1.6s ease-out; }
+  @keyframes opulse { 0% { box-shadow: 0 0 0 0 rgba(255,215,0,.65); } 100% { box-shadow: 0 0 0 22px rgba(255,215,0,0); } }
+  #overtakeToast { position: fixed; top: 62px; left: 50%; transform: translateX(-50%) translateY(-8px) scale(.92); z-index: 999;
+    background: #161b22; border: 1px solid #00e676; color: #f0f6fc; padding: 10px 22px; border-radius: 999px;
+    font-weight: 800; font-size: 1rem; opacity: 0; pointer-events: none; transition: opacity .25s, transform .25s;
+    box-shadow: 0 10px 34px rgba(0,230,118,.28); }
+  #overtakeToast.show { opacity: 1; transform: translateX(-50%) translateY(0) scale(1); }
 
   /* ---------- trader cards ---------- */
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; margin-bottom: 32px; }
@@ -234,7 +246,7 @@ const GAMES = {
   crypto: {
     label: "Crypto",
     dataDir: "data/crypto",
-    rules: "BTC/ETH/SOL/XRP/DOGE · long-only · simulated leverage, no cap · zero equity = liquidated & reset to $100k · 0.1% fee · orders fill at next round's open · runs 24/7, weekends included",
+    rules: "BTC/ETH/SOL/XRP/DOGE · long-only · simulated leverage, no cap · zero equity = liquidated & reset to $100k · zero fees · orders fill at next round's open · runs 24/7, weekends included",
     // next round at 00:30 or 12:30 UTC, every day
     nextRound(now) {
       const d = new Date(now);
@@ -250,7 +262,7 @@ const GAMES = {
   arena: {
     label: "Stocks",
     dataDir: "data/arena",
-    rules: "S&P 100 · long-only · max 50% single position · 0.1% fee · orders fill at next open · Mon-Fri only",
+    rules: "S&P 100 · long-only · max 50% single position · zero fees · orders fill at next open · Mon-Fri only",
     // next round at 21:30 UTC, next weekday
     nextRound(now) {
       const d = new Date(now);
@@ -343,21 +355,54 @@ function computeBadges(book) {
 }
 
 /* ---------- standings ---------- */
+function todayBaseline(book) {
+  const hist = book.nav_history || [];
+  const today = new Date().toISOString().slice(0, 10);
+  let base = null;
+  for (const p of hist) {
+    if (typeof p.nav !== "number" || p.nav <= 0) continue;
+    if (String(p.date).slice(0, 10) < today) base = p.nav;
+  }
+  return base && base > 0 ? base : START_CASH;
+}
+
 function renderStandings(rows) {
   const el = document.getElementById("standings");
+  const oldPos = new Map();
+  el.querySelectorAll(".stand-card").forEach(c => oldPos.set(c.dataset.tid, c.getBoundingClientRect()));
   el.innerHTML = rows.map((r, i) => {
-    const pct = (r.nav / START_CASH - 1) * 100;
-    const sign = pct > 0 ? "+" : "";
+    const totalPct = (r.nav / START_CASH - 1) * 100;
+    const dayPct = (r.nav / todayBaseline(r.book) - 1) * 100;
+    const dSign = dayPct > 0 ? "+" : "";
+    const tSign = totalPct > 0 ? "+" : "";
     const badges = computeBadges(r.book);
     return `
-      <div class="stand-card" style="border-top-color:${r.color}">
+      <div class="stand-card" data-tid="${esc(r.id)}" style="border-top-color:${r.color}">
         <div class="rank">${MEDALS[i] || "#" + (i + 1)}</div>
         <div class="who" style="color:${r.color}">${esc(r.name)}</div>
         <div class="nav" id="nav-${esc(r.id)}" data-nav="${r.nav}">${fmtUSD0.format(r.nav)}</div>
-        <div class="ret ${retClass(pct)}" id="ret-${esc(r.id)}">${sign}${pct.toFixed(2)}%</div>
+        <div class="ret ${retClass(dayPct)}" id="ret-${esc(r.id)}">${dSign}${dayPct.toFixed(2)}% today</div>
+        <div class="ret-total">${tSign}${totalPct.toFixed(2)}% total</div>
         <div class="badges" title="${badges.map(b => esc(b.title)).join(', ')}">${badges.map(b => b.icon).join(' ')}</div>
       </div>`;
   }).join("");
+  // FLIP: cards physically slide into their new slots when the ranking flips
+  if (oldPos.size) {
+    el.querySelectorAll(".stand-card").forEach(c => {
+      const prev = oldPos.get(c.dataset.tid);
+      if (!prev) return;
+      const now = c.getBoundingClientRect();
+      const dx = prev.left - now.left, dy = prev.top - now.top;
+      if (dx || dy) {
+        c.style.transition = "none";
+        c.style.transform = `translate(${dx}px, ${dy}px)`;
+        requestAnimationFrame(() => {
+          c.style.transition = "transform .55s cubic-bezier(.2,.8,.2,1)";
+          c.style.transform = "";
+        });
+      }
+    });
+  }
 }
 
 /* ---------- NAV race chart (inline SVG, no libraries) ---------- */
@@ -600,18 +645,19 @@ async function fetchLiveQuotes(tickers) {
 function applyQuotes(state) {
   const rows = state.rows.map(r => ({ ...r, nav: recomputeNav(r.book, state.wsPrices) }))
     .sort((a, b) => b.nav - a.nav);
+  renderStandings(rows);
+  renderMarquee(rows, state.news);
   for (const r of rows) {
     const prevNav = state.lastNav.get(r.id);
     if (typeof prevNav === "number" && Math.abs(r.nav - prevNav) > 0.005) {
       flashNav(r.id, r.nav - prevNav);
+      flashCard(r.id, r.nav - prevNav);
     }
     state.lastNav.set(r.id, r.nav);
   }
-  renderStandings(rows);
-  renderMarquee(rows, state.news);
 
-  // Live overtake detection: any rank flip caused by ticking prices lands in
-  // the Overtake Reports feed immediately, tagged ⚡ LIVE (client-side only).
+  // Live overtake detection: rank flips land in Overtake Reports instantly,
+  // with a toast banner + golden pulse on the overtaker's card.
   const order = rows.map(r => r.id);
   if (order.join() !== state.lastOrder.join()) {
     const oldRank = new Map(state.lastOrder.map((id, i) => [id, i]));
@@ -620,12 +666,46 @@ function applyQuotes(state) {
       const prev = oldRank.get(order[i]);
       if (prev !== undefined && i < prev && order[i + 1] !== undefined) {
         state.liveEvents.push({ ts: now, overtaker: order[i], overtaken: order[i + 1], rank: i + 1, live: true });
+        showOvertakeToast(order[i], order[i + 1]);
+        pulseCard(order[i]);
       }
     }
     state.liveEvents = state.liveEvents.slice(-20);
     renderEvents([...state.events, ...state.liveEvents]);
     state.lastOrder = order;
   }
+}
+
+function flashCard(id, direction) {
+  const card = document.querySelector(`.stand-card[data-tid="${id}"]`);
+  if (!card) return;
+  card.classList.remove("card-up", "card-down");
+  void card.offsetWidth;
+  card.classList.add(direction > 0 ? "card-up" : "card-down");
+}
+
+function pulseCard(id) {
+  const card = document.querySelector(`.stand-card[data-tid="${id}"]`);
+  if (!card) return;
+  card.classList.remove("overtake-pulse");
+  void card.offsetWidth;
+  card.classList.add("overtake-pulse");
+}
+
+let toastTimer = null;
+function showOvertakeToast(overtakerId, overtakenId) {
+  let el = document.getElementById("overtakeToast");
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "overtakeToast";
+    document.body.appendChild(el);
+  }
+  el.textContent = `⚡ ${traderName(overtakerId)} OVERTAKES ${traderName(overtakenId)}!`;
+  el.classList.remove("show");
+  void el.offsetWidth;
+  el.classList.add("show");
+  if (toastTimer) clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove("show"), 2600);
 }
 
 async function liveTick(state) {
@@ -692,8 +772,10 @@ function setLiveBadge(on) {
 }
 
 let liveTimer = null;
+let chartTimer = null;
 function startLiveMode(gameKey, rows, newsData, eventsData) {
   if (liveTimer) clearInterval(liveTimer);
+  if (chartTimer) clearInterval(chartTimer);
   stopCryptoWS();
   const state = {
     gameKey, rows, news: newsData, wsPrices: {},
@@ -701,9 +783,28 @@ function startLiveMode(gameKey, rows, newsData, eventsData) {
     events: Array.isArray(eventsData) ? eventsData : [],
     liveEvents: [],
     lastOrder: rows.map(r => r.id),
+    liveHist: new Map(rows.map(r => [r.id, []])),
   };
   liveTick(state);
   liveTimer = setInterval(() => liveTick(state), LIVE_POLL_MS);
+  // one chart fold per minute: append the current live NAVs to each line so
+  // the race chart visibly densifies while you watch
+  chartTimer = setInterval(() => {
+    if (document.hidden || !Object.keys(state.wsPrices).length) return;
+    for (const r of state.rows) {
+      const arr = state.liveHist.get(r.id);
+      arr.push(recomputeNav(r.book, state.wsPrices));
+      if (arr.length > 720) arr.shift();
+    }
+    const aug = state.rows.map(r => ({
+      ...r,
+      book: {
+        ...r.book,
+        nav_history: [...(r.book.nav_history || []), ...state.liveHist.get(r.id).map(nav => ({ date: "live", nav }))],
+      },
+    }));
+    renderChart(aug);
+  }, 60000);
   if (gameKey === "crypto") startCryptoWS(state);
 }
 

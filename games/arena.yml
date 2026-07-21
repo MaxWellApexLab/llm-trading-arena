@@ -10,7 +10,7 @@ execution_desc: at tomorrow's open
 universe: sp100          # arena/universe.py resolves this to a ticker list
 starting_cash: 100000
 max_position_pct: 0.50   # 50% of portfolio in a single name, max
-fee_pct: 0.001           # 0.1% simulated friction
+fee_pct: 0            # frictionless — fees are boring
 long_only: true
 lookback_days: 20        # OHLCV history handed to the model each day
 season_length_days: 63   # ~3 trading months (informational only — no auto-reset, see F5c §9.9)
