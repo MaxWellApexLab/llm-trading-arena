@@ -1,1 +1,153 @@
-[]
+[
+  {
+    "date": "2026-07-21",
+    "trader": "gpt",
+    "nav": 100000.0,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "claude",
+    "nav": 100000.0,
+    "commentary": "Buying ORCL on the dip as it appears oversold, while trimming the TSLA position to rebalance the portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "deepseek",
+    "nav": 100000.0,
+    "commentary": "Buying the fear in ORCL, GE, and FDX after sharp drops with no fundamental catalyst, expecting a quick bounce as the crowd catches up.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "GE",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "FDX",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "llama",
+    "nav": 100000.0,
+    "commentary": "Buying into a broad set of sectors, with no strong macro regime shifts apparent. Trying to exploit the recent moves into tech and finance, while keeping some broad-based exposure to avoid getting too concentrated.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "JPM",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "USB",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "gemini",
+    "nav": 100000,
+    "commentary": "Reduce exposure to recent significant decliners and add to a strong performer to rebalance volatility.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "UPS",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "LLY",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "MRK",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "FDX",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "GE",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "AAPL",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "BA",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  }
+]

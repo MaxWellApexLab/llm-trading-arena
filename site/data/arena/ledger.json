@@ -1,34 +1,243 @@
 {
-  "gpt": {
-    "cash": 100000.0,
-    "positions": {},
-    "pending_orders": [],
-    "trades": [],
-    "nav_history": [],
-    "rejected": []
-  },
   "claude": {
     "cash": 100000.0,
+    "nav_history": [
+      {
+        "date": "2026-07-21",
+        "nav": 100000.0
+      }
+    ],
+    "pending_orders": [
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 10.0
+      }
+    ],
     "positions": {},
-    "pending_orders": [],
-    "trades": [],
-    "nav_history": [],
-    "rejected": []
+    "rejected": [
+      {
+        "date": "2026-07-21",
+        "raw": {
+          "action": "sell",
+          "ticker": "TSLA",
+          "weight_pct": 10
+        },
+        "reason": "cannot short TSLA (long_only)"
+      }
+    ],
+    "trades": []
   },
   "deepseek": {
     "cash": 100000.0,
+    "nav_history": [
+      {
+        "date": "2026-07-21",
+        "nav": 100000.0
+      }
+    ],
+    "pending_orders": [
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 50.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GE",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "FDX",
+        "weight_pct": 25.0
+      }
+    ],
     "positions": {},
+    "rejected": [],
+    "trades": []
+  },
+  "gemini": {
+    "cash": 100000,
+    "nav_history": [
+      {
+        "date": "2026-07-21",
+        "nav": 100000
+      }
+    ],
+    "pending_orders": [
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 5.0
+      }
+    ],
+    "positions": {},
+    "rejected": [
+      {
+        "date": "2026-07-21",
+        "raw": {
+          "action": "sell",
+          "ticker": "ORCL",
+          "weight_pct": 0
+        },
+        "reason": "cannot short ORCL (long_only)"
+      },
+      {
+        "date": "2026-07-21",
+        "raw": {
+          "action": "sell",
+          "ticker": "UPS",
+          "weight_pct": 0
+        },
+        "reason": "cannot short UPS (long_only)"
+      },
+      {
+        "date": "2026-07-21",
+        "raw": {
+          "action": "sell",
+          "ticker": "TSLA",
+          "weight_pct": 0
+        },
+        "reason": "cannot short TSLA (long_only)"
+      },
+      {
+        "date": "2026-07-21",
+        "raw": {
+          "action": "sell",
+          "ticker": "LLY",
+          "weight_pct": 0
+        },
+        "reason": "cannot short LLY (long_only)"
+      },
+      {
+        "date": "2026-07-21",
+        "raw": {
+          "action": "sell",
+          "ticker": "MRK",
+          "weight_pct": 0
+        },
+        "reason": "cannot short MRK (long_only)"
+      },
+      {
+        "date": "2026-07-21",
+        "raw": {
+          "action": "sell",
+          "ticker": "FDX",
+          "weight_pct": 0
+        },
+        "reason": "cannot short FDX (long_only)"
+      },
+      {
+        "date": "2026-07-21",
+        "raw": {
+          "action": "sell",
+          "ticker": "GE",
+          "weight_pct": 0
+        },
+        "reason": "cannot short GE (long_only)"
+      },
+      {
+        "date": "2026-07-21",
+        "raw": {
+          "action": "sell",
+          "ticker": "AAPL",
+          "weight_pct": 0
+        },
+        "reason": "cannot short AAPL (long_only)"
+      },
+      {
+        "date": "2026-07-21",
+        "raw": {
+          "action": "sell",
+          "ticker": "BA",
+          "weight_pct": 0
+        },
+        "reason": "cannot short BA (long_only)"
+      }
+    ],
+    "trades": []
+  },
+  "gpt": {
+    "cash": 100000.0,
+    "nav_history": [
+      {
+        "date": "2026-07-21",
+        "nav": 100000.0
+      }
+    ],
     "pending_orders": [],
-    "trades": [],
-    "nav_history": [],
-    "rejected": []
+    "positions": {},
+    "rejected": [
+      {
+        "date": "2026-07-21",
+        "raw": null,
+        "reason": "unparseable response: 'NoneType' object has no attribute 'strip'"
+      }
+    ],
+    "trades": []
   },
   "llama": {
     "cash": 100000.0,
+    "nav_history": [
+      {
+        "date": "2026-07-21",
+        "nav": 100000.0
+      }
+    ],
+    "pending_orders": [
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "JPM",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "USB",
+        "weight_pct": 5.0
+      }
+    ],
     "positions": {},
+    "rejected": [],
+    "trades": []
+  },
+  "qwen": {
+    "cash": 100000,
+    "nav_history": [
+      {
+        "date": "2026-07-21",
+        "nav": 100000
+      }
+    ],
     "pending_orders": [],
-    "trades": [],
-    "nav_history": [],
-    "rejected": []
+    "positions": {},
+    "rejected": [
+      {
+        "date": "2026-07-21",
+        "raw": null,
+        "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\\n  \"id\": \"oswtpsW-6Ng1vN-a1e694a6d8d6ddff\",\\n  \"error\": {\\n    \"message\": \"Input validation error: `inputs` tokens + `max_new_tokens` must be <= 32769. Given: 87882 `inputs` tokens and 2048 `max_new_tokens`\",\\n    \"type\": \"invalid_request_error\",\\n    \"param\": \"max_tokens\",\\n    \"code\": null\\n  }\\n}', 'provider_name': 'Together', 'is_byok': False, 'previous_errors': [{'code': 400, 'message': 'Provider returned error', 'provider_name': 'Phala', 'raw': '{\"error\":{\"message\":\"This model\\'s maximum context length is 32768 tokens. However, your request has 87903 input tokens. Please reduce the length of the input messages. None\",\"type\":\"invalid_request_error\"}}'}]}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      }
+    ],
+    "trades": []
   }
 }
