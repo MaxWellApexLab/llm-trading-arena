@@ -9,7 +9,8 @@ execution_desc: at the next round's open (roughly 12 hours from now)
 
 universe: crypto5         # arena/universe.py resolves this to a ticker list
 starting_cash: 100000
-max_position_pct: 1.00    # no single-position cap — full send is allowed, drama > diversification
+max_position_pct: 1.00
+max_leverage: 999        # leverage game: no cap, no margin checks — zero equity = liquidated & reset to fresh $100k
 fee_pct: 0.001            # 0.1% simulated friction
 long_only: true            # spot only, no leverage/derivatives — keeps this uncontroversial
 lookback_days: 20          # OHLCV history handed to the model each round

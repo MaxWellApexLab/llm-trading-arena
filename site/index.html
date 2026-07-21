@@ -233,7 +233,7 @@ const GAMES = {
   crypto: {
     label: "Crypto",
     dataDir: "data/crypto",
-    rules: "BTC/ETH/SOL/XRP/DOGE/SHIB · spot, long-only · no single-position cap · 0.1% fee · orders fill at next round's open · runs 24/7, weekends included",
+    rules: "BTC/ETH/SOL/XRP/DOGE · long-only · simulated leverage, no cap · zero equity = liquidated & reset to $100k · 0.1% fee · orders fill at next round's open · runs 24/7, weekends included",
     // next round at 00:30 or 12:30 UTC, every day
     nextRound(now) {
       const d = new Date(now);
@@ -595,6 +595,20 @@ async function fetchLiveQuotes(tickers) {
   return (data && data.quotes) || {};
 }
 
+function applyQuotes(state) {
+  const rows = state.rows.map(r => ({ ...r, nav: recomputeNav(r.book, state.wsPrices) }))
+    .sort((a, b) => b.nav - a.nav);
+  for (const r of rows) {
+    const prevNav = state.lastNav.get(r.id);
+    if (typeof prevNav === "number" && Math.abs(r.nav - prevNav) > 0.005) {
+      flashNav(r.id, r.nav - prevNav);
+    }
+    state.lastNav.set(r.id, r.nav);
+  }
+  renderStandings(rows);
+  renderMarquee(rows, state.news);
+}
+
 async function liveTick(state) {
   if (document.hidden) return;
   const game = GAMES[state.gameKey];
@@ -605,23 +619,50 @@ async function liveTick(state) {
   const tickers = heldTickers(state.rows);
   try {
     const quotes = await fetchLiveQuotes(tickers);
-    const rows = state.rows.map(r => ({ ...r, nav: recomputeNav(r.book, quotes) }))
-      .sort((a, b) => b.nav - a.nav);
-
-    for (const r of rows) {
-      const prevNav = state.lastNav.get(r.id);
-      if (typeof prevNav === "number" && Math.abs(r.nav - prevNav) > 0.005) {
-        flashNav(r.id, r.nav - prevNav);
-      }
-      state.lastNav.set(r.id, r.nav);
-    }
-
-    renderStandings(rows);
-    renderMarquee(rows, state.news);
+    Object.assign(state.wsPrices, quotes);
+    applyQuotes(state);
     setLiveBadge(true);
   } catch (_) {
-    setLiveBadge(false);
+    if (Object.keys(state.wsPrices).length) {
+      applyQuotes(state);
+      setLiveBadge(true);
+    } else {
+      setLiveBadge(false);
+    }
   }
+}
+
+/* Coinbase public ticker feed — real per-second ticks for crypto. No key, no server. */
+let cryptoWs = null;
+let wsPumpTimer = null;
+function stopCryptoWS() {
+  if (cryptoWs) { try { cryptoWs.close(); } catch (_) {} cryptoWs = null; }
+  if (wsPumpTimer) { clearInterval(wsPumpTimer); wsPumpTimer = null; }
+}
+function startCryptoWS(state) {
+  const products = heldTickers(state.rows).filter(t => t.endsWith("-USD"));
+  if (!products.length || typeof WebSocket === "undefined") return;
+  try { cryptoWs = new WebSocket("wss://ws-feed.exchange.coinbase.com"); } catch (_) { return; }
+  let dirty = false;
+  cryptoWs.onopen = () => {
+    cryptoWs.send(JSON.stringify({ type: "subscribe", product_ids: products, channels: ["ticker"] }));
+  };
+  cryptoWs.onmessage = ev => {
+    try {
+      const m = JSON.parse(ev.data);
+      if (m.type === "ticker" && m.product_id && m.price) {
+        const px = Number(m.price);
+        if (Number.isFinite(px)) { state.wsPrices[m.product_id] = px; dirty = true; }
+      }
+    } catch (_) {}
+  };
+  wsPumpTimer = setInterval(() => {
+    if (dirty && !document.hidden) {
+      dirty = false;
+      applyQuotes(state);
+      setLiveBadge(true);
+    }
+  }, 1000);
 }
 
 function setLiveBadge(on) {
@@ -634,9 +675,11 @@ function setLiveBadge(on) {
 let liveTimer = null;
 function startLiveMode(gameKey, rows, newsData) {
   if (liveTimer) clearInterval(liveTimer);
-  const state = { gameKey, rows, news: newsData, lastNav: new Map(rows.map(r => [r.id, r.nav])) };
+  stopCryptoWS();
+  const state = { gameKey, rows, news: newsData, wsPrices: {}, lastNav: new Map(rows.map(r => [r.id, r.nav])) };
   liveTick(state);
   liveTimer = setInterval(() => liveTick(state), LIVE_POLL_MS);
+  if (gameKey === "crypto") startCryptoWS(state);
 }
 
 /* ---------- countdown ---------- */

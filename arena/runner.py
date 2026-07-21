@@ -115,6 +115,7 @@ def run(game_name: str, dry_run: bool = False) -> None:
     for trader_cfg in game["traders"]:
         tid = trader_cfg["id"]
         trader = ledger[tid]
+        lev = float(trader_cfg.get("max_leverage", game.get("max_leverage", 1.0)))
 
         # 1. settle previously queued orders at this round's open
         broker.settle_pending_orders(trader, md["open"], today, game["fee_pct"])
@@ -133,6 +134,7 @@ def run(game_name: str, dry_run: bool = False) -> None:
             asset_label=asset_label,
             execution_desc=execution_desc,
             news_headlines=headlines,
+            max_leverage=lev,
         )
 
         try:
@@ -144,11 +146,12 @@ def run(game_name: str, dry_run: bool = False) -> None:
 
         # 3. validate & queue for next-open execution
         broker.validate_and_queue_orders(
-            trader, decision, tickers, game["max_position_pct"], game["long_only"], today
+            trader, decision, tickers, game["max_position_pct"], game["long_only"], today,
+            max_leverage=lev,
         )
 
         # 4. mark to market at this round's close
-        nav = broker.mark_to_market(trader, md["close"], today)
+        nav = broker.mark_to_market(trader, md["close"], today, starting_cash=starting_cash)
 
         commentary_log.append(
             {

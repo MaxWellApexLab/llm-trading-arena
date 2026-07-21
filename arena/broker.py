@@ -53,7 +53,11 @@ def _nav(trader: dict, prices: dict[str, float]) -> float:
 
 
 def settle_pending_orders(trader: dict, open_prices: dict[str, float], date: str, fee_pct: float) -> None:
-    """Fill yesterday's queued orders at today's open. Mutates `trader` in place."""
+    """Fill yesterday's queued orders at today's open. Mutates `trader` in place.
+
+    In leverage games a buy may exceed cash (cash goes negative = margin loan)
+    with no buying-power cap; the only consequence is liquidation at zero equity.
+    """
     orders, trader["pending_orders"] = trader["pending_orders"], []
     for order in orders:
         ticker = order["ticker"]
@@ -67,11 +71,10 @@ def settle_pending_orders(trader: dict, open_prices: dict[str, float], date: str
             # Fee-inclusive: target_value is the total cash outlay (shares +
             # fee), not shares-only-then-plus-fee — otherwise a 100% weight
             # order always rejects on "insufficient cash" by exactly the fee.
+            # No buying-power check: cash may go negative (margin loan), size
+            # is whatever the model asked for. Zero equity = reset, that's all.
             target_value = nav * (order["weight_pct"] / 100.0)
             cost = target_value
-            if cost > trader["cash"] + 1e-6:
-                trader["rejected"].append({"date": date, "reason": "insufficient cash", "raw": order})
-                continue
             shares = target_value / (price * (1 + fee_pct))
             fee = target_value - shares * price
             trader["cash"] -= cost
@@ -110,6 +113,7 @@ def validate_and_queue_orders(
     max_position_pct: float,
     long_only: bool,
     date: str,
+    max_leverage: float = 1.0,
 ) -> None:
     """Validate a parsed model decision and queue legal orders for next-open
     execution. Illegal orders are dropped and logged; a bad order does not
@@ -139,9 +143,10 @@ def validate_and_queue_orders(
         if long_only and action == "sell" and ticker not in held:
             trader["rejected"].append({"date": date, "reason": f"cannot short {ticker} (long_only)", "raw": order})
             continue
-        if action == "buy" and not (0 < weight_pct <= max_position_pct * 100):
+        buy_cap = max_position_pct * 100 if max_leverage <= 1.0 else 10000  # leverage game: sanity bound only
+        if action == "buy" and not (0 < weight_pct <= buy_cap):
             trader["rejected"].append(
-                {"date": date, "reason": f"weight_pct {weight_pct} exceeds cap {max_position_pct*100}", "raw": order}
+                {"date": date, "reason": f"weight_pct {weight_pct} out of range (0, {buy_cap:g}]", "raw": order}
             )
             continue
         if action == "sell" and not (0 < weight_pct <= 100):
@@ -151,7 +156,21 @@ def validate_and_queue_orders(
         trader["pending_orders"].append({"action": action, "ticker": ticker, "weight_pct": weight_pct})
 
 
-def mark_to_market(trader: dict, close_prices: dict[str, float], date: str) -> float:
+def mark_to_market(trader: dict, close_prices: dict[str, float], date: str, starting_cash: float = 100000.0) -> float:
     nav = _nav(trader, close_prices)
+    if nav <= 0 and trader["positions"]:
+        # Equity wiped out: liquidated, then instantly respawned with fresh
+        # starting cash. The death is recorded (0-NAV point + trade entry +
+        # liquidation counter) — getting REKT repeatedly is part of the show.
+        trader["positions"] = {}
+        trader["pending_orders"] = []
+        trader["cash"] = starting_cash
+        trader["liquidations"] = trader.get("liquidations", 0) + 1
+        trader["trades"].append(
+            {"date": date, "ticker": "*", "action": "liquidated", "shares": 0.0,
+             "price": 0.0, "fee": 0.0, "status": "rekt"}
+        )
+        trader["nav_history"].append({"date": date, "nav": 0.0})
+        nav = starting_cash
     trader["nav_history"].append({"date": date, "nav": nav})
     return nav
