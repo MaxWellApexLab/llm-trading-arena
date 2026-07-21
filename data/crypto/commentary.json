@@ -121,5 +121,101 @@
         "weight_pct": 50
       }
     ]
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "gpt",
+    "nav": 100009.8789595966,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "claude",
+    "nav": 99969.55563078966,
+    "commentary": "Increasing exposure to Solana and Ethereum, two blockchain platforms with strong fundamentals and growth potential.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "deepseek",
+    "nav": 100002.11547932959,
+    "commentary": "Holding DOGE as it's the only asset down recently, waiting for a catch-up rally.",
+    "orders": []
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "llama",
+    "nav": 100000.00729236592,
+    "commentary": "Capital generally flows toward strong, well-established names in times of broad market stability, and BTC-USD fits this bill; conversely, Solana's recent increase suggests a potential top, so we're positioning to establish a floor.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.075
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.035
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "gemini",
+    "nav": 99982.12234914573,
+    "commentary": "Rebalancing towards higher conviction assets and away from underperforming XRP, capitalizing on recent volatility.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "qwen",
+    "nav": 99969.3370908855,
+    "commentary": "SOL-USD has shown a notable increase and could be due for a pullback, offering a potential entry point.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
