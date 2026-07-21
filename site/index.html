@@ -134,6 +134,7 @@
   .event-row:last-child { border-bottom: none; }
   .event-row .ts { color: var(--muted); font-size: 0.78rem; margin-right: 8px; }
   .events-empty { color: var(--muted); font-style: italic; font-size: 0.9rem; }
+  .event-row .live-tag { color: #00e676; font-weight: 700; }
 
   /* ---------- trader cards ---------- */
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; margin-bottom: 32px; }
@@ -441,6 +442,7 @@ function timeAgo(iso) {
   const then = new Date(iso).getTime();
   if (Number.isNaN(then)) return "";
   const mins = Math.max(0, Math.round((Date.now() - then) / 60000));
+  if (mins < 1) return "just now";
   if (mins < 60) return `${mins}m ago`;
   const hrs = Math.round(mins / 60);
   if (hrs < 48) return `${hrs}h ago`;
@@ -457,7 +459,7 @@ function renderEvents(events) {
   el.innerHTML = recent.map(e => `
     <div class="event-row">
       <span class="ts">${esc(timeAgo(e.ts))}</span>
-      <strong>${esc(traderName(e.overtaker))}</strong> overtook
+      ${e.live ? '<span class="live-tag">⚡</span> ' : ""}<strong>${esc(traderName(e.overtaker))}</strong> overtook
       <strong>${esc(traderName(e.overtaken))}</strong>, now rank #${esc(e.rank)}
     </div>`).join("");
 }
@@ -607,6 +609,23 @@ function applyQuotes(state) {
   }
   renderStandings(rows);
   renderMarquee(rows, state.news);
+
+  // Live overtake detection: any rank flip caused by ticking prices lands in
+  // the Overtake Reports feed immediately, tagged ⚡ LIVE (client-side only).
+  const order = rows.map(r => r.id);
+  if (order.join() !== state.lastOrder.join()) {
+    const oldRank = new Map(state.lastOrder.map((id, i) => [id, i]));
+    const now = new Date().toISOString();
+    for (let i = 0; i < order.length; i++) {
+      const prev = oldRank.get(order[i]);
+      if (prev !== undefined && i < prev && order[i + 1] !== undefined) {
+        state.liveEvents.push({ ts: now, overtaker: order[i], overtaken: order[i + 1], rank: i + 1, live: true });
+      }
+    }
+    state.liveEvents = state.liveEvents.slice(-20);
+    renderEvents([...state.events, ...state.liveEvents]);
+    state.lastOrder = order;
+  }
 }
 
 async function liveTick(state) {
@@ -673,10 +692,16 @@ function setLiveBadge(on) {
 }
 
 let liveTimer = null;
-function startLiveMode(gameKey, rows, newsData) {
+function startLiveMode(gameKey, rows, newsData, eventsData) {
   if (liveTimer) clearInterval(liveTimer);
   stopCryptoWS();
-  const state = { gameKey, rows, news: newsData, wsPrices: {}, lastNav: new Map(rows.map(r => [r.id, r.nav])) };
+  const state = {
+    gameKey, rows, news: newsData, wsPrices: {},
+    lastNav: new Map(rows.map(r => [r.id, r.nav])),
+    events: Array.isArray(eventsData) ? eventsData : [],
+    liveEvents: [],
+    lastOrder: rows.map(r => r.id),
+  };
   liveTick(state);
   liveTimer = setInterval(() => liveTick(state), LIVE_POLL_MS);
   if (gameKey === "crypto") startCryptoWS(state);
@@ -732,7 +757,7 @@ async function loadGame(gameKey) {
   renderEvents(events);
   renderMarquee(rows, news);
   startCountdown(gameKey);
-  startLiveMode(gameKey, rows, news);
+  startLiveMode(gameKey, rows, news, events);
 }
 
 (async function main() {
