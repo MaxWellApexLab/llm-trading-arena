@@ -33,5 +33,19 @@
     "overtaker": "llama",
     "overtaken": "claude",
     "rank": 3
+  },
+  {
+    "ts": "2026-07-21T02:23:16.825634+00:00",
+    "game": "crypto",
+    "overtaker": "llama",
+    "overtaken": "gpt",
+    "rank": 1
+  },
+  {
+    "ts": "2026-07-21T02:23:16.825634+00:00",
+    "game": "crypto",
+    "overtaker": "llama",
+    "overtaken": "deepseek",
+    "rank": 1
   }
 ]

@@ -217,5 +217,117 @@
         "weight_pct": 100
       }
     ]
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "gpt",
+    "nav": 99950.24075622435,
+    "commentary": "Boost ETH to 54% on strong momentum and add a 2% XRP bet for the latest rally",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 53.6
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 2.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "claude",
+    "nav": 99894.29969668383,
+    "commentary": "Increase exposure to the top cryptocurrencies to capitalize on the recent positive market sentiment.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "deepseek",
+    "nav": 99946.71731559093,
+    "commentary": "No clear fear-driven opportunity; DOGE is flat and other coins are rallying, so I'll hold and wait for a better entry.",
+    "orders": []
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "llama",
+    "nav": 99999.90730346227,
+    "commentary": "Capital seems to be flowing towards BTC, so I'm adding a bold 100% weight to it. I'm also selling ETH, which has had a relatively high weight, to free up cash for potential other buys.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "gemini",
+    "nav": 99908.67369480325,
+    "commentary": "Rebalancing towards higher volatility assets, reducing exposure to lower volatility and trending assets.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "qwen",
+    "nav": 99773.24338607024,
+    "commentary": "SOL showed a notable move and a clean support bounce, warranting a position.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
