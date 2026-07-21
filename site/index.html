@@ -45,9 +45,11 @@
   }
   .marquee-item { display: inline-flex; align-items: center; gap: 6px; margin-right: 36px; font-size: 0.85rem; }
   .marquee-item .who { font-weight: 700; }
-  .marquee-item .news { color: var(--muted); }
-  .marquee-item .news a { color: var(--muted); text-decoration: none; }
-  .marquee-item .news a:hover { text-decoration: underline; }
+  .marquee-item.news { color: var(--muted); }
+  .marquee-item.news a { color: var(--muted); text-decoration: none; }
+  .marquee-item.news a:visited { color: var(--muted); }
+  .marquee-item.news a:hover { color: #e6edf3; }
+  .marquee-item.news .src { opacity: 0.55; font-size: 0.78rem; }
 
   /* ---------- header ---------- */
   header { text-align: center; margin: 24px 0 20px; }
@@ -550,7 +552,7 @@ function renderMarquee(rows, news) {
     return `<span class="marquee-item"><span class="who" style="color:${r.color}">${esc(r.name)}</span> ${fmtUSD0.format(r.nav)} <span class="${retClass(pct)}">${sign}${pct.toFixed(2)}%</span></span>`;
   });
   const newsItems = (Array.isArray(news) ? news : []).slice(0, 5).map(n =>
-    `<span class="marquee-item news">📰 ${n.url ? `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>` : esc(n.title)} — ${esc(n.source || "")}</span>`
+    `<span class="marquee-item news">📰 ${n.url ? `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>` : esc(n.title)} <span class="src">— ${esc(n.source || "")}</span></span>`
   );
   const items = [...navItems, ...newsItems];
   track.innerHTML = (items.length ? items : [`<span class="marquee-item">Loading…</span>`]).join("");
