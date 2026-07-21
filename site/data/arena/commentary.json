@@ -149,5 +149,161 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "gpt",
+    "nav": 100000.0,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "claude",
+    "nav": 100209.26632569943,
+    "commentary": "Selectively adding to high-quality names like Apple and Nvidia that have pulled back recently, as I believe their long-term fundamentals remain strong.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "deepseek",
+    "nav": 101215.27002606094,
+    "commentary": "Taking profits on ORCL and FDX after recent gains, and buying DHR on its unexplained 13.65% plunge to capture the fear-driven opportunity.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": -50.44
+      },
+      {
+        "action": "sell",
+        "ticker": "FDX",
+        "weight_pct": -25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DHR",
+        "weight_pct": 50.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "llama",
+    "nav": 100556.9253268411,
+    "commentary": "Backing the strongest performers in recent moves, while maintaining diversification.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "FDX",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "CAT",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "USB",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "WMT",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "gemini",
+    "nav": 100018.61832093897,
+    "commentary": "Rebalancing into recent outperformers and trimming the existing position to diversify sector exposure.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "FDX",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CAT",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MMM",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "MSFT",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DHR",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
