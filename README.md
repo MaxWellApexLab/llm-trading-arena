@@ -82,8 +82,8 @@ show, not a bug to hide.
 | Universe | BTC, ETH, SOL, XRP, DOGE | S&P 100 |
 | Decision cadence | Twice a day, every day | Once per trading day, after close |
 | Execution | Next round's open | Next day's open |
-| Max single position | 100% (full send allowed) | 50% of portfolio in one stock |
-| Leverage / shorting | None — spot, long-only | None — long-only |
+| Max single position | uncapped — leverage allowed (simulated margin) | 50% of portfolio in one stock |
+| Leverage / shorting | leverage yes (no cap; zero equity = liquidated & reset to $100k, count is public) / shorting no | None — long-only |
 | Fee | 0.1% per trade (simulated, fee-inclusive so a 100% order can still fill) | 0.1% per trade (simulated) |
 | Data given to models | Last 20 rounds of OHLCV + top movers + headlines | Last 20 days of OHLCV + top movers + headlines |
 | Season length | 90 days (informational — no auto-reset) | ~63 trading days (informational — no auto-reset) |
