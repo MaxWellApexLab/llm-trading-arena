@@ -1,26 +1,21 @@
-# Flagship head-to-head arena — now the *secondary* game (see games/crypto.yml
-# for the 24/7 main stage). A new game = a new file like this one;
-# arena/runner.py --game games/<name>.yml
+# The 24/7 main stage — no market close, so the site can be live any time
+# someone lands on it. Two decision rounds a day, weekends included.
+# arena/runner.py --game games/crypto.yml
 
-name: arena
-description: S&P 100, one decision per trading day, executed at next open.
-asset_label: US stocks (S&P 100 only)
-execution_desc: at tomorrow's open
+name: crypto
+description: BTC/ETH/SOL/XRP/DOGE, two decision rounds a day, every day.
+asset_label: crypto (spot, long-only)
+execution_desc: at the next round's open (roughly 12 hours from now)
 
-universe: sp100          # arena/universe.py resolves this to a ticker list
+universe: crypto5         # arena/universe.py resolves this to a ticker list
 starting_cash: 100000
-max_position_pct: 0.50   # 50% of portfolio in a single name, max
-fee_pct: 0.001           # 0.1% simulated friction
-long_only: true
-lookback_days: 20        # OHLCV history handed to the model each day
-season_length_days: 63   # ~3 trading months (informational only — no auto-reset, see F5c §9.9)
-news_source: yahoo_finance
+max_position_pct: 1.00    # no single-position cap — full send is allowed, drama > diversification
+fee_pct: 0.001            # 0.1% simulated friction
+long_only: true            # spot only, no leverage/derivatives — keeps this uncontroversial
+lookback_days: 20          # OHLCV history handed to the model each round
+season_length_days: 90     # 90-day season (informational only — no auto-reset, see F5c §9.9)
+news_source: crypto_rss    # CoinDesk + Cointelegraph headlines
 
-# Every trader below shares one adapter kind (openai_compat) and one key
-# (OPENROUTER_API_KEY) — OpenRouter is the single gateway to all six model
-# families. model_id picked at construction time from openrouter.ai/models:
-# each camp's cheapest ":free" variant if one exists, else that camp's
-# cheapest paid model. Re-check periodically; free-tier lineups rotate.
 traders:
   - id: gpt
     persona: personas/gpt.md

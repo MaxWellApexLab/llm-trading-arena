@@ -17,34 +17,91 @@
     --claude: #fb923c;
     --deepseek: #60a5fa;
     --llama: #c084fc;
+    --gemini: #facc15;
+    --qwen: #f472b6;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { background: var(--bg); color: var(--text); }
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     line-height: 1.5;
-    padding: 24px 16px 40px;
+    padding: 0 0 40px;
   }
-  .wrap { max-width: 1080px; margin: 0 auto; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+
+  /* ---------- marquee ---------- */
+  .marquee {
+    background: var(--panel); border-bottom: 1px solid var(--border);
+    overflow: hidden; white-space: nowrap; padding: 8px 0;
+  }
+  .marquee-track {
+    display: inline-block; padding-left: 100%;
+    animation: marquee-scroll 45s linear infinite;
+  }
+  .marquee:hover .marquee-track { animation-play-state: paused; }
+  @keyframes marquee-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+  .marquee-item { display: inline-flex; align-items: center; gap: 6px; margin-right: 36px; font-size: 0.85rem; }
+  .marquee-item .who { font-weight: 700; }
+  .marquee-item .news { color: var(--muted); }
+  .marquee-item .news a { color: var(--muted); text-decoration: none; }
+  .marquee-item .news a:hover { text-decoration: underline; }
 
   /* ---------- header ---------- */
-  header { text-align: center; margin-bottom: 28px; }
+  header { text-align: center; margin: 24px 0 20px; }
   header h1 { font-size: 1.9rem; letter-spacing: -0.5px; }
   header .tagline { color: var(--muted); margin-top: 4px; font-size: 1.05rem; }
   header .repo { display: inline-block; margin-top: 8px; font-size: 0.85rem; color: var(--green); text-decoration: none; border: 1px solid var(--border); border-radius: 999px; padding: 3px 14px; }
   header .repo:hover { border-color: var(--green); }
+  .live-badge {
+    display: inline-flex; align-items: center; gap: 6px; margin-top: 8px; margin-left: 8px;
+    font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; color: var(--red);
+    border: 1px solid var(--red); border-radius: 999px; padding: 3px 12px 3px 10px;
+    vertical-align: middle;
+  }
+  .live-dot {
+    width: 8px; height: 8px; border-radius: 50%; background: var(--red);
+    animation: live-pulse 1.4s ease-in-out infinite;
+  }
+  @keyframes live-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.25; }
+  }
+  .nav-flash-up { animation: flash-up 0.6s ease-out; }
+  .nav-flash-down { animation: flash-down 0.6s ease-out; }
+  @keyframes flash-up { 0% { color: var(--green); } 100% { color: inherit; } }
+  @keyframes flash-down { 0% { color: var(--red); } 100% { color: inherit; } }
+  .quote-src {
+    text-align: center; color: var(--muted); font-size: 0.75rem; margin-top: -18px; margin-bottom: 18px;
+  }
+
+  /* ---------- tabs ---------- */
+  .tabs { display: flex; justify-content: center; gap: 8px; margin-bottom: 20px; }
+  .tab-btn {
+    background: var(--panel); color: var(--muted); border: 1px solid var(--border);
+    border-radius: 999px; padding: 8px 20px; font-size: 0.95rem; font-weight: 600;
+    cursor: pointer; font-family: inherit;
+  }
+  .tab-btn[aria-selected="true"] { color: var(--bg); background: var(--green); border-color: var(--green); }
+
+  /* ---------- countdown ---------- */
+  .countdown { text-align: center; color: var(--muted); font-size: 0.85rem; margin-bottom: 18px; }
+  .countdown strong { color: var(--text); font-variant-numeric: tabular-nums; }
 
   /* ---------- standings ---------- */
   .standings { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 28px; }
   .stand-card {
-    flex: 1 1 210px; min-width: 160px;
+    flex: 1 1 150px; min-width: 140px;
     background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
     padding: 14px 16px; border-top: 3px solid var(--muted);
   }
   .stand-card .rank { font-size: 1.3rem; }
   .stand-card .who { font-weight: 600; font-size: 0.95rem; margin-top: 2px; }
-  .stand-card .nav { font-size: 1.45rem; font-weight: 700; margin-top: 6px; font-variant-numeric: tabular-nums; }
+  .stand-card .nav { font-size: 1.3rem; font-weight: 700; margin-top: 6px; font-variant-numeric: tabular-nums; }
   .stand-card .ret { font-size: 0.9rem; font-weight: 600; margin-top: 2px; font-variant-numeric: tabular-nums; }
+  .stand-card .badges { margin-top: 6px; font-size: 0.9rem; }
   .pos { color: var(--green); }
   .neg { color: var(--red); }
   .flat { color: var(--muted); }
@@ -63,6 +120,18 @@
   .legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px; font-size: 0.85rem; color: var(--muted); }
   .legend .chip { display: inline-flex; align-items: center; gap: 6px; }
   .legend .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+
+  /* ---------- recap ---------- */
+  .recap-body { font-style: italic; font-size: 0.95rem; line-height: 1.6; }
+  .recap-meta { color: var(--muted); font-size: 0.78rem; margin-top: 10px; }
+  .recap-empty { color: var(--muted); font-style: italic; font-size: 0.9rem; }
+
+  /* ---------- overtake feed ---------- */
+  .events-list { display: flex; flex-direction: column; gap: 8px; max-height: 220px; overflow-y: auto; }
+  .event-row { font-size: 0.88rem; padding: 6px 0; border-bottom: 1px solid var(--border); }
+  .event-row:last-child { border-bottom: none; }
+  .event-row .ts { color: var(--muted); font-size: 0.78rem; margin-right: 8px; }
+  .events-empty { color: var(--muted); font-style: italic; font-size: 0.9rem; }
 
   /* ---------- trader cards ---------- */
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; margin-bottom: 32px; }
@@ -90,19 +159,32 @@
   @media (max-width: 480px) {
     header h1 { font-size: 1.5rem; }
     .stand-card { flex-basis: 100%; }
+    .tab-btn { padding: 7px 16px; font-size: 0.88rem; }
   }
 </style>
 </head>
 <body>
+
+  <div class="marquee" id="marquee" aria-label="Live ticker"><div class="marquee-track" id="marqueeTrack"></div></div>
+
 <div class="wrap">
 
   <header>
     <h1>🏟️ LLM Trading Arena</h1>
-    <p class="tagline">Four LLMs. $100k each. One leaderboard.</p>
+    <p class="tagline">Six LLMs. $100k each. One leaderboard.</p>
     <a class="repo" href="https://github.com/maxwellapexlab/llm-trading-arena">Source on GitHub →</a>
+    <div id="liveBadge" class="live-badge" hidden><span class="live-dot"></span>LIVE</div>
   </header>
 
+  <div class="tabs" role="tablist" aria-label="Game select">
+    <button class="tab-btn" id="tabCrypto" role="tab" aria-selected="true">🪙 Crypto</button>
+    <button class="tab-btn" id="tabStocks" role="tab" aria-selected="false">📈 Stocks</button>
+  </div>
+
+  <p class="countdown" id="countdown"></p>
+
   <section class="standings" id="standings" aria-label="Standings"></section>
+  <p class="quote-src" id="quoteSrc" hidden>prices delayed ~15 min · data: stooq.com / coinbase.com</p>
 
   <section class="panel" aria-label="NAV race">
     <h2>📈 NAV Race</h2>
@@ -110,10 +192,20 @@
     <div class="legend" id="legend"></div>
   </section>
 
+  <section class="panel" aria-label="Overtake feed">
+    <h2>⚔️ Overtake Reports</h2>
+    <div class="events-list" id="events"></div>
+  </section>
+
+  <section class="panel" aria-label="Daily recap">
+    <h2>📣 Daily Recap</h2>
+    <div id="recap"></div>
+  </section>
+
   <section class="grid" id="traders" aria-label="Trader details"></section>
 
   <footer>
-    <p>S&amp;P 100 · long-only · max 50% single position · 0.1% fee · orders fill at next open</p>
+    <p id="footerRules"></p>
     <p class="warn">Paper trading only. Educational purposes only. Not investment advice.</p>
     <p>Provided as-is — no support, no roadmap, no promises.</p>
     <p><a href="https://github.com/maxwellapexlab/llm-trading-arena">MIT License</a></p>
@@ -126,12 +218,58 @@
 
 const START_CASH = 100000;
 const TRADERS = [
-  { id: "gpt",      name: "GPT-4o",            color: "#2dd4bf" },
-  { id: "claude",   name: "Claude Sonnet 4.5", color: "#fb923c" },
-  { id: "deepseek", name: "DeepSeek-V3",       color: "#60a5fa" },
-  { id: "llama",    name: "Llama 3.3 70B",     color: "#c084fc" },
+  { id: "gpt",      name: "OpenAI camp",    color: "#2dd4bf" },
+  { id: "claude",   name: "Anthropic camp", color: "#fb923c" },
+  { id: "deepseek", name: "DeepSeek camp",  color: "#60a5fa" },
+  { id: "llama",    name: "Meta camp",      color: "#c084fc" },
+  { id: "gemini",   name: "Google camp",    color: "#facc15" },
+  { id: "qwen",     name: "Qwen camp",      color: "#f472b6" },
 ];
-const MEDALS = ["🥇", "🥈", "🥉", "#4"];
+const MEDALS = ["🥇", "🥈", "🥉"];
+
+const GAMES = {
+  crypto: {
+    label: "Crypto",
+    dataDir: "data/crypto",
+    rules: "BTC/ETH/SOL/XRP/DOGE/SHIB · spot, long-only · no single-position cap · 0.1% fee · orders fill at next round's open · runs 24/7, weekends included",
+    // next round at 00:30 or 12:30 UTC, every day
+    nextRound(now) {
+      const d = new Date(now);
+      const mins = d.getUTCHours() * 60 + d.getUTCMinutes();
+      const next = new Date(d);
+      if (mins < 30) { next.setUTCHours(0, 30, 0, 0); }
+      else if (mins < 12 * 60 + 30) { next.setUTCHours(12, 30, 0, 0); }
+      else { next.setUTCDate(next.getUTCDate() + 1); next.setUTCHours(0, 30, 0, 0); }
+      return next;
+    },
+    isLiveWindow() { return true; }, // no market close for crypto
+  },
+  arena: {
+    label: "Stocks",
+    dataDir: "data/arena",
+    rules: "S&P 100 · long-only · max 50% single position · 0.1% fee · orders fill at next open · Mon-Fri only",
+    // next round at 21:30 UTC, next weekday
+    nextRound(now) {
+      const d = new Date(now);
+      const next = new Date(d);
+      next.setUTCHours(21, 30, 0, 0);
+      if (d.getUTCHours() * 60 + d.getUTCMinutes() >= 21 * 60 + 30) {
+        next.setUTCDate(next.getUTCDate() + 1);
+      }
+      while (next.getUTCDay() === 0 || next.getUTCDay() === 6) {
+        next.setUTCDate(next.getUTCDate() + 1);
+      }
+      return next;
+    },
+    isLiveWindow(now) {
+      const d = now || new Date();
+      const day = d.getUTCDay();
+      if (day === 0 || day === 6) return false;
+      const mins = d.getUTCHours() * 60 + d.getUTCMinutes();
+      return mins >= 13 * 60 + 30 && mins < 20 * 60; // ~09:30-16:00 ET, toy-grade (DST not adjusted)
+    },
+  },
+};
 
 const fmtUSD0 = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
 const fmtNum2 = new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 });
@@ -146,7 +284,7 @@ function emptyBook() {
 
 async function loadJSON(path, fallback) {
   try {
-    const res = await fetch(path);
+    const res = await fetch(path, { cache: "no-store" });
     if (!res.ok) throw new Error(res.status);
     return await res.json();
   } catch (_) {
@@ -172,8 +310,33 @@ function lastFillPrice(book, ticker) {
 }
 
 function shortDate(d) {
-  // "2026-07-21" -> "07-21"; anything else passes through
   return /^\d{4}-\d{2}-\d{2}/.test(d) ? d.slice(5, 10) : d;
+}
+
+/* ---------- badges ---------- */
+function computeBadges(book) {
+  const badges = [];
+  const hist = (book.nav_history || []).map(p => p.nav);
+  if (hist.length >= 2) {
+    let streak = 0;
+    for (let i = hist.length - 1; i > 0; i--) {
+      if (hist[i] > hist[i - 1]) streak++; else break;
+    }
+    if (streak >= 3) badges.push({ icon: "🔥", title: `${streak}-round winning streak` });
+
+    let peak = hist[0], maxDrawdown = 0;
+    for (const v of hist) {
+      peak = Math.max(peak, v);
+      maxDrawdown = Math.max(maxDrawdown, (peak - v) / peak);
+    }
+    if (maxDrawdown > 0.10) badges.push({ icon: "📉", title: `${(maxDrawdown * 100).toFixed(0)}% drawdown from peak` });
+  }
+  const rejected = book.rejected || [];
+  const recentDates = (book.trades || []).map(t => t.date);
+  const lastDate = recentDates.length ? recentDates[recentDates.length - 1] : null;
+  const lastRejectRun = rejected.slice(-3);
+  if (lastRejectRun.length >= 3) badges.push({ icon: "🎢", title: "3 straight rejected orders" });
+  return badges;
 }
 
 /* ---------- standings ---------- */
@@ -182,12 +345,14 @@ function renderStandings(rows) {
   el.innerHTML = rows.map((r, i) => {
     const pct = (r.nav / START_CASH - 1) * 100;
     const sign = pct > 0 ? "+" : "";
+    const badges = computeBadges(r.book);
     return `
       <div class="stand-card" style="border-top-color:${r.color}">
         <div class="rank">${MEDALS[i] || "#" + (i + 1)}</div>
         <div class="who" style="color:${r.color}">${esc(r.name)}</div>
-        <div class="nav">${fmtUSD0.format(r.nav)}</div>
-        <div class="ret ${retClass(pct)}">${sign}${pct.toFixed(2)}%</div>
+        <div class="nav" id="nav-${esc(r.id)}" data-nav="${r.nav}">${fmtUSD0.format(r.nav)}</div>
+        <div class="ret ${retClass(pct)}" id="ret-${esc(r.id)}">${sign}${pct.toFixed(2)}%</div>
+        <div class="badges" title="${badges.map(b => esc(b.title)).join(', ')}">${badges.map(b => b.icon).join(' ')}</div>
       </div>`;
   }).join("");
 }
@@ -208,7 +373,7 @@ function renderChart(rows) {
   ).join("");
 
   if (maxLen < 2) {
-    chartEl.innerHTML = `<div class="chart-placeholder">Season starts soon — first trading day pending</div>`;
+    chartEl.innerHTML = `<div class="chart-placeholder">Season starts soon — first round pending</div>`;
     return;
   }
 
@@ -229,7 +394,6 @@ function renderChart(rows) {
 
   let svg = `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NAV race chart">`;
 
-  // horizontal gridlines + y labels
   const TICKS = 5;
   for (let t = 0; t <= TICKS; t++) {
     const v = lo + (t / TICKS) * (hi - lo);
@@ -238,14 +402,12 @@ function renderChart(rows) {
     svg += `<text x="${ML - 8}" y="${(yy + 4).toFixed(1)}" text-anchor="end" font-size="12" fill="#8b949e">${fmtK(v)}</text>`;
   }
 
-  // $100k baseline (dashed)
   if (START_CASH >= lo && START_CASH <= hi) {
     const by = y(START_CASH);
     svg += `<line x1="${ML}" y1="${by.toFixed(1)}" x2="${W - MR}" y2="${by.toFixed(1)}" stroke="#8b949e" stroke-width="1.2" stroke-dasharray="5 5"/>`;
     svg += `<text x="${W - MR}" y="${(by - 6).toFixed(1)}" text-anchor="end" font-size="11" fill="#8b949e">$100k start</text>`;
   }
 
-  // x-axis date labels: first, middle, last (from the longest series)
   const longest = series.reduce((a, b) => (b.points.length > a.points.length ? b : a), series[0]);
   const labelIdx = maxLen >= 5 ? [0, Math.floor((maxLen - 1) / 2), maxLen - 1] : [0, maxLen - 1];
   for (const i of labelIdx) {
@@ -255,7 +417,6 @@ function renderChart(rows) {
     svg += `<text x="${x(i).toFixed(1)}" y="${H - 10}" text-anchor="${anchor}" font-size="12" fill="#8b949e">${esc(p.date || "")}</text>`;
   }
 
-  // one polyline per trader
   for (const s of series) {
     if (s.points.length < 2) continue;
     const pts = s.points.map((p, i) => `${x(i).toFixed(1)},${y(p.nav).toFixed(1)}`).join(" ");
@@ -266,6 +427,49 @@ function renderChart(rows) {
 
   svg += `</svg>`;
   chartEl.innerHTML = svg;
+}
+
+/* ---------- overtake feed ---------- */
+function traderName(id) {
+  const t = TRADERS.find(t => t.id === id);
+  return t ? t.name : id;
+}
+
+function timeAgo(iso) {
+  const then = new Date(iso).getTime();
+  if (Number.isNaN(then)) return "";
+  const mins = Math.max(0, Math.round((Date.now() - then) / 60000));
+  if (mins < 60) return `${mins}m ago`;
+  const hrs = Math.round(mins / 60);
+  if (hrs < 48) return `${hrs}h ago`;
+  return `${Math.round(hrs / 24)}d ago`;
+}
+
+function renderEvents(events) {
+  const el = document.getElementById("events");
+  if (!Array.isArray(events) || !events.length) {
+    el.innerHTML = `<p class="events-empty">No overtakes yet — standings haven't shuffled.</p>`;
+    return;
+  }
+  const recent = events.slice(-15).reverse();
+  el.innerHTML = recent.map(e => `
+    <div class="event-row">
+      <span class="ts">${esc(timeAgo(e.ts))}</span>
+      <strong>${esc(traderName(e.overtaker))}</strong> overtook
+      <strong>${esc(traderName(e.overtaken))}</strong>, now rank #${esc(e.rank)}
+    </div>`).join("");
+}
+
+/* ---------- daily recap ---------- */
+function renderRecap(recap) {
+  const el = document.getElementById("recap");
+  if (!recap || !recap.summary) {
+    el.innerHTML = `<p class="recap-empty">No recap yet — check back after today's rounds settle.</p>`;
+    return;
+  }
+  el.innerHTML = `
+    <p class="recap-body">"${esc(recap.summary)}"</p>
+    <p class="recap-meta">— Grok, color commentator · ${esc(recap.date || "")}</p>`;
 }
 
 /* ---------- per-trader cards ---------- */
@@ -337,11 +541,139 @@ function renderTraders(rows, commentary) {
   }).join("");
 }
 
-/* ---------- boot ---------- */
-(async function main() {
-  const [ledger, commentary] = await Promise.all([
-    loadJSON("data/ledger.json", {}),
-    loadJSON("data/commentary.json", []),
+/* ---------- marquee ---------- */
+function renderMarquee(rows, news) {
+  const track = document.getElementById("marqueeTrack");
+  const navItems = rows.map(r => {
+    const pct = (r.nav / START_CASH - 1) * 100;
+    const sign = pct > 0 ? "+" : "";
+    return `<span class="marquee-item"><span class="who" style="color:${r.color}">${esc(r.name)}</span> ${fmtUSD0.format(r.nav)} <span class="${retClass(pct)}">${sign}${pct.toFixed(2)}%</span></span>`;
+  });
+  const newsItems = (Array.isArray(news) ? news : []).slice(0, 5).map(n =>
+    `<span class="marquee-item news">📰 ${n.url ? `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>` : esc(n.title)} — ${esc(n.source || "")}</span>`
+  );
+  const items = [...navItems, ...newsItems];
+  track.innerHTML = (items.length ? items : [`<span class="marquee-item">Loading…</span>`]).join("");
+}
+
+/* ---------- live mode ---------- */
+const LIVE_POLL_MS = 60000;
+
+function heldTickers(rows) {
+  const set = new Set();
+  for (const r of rows) {
+    for (const ticker of Object.keys(r.book.positions || {})) set.add(ticker);
+  }
+  return Array.from(set);
+}
+
+function recomputeNav(book, livePrices) {
+  let nav = book.cash || 0;
+  for (const [ticker, shares] of Object.entries(book.positions || {})) {
+    const live = livePrices && Object.prototype.hasOwnProperty.call(livePrices, ticker) ? livePrices[ticker] : null;
+    const px = live !== null ? live : lastFillPrice(book, ticker);
+    if (px !== null) nav += shares * px;
+  }
+  return nav;
+}
+
+function flashNav(id, direction) {
+  const el = document.getElementById(`nav-${id}`);
+  if (!el) return;
+  el.classList.remove("nav-flash-up", "nav-flash-down");
+  void el.offsetWidth;
+  el.classList.add(direction > 0 ? "nav-flash-up" : "nav-flash-down");
+}
+
+async function fetchLiveQuotes(tickers) {
+  if (!tickers.length) return {};
+  const res = await fetch(`/api/quotes?s=${tickers.map(encodeURIComponent).join(",")}`);
+  if (!res.ok) throw new Error(`quotes ${res.status}`);
+  const data = await res.json();
+  return (data && data.quotes) || {};
+}
+
+async function liveTick(state) {
+  if (document.hidden) return;
+  const game = GAMES[state.gameKey];
+  if (!game.isLiveWindow(new Date())) {
+    setLiveBadge(false);
+    return;
+  }
+  const tickers = heldTickers(state.rows);
+  try {
+    const quotes = await fetchLiveQuotes(tickers);
+    const rows = state.rows.map(r => ({ ...r, nav: recomputeNav(r.book, quotes) }))
+      .sort((a, b) => b.nav - a.nav);
+
+    for (const r of rows) {
+      const prevNav = state.lastNav.get(r.id);
+      if (typeof prevNav === "number" && Math.abs(r.nav - prevNav) > 0.005) {
+        flashNav(r.id, r.nav - prevNav);
+      }
+      state.lastNav.set(r.id, r.nav);
+    }
+
+    renderStandings(rows);
+    renderMarquee(rows, state.news);
+    setLiveBadge(true);
+  } catch (_) {
+    setLiveBadge(false);
+  }
+}
+
+function setLiveBadge(on) {
+  const badge = document.getElementById("liveBadge");
+  const src = document.getElementById("quoteSrc");
+  if (badge) badge.hidden = !on;
+  if (src) src.hidden = !on;
+}
+
+let liveTimer = null;
+function startLiveMode(gameKey, rows, newsData) {
+  if (liveTimer) clearInterval(liveTimer);
+  const state = { gameKey, rows, news: newsData, lastNav: new Map(rows.map(r => [r.id, r.nav])) };
+  liveTick(state);
+  liveTimer = setInterval(() => liveTick(state), LIVE_POLL_MS);
+}
+
+/* ---------- countdown ---------- */
+let countdownTimer = null;
+function startCountdown(gameKey) {
+  if (countdownTimer) clearInterval(countdownTimer);
+  const game = GAMES[gameKey];
+  const el = document.getElementById("countdown");
+  function tick() {
+    const now = new Date();
+    const next = game.nextRound(now);
+    let ms = next.getTime() - now.getTime();
+    if (ms < 0) ms = 0;
+    const h = Math.floor(ms / 3600000);
+    const m = Math.floor((ms % 3600000) / 60000);
+    const s = Math.floor((ms % 60000) / 1000);
+    const pad = n => String(n).padStart(2, "0");
+    el.innerHTML = `⏱️ Next ${esc(game.label)} round in <strong>${pad(h)}:${pad(m)}:${pad(s)}</strong>`;
+  }
+  tick();
+  countdownTimer = setInterval(tick, 1000);
+}
+
+/* ---------- tab switching / boot ---------- */
+let currentGame = "crypto";
+
+async function loadGame(gameKey) {
+  currentGame = gameKey;
+  document.getElementById("tabCrypto").setAttribute("aria-selected", String(gameKey === "crypto"));
+  document.getElementById("tabStocks").setAttribute("aria-selected", String(gameKey === "arena"));
+
+  const game = GAMES[gameKey];
+  document.getElementById("footerRules").textContent = game.rules;
+
+  const [ledger, commentary, news, events] = await Promise.all([
+    loadJSON(`${game.dataDir}/ledger.json`, {}),
+    loadJSON(`${game.dataDir}/commentary.json`, []),
+    loadJSON(`${game.dataDir}/news.json`, []),
+    loadJSON(`${game.dataDir}/events.json`, []),
   ]);
 
   const rows = TRADERS.map(t => {
@@ -352,6 +684,17 @@ function renderTraders(rows, commentary) {
   renderStandings(rows);
   renderChart(rows);
   renderTraders(rows, commentary);
+  renderEvents(events);
+  renderMarquee(rows, news);
+  startCountdown(gameKey);
+  startLiveMode(gameKey, rows, news);
+}
+
+(async function main() {
+  document.getElementById("tabCrypto").addEventListener("click", () => loadGame("crypto"));
+  document.getElementById("tabStocks").addEventListener("click", () => loadGame("arena"));
+  loadGame("crypto");
+  renderRecap(await loadJSON("data/recap.json", null));
 })();
 </script>
 </body>

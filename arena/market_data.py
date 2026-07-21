@@ -2,7 +2,19 @@
 so swapping data providers later only touches this file.
 """
 
+from math import floor, log10
+
 import yfinance as yf
+
+
+def _round_sig(value: float, sig: int = 4) -> float:
+    """Round to `sig` significant figures — plain round(x, 2) flattens
+    sub-cent prices (DOGE-USD, etc.) to 0.00.
+    """
+    if value == 0:
+        return 0.0
+    digits = sig - 1 - int(floor(log10(abs(value))))
+    return round(value, max(digits, 0))
 
 
 def fetch_ohlcv(tickers: list[str], lookback_days: int) -> "dict[str, object]":
@@ -31,7 +43,7 @@ def fetch_ohlcv(tickers: list[str], lookback_days: int) -> "dict[str, object]":
             continue
 
         rows = [
-            [str(r.Index.date()), round(r.Open, 2), round(r.High, 2), round(r.Low, 2), round(r.Close, 2), int(r.Volume)]
+            [str(r.Index.date()), _round_sig(r.Open), _round_sig(r.High), _round_sig(r.Low), _round_sig(r.Close), int(r.Volume)]
             for r in df.itertuples(name="R")
         ]
         ohlcv[ticker] = rows

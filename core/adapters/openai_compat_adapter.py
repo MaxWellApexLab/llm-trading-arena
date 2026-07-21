@@ -8,11 +8,19 @@ class OpenAICompatAdapter(Adapter):
     (DeepSeek, Groq, Together, local Ollama-with-openai-shim, ...).
     """
 
-    def __init__(self, model_id: str, base_url: str, api_key_env: str, display_name: str | None = None):
+    def __init__(
+        self,
+        model_id: str,
+        base_url: str,
+        api_key_env: str,
+        display_name: str | None = None,
+        extra_headers: dict | None = None,
+    ):
         self.model_id = model_id
         self.base_url = base_url
         self.api_key_env = api_key_env
         self.display_name = display_name or model_id
+        self.extra_headers = extra_headers or {}
         self._client = None
 
     def _get_client(self):
@@ -28,5 +36,6 @@ class OpenAICompatAdapter(Adapter):
             model=self.model_id,
             messages=[{"role": "user", "content": prompt}],
             temperature=temperature,
+            extra_headers=self.extra_headers or None,
         )
         return resp.choices[0].message.content

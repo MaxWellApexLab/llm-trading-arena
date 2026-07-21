@@ -2,7 +2,7 @@
 
 # 🏟️ LLM Trading Arena
 
-### Four LLMs. $100k each. One leaderboard.
+### Six LLMs. $100k each. One leaderboard.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
@@ -17,21 +17,36 @@
 
 ---
 
-**GPT-4o**, **Claude Sonnet 4.5**, **DeepSeek-V3**, and **Llama 3.3** each manage a
-$100,000 **paper** portfolio of US stocks (S&P 100). Once a trading day, after the
-close, every model gets the exact same prompt and the exact same market data and
-decides its orders for tomorrow. Orders fill at the next open. Every fill and every
-one-line hot take is committed to this repo — permanently, publicly, where nobody
-gets to quietly delete their bad trades.
+Six model families — **OpenAI**, **Anthropic**, **DeepSeek**, **Meta**, **Google**,
+and **Qwen** — each manage a $100,000 **paper** portfolio. The main stage is
+**🪙 crypto** (BTC/ETH/SOL/XRP/DOGE, 24/7, two rounds a day, weekends
+included); **📈 US stocks** (S&P 100, one round per trading day) runs alongside it.
+Every round, every model gets the exact same prompt, the exact same market data,
+and the same fresh headlines, and decides its orders for next open. Every fill and
+every one-line hot take is committed to this repo, permanently and publicly.
+Nobody gets to quietly delete their bad trades.
+
+**xAI (Grok) isn't a trader** — it's the arena's color commentator. Once a day,
+after both games settle, it reads the day's standings, best/worst calls, and any
+rejected-order blunders and writes one mean paragraph, shown in the
+[📣 Daily Recap](#-live-leaderboard) panel on the site.
+
+Model routing goes through [OpenRouter](https://openrouter.ai) — one API key
+covers every provider used here. We don't pin or advertise specific model versions
+in any public-facing text (see [`games/*.yml`](games) for the actual model IDs
+currently wired up); the backend can swap to whatever's cheapest without anyone
+needing to update copy.
 
 Who's actually the best AI trader? Scoreboard says.
 
 | Trader | Style | Risk appetite |
 |---|---|---|
-| 🟢 GPT-4o | Momentum, narrative-driven | High |
-| 🟠 Claude Sonnet 4.5 | Value, risk-aware | Medium |
-| 🔵 DeepSeek-V3 | Contrarian, mean-reversion | Medium-high |
-| 🟣 Llama 3.3 70B | Macro, sector rotation | Medium |
+| 🟢 OpenAI camp | Momentum, narrative-driven | High |
+| 🟠 Anthropic camp | Value, risk-aware | Medium |
+| 🔵 DeepSeek camp | Contrarian, mean-reversion | Medium-high |
+| 🟣 Meta camp | Macro, sector rotation | Medium |
+| 🟡 Google camp | Quant, diversified allocation | Low-medium |
+| 🩷 Qwen camp | Patient swing trading, technical levels | Medium |
 
 ## 📸 This week's card
 
@@ -46,11 +61,14 @@ NAV race, current standings, and each model's daily one-liner explaining itself.
 
 ## ⚙️ How it works
 
-- 🕰️ **Fully automated.** A GitHub Actions cron runs once per trading day after the US close (21:30 UTC, Mon–Fri). No humans in the loop.
-- 🤝 **Dead-even playing field.** Every model gets the same prompt, the same 20 days of OHLCV data, at the same moment. No edges, no excuses.
-- 💸 **Next-open execution.** Orders queue overnight and fill at the next day's open, with 0.1% simulated friction per trade.
-- 📜 **Public ledger.** [`data/ledger.json`](data/ledger.json) (every fill) plus [`data/commentary.json`](data/commentary.json) (every rationale) is enough to recompute every NAV from scratch. No trust required — check the math yourself.
-- 🗓️ **Quarterly seasons.** A season is ~63 trading days (about one quarter); then the ledger resets, history is archived, and everyone starts fresh at $100k.
+- 🕰️ **Fully automated.** Crypto runs twice a day, every day, via GitHub Actions cron (00:30 & 12:30 UTC — [`crypto.yml`](.github/workflows/crypto.yml)). Stocks run once per trading day after the US close (21:30 UTC, Mon–Fri — [`daily.yml`](.github/workflows/daily.yml)). No humans in the loop.
+- 🤝 **Dead-even playing field.** Every model gets the same prompt, the same OHLCV data, and the same fresh headlines, at the same moment. No edges, no excuses.
+- 📰 **News-aware.** Each round pulls the latest 5 headlines (title + source + link only, never article bodies) from CoinDesk/Cointelegraph (crypto) or Yahoo Finance (stocks) into the prompt. A dead RSS feed never blocks a round — it just means fewer headlines that round.
+- 💸 **Next-open execution.** Orders queue and fill at the next round's open, with 0.1% simulated friction per trade.
+- 📜 **Public ledger.** `data/<game>/ledger.json` (every fill) plus `data/<game>/commentary.json` (every rationale) is enough to recompute every NAV from scratch. No trust required — check the math yourself.
+- ⚔️ **Overtake tracking.** Every time a trader's rank passes a rival's, it's logged to `data/<game>/events.json` and shown as a live feed on the site.
+- 📣 **Daily recap.** Once a day, after both games settle, Grok reads the day's standings and writes a mean paragraph — `data/recap.json`, [`arena/recap.py`](arena/recap.py).
+- 🗓️ **Season length is informational, not enforced.** `season_length_days` in each `games/*.yml` (90 for crypto, ~63 trading days for stocks) documents the intended cadence — this is a toy, not a research platform, so there's no automatic reset/archive. Clear a ledger by hand if you want to start a season over.
 
 Illegal orders (bad ticker, insufficient cash, over the position cap) are rejected
 **and logged**, not silently dropped. A model submitting nonsense is part of the
@@ -58,20 +76,21 @@ show, not a bug to hide.
 
 ## 📏 Rules
 
-| Rule | Value |
-|---|---|
-| Starting capital | $100,000 per model (paper) |
-| Universe | S&P 100 |
-| Decision cadence | One decision per trading day, after close |
-| Execution | Next day's open |
-| Max single position | 50% of portfolio in one stock |
-| Leverage / shorting | None — long-only |
-| Fee | 0.1% per trade (simulated) |
-| Data given to models | Last 20 days of OHLCV + top movers |
-| Season length | ~63 trading days, then reset & archive |
-| Fairness | Same prompt, same data, same moment, for every model |
+| Rule | 🪙 Crypto | 📈 Stocks |
+|---|---|---|
+| Starting capital | $100,000 per model (paper) | $100,000 per model (paper) |
+| Universe | BTC, ETH, SOL, XRP, DOGE | S&P 100 |
+| Decision cadence | Twice a day, every day | Once per trading day, after close |
+| Execution | Next round's open | Next day's open |
+| Max single position | 100% (full send allowed) | 50% of portfolio in one stock |
+| Leverage / shorting | None — spot, long-only | None — long-only |
+| Fee | 0.1% per trade (simulated, fee-inclusive so a 100% order can still fill) | 0.1% per trade (simulated) |
+| Data given to models | Last 20 rounds of OHLCV + top movers + headlines | Last 20 days of OHLCV + top movers + headlines |
+| Season length | 90 days (informational — no auto-reset) | ~63 trading days (informational — no auto-reset) |
+| Fairness | Same prompt, same data, same moment, for every model | Same prompt, same data, same moment, for every model |
 
-Game config lives in [`games/arena.yml`](games/arena.yml) — a new game mode is just a new YAML file.
+Game config lives in [`games/crypto.yml`](games/crypto.yml) and
+[`games/arena.yml`](games/arena.yml) — a new game mode is just a new YAML file.
 
 ## 🚀 Quickstart — run your own arena
 
@@ -80,28 +99,28 @@ git clone https://github.com/maxwellapexlab/llm-trading-arena
 cd llm-trading-arena
 pip install -r requirements.txt
 
-# any subset of these works — traders without a key just sit out that day
-export OPENAI_API_KEY=...
-export ANTHROPIC_API_KEY=...
-export DEEPSEEK_API_KEY=...
-export GROQ_API_KEY=...
+# one key covers all six model families, routed through OpenRouter
+export OPENROUTER_API_KEY=...
 
+python -m arena.runner --game crypto
 python -m arena.runner --game arena
 ```
 
-No API keys at all? Zero-cost mock mode runs the entire pipeline (market data,
+No API key at all? Zero-cost mock mode runs the entire pipeline (market data, news,
 order validation, ledger update) against a mock model:
 
 ```bash
-python -m arena.runner --game arena --dry-run
+python -m arena.runner --game crypto --dry-run
 ```
 
 Always invoke it as a module (`python -m arena.runner`, not
 `python arena/runner.py`) — the latter breaks the package-relative imports.
 
-Run it once per trading day. In this repo a scheduled GitHub Action does that
-automatically ([`.github/workflows/daily.yml`](.github/workflows/daily.yml)) and a
-second one renders the weekly card ([`.github/workflows/weekly_card.yml`](.github/workflows/weekly_card.yml)).
+In this repo, scheduled GitHub Actions run both games automatically
+([`crypto.yml`](.github/workflows/crypto.yml), [`daily.yml`](.github/workflows/daily.yml)),
+a third generates the daily Grok recap
+([`recap.yml`](.github/workflows/recap.yml)), and a fourth renders the weekly card
+for both games ([`weekly_card.yml`](.github/workflows/weekly_card.yml)).
 
 ## 🎭 Add your own AI trader
 

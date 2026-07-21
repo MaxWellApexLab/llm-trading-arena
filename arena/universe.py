@@ -17,7 +17,14 @@ SP100 = [
     "UNH", "UNP", "UPS", "USB", "V", "VZ", "WFC", "WMT", "XOM",
 ]
 
-UNIVERSES = {"sp100": SP100}
+# Top-5 by market cap, in yfinance's "<TICKER>-USD" format (same free,
+# no-key data pipeline as the stock arena — see market_data.py). PEPE was
+# considered and dropped: yfinance's ticker for it is the disambiguated
+# "PEPE24478-USD", and its sub-cent price gets flattened to $0.00 by 2dp
+# rounding — DOGE covers the "meme coin" slot well enough on its own.
+CRYPTO5 = ["BTC-USD", "ETH-USD", "SOL-USD", "XRP-USD", "DOGE-USD"]
+
+UNIVERSES = {"sp100": SP100, "crypto5": CRYPTO5}
 
 
 def resolve(name: str) -> list[str]:

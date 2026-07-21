@@ -64,13 +64,16 @@ def settle_pending_orders(trader: dict, open_prices: dict[str, float], date: str
 
         nav = _nav(trader, open_prices)
         if order["action"] == "buy":
+            # Fee-inclusive: target_value is the total cash outlay (shares +
+            # fee), not shares-only-then-plus-fee — otherwise a 100% weight
+            # order always rejects on "insufficient cash" by exactly the fee.
             target_value = nav * (order["weight_pct"] / 100.0)
-            fee = target_value * fee_pct
-            cost = target_value + fee
+            cost = target_value
             if cost > trader["cash"] + 1e-6:
                 trader["rejected"].append({"date": date, "reason": "insufficient cash", "raw": order})
                 continue
-            shares = target_value / price
+            shares = target_value / (price * (1 + fee_pct))
+            fee = target_value - shares * price
             trader["cash"] -= cost
             trader["positions"][ticker] = trader["positions"].get(ticker, 0.0) + shares
             trader["trades"].append(

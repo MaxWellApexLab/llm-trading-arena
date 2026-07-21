@@ -1,8 +1,9 @@
-name: Daily stocks arena run
+name: Crypto arena run
 
 on:
   schedule:
-    - cron: "30 21 * * 1-5"   # 21:30 UTC, Mon-Fri (after US market close)
+    - cron: "30 0 * * *"    # 00:30 UTC every day, weekends included
+    - cron: "30 12 * * *"   # 12:30 UTC every day, weekends included
   workflow_dispatch: {}
 
 permissions:
@@ -23,26 +24,26 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Run today's stocks round
+      - name: Run this round's crypto round
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-        run: python -m arena.runner --game arena
+        run: python -m arena.runner --game crypto
 
       - name: Sync data into site/ for Pages
         run: |
-          mkdir -p site/data/arena
-          cp data/arena/ledger.json site/data/arena/ledger.json
-          cp data/arena/commentary.json site/data/arena/commentary.json
-          cp data/arena/news.json site/data/arena/news.json || true
-          cp data/arena/events.json site/data/arena/events.json || true
+          mkdir -p site/data/crypto
+          cp data/crypto/ledger.json site/data/crypto/ledger.json
+          cp data/crypto/commentary.json site/data/crypto/commentary.json
+          cp data/crypto/news.json site/data/crypto/news.json || true
+          cp data/crypto/events.json site/data/crypto/events.json || true
 
       - name: Commit updated ledger
         run: |
           git config user.name "arena-bot"
           git config user.email "arena-bot@users.noreply.github.com"
-          git add data/arena/ site/data/arena/
+          git add data/crypto/ site/data/crypto/
           git diff --cached --quiet && exit 0
-          git commit -m "chore: daily stocks run $(date -u +%F)"
+          git commit -m "chore: crypto round $(date -u +%Y-%m-%dT%H:%M)"
           git pull --rebase --autostash origin main
           git push
 

@@ -20,7 +20,8 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run: python -m arena.make_card
+      - run: python -m arena.make_card arena
+      - run: python -m arena.make_card crypto
 
       - name: Commit card
         run: |

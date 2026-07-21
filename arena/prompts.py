@@ -4,19 +4,19 @@ construction: nobody gets a better-tuned prompt than anyone else.
 
 import json
 
-TEMPLATE = """You are managing a ${cash_display} paper portfolio of US stocks (S&P 100 only).
+TEMPLATE = """You are managing a ${cash_display} paper portfolio of {asset_label}.
 
 {persona}
 
 Current portfolio positions (ticker: shares): {positions_json}
 Cash available: ${cash:,.2f}
-Market data, last {lookback_days} trading days (ticker -> OHLCV rows, oldest first): {ohlcv_json}
-Today's notable moves (ticker -> % change): {movers_json}
+Market data, last {lookback_days} rounds (ticker -> OHLCV rows, oldest first): {ohlcv_json}
+Recent notable moves (ticker -> % change): {movers_json}
 
-Rules: long-only, max {max_position_pct:.0f}% of portfolio value in one stock, \
-orders execute at tomorrow's open, {fee_pct:.2%} fee per trade.
+Rules: long-only, max {max_position_pct:.0f}% of portfolio value in one position, \
+orders execute {execution_desc}, {fee_pct:.2%} fee per trade.
 
-Decide your orders for tomorrow. Respond in JSON only, no markdown fences, no prose outside the JSON:
+{news_block}Decide your orders for this round. Respond in JSON only, no markdown fences, no prose outside the JSON:
 {{"orders": [{{"action": "buy|sell", "ticker": "...", "weight_pct": N}}],
  "commentary": "<one punchy sentence explaining your thinking>"}}
 
@@ -34,9 +34,18 @@ def build_prompt(
     lookback_days: int,
     max_position_pct: float,
     fee_pct: float,
+    asset_label: str = "US stocks (S&P 100 only)",
+    execution_desc: str = "at tomorrow's open",
+    news_headlines: list[dict] | None = None,
 ) -> str:
+    news_block = ""
+    if news_headlines:
+        lines = "\n".join(f'- "{h["title"]}" ({h["source"]})' for h in news_headlines)
+        news_block = f"Recent headlines:\n{lines}\n\n"
+
     return TEMPLATE.format(
         cash_display=f"{cash:,.0f}",
+        asset_label=asset_label,
         persona=persona_text.strip(),
         positions_json=json.dumps({k: round(v, 4) for k, v in positions.items()}),
         cash=cash,
@@ -45,4 +54,6 @@ def build_prompt(
         movers_json=json.dumps({k: round(v, 2) for k, v in top_movers.items()}),
         max_position_pct=max_position_pct * 100,
         fee_pct=fee_pct,
+        execution_desc=execution_desc,
+        news_block=news_block,
     )

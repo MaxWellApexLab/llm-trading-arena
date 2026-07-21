@@ -15,9 +15,10 @@ ROOT = Path(__file__).resolve().parent.parent
 STARTING_CASH = 100000
 
 
-def make_card(out_dir: Path = ROOT / "site" / "cards") -> Path:
-    ledger = json.loads((ROOT / "data" / "ledger.json").read_text(encoding="utf-8"))
-    commentary = json.loads((ROOT / "data" / "commentary.json").read_text(encoding="utf-8"))
+def make_card(game_name: str = "arena", out_dir: Path = ROOT / "site" / "cards") -> Path:
+    data_dir = ROOT / "data" / game_name
+    ledger = json.loads((data_dir / "ledger.json").read_text(encoding="utf-8"))
+    commentary = json.loads((data_dir / "commentary.json").read_text(encoding="utf-8"))
 
     ranked = sorted(
         (
@@ -54,11 +55,13 @@ def make_card(out_dir: Path = ROOT / "site" / "cards") -> Path:
 
     out_dir.mkdir(parents=True, exist_ok=True)
     iso = date.today().isocalendar()
-    out_path = out_dir / f"{iso.year}-{iso.week:02d}.png"
+    out_path = out_dir / f"{game_name}-{iso.year}-{iso.week:02d}.png"
     fig.savefig(out_path, bbox_inches="tight")
     plt.close(fig)
     return out_path
 
 
 if __name__ == "__main__":
-    print(make_card())
+    import sys
+
+    print(make_card(sys.argv[1] if len(sys.argv) > 1 else "arena"))

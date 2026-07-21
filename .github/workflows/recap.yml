@@ -1,8 +1,8 @@
-name: Daily stocks arena run
+name: Daily recap
 
 on:
   schedule:
-    - cron: "30 21 * * 1-5"   # 21:30 UTC, Mon-Fri (after US market close)
+    - cron: "0 22 * * *"   # 22:00 UTC, after that day's stocks close (21:30) and both crypto rounds
   workflow_dispatch: {}
 
 permissions:
@@ -12,7 +12,7 @@ concurrency:
   group: arena-ledger-push
 
 jobs:
-  run:
+  recap:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,31 +23,28 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Run today's stocks round
+      - name: Generate today's recap
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-        run: python -m arena.runner --game arena
+        run: python -m arena.recap
 
       - name: Sync data into site/ for Pages
         run: |
-          mkdir -p site/data/arena
-          cp data/arena/ledger.json site/data/arena/ledger.json
-          cp data/arena/commentary.json site/data/arena/commentary.json
-          cp data/arena/news.json site/data/arena/news.json || true
-          cp data/arena/events.json site/data/arena/events.json || true
+          mkdir -p site/data
+          cp data/recap.json site/data/recap.json || true
 
-      - name: Commit updated ledger
+      - name: Commit recap
         run: |
           git config user.name "arena-bot"
           git config user.email "arena-bot@users.noreply.github.com"
-          git add data/arena/ site/data/arena/
+          git add data/recap.json site/data/recap.json
           git diff --cached --quiet && exit 0
-          git commit -m "chore: daily stocks run $(date -u +%F)"
+          git commit -m "chore: daily recap $(date -u +%F)"
           git pull --rebase --autostash origin main
           git push
 
   deploy-pages:
-    needs: run
+    needs: recap
     runs-on: ubuntu-latest
     permissions:
       pages: write
