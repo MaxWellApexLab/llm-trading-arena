@@ -355,6 +355,26 @@ function computeBadges(book) {
 }
 
 /* ---------- standings ---------- */
+function hourlyPct(book, liveArr, currentNav) {
+  const now = Date.now();
+  const pts = [];
+  for (const p of book.nav_history || []) {
+    if (typeof p.nav !== "number" || p.nav <= 0) continue;
+    const t = new Date(p.date).getTime();
+    if (!Number.isNaN(t)) pts.push({ t, nav: p.nav });
+  }
+  for (const p of liveArr || []) pts.push({ t: p.t, nav: p.nav });
+  pts.sort((a, b) => a.t - b.t);
+  let base = null;
+  for (const p of pts) {
+    if (p.t <= now - 3600000) base = p.nav;
+    else break;
+  }
+  if (base === null && pts.length) base = pts[0].nav; // young data: measure since first point
+  if (!base || base <= 0) return 0;
+  return (currentNav / base - 1) * 100;
+}
+
 function todayBaseline(book) {
   const hist = book.nav_history || [];
   const today = new Date().toISOString().slice(0, 10);
@@ -371,8 +391,10 @@ function renderStandings(rows) {
   const oldPos = new Map();
   el.querySelectorAll(".stand-card").forEach(c => oldPos.set(c.dataset.tid, c.getBoundingClientRect()));
   el.innerHTML = rows.map((r, i) => {
+    const hourPct = typeof r.hourPct === "number" ? r.hourPct : hourlyPct(r.book, [], r.nav);
     const totalPct = (r.nav / START_CASH - 1) * 100;
     const dayPct = (r.nav / todayBaseline(r.book) - 1) * 100;
+    const hSign = hourPct > 0 ? "+" : "";
     const dSign = dayPct > 0 ? "+" : "";
     const tSign = totalPct > 0 ? "+" : "";
     const badges = computeBadges(r.book);
@@ -380,9 +402,9 @@ function renderStandings(rows) {
       <div class="stand-card" data-tid="${esc(r.id)}" style="border-top-color:${r.color}">
         <div class="rank">${MEDALS[i] || "#" + (i + 1)}</div>
         <div class="who" style="color:${r.color}">${esc(r.name)}</div>
+        <div class="ret ${retClass(hourPct)}" id="ret-${esc(r.id)}">${hSign}${hourPct.toFixed(2)}% past hour</div>
         <div class="nav" id="nav-${esc(r.id)}" data-nav="${r.nav}">${fmtUSD0.format(r.nav)}</div>
-        <div class="ret ${retClass(dayPct)}" id="ret-${esc(r.id)}">${dSign}${dayPct.toFixed(2)}% today</div>
-        <div class="ret-total">${tSign}${totalPct.toFixed(2)}% total</div>
+        <div class="ret-total">${dSign}${dayPct.toFixed(2)}% today · ${tSign}${totalPct.toFixed(2)}% total</div>
         <div class="badges" title="${badges.map(b => esc(b.title)).join(', ')}">${badges.map(b => b.icon).join(' ')}</div>
       </div>`;
   }).join("");
@@ -594,9 +616,10 @@ function renderTraders(rows, commentary) {
 function renderMarquee(rows, news) {
   const track = document.getElementById("marqueeTrack");
   const navItems = rows.map(r => {
-    const pct = (r.nav / START_CASH - 1) * 100;
+    const isHour = typeof r.hourPct === "number";
+    const pct = isHour ? r.hourPct : (r.nav / START_CASH - 1) * 100;
     const sign = pct > 0 ? "+" : "";
-    return `<span class="marquee-item"><span class="who" style="color:${r.color}">${esc(r.name)}</span> ${fmtUSD0.format(r.nav)} <span class="${retClass(pct)}">${sign}${pct.toFixed(2)}%</span></span>`;
+    return `<span class="marquee-item"><span class="who" style="color:${r.color}">${esc(r.name)}</span> ${fmtUSD0.format(r.nav)} <span class="${retClass(pct)}">${sign}${pct.toFixed(2)}%${isHour ? "/1h" : ""}</span></span>`;
   });
   const newsItems = (Array.isArray(news) ? news : []).slice(0, 5).map(n =>
     `<span class="marquee-item news">📰 ${n.url ? `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>` : esc(n.title)} <span class="src">— ${esc(n.source || "")}</span></span>`
@@ -643,8 +666,10 @@ async function fetchLiveQuotes(tickers) {
 }
 
 function applyQuotes(state) {
-  const rows = state.rows.map(r => ({ ...r, nav: recomputeNav(r.book, state.wsPrices) }))
-    .sort((a, b) => b.nav - a.nav);
+  const rows = state.rows.map(r => {
+    const nav = recomputeNav(r.book, state.wsPrices);
+    return { ...r, nav, hourPct: hourlyPct(r.book, state.liveHist.get(r.id), nav) };
+  }).sort((a, b) => b.hourPct - a.hourPct);
   renderStandings(rows);
   renderMarquee(rows, state.news);
   for (const r of rows) {
@@ -665,6 +690,11 @@ function applyQuotes(state) {
     for (let i = 0; i < order.length; i++) {
       const prev = oldRank.get(order[i]);
       if (prev !== undefined && i < prev && order[i + 1] !== undefined) {
+        // per-pair cooldown: two neck-and-neck traders flip constantly under
+        // rolling-1h ranking — only celebrate a given rivalry once per 45s
+        const pairKey = [order[i], order[i + 1]].sort().join("|");
+        if (Date.now() - (state.flipCooldown.get(pairKey) || 0) < 45000) continue;
+        state.flipCooldown.set(pairKey, Date.now());
         state.liveEvents.push({ ts: now, overtaker: order[i], overtaken: order[i + 1], rank: i + 1, live: true });
         showOvertakeToast(order[i], order[i + 1]);
         pulseCard(order[i]);
@@ -784,6 +814,7 @@ function startLiveMode(gameKey, rows, newsData, eventsData) {
     liveEvents: [],
     lastOrder: rows.map(r => r.id),
     liveHist: new Map(rows.map(r => [r.id, []])),
+    flipCooldown: new Map(),
   };
   liveTick(state);
   liveTimer = setInterval(() => liveTick(state), LIVE_POLL_MS);
@@ -793,14 +824,14 @@ function startLiveMode(gameKey, rows, newsData, eventsData) {
     if (document.hidden || !Object.keys(state.wsPrices).length) return;
     for (const r of state.rows) {
       const arr = state.liveHist.get(r.id);
-      arr.push(recomputeNav(r.book, state.wsPrices));
+      arr.push({ t: Date.now(), nav: recomputeNav(r.book, state.wsPrices) });
       if (arr.length > 720) arr.shift();
     }
     const aug = state.rows.map(r => ({
       ...r,
       book: {
         ...r.book,
-        nav_history: [...(r.book.nav_history || []), ...state.liveHist.get(r.id).map(nav => ({ date: "live", nav }))],
+        nav_history: [...(r.book.nav_history || []), ...state.liveHist.get(r.id).map(p => ({ date: "live", nav: p.nav }))],
       },
     }));
     renderChart(aug);
@@ -849,8 +880,9 @@ async function loadGame(gameKey) {
 
   const rows = TRADERS.map(t => {
     const book = (ledger && typeof ledger === "object" && ledger[t.id]) ? ledger[t.id] : emptyBook();
-    return { ...t, book, nav: currentNav(book) };
-  }).sort((a, b) => b.nav - a.nav);
+    const nav = currentNav(book);
+    return { ...t, book, nav, hourPct: hourlyPct(book, [], nav) };
+  }).sort((a, b) => b.hourPct - a.hourPct);
 
   renderStandings(rows);
   renderChart(rows);
