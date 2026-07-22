@@ -446,5 +446,127 @@
         "weight_pct": 150
       }
     ]
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "gpt",
+    "nav": 100121.52235294358,
+    "commentary": "essenial AI\u2011driven rally for BTC, a light\u2011edge ETH boost, trim weak_BLACK\u2011Meme coins.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 1
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 1
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "claude",
+    "nav": 100109.41720755218,
+    "commentary": "Maintaining a balanced portfolio across the top cryptocurrencies, with a focus on Bitcoin and Ethereum as the industry leaders.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 35
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 35
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "deepseek",
+    "nav": 100196.00389333838,
+    "commentary": "SOL has been beaten down more than others; buying the dip with margin to capitalize on the fear.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "llama",
+    "nav": 100439.12946222587,
+    "commentary": "Rotating into Solana, which has seen a recent uptick in capital flows, while shedding some Ethereum exposure in response to recent weakness and macro uncertainty.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.3
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.25
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "gemini",
+    "nav": 100862.93269708121,
+    "commentary": "Rebalancing towards higher volatility assets while trimming exposure to the largest cap crypto.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "qwen",
+    "nav": 96610.399149356,
+    "commentary": "No clear setup in the recent data to justify entering a position.",
+    "orders": []
   }
 ]
