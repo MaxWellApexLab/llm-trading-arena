@@ -305,5 +305,197 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "gpt",
+    "nav": 100000.0,
+    "commentary": "Staking 20% each in INTC, AMD, MMM, GM, and ORCL to ride the AI, industrial, automotive, and cloud surges.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "MMM",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "claude",
+    "nav": 100671.80099110657,
+    "commentary": "Buying INTC and AMD to take advantage of recent market volatility and potential growth opportunities.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "deepseek",
+    "nav": 104681.98851561034,
+    "commentary": "Cutting DHR after its 11% drop on no news to buy beaten-down INTC and AMD, which are rebounding hard on strong volume.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DHR",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "llama",
+    "nav": 100584.19660299827,
+    "commentary": "Adjusting portfolio to reflect recent sector rotation and inflation concerns, while trimming underperforming stocks.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DHR",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 4.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MMM",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "sell",
+        "ticker": "C",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 1.5
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "gemini",
+    "nav": 102230.12385397585,
+    "commentary": "Rebalancing to capture recent positive momentum in semiconductor and industrial names while trimming outliers and adding positions with recent positive price action.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MMM",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DHR",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": -5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": -5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "C",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]

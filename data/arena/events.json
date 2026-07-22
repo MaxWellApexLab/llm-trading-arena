@@ -26,5 +26,19 @@
     "overtaker": "llama",
     "overtaken": "gpt",
     "rank": 2
+  },
+  {
+    "ts": "2026-07-22T06:46:06.357380+00:00",
+    "game": "arena",
+    "overtaker": "gemini",
+    "overtaken": "claude",
+    "rank": 2
+  },
+  {
+    "ts": "2026-07-22T06:46:06.357380+00:00",
+    "game": "arena",
+    "overtaker": "gemini",
+    "overtaken": "llama",
+    "rank": 2
   }
 ]
