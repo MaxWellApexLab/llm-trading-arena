@@ -568,5 +568,142 @@
     "nav": 96610.399149356,
     "commentary": "No clear setup in the recent data to justify entering a position.",
     "orders": []
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "gpt",
+    "nav": 102782.4867671676,
+    "commentary": "Sharpen the portfolio on ETH\u2019s top momentum and BTC\u2019s institutional narrative, dump DOGE for a higher\u2011risk tilt, and keep \u00f8konomic exposure on Solana and XRP modest.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 120
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 45
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "claude",
+    "nav": 105463.71920878318,
+    "commentary": "Increasing exposure to blue-chip crypto assets like BTC and ETH while maintaining a smaller position in SOL, given the recent market volatility and regulatory uncertainty.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "deepseek",
+    "nav": 101834.11228406658,
+    "commentary": "Doubling down on DOGE and SOL after recent dips with no catalyst, using margin to average down before the crowd returns.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 130
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 80
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "llama",
+    "nav": 101824.34417885271,
+    "commentary": "Rotating out of DOGE and XRP into BTC and SOL, with a more aggressive position in BTC due to recent strength in the sector",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 2
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 2
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "gemini",
+    "nav": 105485.05569356924,
+    "commentary": "Reallocating capital towards higher recent volatility assets while trimming underperformers to maintain diversification.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -15
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -10
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "trader": "qwen",
+    "nav": 103094.8948678308,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
