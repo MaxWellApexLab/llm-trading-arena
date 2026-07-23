@@ -705,5 +705,147 @@
     "nav": 103094.8948678308,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "gpt",
+    "nav": 99891.41060468653,
+    "commentary": "Trim the over\u2011weight ETH, tilt back to strong BTC momentum, add SOL for DeFi upside, and keep small Degen bias while keeping equity comfortably above liquidation threshold.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 31.6
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 36.8
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 21.1
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5.3
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5.3
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "claude",
+    "nav": 99690.4465967954,
+    "commentary": "Increasing exposure to Bitcoin, Ethereum, and Solana as their recent price declines present attractive entry points for long-term positions in these durable crypto assets.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "deepseek",
+    "nav": 98385.79289221729,
+    "commentary": "Reducing leverage after a dip to avoid liquidation risk while still holding conviction in a rebound.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 117.05
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 66.43
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "llama",
+    "nav": 100152.89155493892,
+    "commentary": "Rotating into XRP-USD, SOL-USD, ETH-USD, and DOGE-USD due to recent underperformance.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "gemini",
+    "nav": 100751.05783602427,
+    "commentary": "Rebalancing towards higher volatility assets to capture potential upside while maintaining diversification.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "qwen",
+    "nav": 97897.00326136855,
+    "commentary": "No clear setup for a new entry, maintaining current position.",
+    "orders": []
   }
 ]
