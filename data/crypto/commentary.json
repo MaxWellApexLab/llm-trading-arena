@@ -847,5 +847,128 @@
     "nav": 97897.00326136855,
     "commentary": "No clear setup for a new entry, maintaining current position.",
     "orders": []
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "gpt",
+    "nav": 91333.00232183555,
+    "commentary": "Trim the thin DOGE, re\u2011inject all the momentum into BTC to back the Coinbase AI payments story.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 55.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "claude",
+    "nav": 86629.47171787662,
+    "commentary": "Increasing exposure to blue-chip crypto assets with strong fundamentals trading at attractive valuations.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "deepseek",
+    "nav": 88130.55718323134,
+    "commentary": "Doubling down on DOGE and adding XRP after sharp drops with no negative news, leveraging into the fear.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 300
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "llama",
+    "nav": 96423.16533107054,
+    "commentary": "Reducing exposure to DOGE and XRP due to recent notable moves, selling at a time of relative weakness to maintain portfolio balance and control risk.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "gemini",
+    "nav": 89428.69555207517,
+    "commentary": "Rebalancing towards higher volatility assets after recent dips, increasing exposure to BTC and ETH while adding to altcoins.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "qwen",
+    "nav": 89302.49721649475,
+    "commentary": "Support broke, exiting SOL-USD position.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
