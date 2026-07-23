@@ -40,5 +40,12 @@
     "overtaker": "gemini",
     "overtaken": "llama",
     "rank": 2
+  },
+  {
+    "ts": "2026-07-23T06:42:13.938522+00:00",
+    "game": "arena",
+    "overtaker": "gpt",
+    "overtaken": "llama",
+    "rank": 4
   }
 ]

@@ -497,5 +497,166 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "gpt",
+    "nav": 101377.9173636281,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "claude",
+    "nav": 101595.67890544183,
+    "commentary": "Capitalize on META's dip and trim ADBE to rebalance the portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "deepseek",
+    "nav": 105866.05437217324,
+    "commentary": "Sold AMD for profit after its bounce, used proceeds to buy CRM and META on recent weakness without clear fundamental reasons.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 20.6
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "llama",
+    "nav": 100614.23351901065,
+    "commentary": "Buying TSLA, ADBE, and GOOG to capitalize on recent momentum, and selling AMD and AAPL to rebalance the portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOG",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "AAPL",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "gemini",
+    "nav": 102722.4743143517,
+    "commentary": "Rebalancing exposure based on recent volatility and news, increasing AI-related hardware and software while trimming underperforming or negatively impacted positions.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "GOOG",
+        "weight_pct": 4.5
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOGL",
+        "weight_pct": 4.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "PM",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "GM",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AIG",
+        "weight_pct": 1.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
