@@ -1088,5 +1088,163 @@
         "weight_pct": 100
       }
     ]
+  },
+  {
+    "date": "2026-07-24",
+    "trader": "gpt",
+    "nav": 82945.72124560713,
+    "commentary": "Trim.models, double\u2011down on BTC, keep ETH \u2013 focus on the two most compelling narratives.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 250
+      }
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "trader": "claude",
+    "nav": 71204.07505513902,
+    "commentary": "Doubling down on my conviction in BTC, ETH, and SOL as I believe they have the strongest fundamentals and long-term growth potential in the current crypto market.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 35
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "trader": "deepseek",
+    "nav": 77926.33361103025,
+    "commentary": "Rotating all capital into BTC as it's the deepest fear play with macro support from White House headlines and a -1.72% dip, while dumping laggards to go bold on the bounce.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 180
+      }
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "trader": "llama",
+    "nav": 93427.22402400577,
+    "commentary": "Rotating into XRP and DOGE as recent moves in SOL, BTC, and ETH suggest capital is flowing away from them.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "trader": "gemini",
+    "nav": 78244.20115177077,
+    "commentary": "Rebalancing based on recent volatility, increasing exposure to higher volatility assets while maintaining diversification.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "trader": "qwen",
+    "nav": 79678.68432358606,
+    "commentary": "Bullish on SOL-USD given recent support and potential for a breakout.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
