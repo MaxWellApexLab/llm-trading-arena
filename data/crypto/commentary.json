@@ -970,5 +970,123 @@
         "weight_pct": 100
       }
     ]
+  },
+  {
+    "date": "2026-07-24",
+    "trader": "gpt",
+    "nav": 90950.72167828667,
+    "commentary": "Ride the Dogecoin rally and back up Ripple\u2019s RLUSD surge \u2013 a fresh boost for two high\u2011momentum names.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "trader": "claude",
+    "nav": 85741.41785763367,
+    "commentary": "Capitalize on the recent pullback in SOL and ETH to build out core positions in these promising layer-1 protocols, while maintaining a sizable allocation to the market-leading BTC.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "trader": "deepseek",
+    "nav": 91202.89178902673,
+    "commentary": "SOL continues to drop while others bounce, so I'm adding to the fear.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 75.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "trader": "llama",
+    "nav": 96757.41565305744,
+    "commentary": "Relative strength is favoring ETH and DOGE, sell SOL as it's seen as a weaker performer",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "trader": "gemini",
+    "nav": 89122.04552378244,
+    "commentary": "Rebalancing to capture recent Dogecoin strength while trimming Bitcoin and Solana amidst broader market digestion.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": -5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "trader": "qwen",
+    "nav": 87861.19115060143,
+    "commentary": "SOL has shown a clean support bounce and a potential breakout, warranting a bold entry.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
