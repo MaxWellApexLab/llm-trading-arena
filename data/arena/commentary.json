@@ -870,5 +870,172 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "gpt",
+    "nav": 96996.42726027897,
+    "commentary": "Trim weak INTC, add high\u2011momentum tech/telecom to keep all weights below 50%.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 7
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 4.5
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 4.5
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 4.5
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 4.5
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "claude",
+    "nav": 99039.86533478301,
+    "commentary": "Increased exposure to Apple and Nvidia to capitalize on their strong fundamentals and growth potential.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "deepseek",
+    "nav": 102383.21135004374,
+    "commentary": "Rotating from GOOGL to INTC to capture the panic selloff in semiconductors.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "GOOGL",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "llama",
+    "nav": 96910.8603815473,
+    "commentary": "TSLA shows strong momentum, AXP may be vulnerable to a market pullback, VZ has a high allocation in the portfolio, JPM and USB are underperforming",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 0.5
+      },
+      {
+        "action": "sell",
+        "ticker": "AXP",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "sell",
+        "ticker": "JPM",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "USB",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "gemini",
+    "nav": 97331.55901416375,
+    "commentary": "Rebalancing to capture recent strength and trim positions showing weakness, aligning with a risk-off sentiment.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": -6.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": -3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AXP",
+        "weight_pct": -3.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]

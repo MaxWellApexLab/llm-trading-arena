@@ -1,6 +1,6 @@
 {
   "claude": {
-    "cash": 9861.801906669623,
+    "cash": -10152.343575647685,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -21,18 +21,22 @@
       {
         "date": "2026-07-24",
         "nav": 99883.14682686047
+      },
+      {
+        "date": "2026-07-25",
+        "nav": 99039.86533478301
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
-        "ticker": "TSLA",
-        "weight_pct": 10.0
+        "ticker": "AAPL",
+        "weight_pct": 25.0
       },
       {
         "action": "buy",
-        "ticker": "TMUS",
-        "weight_pct": 10.0
+        "ticker": "NVDA",
+        "weight_pct": 25.0
       }
     ],
     "positions": {
@@ -41,7 +45,9 @@
       "INTC": 98.89978974211098,
       "META": 16.521179199479356,
       "NVDA": 120.45871065213349,
-      "ORCL": 81.42659554429932
+      "ORCL": 81.42659554429932,
+      "TMUS": 58.126582994265505,
+      "TSLA": 31.20189792675979
     },
     "rejected": [
       {
@@ -117,11 +123,29 @@
         "shares": 16.521179199479356,
         "status": "filled",
         "ticker": "META"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 320.7200012207031,
+        "shares": 31.20189792675979,
+        "status": "filled",
+        "ticker": "TSLA"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 172.16000366210938,
+        "shares": 58.126582994265505,
+        "status": "filled",
+        "ticker": "TMUS"
       }
     ]
   },
   "deepseek": {
-    "cash": -48542.92448289491,
+    "cash": 0.0,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -142,63 +166,27 @@
       {
         "date": "2026-07-24",
         "nav": 102051.04567967422
+      },
+      {
+        "date": "2026-07-25",
+        "nav": 102383.21135004374
       }
     ],
     "pending_orders": [
       {
         "action": "sell",
-        "ticker": "INTC",
-        "weight_pct": 100.0
-      },
-      {
-        "action": "sell",
-        "ticker": "ORCL",
-        "weight_pct": 100.0
-      },
-      {
-        "action": "sell",
-        "ticker": "CRM",
-        "weight_pct": 100.0
-      },
-      {
-        "action": "sell",
-        "ticker": "META",
-        "weight_pct": 100.0
-      },
-      {
-        "action": "sell",
-        "ticker": "AMD",
-        "weight_pct": 100.0
-      },
-      {
-        "action": "sell",
-        "ticker": "FDX",
-        "weight_pct": 100.0
-      },
-      {
-        "action": "sell",
-        "ticker": "GE",
-        "weight_pct": 100.0
-      },
-      {
-        "action": "buy",
-        "ticker": "TSLA",
-        "weight_pct": 50.0
-      },
-      {
-        "action": "buy",
         "ticker": "GOOGL",
-        "weight_pct": 50.0
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 10.0
       }
     ],
     "positions": {
-      "AMD": 0.09742916376401922,
-      "CRM": 63.117625639095984,
-      "FDX": 80.12820512820512,
-      "GE": 72.46376811594203,
-      "INTC": 307.3547453615959,
-      "META": 17.122606078447284,
-      "ORCL": 407.1329777214966
+      "GOOGL": 162.37768081891838,
+      "TSLA": 161.21321747920578
     },
     "rejected": [
       {
@@ -310,11 +298,92 @@
         "shares": 17.122606078447284,
         "status": "filled",
         "ticker": "META"
+      },
+      {
+        "action": "sell",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 100.36000061035156,
+        "shares": 307.3547453615959,
+        "status": "filled",
+        "ticker": "INTC"
+      },
+      {
+        "action": "sell",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 122.47000122070312,
+        "shares": 407.1329777214966,
+        "status": "filled",
+        "ticker": "ORCL"
+      },
+      {
+        "action": "sell",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 160.3800048828125,
+        "shares": 63.117625639095984,
+        "status": "filled",
+        "ticker": "CRM"
+      },
+      {
+        "action": "sell",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 605.2999877929688,
+        "shares": 17.122606078447284,
+        "status": "filled",
+        "ticker": "META"
+      },
+      {
+        "action": "sell",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 546.9199829101562,
+        "shares": 0.09742916376401922,
+        "status": "filled",
+        "ticker": "AMD"
+      },
+      {
+        "action": "sell",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 316.0400085449219,
+        "shares": 80.12820512820512,
+        "status": "filled",
+        "ticker": "FDX"
+      },
+      {
+        "action": "sell",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 350.239990234375,
+        "shares": 72.46376811594203,
+        "status": "filled",
+        "ticker": "GE"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-25",
+        "fee": -7.275957614183426e-12,
+        "price": 320.7200012207031,
+        "shares": 161.21321747920578,
+        "status": "filled",
+        "ticker": "TSLA"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-25",
+        "fee": -7.275957614183426e-12,
+        "price": 318.4200134277344,
+        "shares": 162.37768081891838,
+        "status": "filled",
+        "ticker": "GOOGL"
       }
     ]
   },
   "gemini": {
-    "cash": -74703.99027003643,
+    "cash": -85120.56129517024,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -335,43 +404,47 @@
       {
         "date": "2026-07-24",
         "nav": 99566.0123762687
+      },
+      {
+        "date": "2026-07-25",
+        "nav": 97331.55901416375
       }
     ],
     "pending_orders": [
       {
-        "action": "sell",
-        "ticker": "TSLA",
-        "weight_pct": 10.0
-      },
-      {
         "action": "buy",
-        "ticker": "LMT",
-        "weight_pct": 8.0
-      },
-      {
-        "action": "buy",
-        "ticker": "RTX",
+        "ticker": "NVDA",
         "weight_pct": 7.0
       },
       {
         "action": "buy",
-        "ticker": "HON",
-        "weight_pct": 6.0
+        "ticker": "ADBE",
+        "weight_pct": 5.0
       },
       {
         "action": "buy",
-        "ticker": "TMO",
-        "weight_pct": 7.0
+        "ticker": "ACN",
+        "weight_pct": 4.0
       },
       {
-        "action": "sell",
-        "ticker": "GOOGL",
-        "weight_pct": 5.0
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 4.0
       },
       {
-        "action": "sell",
-        "ticker": "GOOG",
-        "weight_pct": 5.0
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 3.0
       }
     ],
     "positions": {
@@ -383,15 +456,16 @@
       "DHR": 59.22770961708182,
       "FDX": 32.05130216297995,
       "GM": 169.50310327599584,
-      "GOOG": 14.085439124264559,
-      "GOOGL": 14.107370178526219,
+      "HON": 24.33081090408379,
       "INTC": 176.60901714993776,
+      "LMT": 14.086385868051442,
       "MMM": 117.93234577682989,
       "MSFT": 12.537455879006204,
       "NVDA": 14.418981218699136,
       "ORCL": 81.42664663826454,
       "QCOM": 20.583985886883802,
-      "TSLA": 26.941848514378204,
+      "RTX": 33.24102899620188,
+      "TMO": 12.295098603746284,
       "TXN": 46.47795219178285,
       "UNH": 11.628001697641457
     },
@@ -557,6 +631,33 @@
           "weight_pct": 5.0
         },
         "reason": "cannot short CMCSA (long_only)"
+      },
+      {
+        "date": "2026-07-25",
+        "raw": {
+          "action": "sell",
+          "ticker": "INTC",
+          "weight_pct": -6.0
+        },
+        "reason": "invalid sell weight_pct -6.0"
+      },
+      {
+        "date": "2026-07-25",
+        "raw": {
+          "action": "sell",
+          "ticker": "ORCL",
+          "weight_pct": -3.0
+        },
+        "reason": "invalid sell weight_pct -3.0"
+      },
+      {
+        "date": "2026-07-25",
+        "raw": {
+          "action": "buy",
+          "ticker": "AXP",
+          "weight_pct": -3.0
+        },
+        "reason": "weight_pct -3.0 out of range (0, 50]"
       }
     ],
     "trades": [
@@ -811,11 +912,74 @@
         "shares": 24.74762274843265,
         "status": "filled",
         "ticker": "GM"
+      },
+      {
+        "action": "sell",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 320.7200012207031,
+        "shares": 26.941848514378204,
+        "status": "filled",
+        "ticker": "TSLA"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 568.5900268554688,
+        "shares": 14.086385868051442,
+        "status": "filled",
+        "ticker": "LMT"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-25",
+        "fee": -9.094947017729282e-13,
+        "price": 210.8300018310547,
+        "shares": 33.24102899620188,
+        "status": "filled",
+        "ticker": "RTX"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 246.88999938964844,
+        "shares": 24.33081090408379,
+        "status": "filled",
+        "ticker": "HON"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 570.0,
+        "shares": 12.295098603746284,
+        "status": "filled",
+        "ticker": "TMO"
+      },
+      {
+        "action": "sell",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 318.4200134277344,
+        "shares": 14.107370178526219,
+        "status": "filled",
+        "ticker": "GOOGL"
+      },
+      {
+        "action": "sell",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 318.29998779296875,
+        "shares": 14.085439124264559,
+        "status": "filled",
+        "ticker": "GOOG"
       }
     ]
   },
   "gpt": {
-    "cash": 0.0,
+    "cash": -99745.9579282721,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -836,41 +1000,50 @@
       {
         "date": "2026-07-24",
         "nav": 99009.34688387194
+      },
+      {
+        "date": "2026-07-25",
+        "nav": 96996.42726027897
       }
     ],
     "pending_orders": [
       {
-        "action": "buy",
-        "ticker": "LMT",
-        "weight_pct": 20.0
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 7.0
       },
       {
         "action": "buy",
-        "ticker": "TMO",
-        "weight_pct": 20.0
+        "ticker": "ADBE",
+        "weight_pct": 4.5
       },
       {
         "action": "buy",
-        "ticker": "DHR",
-        "weight_pct": 20.0
+        "ticker": "ACN",
+        "weight_pct": 4.5
       },
       {
         "action": "buy",
-        "ticker": "RTX",
-        "weight_pct": 20.0
+        "ticker": "VZ",
+        "weight_pct": 4.5
       },
       {
         "action": "buy",
-        "ticker": "MSFT",
-        "weight_pct": 20.0
+        "ticker": "TMUS",
+        "weight_pct": 4.5
       }
     ],
     "positions": {
       "AMD": 37.95930727044454,
+      "DHR": 103.32085869312345,
       "GM": 248.4472049689441,
       "INTC": 196.94731067419502,
+      "LMT": 35.08537020246637,
       "MMM": 116.2452754736854,
-      "ORCL": 158.50372445418054
+      "MSFT": 51.541641169938885,
+      "ORCL": 158.50372445418054,
+      "RTX": 94.6221667333684,
+      "TMO": 34.99858172921828
     },
     "rejected": [
       {
@@ -979,11 +1152,56 @@
         "shares": 158.50372445418054,
         "status": "filled",
         "ticker": "ORCL"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 568.5900268554688,
+        "shares": 35.08537020246637,
+        "status": "filled",
+        "ticker": "LMT"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 570.0,
+        "shares": 34.99858172921828,
+        "status": "filled",
+        "ticker": "TMO"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 193.0800018310547,
+        "shares": 103.32085869312345,
+        "status": "filled",
+        "ticker": "DHR"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 210.8300018310547,
+        "shares": 94.6221667333684,
+        "status": "filled",
+        "ticker": "RTX"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 387.04998779296875,
+        "shares": 51.541641169938885,
+        "status": "filled",
+        "ticker": "MSFT"
       }
     ]
   },
   "llama": {
-    "cash": 2006.860422539115,
+    "cash": 1472.6783767651805,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -1004,23 +1222,32 @@
       {
         "date": "2026-07-24",
         "nav": 96581.50806059768
+      },
+      {
+        "date": "2026-07-25",
+        "nav": 96910.8603815473
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
-        "ticker": "XOM",
-        "weight_pct": 0.25
+        "ticker": "TSLA",
+        "weight_pct": 0.5
       },
       {
         "action": "buy",
-        "ticker": "WMT",
+        "ticker": "V",
         "weight_pct": 0.15
       },
       {
-        "action": "buy",
+        "action": "sell",
         "ticker": "JPM",
-        "weight_pct": 0.15
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "USB",
+        "weight_pct": 0.05
       }
     ],
     "positions": {
@@ -1030,7 +1257,7 @@
       "GM": 25.01706591285273,
       "GOOG": 30.87379565228972,
       "INTC": 44.62054088916166,
-      "JPM": 29.401820816862404,
+      "JPM": 29.817306803622557,
       "MMM": 23.410331534592427,
       "MSFT": 25.07491175801241,
       "ORCL": 19.95040617683013,
@@ -1038,7 +1265,8 @@
       "TXN": 0.16885405778389775,
       "USB": 80.0316877130841,
       "VZ": 116.7629912734553,
-      "WMT": 0.44838464370091397
+      "WMT": 1.795832005733152,
+      "XOM": 1.54665910128213
     },
     "rejected": [
       {
@@ -1067,6 +1295,15 @@
           "weight_pct": 1.5
         },
         "reason": "cannot short C (long_only)"
+      },
+      {
+        "date": "2026-07-25",
+        "raw": {
+          "action": "sell",
+          "ticker": "AXP",
+          "weight_pct": 0.15
+        },
+        "reason": "cannot short AXP (long_only)"
       }
     ],
     "trades": [
@@ -1276,6 +1513,33 @@
         "shares": 15.432099442564699,
         "status": "filled",
         "ticker": "AAPL"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 156.99000549316406,
+        "shares": 1.54665910128213,
+        "status": "filled",
+        "ticker": "XOM"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 108.12000274658203,
+        "shares": 1.347447362032238,
+        "status": "filled",
+        "ticker": "WMT"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-25",
+        "fee": 0.0,
+        "price": 350.6400146484375,
+        "shares": 0.4154859867601522,
+        "status": "filled",
+        "ticker": "JPM"
       }
     ]
   },
@@ -1300,6 +1564,10 @@
       },
       {
         "date": "2026-07-24",
+        "nav": 100000
+      },
+      {
+        "date": "2026-07-25",
         "nav": 100000
       }
     ],
@@ -1330,6 +1598,11 @@
         "date": "2026-07-24",
         "raw": null,
         "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\\n  \"id\": \"otNLZJj-4YNCb4-a200f5fb6ff11647\",\\n  \"error\": {\\n    \"message\": \"Input validation error: `inputs` tokens + `max_new_tokens` must be <= 32769. Given: 87814 `inputs` tokens and 2048 `max_new_tokens`\",\\n    \"type\": \"invalid_request_error\",\\n    \"param\": \"max_tokens\",\\n    \"code\": null\\n  }\\n}', 'provider_name': 'Together', 'is_byok': False, 'previous_errors': [{'code': 400, 'message': 'Provider returned error', 'provider_name': 'Phala', 'raw': '{\"error\":{\"message\":\"This model\\'s maximum context length is 32768 tokens. However, your request has 87835 input tokens. Please reduce the length of the input messages. None\",\"type\":\"invalid_request_error\"}}'}]}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-07-25",
+        "raw": null,
+        "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\\n  \"id\": \"otVojVG-6Ng1vN-a20905677ea577fd\",\\n  \"error\": {\\n    \"message\": \"Input validation error: `inputs` tokens + `max_new_tokens` must be <= 32769. Given: 87787 `inputs` tokens and 2048 `max_new_tokens`\",\\n    \"type\": \"invalid_request_error\",\\n    \"param\": \"max_tokens\",\\n    \"code\": null\\n  }\\n}', 'provider_name': 'Together', 'is_byok': False, 'previous_errors': [{'code': 400, 'message': 'Provider returned error', 'provider_name': 'Phala', 'raw': '{\"error\":{\"message\":\"This model\\'s maximum context length is 32768 tokens. However, your request has 87808 input tokens. Please reduce the length of the input messages. None\",\"type\":\"invalid_request_error\"}}'}]}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
     ],
     "trades": []
