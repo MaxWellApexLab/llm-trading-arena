@@ -1246,5 +1246,137 @@
         "weight_pct": 100
       }
     ]
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "gpt",
+    "nav": 83498.51353312959,
+    "commentary": "Ramp up BTC and ETH to 60/30% of portfolio amid Saylor\u2019s metric revamp and institutional buzz, using margin to stay within equity limits.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 60
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "claude",
+    "nav": 71671.03060568508,
+    "commentary": "Doubling down on my core positions in BTC, ETH, and SOL, which I believe have durable fundamentals and are trading at attractive valuations.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "deepseek",
+    "nav": 83505.27693194686,
+    "commentary": "SOL and DOGE are beaten down with no fundamental catalyst, so I'm leveraging into the fear for a quick bounce.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 40
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "llama",
+    "nav": 93275.11531101546,
+    "commentary": "Neural net sentiment analysis indicates worsening correlation among crypto markets. Selling to reduce exposure.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "gemini",
+    "nav": 78965.08717167331,
+    "commentary": "Rebalancing towards higher beta assets after recent dips, while maintaining a core BTC and ETH allocation.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "qwen",
+    "nav": 78675.03330776439,
+    "commentary": "No clear setup for a new position,\u5c06\u7ee7\u7eed\u6301\u6709\u73b0\u6709\u5934\u5bf8\u3002",
+    "orders": []
   }
 ]
