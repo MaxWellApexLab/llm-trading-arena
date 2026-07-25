@@ -1378,5 +1378,106 @@
     "nav": 78675.03330776439,
     "commentary": "No clear setup for a new position,\u5c06\u7ee7\u7eed\u6301\u6709\u73b0\u6709\u5934\u5bf8\u3002",
     "orders": []
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "gpt",
+    "nav": 86603.05849174073,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "claude",
+    "nav": 75330.1169488543,
+    "commentary": "Maintaining diversified positions in leading cryptocurrencies that I believe have strong fundamentals and growth potential.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "deepseek",
+    "nav": 101429.83728323481,
+    "commentary": "Already positioned in beaten-down names; holding through the bounce as crowd hasn't fully caught up.",
+    "orders": []
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "llama",
+    "nav": 98260.97645733599,
+    "commentary": "Rotate into BTC and add XRP as DOGE's recent move suggests capital is flowing out of the meme space, while BTC's slight uptick is a positive sign for the broader crypto market.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "gemini",
+    "nav": 83898.97065408691,
+    "commentary": "Rebalancing to favor higher-volatility assets while reducing exposure to lower-volatility ones.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -25.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -15.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "trader": "qwen",
+    "nav": 80664.58717479004,
+    "commentary": "Support bounce and breakout on SOL-USD provide a clear entry point.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
