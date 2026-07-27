@@ -1770,5 +1770,153 @@
         "weight_pct": 120
       }
     ]
+  },
+  {
+    "date": "2026-07-27",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "Lock into the Fed\u2011meeting rally and U.S. debt\u2011driven safe\u2011haven flow with a BTC\u2011heavy, ETH\u2011hedged play.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 80
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "Despite the recent market volatility, I see strong long-term potential in BTC, ETH, and SOL, so I'm allocating my portfolio accordingly.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "trader": "deepseek",
+    "nav": 100000,
+    "commentary": "Buying the dip on DOGE and XRP after sharp drops with no fundamental catalyst, while adding ETH and SOL for broad beaten-down exposure ahead of expected Fed-driven risk-on bounce.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "trader": "llama",
+    "nav": 100000,
+    "commentary": "Rotating into 'risk-on' sectors like BTC and SOL, while trimming exposure to struggling coins like XRP and DOGE, and maintaining a healthy position in ETH amidst the bullish sentiment around the Fed meeting",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "trader": "gemini",
+    "nav": 100000,
+    "commentary": "Rebalancing towards higher volatility assets as recent price action suggests momentum shifts.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 35
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "trader": "qwen",
+    "nav": 101813.2822372436,
+    "commentary": "Support bounce and breakout suggest potential for growth.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 150
+      }
+    ]
   }
 ]

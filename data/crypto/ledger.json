@@ -150,9 +150,29 @@
       {
         "date": "2026-07-27T10:51Z",
         "nav": 100000
+      },
+      {
+        "date": "2026-07-27",
+        "nav": 100000
       }
     ],
-    "pending_orders": [],
+    "pending_orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      }
+    ],
     "positions": {},
     "rejected": [
       {
@@ -670,9 +690,34 @@
       {
         "date": "2026-07-27T10:51Z",
         "nav": 100000
+      },
+      {
+        "date": "2026-07-27",
+        "nav": 100000
       }
     ],
-    "pending_orders": [],
+    "pending_orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      }
+    ],
     "positions": {},
     "rejected": [
       {
@@ -1037,9 +1082,29 @@
       {
         "date": "2026-07-27T10:51Z",
         "nav": 100000
+      },
+      {
+        "date": "2026-07-27",
+        "nav": 100000
       }
     ],
-    "pending_orders": [],
+    "pending_orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      }
+    ],
     "positions": {},
     "rejected": [
       {
@@ -1176,6 +1241,24 @@
           "weight_pct": 10.0
         },
         "reason": "no open price for BTC-USD"
+      },
+      {
+        "date": "2026-07-27",
+        "raw": {
+          "action": "sell",
+          "ticker": "XRP-USD",
+          "weight_pct": 0
+        },
+        "reason": "cannot short XRP-USD (long_only)"
+      },
+      {
+        "date": "2026-07-27",
+        "raw": {
+          "action": "sell",
+          "ticker": "DOGE-USD",
+          "weight_pct": 0
+        },
+        "reason": "cannot short DOGE-USD (long_only)"
       }
     ],
     "trades": [
@@ -1764,9 +1847,24 @@
       {
         "date": "2026-07-27T10:51Z",
         "nav": 100000
+      },
+      {
+        "date": "2026-07-27",
+        "nav": 100000
       }
     ],
-    "pending_orders": [],
+    "pending_orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 80.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      }
+    ],
     "positions": {},
     "rejected": [
       {
@@ -2213,9 +2311,29 @@
       {
         "date": "2026-07-27T10:51Z",
         "nav": 100000
+      },
+      {
+        "date": "2026-07-27",
+        "nav": 100000
       }
     ],
-    "pending_orders": [],
+    "pending_orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      }
+    ],
     "positions": {},
     "rejected": [
       {
@@ -2307,6 +2425,24 @@
           "weight_pct": 50.0
         },
         "reason": "no open price for BTC-USD"
+      },
+      {
+        "date": "2026-07-27",
+        "raw": {
+          "action": "sell",
+          "ticker": "XRP-USD",
+          "weight_pct": 20
+        },
+        "reason": "cannot short XRP-USD (long_only)"
+      },
+      {
+        "date": "2026-07-27",
+        "raw": {
+          "action": "sell",
+          "ticker": "DOGE-USD",
+          "weight_pct": 10
+        },
+        "reason": "cannot short DOGE-USD (long_only)"
       }
     ],
     "trades": [
@@ -2619,7 +2755,7 @@
     ]
   },
   "qwen": {
-    "cash": -545296.3062931552,
+    "cash": -666428.5961872388,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -2764,17 +2900,21 @@
       {
         "date": "2026-07-27T10:51Z",
         "nav": 100115.52785818593
+      },
+      {
+        "date": "2026-07-27",
+        "nav": 101813.2822372436
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
         "ticker": "SOL-USD",
-        "weight_pct": 120.0
+        "weight_pct": 150.0
       }
     ],
     "positions": {
-      "SOL-USD": 8435.102060397845
+      "SOL-USD": 10016.19177303095
     },
     "rejected": [
       {
@@ -2862,6 +3002,15 @@
         "fee": 0.0,
         "price": 74.4306640625,
         "shares": 1108.8701483022373,
+        "status": "filled",
+        "ticker": "SOL-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-27",
+        "fee": 0.0,
+        "price": 76.61316680908203,
+        "shares": 1581.0897126331056,
         "status": "filled",
         "ticker": "SOL-USD"
       }
