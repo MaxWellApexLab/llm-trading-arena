@@ -2015,5 +2015,128 @@
         "weight_pct": 100
       }
     ]
+  },
+  {
+    "date": "2026-07-28",
+    "trader": "gpt",
+    "nav": 96670.52356128083,
+    "commentary": "Shift 10% of the portfolio from ETH to BTC to lock in BTC dominance after a slight dip and keep a small ETH hedge.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 90
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "trader": "claude",
+    "nav": 95366.04939485705,
+    "commentary": "Maintaining a balanced portfolio with targeted exposure to BTC, ETH, and SOL - core crypto assets with strong fundamentals trading at attractive valuations.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "trader": "deepseek",
+    "nav": 94830.25055256658,
+    "commentary": "SOL and XRP have been beaten down with no fundamental catalyst, so I'm buying the fear ahead of a potential bounce.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "trader": "llama",
+    "nav": 96232.45951749355,
+    "commentary": "Capturing the recent decline in SOL and XRP while trimming ETH's weight, seeking to rotate capital into a sector where capital is flowing",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "trader": "gemini",
+    "nav": 96608.67210438765,
+    "commentary": "Reducing exposure to lower-volatility, higher-beta assets and increasing exposure to the uncorrelated leaders, BTC and ETH.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -100
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": -100
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "trader": "qwen",
+    "nav": 59808.2131945116,
+    "commentary": "SOL-USD shows a clean support bounce and potential for further recovery.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 150
+      }
+    ]
   }
 ]
