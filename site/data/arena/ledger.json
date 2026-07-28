@@ -1,6 +1,6 @@
 {
   "claude": {
-    "cash": -10152.343575647685,
+    "cash": -60124.258557086505,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -25,26 +25,35 @@
       {
         "date": "2026-07-25",
         "nav": 99039.86533478301
+      },
+      {
+        "date": "2026-07-28",
+        "nav": 96383.34947002008
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
-        "ticker": "AAPL",
-        "weight_pct": 25.0
+        "ticker": "CHTR",
+        "weight_pct": 5.0
       },
       {
         "action": "buy",
-        "ticker": "NVDA",
-        "weight_pct": 25.0
+        "ticker": "CRM",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 5.0
       }
     ],
     "positions": {
-      "AAPL": 77.36824071496112,
+      "AAPL": 152.05574251600297,
       "AMD": 19.061786093710996,
       "INTC": 98.89978974211098,
       "META": 16.521179199479356,
-      "NVDA": 120.45871065213349,
+      "NVDA": 240.46811438392524,
       "ORCL": 81.42659554429932,
       "TMUS": 58.126582994265505,
       "TSLA": 31.20189792675979
@@ -141,6 +150,24 @@
         "shares": 58.126582994265505,
         "status": "filled",
         "ticker": "TMUS"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-28",
+        "fee": 0.0,
+        "price": 334.5400085449219,
+        "shares": 74.68750180104186,
+        "status": "filled",
+        "ticker": "AAPL"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-28",
+        "fee": 0.0,
+        "price": 208.1999969482422,
+        "shares": 120.00940373179176,
+        "status": "filled",
+        "ticker": "NVDA"
       }
     ]
   },
@@ -170,22 +197,27 @@
       {
         "date": "2026-07-25",
         "nav": 102383.21135004374
+      },
+      {
+        "date": "2026-07-28",
+        "nav": 102739.86750597216
       }
     ],
     "pending_orders": [
       {
         "action": "sell",
-        "ticker": "GOOGL",
-        "weight_pct": 10.0
+        "ticker": "TSLA",
+        "weight_pct": 20.0
       },
       {
         "action": "buy",
-        "ticker": "INTC",
-        "weight_pct": 10.0
+        "ticker": "AMD",
+        "weight_pct": 20.0
       }
     ],
     "positions": {
-      "GOOGL": 162.37768081891838,
+      "GOOGL": 130.60384784000033,
+      "INTC": 111.69983825694028,
       "TSLA": 161.21321747920578
     },
     "rejected": [
@@ -379,11 +411,29 @@
         "shares": 162.37768081891838,
         "status": "filled",
         "ticker": "GOOGL"
+      },
+      {
+        "action": "sell",
+        "date": "2026-07-28",
+        "fee": 0.0,
+        "price": 325.0400085449219,
+        "shares": 31.773832978918048,
+        "status": "filled",
+        "ticker": "GOOGL"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-28",
+        "fee": 0.0,
+        "price": 92.45999908447266,
+        "shares": 111.69983825694028,
+        "status": "filled",
+        "ticker": "INTC"
       }
     ]
   },
   "gemini": {
-    "cash": -85120.56129517024,
+    "cash": -115827.81066719584,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -408,51 +458,57 @@
       {
         "date": "2026-07-25",
         "nav": 97331.55901416375
+      },
+      {
+        "date": "2026-07-28",
+        "nav": 98070.05818781232
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
-        "ticker": "NVDA",
-        "weight_pct": 7.0
-      },
-      {
-        "action": "buy",
-        "ticker": "ADBE",
-        "weight_pct": 5.0
-      },
-      {
-        "action": "buy",
-        "ticker": "ACN",
-        "weight_pct": 4.0
-      },
-      {
-        "action": "buy",
-        "ticker": "VZ",
-        "weight_pct": 4.0
-      },
-      {
-        "action": "buy",
-        "ticker": "TMUS",
-        "weight_pct": 4.0
-      },
-      {
-        "action": "buy",
-        "ticker": "T",
-        "weight_pct": 4.0
+        "ticker": "CHTR",
+        "weight_pct": 1.0
       },
       {
         "action": "buy",
         "ticker": "CRM",
-        "weight_pct": 3.0
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 1.0
       }
     ],
     "positions": {
-      "ADBE": 8.428634268518167,
+      "ACN": 26.379665818422176,
+      "ADBE": 29.926017704862133,
       "AMD": 43.754012328622714,
       "AVGO": 10.26781197574278,
       "C": 38.10728928431921,
       "CAT": 11.267739788489184,
+      "CRM": 17.68850770277973,
       "DHR": 59.22770961708182,
       "FDX": 32.05130216297995,
       "GM": 169.50310327599584,
@@ -461,13 +517,16 @@
       "LMT": 14.086385868051442,
       "MMM": 117.93234577682989,
       "MSFT": 12.537455879006204,
-      "NVDA": 14.418981218699136,
+      "NVDA": 47.722992367236266,
       "ORCL": 81.42664663826454,
       "QCOM": 20.583985886883802,
       "RTX": 33.24102899620188,
+      "T": 164.20330970690262,
       "TMO": 12.295098603746284,
+      "TMUS": 21.89195870029581,
       "TXN": 46.47795219178285,
-      "UNH": 11.628001697641457
+      "UNH": 11.628001697641457,
+      "VZ": 85.42961695071115
     },
     "rejected": [
       {
@@ -658,6 +717,33 @@
           "weight_pct": -3.0
         },
         "reason": "weight_pct -3.0 out of range (0, 50]"
+      },
+      {
+        "date": "2026-07-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "NVDA",
+          "weight_pct": -0.5
+        },
+        "reason": "invalid sell weight_pct -0.5"
+      },
+      {
+        "date": "2026-07-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "AMD",
+          "weight_pct": -0.5
+        },
+        "reason": "invalid sell weight_pct -0.5"
+      },
+      {
+        "date": "2026-07-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "COP",
+          "weight_pct": -0.5
+        },
+        "reason": "cannot short COP (long_only)"
       }
     ],
     "trades": [
@@ -975,11 +1061,74 @@
         "shares": 14.085439124264559,
         "status": "filled",
         "ticker": "GOOG"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-28",
+        "fee": 0.0,
+        "price": 208.1999969482422,
+        "shares": 33.30401114853713,
+        "status": "filled",
+        "ticker": "NVDA"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-28",
+        "fee": 0.0,
+        "price": 230.38999938964844,
+        "shares": 21.497383436343966,
+        "status": "filled",
+        "ticker": "ADBE"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-28",
+        "fee": -4.547473508864641e-13,
+        "price": 150.1999969482422,
+        "shares": 26.379665818422176,
+        "status": "filled",
+        "ticker": "ACN"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-28",
+        "fee": 4.547473508864641e-13,
+        "price": 46.380001068115234,
+        "shares": 85.42961695071115,
+        "status": "filled",
+        "ticker": "VZ"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-28",
+        "fee": 0.0,
+        "price": 180.99000549316406,
+        "shares": 21.89195870029581,
+        "status": "filled",
+        "ticker": "TMUS"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-28",
+        "fee": 4.547473508864641e-13,
+        "price": 24.1299991607666,
+        "shares": 164.20330970690262,
+        "status": "filled",
+        "ticker": "T"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-28",
+        "fee": 0.0,
+        "price": 168.0,
+        "shares": 17.68850770277973,
+        "status": "filled",
+        "ticker": "CRM"
       }
     ]
   },
   "gpt": {
-    "cash": -99745.9579282721,
+    "cash": -110639.16775335776,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -1004,46 +1153,59 @@
       {
         "date": "2026-07-25",
         "nav": 96996.42726027897
+      },
+      {
+        "date": "2026-07-28",
+        "nav": 99714.40499313246
       }
     ],
     "pending_orders": [
       {
-        "action": "sell",
-        "ticker": "INTC",
-        "weight_pct": 7.0
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 10.0
       },
       {
         "action": "buy",
         "ticker": "ADBE",
-        "weight_pct": 4.5
+        "weight_pct": 5.0
       },
       {
         "action": "buy",
         "ticker": "ACN",
-        "weight_pct": 4.5
+        "weight_pct": 5.0
       },
       {
         "action": "buy",
-        "ticker": "VZ",
-        "weight_pct": 4.5
-      },
-      {
-        "action": "buy",
-        "ticker": "TMUS",
-        "weight_pct": 4.5
+        "ticker": "ORCL",
+        "weight_pct": 5.0
       }
     ],
     "positions": {
+      "ACN": 29.6691957443776,
+      "ADBE": 19.342476331733263,
       "AMD": 37.95930727044454,
       "DHR": 103.32085869312345,
       "GM": 248.4472049689441,
-      "INTC": 196.94731067419502,
+      "INTC": 121.97388773883029,
       "LMT": 35.08537020246637,
       "MMM": 116.2452754736854,
       "MSFT": 51.541641169938885,
       "ORCL": 158.50372445418054,
       "RTX": 94.6221667333684,
-      "TMO": 34.99858172921828
+      "TMO": 34.99858172921828,
+      "TMUS": 24.62187399862049,
+      "VZ": 96.08264354538552
     },
     "rejected": [
       {
@@ -1102,6 +1264,15 @@
         "raw": {
           "action": "sell",
           "ticker": "ORCL",
+          "weight_pct": 0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-07-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "AMD",
           "weight_pct": 0
         },
         "reason": "invalid sell weight_pct 0.0"
@@ -1197,11 +1368,56 @@
         "shares": 51.541641169938885,
         "status": "filled",
         "ticker": "MSFT"
+      },
+      {
+        "action": "sell",
+        "date": "2026-07-28",
+        "fee": 0.0,
+        "price": 92.45999908447266,
+        "shares": 74.97342293536474,
+        "status": "filled",
+        "ticker": "INTC"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-28",
+        "fee": 0.0,
+        "price": 230.38999938964844,
+        "shares": 19.342476331733263,
+        "status": "filled",
+        "ticker": "ADBE"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-28",
+        "fee": 0.0,
+        "price": 150.1999969482422,
+        "shares": 29.6691957443776,
+        "status": "filled",
+        "ticker": "ACN"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-28",
+        "fee": 0.0,
+        "price": 46.380001068115234,
+        "shares": 96.08264354538552,
+        "status": "filled",
+        "ticker": "VZ"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-28",
+        "fee": 0.0,
+        "price": 180.99000549316406,
+        "shares": 24.62187399862049,
+        "status": "filled",
+        "ticker": "TMUS"
       }
     ]
   },
   "llama": {
-    "cash": 1472.6783767651805,
+    "cash": 934.2134231197402,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -1226,28 +1442,42 @@
       {
         "date": "2026-07-25",
         "nav": 96910.8603815473
+      },
+      {
+        "date": "2026-07-28",
+        "nav": 98094.54604980756
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
-        "ticker": "TSLA",
-        "weight_pct": 0.5
+        "ticker": "CHTR",
+        "weight_pct": 0.1
       },
       {
         "action": "buy",
-        "ticker": "V",
-        "weight_pct": 0.15
+        "ticker": "GM",
+        "weight_pct": 0.1
       },
       {
-        "action": "sell",
-        "ticker": "JPM",
-        "weight_pct": 0.05
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 0.1
       },
       {
-        "action": "sell",
-        "ticker": "USB",
-        "weight_pct": 0.05
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 0.1
       }
     ],
     "positions": {
@@ -1257,13 +1487,14 @@
       "GM": 25.01706591285273,
       "GOOG": 30.87379565228972,
       "INTC": 44.62054088916166,
-      "JPM": 29.817306803622557,
+      "JPM": 29.680529141718804,
       "MMM": 23.410331534592427,
       "MSFT": 25.07491175801241,
       "ORCL": 19.95040617683013,
-      "TSLA": 85.19574194212194,
+      "TSLA": 86.7584849171069,
       "TXN": 0.16885405778389775,
-      "USB": 80.0316877130841,
+      "USB": 79.26801594104691,
+      "V": 0.40866585716610493,
       "VZ": 116.7629912734553,
       "WMT": 1.795832005733152,
       "XOM": 1.54665910128213
@@ -1540,6 +1771,42 @@
         "shares": 0.4154859867601522,
         "status": "filled",
         "ticker": "JPM"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-28",
+        "fee": 0.0,
+        "price": 313.239990234375,
+        "shares": 1.5627429749849617,
+        "status": "filled",
+        "ticker": "TSLA"
+      },
+      {
+        "action": "buy",
+        "date": "2026-07-28",
+        "fee": 0.0,
+        "price": 359.3500061035156,
+        "shares": 0.40866585716610493,
+        "status": "filled",
+        "ticker": "V"
+      },
+      {
+        "action": "sell",
+        "date": "2026-07-28",
+        "fee": 0.0,
+        "price": 357.8900146484375,
+        "shares": 0.1367776619037518,
+        "status": "filled",
+        "ticker": "JPM"
+      },
+      {
+        "action": "sell",
+        "date": "2026-07-28",
+        "fee": 0.0,
+        "price": 64.0999984741211,
+        "shares": 0.7636717720371826,
+        "status": "filled",
+        "ticker": "USB"
       }
     ]
   },
@@ -1568,6 +1835,10 @@
       },
       {
         "date": "2026-07-25",
+        "nav": 100000
+      },
+      {
+        "date": "2026-07-28",
         "nav": 100000
       }
     ],
@@ -1603,6 +1874,11 @@
         "date": "2026-07-25",
         "raw": null,
         "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\\n  \"id\": \"otVojVG-6Ng1vN-a20905677ea577fd\",\\n  \"error\": {\\n    \"message\": \"Input validation error: `inputs` tokens + `max_new_tokens` must be <= 32769. Given: 87787 `inputs` tokens and 2048 `max_new_tokens`\",\\n    \"type\": \"invalid_request_error\",\\n    \"param\": \"max_tokens\",\\n    \"code\": null\\n  }\\n}', 'provider_name': 'Together', 'is_byok': False, 'previous_errors': [{'code': 400, 'message': 'Provider returned error', 'provider_name': 'Phala', 'raw': '{\"error\":{\"message\":\"This model\\'s maximum context length is 32768 tokens. However, your request has 87808 input tokens. Please reduce the length of the input messages. None\",\"type\":\"invalid_request_error\"}}'}]}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-07-28",
+        "raw": null,
+        "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\\n  \"id\": \"ottv7Fm-6Ng1vN-a221f6400a597216\",\\n  \"error\": {\\n    \"message\": \"Input validation error: `inputs` tokens + `max_new_tokens` must be <= 32769. Given: 87760 `inputs` tokens and 2048 `max_new_tokens`\",\\n    \"type\": \"invalid_request_error\",\\n    \"param\": \"max_tokens\",\\n    \"code\": null\\n  }\\n}', 'provider_name': 'Together', 'is_byok': False, 'previous_errors': [{'code': 400, 'message': 'Provider returned error', 'provider_name': 'Phala', 'raw': '{\"error\":{\"message\":\"This model\\'s maximum context length is 32768 tokens. However, your request has 87781 input tokens. Please reduce the length of the input messages. None\",\"type\":\"invalid_request_error\"}}'}]}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
     ],
     "trades": []
