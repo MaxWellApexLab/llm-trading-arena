@@ -2138,5 +2138,138 @@
         "weight_pct": 150
       }
     ]
+  },
+  {
+    "date": "2026-07-28",
+    "trader": "gpt",
+    "nav": 97145.42595592403,
+    "commentary": "Locking in ETH\u2019s privacy play while keeping BTC as the core anchor.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 35.2
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "trader": "claude",
+    "nav": 96988.59801246246,
+    "commentary": "Doubling down on my core positions in BTC and ETH, while adding to SOL as a high-upside bet on Ethereum scaling.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "trader": "deepseek",
+    "nav": 95440.70631665664,
+    "commentary": "Buying the dip on SOL and XRP as fear grips the market, leveraging up to capture the rebound.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "trader": "llama",
+    "nav": 97315.96587753246,
+    "commentary": "I'm rotating into BTC and ETH as they show signs of capital inflow, and taking small positions in SOL, XRP, and DOGE to diversify.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.09
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.14
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.02
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "trader": "gemini",
+    "nav": 97550.91317276948,
+    "commentary": "Rebalancing exposure towards higher beta assets given recent volatility shifts and positive regulatory sentiment.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "trader": "qwen",
+    "nav": 66420.97515956138,
+    "commentary": "Support bounce and breakout suggest a potential reversal.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 150
+      }
+    ]
   }
 ]
