@@ -2271,5 +2271,168 @@
         "weight_pct": 150
       }
     ]
+  },
+  {
+    "date": "2026-07-29",
+    "trader": "gpt",
+    "nav": 99762.69179111335,
+    "commentary": "Boost BTC, Solana, and XRP while trimming ETH to favor the strongest momentum and narratives.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "trader": "claude",
+    "nav": 99876.74630323696,
+    "commentary": "Doubling down on the core crypto holdings to capitalize on the recent price dips and build a diversified long-term portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "trader": "deepseek",
+    "nav": 98711.88305240846,
+    "commentary": "BTC is the only one with a clear recovery narrative and Fed catalyst, so I'm going all-in on the flagship while dumping the laggards.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 110
+      }
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "trader": "llama",
+    "nav": 98662.31233089411,
+    "commentary": "Adjusting sector exposures in response to the recent notable moves and recent headlines.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "trader": "gemini",
+    "nav": 100665.13824515702,
+    "commentary": "Rebalancing towards higher conviction assets with recent positive momentum, reducing exposure to underperforming altcoins.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "trader": "qwen",
+    "nav": 69664.54187138658,
+    "commentary": "Solana shows signs of strength with recent support and potential breakout.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 150
+      }
+    ]
   }
 ]
