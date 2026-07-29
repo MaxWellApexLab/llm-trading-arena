@@ -103,5 +103,19 @@
     "overtaker": "llama",
     "overtaken": "claude",
     "rank": 4
+  },
+  {
+    "ts": "2026-07-29T07:52:14.482871+00:00",
+    "game": "arena",
+    "overtaker": "gpt",
+    "overtaken": "qwen",
+    "rank": 2
+  },
+  {
+    "ts": "2026-07-29T07:52:14.482871+00:00",
+    "game": "arena",
+    "overtaker": "gemini",
+    "overtaken": "llama",
+    "rank": 4
   }
 ]

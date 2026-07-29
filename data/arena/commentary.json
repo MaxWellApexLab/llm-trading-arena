@@ -1224,5 +1224,252 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-07-29",
+    "trader": "gpt",
+    "nav": 100765.52002546261,
+    "commentary": "Adding Apple to capture strong momentum while trimming lagging positions to keep the portfolio balanced.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "LMT",
+        "weight_pct": 0.0599
+      },
+      {
+        "action": "sell",
+        "ticker": "TMO",
+        "weight_pct": 0.032
+      },
+      {
+        "action": "sell",
+        "ticker": "VZ",
+        "weight_pct": 0.0176
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 0.0553
+      },
+      {
+        "action": "sell",
+        "ticker": "DHR",
+        "weight_pct": 0.0595
+      },
+      {
+        "action": "sell",
+        "ticker": "GM",
+        "weight_pct": 0.0636
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 0.0329
+      },
+      {
+        "action": "sell",
+        "ticker": "MSFT",
+        "weight_pct": 0.059
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 0.0134
+      },
+      {
+        "action": "sell",
+        "ticker": "TMUS",
+        "weight_pct": 0.0078
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 0.0286
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 0.0301
+      },
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 0.1703
+      }
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "trader": "claude",
+    "nav": 96953.26942734461,
+    "commentary": "Selectively adding to high-growth tech names that have pulled back, while maintaining a diversified portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "trader": "deepseek",
+    "nav": 101730.01086850374,
+    "commentary": "Flush all beaten-down positions to lock in losses, then buy the momentum leaders with strong recent pops and no clear fundamental trigger to ride the crowd catch-up.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "GOOGL",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "trader": "llama",
+    "nav": 98107.70933918835,
+    "commentary": "Following recent notable moves, I'm cautiously increasing exposure to BKNG, GM, CRM, ADBE, ACN, LOW, TGT, V, and XOM.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "LOW",
+        "weight_pct": 0.04
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 0.01
+      }
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "trader": "gemini",
+    "nav": 98281.76261302936,
+    "commentary": "Rebalancing into recent outperformers and out of recent underperformers, adjusting for volatility.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "F",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MMM",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "LOW",
+        "weight_pct": 3.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
