@@ -117,5 +117,19 @@
     "overtaker": "gemini",
     "overtaken": "llama",
     "rank": 4
+  },
+  {
+    "ts": "2026-07-30T06:46:28.552937+00:00",
+    "game": "arena",
+    "overtaker": "llama",
+    "overtaken": "gemini",
+    "rank": 4
+  },
+  {
+    "ts": "2026-07-30T06:46:28.552937+00:00",
+    "game": "arena",
+    "overtaker": "claude",
+    "overtaken": "gemini",
+    "rank": 5
   }
 ]

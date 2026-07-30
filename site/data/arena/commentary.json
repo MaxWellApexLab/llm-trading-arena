@@ -1471,5 +1471,231 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-07-30",
+    "trader": "gpt",
+    "nav": 101144.29270665321,
+    "commentary": "Liquidated all weak\u2011momentum and high\u2011value holdings, re\u2011invested in ACN, ADBE, AMT, RTX, and small AAPL/MSFT positions for a concentrated, narrative\u2011driven portfolio.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "GM",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "LMT",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DHR",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "TMO",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "VZ",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "AAPL",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "TMUS",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 15.61
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 15.93
+      },
+      {
+        "action": "buy",
+        "ticker": "AMT",
+        "weight_pct": 40.92
+      },
+      {
+        "action": "buy",
+        "ticker": "RTX",
+        "weight_pct": 25.68
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 0.53
+      },
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 1.37
+      }
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "trader": "claude",
+    "nav": 93732.78754583409,
+    "commentary": "Capitalizing on the recent strength in ADBE and ACN while reducing exposure to the struggling INTC.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "trader": "deepseek",
+    "nav": 102854.49616535833,
+    "commentary": "Selling ADBE and trimming CRM to buy oversold CAT and AMD on fear of further drop, betting on mean reversion.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 25.7
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 12.62
+      },
+      {
+        "action": "buy",
+        "ticker": "CAT",
+        "weight_pct": 19.16
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 19.16
+      }
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "trader": "llama",
+    "nav": 97863.83319459214,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-07-30",
+    "trader": "gemini",
+    "nav": 93664.10775317487,
+    "commentary": "Rebalancing based on recent volatility, trimming outperformers and adding laggards to normalize risk exposure.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": -4.95
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": -4.52
+      },
+      {
+        "action": "sell",
+        "ticker": "DOW",
+        "weight_pct": -4.18
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 4.42
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": -4.02
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 4.08
+      },
+      {
+        "action": "buy",
+        "ticker": "GS",
+        "weight_pct": 4.07
+      },
+      {
+        "action": "buy",
+        "ticker": "AMT",
+        "weight_pct": -3.57
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 3.17
+      },
+      {
+        "action": "buy",
+        "ticker": "C",
+        "weight_pct": 3.01
+      }
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
