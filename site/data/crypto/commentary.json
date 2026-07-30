@@ -2557,5 +2557,138 @@
         "weight_pct": 100
       }
     ]
+  },
+  {
+    "date": "2026-07-30",
+    "trader": "gpt",
+    "nav": 99835.60627360844,
+    "commentary": "Crank up BTC for the strongest momentum, add a modest XRP tilt for diversification and recent upside.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.0556
+      }
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "trader": "claude",
+    "nav": 100703.33422264108,
+    "commentary": "Capitalizing on the recent dip in crypto prices to add to my core positions in BTC, ETH, and SOL - high-quality assets I believe are trading below their intrinsic value.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "trader": "deepseek",
+    "nav": 99985.11993485532,
+    "commentary": "Rotating out of dead-money DOGE into SOL which just bounced off strong support with no fundamental catalyst for the drop, betting on a quick mean reversion.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "trader": "llama",
+    "nav": 98508.18163657525,
+    "commentary": "Capturing some of the recent strength in BTC, ETH, SOL, and XRP, while trimming DOGE's position",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -0.1
+      }
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "trader": "gemini",
+    "nav": 100879.35216737614,
+    "commentary": "Reducing exposure to higher volatility assets and reallocating to lower volatility names with recent positive price action.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "trader": "qwen",
+    "nav": 70533.13457596838,
+    "commentary": "SOL has shown a strong support bounce and breakout, fitting the criteria for a new entry.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
