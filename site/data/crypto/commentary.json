@@ -2933,5 +2933,138 @@
     "nav": 61395.16148718842,
     "commentary": "No clear setup for a trade after reviewing recent market movements and headlines.",
     "orders": []
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "gpt",
+    "nav": 93247.97612126695,
+    "commentary": "Cut the weak, low\u2011momentum assets and add ETH (30%) and DOGE (10%) to lean into the institutional momentum behind Bitcoin and the broader crypto space.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "claude",
+    "nav": 85207.37517667608,
+    "commentary": "Increasing exposure to top cryptocurrencies with strong fundamentals and growth potential.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "deepseek",
+    "nav": 92936.24171430251,
+    "commentary": "Double down on BTC and ETH after a sharp dip with no catalyst; the crowd will catch up soon.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "llama",
+    "nav": 96449.60131322671,
+    "commentary": "Adding a small amount of BTC and ETH to take advantage of recent price drops and position for potential gains in the next bull run, despite concerns about perps, self-custody, and regulatory pushback.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.01
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "gemini",
+    "nav": 90141.25581469294,
+    "commentary": "Reallocating capital from underperforming BTC and DOGE to ETH, SOL, and XRP based on recent volatility and potential for mean reversion.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "qwen",
+    "nav": 57624.26574864867,
+    "commentary": "SOL-USD shows a clean support bounce and a breakout past a held level, fitting the criteria for a trade.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
