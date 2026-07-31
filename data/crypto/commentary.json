@@ -2801,5 +2801,137 @@
         "weight_pct": 100
       }
     ]
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "gpt",
+    "nav": 96999.21551334918,
+    "commentary": "Rebalance to a BTC\u2011heavy bias,\u06af\u0648\u0646\u0647 XRP & SOL out as the market fans out, while adding a small ETH exposure for potential upside.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 88
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 4
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 3
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "claude",
+    "nav": 91606.67151889252,
+    "commentary": "Increasing exposure to Ethereum and Solana while maintaining a balanced position in Bitcoin, taking advantage of the recent dip to build a diversified long-term portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "deepseek",
+    "nav": 95384.97620406945,
+    "commentary": "DOGE dropped 1.7% on no news, buying the fear for a quick mean-reversion scalp.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "llama",
+    "nav": 96951.16247239483,
+    "commentary": "Rotating out of DOGE-USD and SOL-USD, which are struggling, and adding to BTC-USD and ETH-USD to capitalize on the recent decline in altcoins and the calm in the market",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 20.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "gemini",
+    "nav": 93790.40649306,
+    "commentary": "Rebalancing towards higher beta assets and away from the laggard DOGE based on recent volatility and performance.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "qwen",
+    "nav": 61395.16148718842,
+    "commentary": "No clear setup for a trade after reviewing recent market movements and headlines.",
+    "orders": []
   }
 ]
