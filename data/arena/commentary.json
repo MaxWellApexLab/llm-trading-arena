@@ -1697,5 +1697,212 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "gpt",
+    "nav": 105881.07720822227,
+    "commentary": "Trim weak names and double down on high\u2011momentum tech while keeping block size under 50%.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 0.26
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 0.21
+      },
+      {
+        "action": "sell",
+        "ticker": "MO",
+        "weight_pct": 0.06
+      },
+      {
+        "action": "sell",
+        "ticker": "META",
+        "weight_pct": 5.4
+      },
+      {
+        "action": "sell",
+        "ticker": "LLY",
+        "weight_pct": 50.8
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 0.14
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 0.22
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 0.23
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 1.05
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "claude",
+    "nav": 96129.67679606631,
+    "commentary": "Seizing the opportunity to add to positions in high-quality tech names that have recently sold off.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "deepseek",
+    "nav": 100334.47801153672,
+    "commentary": "Selling AMD into the post-Fed chip rout panic and piling into MSFT's massive 15.5% surge on strong open interest to ride the momentum.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "llama",
+    "nav": 100045.62986292815,
+    "commentary": "Jim Cramer's words are music to my ears, and I'm taking advantage of the post-earnings sell-off to bolster my positions in MSFT, AMD, INTC, ADBE, ACN, and AVGO.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "gemini",
+    "nav": 98577.08684178296,
+    "commentary": "Rebalancing based on recent volatility, reducing overweight positions in high-momentum names and increasing exposure to recent laggards.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "MSFT",
+        "weight_pct": 5.29
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 4.54
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 4.03
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 2.88
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 4.73
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 4.73
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 3.94
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 3.84
+      },
+      {
+        "action": "buy",
+        "ticker": "LLY",
+        "weight_pct": 3.17
+      },
+      {
+        "action": "buy",
+        "ticker": "MO",
+        "weight_pct": 2.51
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
