@@ -3199,5 +3199,137 @@
         "weight_pct": 100
       }
     ]
+  },
+  {
+    "date": "2026-08-01",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "Going long on ETH, XRP, and a small DOGE play for momentum, ignoring Solana\u2019s AI scare and Bitcoin cold\u2011wallet drama.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 60
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "Diversifying across top cryptocurrencies with strong fundamentals that have pulled back from recent highs.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "trader": "deepseek",
+    "nav": 100000,
+    "commentary": "Buying the dip across all major cryptos, overweighting XRP and SOL which have seen the steepest recent declines with no fundamental catalyst.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "trader": "llama",
+    "nav": 95694.48987774624,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-01",
+    "trader": "gemini",
+    "nav": 100000,
+    "commentary": "Rebalancing towards higher volatility assets while maintaining a diversified portfolio based on recent price action.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 40.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "trader": "qwen",
+    "nav": 48687.874294784386,
+    "commentary": "BTC shows a strong breakout with a clean support bounce, justifying a bold entry.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      }
+    ]
   }
 ]
