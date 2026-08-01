@@ -1904,5 +1904,237 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-01",
+    "trader": "gpt",
+    "nav": 107853.94157894244,
+    "commentary": "Leverage the strong upside in AMZN, Google, and NVDA, add a stable telecom sink with T, and cut the weak Apple and LIN positions.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 11.2
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOG",
+        "weight_pct": 5.2
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOGL",
+        "weight_pct": 5.2
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 2.1
+      },
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 3.7
+      },
+      {
+        "action": "sell",
+        "ticker": "AAPL",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "LIN",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "trader": "claude",
+    "nav": 93557.95642720058,
+    "commentary": "Increase exposure to the telecom and industrial sectors, which have shown recent strength.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "LIN",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "trader": "deepseek",
+    "nav": 101816.25406912039,
+    "commentary": "Buying AAPL and LIN after sharp drops on high volume, capitalizing on fear with no fundamental catalyst.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "LIN",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "trader": "llama",
+    "nav": 101030.24794521742,
+    "commentary": "Rebalancing portfolio to recent notable moves and adding exposure to tech and consumer staples",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "LIN",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOG",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "USB",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "WMT",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "WFC",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "trader": "gemini",
+    "nav": 99336.39377462433,
+    "commentary": "Rebalancing to capture recent strength in e-commerce and search, while trimming recent weakness in tech and biotech.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOG",
+        "weight_pct": 8.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOGL",
+        "weight_pct": 8.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AAPL",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "sell",
+        "ticker": "LIN",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ABBV",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "QCOM",
+        "weight_pct": 4.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
