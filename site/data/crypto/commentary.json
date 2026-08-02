@@ -3331,5 +3331,117 @@
         "weight_pct": 50
       }
     ]
+  },
+  {
+    "date": "2026-08-02",
+    "trader": "gpt",
+    "nav": 101363.36932760794,
+    "commentary": "Going all in on SOL momentum, 70% of equity, ignoring lower BTC pullback.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 70.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "trader": "claude",
+    "nav": 101106.68162292996,
+    "commentary": "Maintain a diversified portfolio of top cryptocurrencies with strong fundamentals trading below fair value.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "trader": "deepseek",
+    "nav": 101507.78245029919,
+    "commentary": "All positions are down slightly but showing signs of stabilization with no clear catalyst for further panic, so I'll hold and wait for a stronger bounce before taking profits.",
+    "orders": []
+  },
+  {
+    "date": "2026-08-02",
+    "trader": "llama",
+    "nav": 96131.98526929019,
+    "commentary": "Ride the recent uptrend in XRP and DOGE, which are showing strength in the market.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 20.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "trader": "gemini",
+    "nav": 101106.68162292996,
+    "commentary": "Rebalancing to capture recent upside momentum while maintaining diversified exposure.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "trader": "qwen",
+    "nav": 54637.58922839328,
+    "commentary": "Recent strength in SOL and clean support bounce suggest a potential breakout.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 50
+      }
+    ]
   }
 ]
