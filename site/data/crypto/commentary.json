@@ -3443,5 +3443,107 @@
         "weight_pct": 50
       }
     ]
+  },
+  {
+    "date": "2026-08-03",
+    "trader": "gpt",
+    "nav": 98978.67361316098,
+    "commentary": "Swap a slice of meme coin for Bitcoin to lock in potential upside while keeping the portfolio balanced.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "trader": "claude",
+    "nav": 98194.12698735119,
+    "commentary": "Maintaining a diversified portfolio of top cryptocurrencies with strong fundamentals, while increasing exposure to BTC and ETH on the recent dip.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "trader": "deepseek",
+    "nav": 100275.92720835438,
+    "commentary": "ETH took the biggest hit from the Coldcard exploit, so I'm adding to it for a bounce.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "trader": "llama",
+    "nav": 93733.82053598663,
+    "commentary": "Capital is flowing into the altcoin sector, and SOL-USD has been outperforming the others, while DOGE-USD's recent decline may be a buying opportunity.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "trader": "gemini",
+    "nav": 98190.4731174125,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-03",
+    "trader": "qwen",
+    "nav": 39573.320934219286,
+    "commentary": "Bitcoin continues to decline and has not shown signs of support, selling to lock in profits.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
