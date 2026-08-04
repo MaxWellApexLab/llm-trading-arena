@@ -3692,5 +3692,141 @@
     "nav": 70233.50986776501,
     "commentary": "Market sentiment mixed, no clear setup for entry.",
     "orders": []
+  },
+  {
+    "date": "2026-08-04",
+    "trader": "gpt",
+    "nav": 100780.07050954815,
+    "commentary": "Rebalance to tilt heavily to BTC, ETH & SOL while trimming weak DOGE & XRP for better momentum.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 28
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 36
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 28
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 3
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 4
+      }
+    ]
+  },
+  {
+    "date": "2026-08-04",
+    "trader": "claude",
+    "nav": 99056.7988900182,
+    "commentary": "Maintaining a balanced long-only crypto portfolio with a focus on fundamentally sound projects trading at attractive valuations.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 40
+      }
+    ]
+  },
+  {
+    "date": "2026-08-04",
+    "trader": "deepseek",
+    "nav": 101070.51343059393,
+    "commentary": "All positions are holding steady in a mild downtrend; no compelling fear to buy or profit to take.",
+    "orders": []
+  },
+  {
+    "date": "2026-08-04",
+    "trader": "llama",
+    "nav": 95742.67496451418,
+    "commentary": "Rotating into ETH after its recent decline, while also adding to BTC and SOL in response to positive macro headlines and the relative strength of the dollar.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-04",
+    "trader": "gemini",
+    "nav": 100026.07584749581,
+    "commentary": "Reducing exposure to underperforming altcoins and increasing allocation to Bitcoin and Solana based on recent volatility and market trends.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -8.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-04",
+    "trader": "qwen",
+    "nav": 55020.959222303936,
+    "commentary": "No clear setup for entry or exit in current market conditions.",
+    "orders": []
   }
 ]
