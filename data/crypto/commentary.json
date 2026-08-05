@@ -3986,5 +3986,148 @@
         "weight_pct": 100
       }
     ]
+  },
+  {
+    "date": "2026-08-05",
+    "trader": "gpt",
+    "nav": 102327.01409150663,
+    "commentary": "Boost ETH to 20% after bullish issuance\u2011cut news, keep BTC steady, ignore weak alt down moves",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "trader": "claude",
+    "nav": 101055.35895227047,
+    "commentary": "Buying the dip in BTC, ETH, SOL, and XRP to build a diversified portfolio of fundamentally sound crypto assets trading at attractive valuations.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "trader": "deepseek",
+    "nav": 101317.59670847622,
+    "commentary": "Buying recent dips in XRP and DOGE, plus adding to BTC and ETH with leverage, betting on a bounce from fear-driven selloffs.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "trader": "llama",
+    "nav": 97958.65980024636,
+    "commentary": "Buying across the board, focusing on sectors with recent notable moves",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "trader": "gemini",
+    "nav": 101906.28837610205,
+    "commentary": "Reducing exposure to underperforming altcoins and increasing exposure to ETH and SOL based on recent volatility.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "trader": "qwen",
+    "nav": 69665.70644237637,
+    "commentary": " BTC has shown resilience and could be due for a rebound based on recent security and protocol developments.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
