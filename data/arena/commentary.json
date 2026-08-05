@@ -2393,5 +2393,277 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-05",
+    "trader": "gpt",
+    "nav": 120512.65386575175,
+    "commentary": "Liquidated under\u2011performing names, freed cash, and added high\u2011momentum tech and energy stocks while keeping core\u00e4hrige positions well below 50%.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AAPL",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMT",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DHR",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "GM",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "GOOG",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "GOOGL",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "LMT",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "MMM",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "RTX",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "T",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "TMO",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "TMUS",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "VZ",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 4.04
+      },
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 1.25
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 3.25
+      },
+      {
+        "action": "buy",
+        "ticker": "GILD",
+        "weight_pct": 1.45
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 1.03
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 2.79
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 2.25
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 0.83
+      }
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "trader": "claude",
+    "nav": 105211.68361100409,
+    "commentary": "Increasing exposure to semiconductor leaders INTC, QCOM, and AMD to capitalize on the sector's recent strength.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "trader": "deepseek",
+    "nav": 104277.34233637595,
+    "commentary": "Rotating from winners CRM and GM into beaten-down AAPL and LIN to buy the fear and capture mean reversion.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": -12.45
+      },
+      {
+        "action": "sell",
+        "ticker": "GM",
+        "weight_pct": -23.43
+      },
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 18.0
+      },
+      {
+        "action": "buy",
+        "ticker": "LIN",
+        "weight_pct": 18.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "trader": "llama",
+    "nav": 108575.2288024817,
+    "commentary": "Rotating into NVIDIA as tech sector momentum remains strong, while reducing Intel exposure slightly to maintain sector balance.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "trader": "gemini",
+    "nav": 111549.20801705273,
+    "commentary": "Capitalizing on recent upward momentum in semiconductor and related tech names while maintaining diversified exposure.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CAT",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GILD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]

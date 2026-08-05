@@ -159,5 +159,33 @@
     "overtaker": "gemini",
     "overtaken": "qwen",
     "rank": 4
+  },
+  {
+    "ts": "2026-08-05T07:28:26.045286+00:00",
+    "game": "arena",
+    "overtaker": "gemini",
+    "overtaken": "llama",
+    "rank": 2
+  },
+  {
+    "ts": "2026-08-05T07:28:26.045286+00:00",
+    "game": "arena",
+    "overtaker": "gemini",
+    "overtaken": "deepseek",
+    "rank": 2
+  },
+  {
+    "ts": "2026-08-05T07:28:26.045286+00:00",
+    "game": "arena",
+    "overtaker": "claude",
+    "overtaken": "deepseek",
+    "rank": 4
+  },
+  {
+    "ts": "2026-08-05T07:28:26.045286+00:00",
+    "game": "arena",
+    "overtaker": "claude",
+    "overtaken": "qwen",
+    "rank": 4
   }
 ]
