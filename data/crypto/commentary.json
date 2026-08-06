@@ -4267,5 +4267,137 @@
         "weight_pct": 100
       }
     ]
+  },
+  {
+    "date": "2026-08-06",
+    "trader": "gpt",
+    "nav": 104474.00294195852,
+    "commentary": "Throw everything but Bitcoin into the market\u2014BTC is the only coin riding a positive trend and a bullish narrative, so we stack it while liquidating the lagging positions.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 80
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "trader": "claude",
+    "nav": 104515.26376753871,
+    "commentary": "Capitalize on the recent dip in DOGE while trimming the overweight XRP position to maintain a diversified portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "trader": "deepseek",
+    "nav": 101412.75373930734,
+    "commentary": "XRP dropped 1.24% with no fundamental reason, so I'm buying the dip by going all-in on XRP, selling other positions to fund it.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -5.616
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": -5.52
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": -7.455
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -4.185
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 11.906
+      }
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "trader": "llama",
+    "nav": 99546.94385408796,
+    "commentary": "Rotating into BTC and ETH, considering the recent strength in the market and the potential for further gains. XRP is also being added as a hedge and a small bet on the recent uptrend.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "trader": "gemini",
+    "nav": 105940.81560134189,
+    "commentary": "Reducing exposure to XRP due to recent weakness and increasing ETH exposure on slight positive momentum.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -1.24
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "trader": "qwen",
+    "nav": 72654.51050565671,
+    "commentary": "Market conditions show slight movements without clear setups for entry or exit.",
+    "orders": []
   }
 ]
