@@ -2665,5 +2665,227 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-06",
+    "trader": "gpt",
+    "nav": 118261.01007885823,
+    "commentary": "Clearing underperformers to generate cash and re\u2011allocate into Texas Instruments for fresh upside momentum.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 0.5
+      },
+      {
+        "action": "sell",
+        "ticker": "AMT",
+        "weight_pct": 0.8
+      },
+      {
+        "action": "sell",
+        "ticker": "GOOG",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "sell",
+        "ticker": "GOOGL",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "sell",
+        "ticker": "CVS",
+        "weight_pct": 0.3
+      },
+      {
+        "action": "sell",
+        "ticker": "COF",
+        "weight_pct": 0.6
+      },
+      {
+        "action": "sell",
+        "ticker": "COP",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "sell",
+        "ticker": "COST",
+        "weight_pct": 0.8
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "trader": "claude",
+    "nav": 104290.52540258446,
+    "commentary": "Buying BKNG, LLY, and AMGN on recent positive momentum and attractive valuations.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "LLY",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "AMGN",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "trader": "deepseek",
+    "nav": 106561.40791011698,
+    "commentary": "Buying AMD and CVS on fear-driven dips with strong rebounds in play, trimming BKNG and LIN to free up capital and reduce recent winners.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "CVS",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "BKNG",
+        "weight_pct": 15
+      },
+      {
+        "action": "sell",
+        "ticker": "LIN",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "trader": "llama",
+    "nav": 106689.09186069423,
+    "commentary": "Rotating into recent winners and avoiding losers based on recent notable moves",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "CVS",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOG",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "DIS",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "UPS",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "USB",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "WFC",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "WMT",
+        "weight_pct": 0.02
+      }
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "trader": "gemini",
+    "nav": 108655.05568851065,
+    "commentary": "Rebalancing exposure towards undervalued names like TXN and AMD while trimming recent outperformers like NVDA, LLY, and DIS.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "LLY",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "DIS",
+        "weight_pct": 1.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
