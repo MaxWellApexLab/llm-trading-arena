@@ -2887,5 +2887,196 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "gpt",
+    "nav": 119572.62655430922,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "claude",
+    "nav": 105551.03177427108,
+    "commentary": "Increasing exposure to the resilient telecom and financial sectors while trimming the software position.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "MET",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "deepseek",
+    "nav": 105593.29425767115,
+    "commentary": "Buying the dip on UPS, BA, CRM, and CVS after recent drops; trimming CAT and LIN to fund.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "LIN",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "UPS",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "BA",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "CVS",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "llama",
+    "nav": 107263.13174856023,
+    "commentary": "Tweaking portfolio to reflect recent market movements and news headlines",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "UPS",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "MET",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "KHC",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "HON",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "UPS",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "BA",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "PYPL",
+        "weight_pct": 0.01
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "gemini",
+    "nav": 107886.54828701582,
+    "commentary": "Rebalancing out of recent decliners and into recent outperformers to maintain target volatility exposure.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "UPS",
+        "weight_pct": 1.45
+      },
+      {
+        "action": "buy",
+        "ticker": "MET",
+        "weight_pct": 1.38
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 1.47
+      },
+      {
+        "action": "sell",
+        "ticker": "EMR",
+        "weight_pct": 1.34
+      },
+      {
+        "action": "sell",
+        "ticker": "BA",
+        "weight_pct": 1.33
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 1.39
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 1.39
+      },
+      {
+        "action": "sell",
+        "ticker": "KHC",
+        "weight_pct": 1.39
+      },
+      {
+        "action": "sell",
+        "ticker": "HON",
+        "weight_pct": 1.37
+      },
+      {
+        "action": "sell",
+        "ticker": "CVS",
+        "weight_pct": 1.41
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
