@@ -4552,5 +4552,168 @@
         "weight_pct": 150
       }
     ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "gpt",
+    "nav": 105028.11815069432,
+    "commentary": "Sharpening the portfolio on the strongest momentum \u2013 SOL and DOGE get the bulk, trimming the laggards.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 8
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 2
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "Buying BTC, ETH, and SOL as I believe they are trading below their intrinsic value and have durable long-term fundamentals.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "deepseek",
+    "nav": 101127.07073611318,
+    "commentary": "XRP is the only name still selling off on no real news, so I'm trimming this round's bounces to load up on it.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 135
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "llama",
+    "nav": 99943.14432787307,
+    "commentary": "Following market flows into SOL-USD, rotating out of BTC-USD, ETH-USD, and DOGE-USD",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "gemini",
+    "nav": 100000,
+    "commentary": "Increasing exposure to higher momentum assets while trimming exposure to underperforming XRP.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "qwen",
+    "nav": 73699.21734740352,
+    "commentary": "SOL showed a notable positive move and support bounce, warranting a bold entry.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 150
+      }
+    ]
   }
 ]
