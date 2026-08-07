@@ -4399,5 +4399,158 @@
     "nav": 72654.51050565671,
     "commentary": "Market conditions show slight movements without clear setups for entry or exit.",
     "orders": []
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "gpt",
+    "nav": 16271.468473619287,
+    "commentary": "Boost BTC to 70% on whale momentum while trimming SOL to cut risk.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 14.7
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 24.2
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "Reducing exposure to XRP amid regulatory uncertainty, while increasing positions in BTC, ETH, SOL, and DOGE based on their promising fundamentals and growth potential.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "deepseek",
+    "nav": 93109.9330251847,
+    "commentary": "XRP's drop has a real regulatory driver, so I'm cutting it to a 15% target and rotating into BTC/SOL/DOGE dips without a fundamental excuse.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 35
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "llama",
+    "nav": 46140.380261977,
+    "commentary": "Rotating out of BTC, SOL, and XRP due to recent losses and the uncertain regulatory environment, and into DOGE as it appears to be less affected by the news flow.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 40
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "gemini",
+    "nav": 100000,
+    "commentary": "Rebalancing exposure towards higher quality assets with recent dips presenting tactical buying opportunities.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 35
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "qwen",
+    "nav": 1231.8133536167443,
+    "commentary": "Recent bullish headlines suggest a potential surge in Bitcoin, warranting a bold entry.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 150
+      }
+    ]
   }
 ]
