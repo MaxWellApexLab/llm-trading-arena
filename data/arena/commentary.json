@@ -3078,5 +3078,332 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "gpt",
+    "nav": 123593.15511492343,
+    "commentary": "Zeroing out the laggards to double\u2011down on the high\u2011momentum stars.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMT",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMZN",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "CSCO",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DHR",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "GILD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "GM",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "LMT",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "MMM",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "RTX",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "T",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "TMO",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "TMUS",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "TXN",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 1.1
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 2.03
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 16.66
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 11.44
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOG",
+        "weight_pct": 4.04
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOGL",
+        "weight_pct": 4.05
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 3.97
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 14.05
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 14.49
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 5.33
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 10.17
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 10.67
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 2.01
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "claude",
+    "nav": 108518.21306413671,
+    "commentary": "Buying QCOM, BKNG, and CRM to capture recent momentum while maintaining a diversified portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "deepseek",
+    "nav": 106278.91937613656,
+    "commentary": "Selling recent winners BKNG and CRM to take profits, buying beaten-down DOW and CHTR on fear with no fundamental reason for the drop.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BKNG",
+        "weight_pct": -1.02
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": -1.74
+      },
+      {
+        "action": "buy",
+        "ticker": "DOW",
+        "weight_pct": 1.38
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 1.38
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "llama",
+    "nav": 108813.7641362648,
+    "commentary": "Rotating into sector winners and trimming losers",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 2.6
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 2.4
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 2.2
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 2.1
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 1.9
+      },
+      {
+        "action": "sell",
+        "ticker": "DOW",
+        "weight_pct": 3.2
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 3.1
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 2.8
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "gemini",
+    "nav": 111813.07906527899,
+    "commentary": "Rebalancing towards recent strong performers while trimming lagging names to capture momentum.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 8.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 6.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 6.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOW",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 4.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
