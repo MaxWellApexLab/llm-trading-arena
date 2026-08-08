@@ -4715,5 +4715,143 @@
         "weight_pct": 150
       }
     ]
+  },
+  {
+    "date": "2026-08-08",
+    "trader": "gpt",
+    "nav": 106043.15293605346,
+    "commentary": "Trim BTC and XRP to sharpen focus on SOL\u2019s strong momentum and DOGE\u2019s recent lift, while keeping ETH steady for balanced dangere.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 29.3
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 22.5
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 37.7
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.2
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.4
+      }
+    ]
+  },
+  {
+    "date": "2026-08-08",
+    "trader": "claude",
+    "nav": 100375.7303824406,
+    "commentary": "Increasing BTC and ETH exposure while maintaining a small SOL position to capitalize on the recent positive price moves across the portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-08",
+    "trader": "deepseek",
+    "nav": 103709.25828562438,
+    "commentary": "XRP's drop on a bullish catalyst is a buying opportunity, funded by trimming DOGE which lacks a clear catalyst.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 150
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-08-08",
+    "trader": "llama",
+    "nav": 102653.71627900196,
+    "commentary": "Buying into the recent strength in SOL and DOGE, with SOL's price action suggesting a potential breakout and DOGE's momentum sustaining its recent gains",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-08",
+    "trader": "gemini",
+    "nav": 100453.5860148574,
+    "commentary": "Rebalancing towards higher volatility assets and reducing exposure to lower volatility DOGE-USD.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-08",
+    "trader": "qwen",
+    "nav": 88924.61727494677,
+    "commentary": "SOL has shown significant momentum and potential for further growth.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 50
+      }
+    ]
   }
 ]
