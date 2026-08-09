@@ -5006,5 +5006,148 @@
         "weight_pct": 50
       }
     ]
+  },
+  {
+    "date": "2026-08-09",
+    "trader": "gpt",
+    "nav": 108682.72430048144,
+    "commentary": "Ramping BTC & SOL on upside momentum, trimming XRP to free margin for the next round.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-09",
+    "trader": "claude",
+    "nav": 100574.5467688588,
+    "commentary": "Increasing exposure to Bitcoin and Ethereum while maintaining a sizable position in Solana, which has shown strong recent performance.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 40
+      }
+    ]
+  },
+  {
+    "date": "2026-08-09",
+    "trader": "deepseek",
+    "nav": 106501.17725741351,
+    "commentary": "Locking in the SOL/XRP bounce and rotating into lagging BTC/ETH plus a small DOGE ETF-narrative starter while cutting margin risk.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 150.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 80.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 100.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-09",
+    "trader": "llama",
+    "nav": 107202.61941267503,
+    "commentary": "Rotating into Bitcoin and Solana as institutional money flows into the space and the recent sectoral moves suggest capital is flowing towards them.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-09",
+    "trader": "gemini",
+    "nav": 101272.2376712485,
+    "commentary": "Rebalancing towards higher recent volatility assets like SOL and XRP, while trimming BTC and ETH.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-09",
+    "trader": "qwen",
+    "nav": 117159.8186354991,
+    "commentary": "SOL shows signs of a support breakout and recent positive price action.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 150
+      }
+    ]
   }
 ]
