@@ -5460,5 +5460,122 @@
         "weight_pct": 50
       }
     ]
+  },
+  {
+    "date": "2026-08-10",
+    "trader": "gpt",
+    "nav": 103246.91640572745,
+    "commentary": "Capitalize on Solana\u2019s lending boom and BTC\u2019s steady base, adding a modest DOGE position for a potential pop.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "trader": "claude",
+    "nav": 94623.21092677419,
+    "commentary": "Increase exposure to top cryptocurrencies with strong fundamentals trading below fair value.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "trader": "deepseek",
+    "nav": 92825.91378373443,
+    "commentary": "All positions are near unchanged with no fresh capitulation to buy; holding cash-negative leverage as the market grinds sideways.",
+    "orders": []
+  },
+  {
+    "date": "2026-08-10",
+    "trader": "llama",
+    "nav": 104665.4140005472,
+    "commentary": "Reducing exposure to recent underperformers, increasing in ETH and XRP, and selling DOGE in response to recent notable moves and sector trends",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.1
+      }
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "trader": "gemini",
+    "nav": 96958.57605766453,
+    "commentary": "Rebalancing volatility exposure: reducing ETH-USD's overweight due to recent underperformance and increasing SOL-USD's underweight to capture its relative strength.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": -5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 8.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "trader": "qwen",
+    "nav": 110407.39802198065,
+    "commentary": "ETH has shown a significant decline and may be set for a rebound given recent market sentiment and liquidity events.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 50
+      }
+    ]
   }
 ]
