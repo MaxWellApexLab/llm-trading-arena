@@ -201,5 +201,12 @@
     "overtaker": "claude",
     "overtaken": "deepseek",
     "rank": 4
+  },
+  {
+    "ts": "2026-08-10T23:19:54.790877+00:00",
+    "game": "arena",
+    "overtaker": "deepseek",
+    "overtaken": "claude",
+    "rank": 4
   }
 ]

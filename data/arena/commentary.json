@@ -3405,5 +3405,262 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-10",
+    "trader": "gpt",
+    "nav": 124706.70471351978,
+    "commentary": "Trim the declining tech core and re\u2011allocate to high\u2011momentum energy and industrials.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "QCOM",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DUK",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "AAPL",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "MSFT",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "IBM",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "T",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "CVX",
+        "weight_pct": 3
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 3
+      },
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 3
+      }
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "trader": "claude",
+    "nav": 105770.12299162382,
+    "commentary": "Recent market volatility presents opportunities to add positions in durable energy names trading at reasonable valuations.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 4.61
+      },
+      {
+        "action": "buy",
+        "ticker": "CVX",
+        "weight_pct": 4.48
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 4.41
+      }
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "trader": "deepseek",
+    "nav": 105779.86661634021,
+    "commentary": "Taking profits on recent winners like CRM and LIN to buy fear in MO, INTC, QCOM, and DUK after their sharp drops with no clear fundamental catalysts.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOW",
+        "weight_pct": 1.413
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 5.36
+      },
+      {
+        "action": "sell",
+        "ticker": "LIN",
+        "weight_pct": 5.44
+      },
+      {
+        "action": "sell",
+        "ticker": "BA",
+        "weight_pct": 1.495
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 0.418
+      },
+      {
+        "action": "buy",
+        "ticker": "MO",
+        "weight_pct": 3.53
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 3.53
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 3.53
+      },
+      {
+        "action": "buy",
+        "ticker": "DUK",
+        "weight_pct": 3.53
+      }
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "trader": "llama",
+    "nav": 109454.6994723466,
+    "commentary": "I'm buying stocks with recent notable moves, selling those with notable declines, and adding a position in ADBE to take advantage of its recent uptrend.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 4.61
+      },
+      {
+        "action": "buy",
+        "ticker": "CVX",
+        "weight_pct": 4.48
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 4.41
+      },
+      {
+        "action": "buy",
+        "ticker": "DOW",
+        "weight_pct": 4.23
+      },
+      {
+        "action": "sell",
+        "ticker": "MO",
+        "weight_pct": -4.11
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": -4.06
+      },
+      {
+        "action": "buy",
+        "ticker": "LLY",
+        "weight_pct": 3.9
+      },
+      {
+        "action": "sell",
+        "ticker": "QCOM",
+        "weight_pct": -3.39
+      },
+      {
+        "action": "sell",
+        "ticker": "DUK",
+        "weight_pct": -2.93
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 2.92
+      }
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "trader": "gemini",
+    "nav": 109900.52295972506,
+    "commentary": "Rebalancing towards recent strength and away from recent weakness, maintaining a diversified portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "CVX",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "DOW",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "MO",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "LLY",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "QCOM",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "DUK",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 2.5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
