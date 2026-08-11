@@ -3662,5 +3662,442 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-11",
+    "trader": "gpt",
+    "nav": 123873.66164158116,
+    "commentary": "Trim the lagging GOOGL, GOOG, ACN\u0bbf\u0ba8\u0bcd\u0ba4\u0bc1, ADBE, CVS and re\u2011allocate into high\u2011momentum EMR, CHTR, COP for a sharper, diversified tilt.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "GOOGL",
+        "weight_pct": 1.81
+      },
+      {
+        "action": "sell",
+        "ticker": "GOOG",
+        "weight_pct": 1.8
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 1.45
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 1.07
+      },
+      {
+        "action": "sell",
+        "ticker": "CVS",
+        "weight_pct": 0.57
+      },
+      {
+        "action": "buy",
+        "ticker": "EMR",
+        "weight_pct": 3.28
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 3.15
+      },
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 2.45
+      }
+    ]
+  },
+  {
+    "date": "2026-08-11",
+    "trader": "claude",
+    "nav": 105100.02240228487,
+    "commentary": "Increased exposure to software and industrial sectors with strong fundamentals.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "EMR",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-11",
+    "trader": "deepseek",
+    "nav": 105721.73126683425,
+    "commentary": "Buying the sharp drops in HON, GOOGL, ORCL, and ADBE on no fundamental news, betting on a quick reversal.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "HON",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOGL",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-11",
+    "trader": "llama",
+    "nav": 108680.67119827413,
+    "commentary": "I'm adding to positions in tech and industrials, while reducing exposure to consumer staples and energy. The recent decline in the stock market has created a buying opportunity in these sectors.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "JPM",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOG",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "JNJ",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "GE",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "WMT",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "USB",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "UNP",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "UPS",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "WFC",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "SCHW",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "SO",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "LMT",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "LLY",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "MDLZ",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "MDT",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "NEE",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "NFLX",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "RTX",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "SBUX",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "SCHW",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "SPG",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "USB",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "UPS",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "WFC",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "WMT",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 0.15
+      }
+    ]
+  },
+  {
+    "date": "2026-08-11",
+    "trader": "gemini",
+    "nav": 108029.40723685222,
+    "commentary": "Taking profits from recent outperformers and reallocating to names with recent volatility and positive price action.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "HON",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "GOOGL",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "sell",
+        "ticker": "GOOG",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CVS",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CAT",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 3.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-11",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
