@@ -5973,5 +5973,123 @@
         "weight_pct": 100
       }
     ]
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "gpt",
+    "nav": 102072.26307494473,
+    "commentary": "Dump the weak, pile on ETH for the only positive momentum.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 55.9
+      }
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "claude",
+    "nav": 93428.28119876608,
+    "commentary": "Ethereum and Solana look undervalued given their durable fundamentals, and I'm willing to take on more risk to capitalize on their upside potential.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "deepseek",
+    "nav": 80124.76822985988,
+    "commentary": "Buying the dip on DOGE as it's the most beaten down with no fundamental reason, while holding existing positions.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "llama",
+    "nav": 103227.66248172254,
+    "commentary": "Rotating into ETH, which has shown relative strength, and adding to SOL, which may benefit from smart contract security improvements.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "gemini",
+    "nav": 95713.0985293818,
+    "commentary": "Rebalancing towards higher beta assets with recent positive momentum, while trimming laggards.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "qwen",
+    "nav": 97368.10531704267,
+    "commentary": "Taking profits on BTC and reallocating to DOGE based on recent price action.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -50
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 50
+      }
+    ]
   }
 ]
