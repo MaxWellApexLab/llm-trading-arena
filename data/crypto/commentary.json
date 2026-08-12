@@ -5857,5 +5857,121 @@
         "weight_pct": 150
       }
     ]
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "gpt",
+    "nav": 104559.5048087067,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "claude",
+    "nav": 96152.4932210478,
+    "commentary": "Capitalizing on the recent dip in BTC and SOL to add to my core positions, while maintaining a healthy weighting in the blue-chip ETH.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "deepseek",
+    "nav": 92754.73314960394,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "llama",
+    "nav": 106480.05995299737,
+    "commentary": "Tying up loose ends and rotating into recent outperformers, BTC and ETH, with a cautious approach to the crypto market's recent volatility.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.01
+      }
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "gemini",
+    "nav": 98636.11827996443,
+    "commentary": "Rebalancing towards higher volatility assets with recent positive momentum, while maintaining a core BTC position.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "qwen",
+    "nav": 117092.25714170933,
+    "commentary": "DOGE-USD has shown significant upward movement and could be a bold play given the recent 3.46% increase.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
