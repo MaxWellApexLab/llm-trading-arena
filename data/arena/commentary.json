@@ -4099,5 +4099,317 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "gpt",
+    "nav": 123371.53355028387,
+    "commentary": "Liquidated underperforming holdings and rebalanced to tilt into solid momentum: ORCL, INTC, WMT, and core consumer staples, keeping all positions below 50% of portfolio.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AAPL",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMT",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMZN",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "GOOG",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "GOOGL",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "IBM",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "LMT",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "MSFT",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "V",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 8
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 8
+      },
+      {
+        "action": "buy",
+        "ticker": "WMT",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 4
+      },
+      {
+        "action": "buy",
+        "ticker": "UPS",
+        "weight_pct": 3
+      },
+      {
+        "action": "buy",
+        "ticker": "USB",
+        "weight_pct": 3
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 2
+      }
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "claude",
+    "nav": 106258.27466450265,
+    "commentary": "Capitalizing on the recent dips in ORCL, INTC, and NVDA, which have strong long-term prospects.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "deepseek",
+    "nav": 104879.68872869844,
+    "commentary": "Taking profits on ORCL and INTC after sharp rallies, and buying the biggest fear-driven drops in CHTR, META, and HD with no fundamental catalyst.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "HD",
+        "weight_pct": 1.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "llama",
+    "nav": 107771.13573066061,
+    "commentary": "I'm buying into the recent notable moves, taking advantage of the 3-5% swings in NVDA, INTC, XOM, CSCO, WMT, LOW, HD, GM, CHTR, META, and ORCL.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 0.04
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "WMT",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "LOW",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "HD",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 0.01
+      }
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "gemini",
+    "nav": 108607.0404260105,
+    "commentary": "Rebalancing based on recent volatility with a slight tilt towards recent upward momentum.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 8.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "GM",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "WMT",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "LOW",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "HD",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 2.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
