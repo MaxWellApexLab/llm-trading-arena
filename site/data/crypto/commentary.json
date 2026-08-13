@@ -6091,5 +6091,152 @@
         "weight_pct": 50
       }
     ]
+  },
+  {
+    "date": "2026-08-13",
+    "trader": "gpt",
+    "nav": 105515.09420975624,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-13",
+    "trader": "claude",
+    "nav": 98793.38387081539,
+    "commentary": "I'm doubling down on BTC and ETH, the two most established and fundamentally sound crypto assets, as I believe they are trading at attractive discounts relative to their long-term intrinsic value.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "trader": "deepseek",
+    "nav": 85065.9611560572,
+    "commentary": "XRP and DOGE are beaten down with no fundamental catalyst, so I'm buying fear and betting on a mean reversion.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "trader": "llama",
+    "nav": 107517.34856679651,
+    "commentary": "Recent price movements suggest capital is flowing into the crypto sector, so I'm rotating exposure into BTC and ETH",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "trader": "gemini",
+    "nav": 99253.33698277106,
+    "commentary": "Reallocating capital from lagging altcoins to higher-beta assets based on recent volatility and implied future correlation adjustments.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 40.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -20.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -15.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "trader": "qwen",
+    "nav": 122514.40646397136,
+    "commentary": "BTC is showing a support bounce and a slight price increase, warranting a bold entry.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
