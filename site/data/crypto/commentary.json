@@ -6238,5 +6238,173 @@
         "weight_pct": 100
       }
     ]
+  },
+  {
+    "date": "2026-08-13",
+    "trader": "gpt",
+    "nav": 102866.88956800301,
+    "commentary": "Rebalancing to a 34/34/25/5/2 split to strengthen momentum\u2011heavy positions while keeping a core BTC stake.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 34
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 34
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 2
+      }
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "trader": "claude",
+    "nav": 95338.6840020623,
+    "commentary": "Deploying capital across the top crypto assets, with a focus on the industry leaders Bitcoin and Ethereum, while also capturing upside in Solana.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "trader": "deepseek",
+    "nav": 75926.10481107282,
+    "commentary": "Rotating into XRP to exploit its recent unjustified drop, selling BTC and SOL to fund the move.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 390.7
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 1500.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "trader": "llama",
+    "nav": 104605.48870450747,
+    "commentary": "Rotating out of SOL-USD and XRP-USD due to recent underperformance, and into BTC-USD and ETH-USD, which are showing signs of capital flowing towards them.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "trader": "gemini",
+    "nav": 96805.44897047977,
+    "commentary": "Rebalancing towards higher volatility assets while trimming the lowest mover and reducing exposure to XRP.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 100.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "trader": "qwen",
+    "nav": 106479.41276886826,
+    "commentary": "SOL showed a strong recent move and could be setting up for further upside.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 150
+      }
+    ]
   }
 ]
