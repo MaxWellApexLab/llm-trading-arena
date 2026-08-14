@@ -6544,5 +6544,112 @@
         "weight_pct": 50
       }
     ]
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "gpt",
+    "nav": 89774.00305147422,
+    "commentary": "Zeroing DOGE/XRP and bumping BTC to 27% locks in the bank\u2011crypto narrative while trimming sideways exposure.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 27
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "claude",
+    "nav": 81234.43121053651,
+    "commentary": "Doubling down on my core positions in BTC, ETH, and SOL as the market shows signs of fear fading and long-term fundamentals remaining strong.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "deepseek",
+    "nav": 64667.451110135764,
+    "commentary": "Already heavily leveraged on beaten-down names; holding for a bounce as fear fades.",
+    "orders": []
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "llama",
+    "nav": 99657.82443370257,
+    "commentary": "Given recent market movements and sector trends, I'm reducing exposure to DOGE-USD and XRP-USD to free up capital for more promising sectors.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "gemini",
+    "nav": 85572.33127577149,
+    "commentary": "Increasing exposure to higher volatility assets like SOL and ETH while trimming DOGE based on recent price action and volatility metrics.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "SOL shows signs of a potential rebound after a notable decline.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
