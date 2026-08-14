@@ -6406,5 +6406,143 @@
         "weight_pct": 150
       }
     ]
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "gpt",
+    "nav": 77238.24882626731,
+    "commentary": "Going all\u2011in on the short\u2011term rally: double up on SOL and XRP, bump ETH, keep BTC flat and stay far from margin hit.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 200
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 200
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 150
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "claude",
+    "nav": 90868.45888800453,
+    "commentary": "Opportunistically adding to my positions in BTC, ETH, and SOL as they've pulled back, while maintaining a balanced portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 35
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "deepseek",
+    "nav": 4442.468190426007,
+    "commentary": "XRP and SOL are beaten down with no fundamental catalyst for the drop, so I'm buying the fear and dumping DOGE to free up cash for a leveraged rebound.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 45
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "llama",
+    "nav": 87266.46507174772,
+    "commentary": "I'm rotating into SOL-USD, as its recent outperformance suggests capital is flowing into the altcoin sector, while trimming BTC-USD and adding a small position in XRP-USD on its relative strength",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.5
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.3
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "gemini",
+    "nav": 58294.56443804037,
+    "commentary": "Increasing exposure to BTC and ETH based on recent volatility, while reducing DOGE and adding SOL and XRP for diversification.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 110
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 90
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 70
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "SOL showed a recent positive move and could benefit from regulatory developments.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 50
+      }
+    ]
   }
 ]
