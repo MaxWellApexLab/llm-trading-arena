@@ -4658,5 +4658,252 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "gpt",
+    "nav": 128724.74299262848,
+    "commentary": "Trim weak and over\u2011weighted names, double down on AMD\u2019s strong momentum, and add defensive staples\u2014F, DOW, TXN\u2014to balance the portfolio.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 0.3
+      },
+      {
+        "action": "sell",
+        "ticker": "LLY",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "USB",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "WMT",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DHR",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "F",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOW",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 1.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "claude",
+    "nav": 112126.78921085078,
+    "commentary": "Selectively adding to high-quality names trading at reasonable valuations to further diversify the portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AMGN",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "deepseek",
+    "nav": 107297.61901444945,
+    "commentary": "Selling AVGO after a sharp drop to lock in loss and buying beaten-down AMD and INTC on fear of no fundamental news.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "llama",
+    "nav": 110082.97947365751,
+    "commentary": "Adjusting positions to reflect recent notable moves and headlines, with a focus on maximizing portfolio value.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 4.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": -2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": -1.75
+      },
+      {
+        "action": "buy",
+        "ticker": "F",
+        "weight_pct": 1.75
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": -1.25
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": -1.25
+      },
+      {
+        "action": "buy",
+        "ticker": "LLY",
+        "weight_pct": -1.25
+      },
+      {
+        "action": "buy",
+        "ticker": "DOW",
+        "weight_pct": 1
+      },
+      {
+        "action": "buy",
+        "ticker": "CVS",
+        "weight_pct": 1
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 1
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": -5
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": -2.5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "gemini",
+    "nav": 110748.9246988523,
+    "commentary": "Reducing exposure to recent outperformers and increasing exposure to those with recent negative price action to rebalance volatility.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "F",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "LLY",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOW",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "CVS",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "TXN",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
