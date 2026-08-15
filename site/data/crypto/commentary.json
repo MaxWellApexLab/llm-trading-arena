@@ -6769,5 +6769,148 @@
         "weight_pct": 50
       }
     ]
+  },
+  {
+    "date": "2026-08-15",
+    "trader": "gpt",
+    "nav": 93979.62805776228,
+    "commentary": "Trim the heavy BTC/DOGE, boost ETH and SOL to ride their recent up\u2011trend while keeping equity healthy.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 288.6
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 492.5
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 377.5
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 202.8
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 1.7
+      }
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "trader": "claude",
+    "nav": 86670.31679457403,
+    "commentary": "Increase exposure to Solana and Ethereum, which have shown resilience, while maintaining a modest Bitcoin position.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "trader": "deepseek",
+    "nav": 69093.4906797614,
+    "commentary": "DOGE has been beaten down 4.4% in 20 days with no fundamental catalyst, so I'm adding a small diversifying bet to ride the eventual bounce.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "trader": "llama",
+    "nav": 101207.6137968069,
+    "commentary": "Sell all positions: no clear sector trend and recent notable moves suggest capital is flowing away from these assets",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "trader": "gemini",
+    "nav": 89786.9182259154,
+    "commentary": "Rebalancing exposure towards recent outperformers like XRP and SOL while trimming ETH, and increasing DOGE exposure slightly.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": -20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "trader": "qwen",
+    "nav": 100287.85917067024,
+    "commentary": "SOL-USD shows a support bounce and a potential breakout, fitting the criteria for entering a position.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
