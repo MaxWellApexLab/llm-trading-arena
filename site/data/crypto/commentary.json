@@ -7045,5 +7045,117 @@
         "weight_pct": 150
       }
     ]
+  },
+  {
+    "date": "2026-08-16",
+    "trader": "gpt",
+    "nav": 91776.20810290077,
+    "commentary": "B\uc7a5\uc740 BTC to 30% on UBS\u2011boosted institutional demand while keeping ETH\u2019s network edge.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-08-16",
+    "trader": "claude",
+    "nav": 85142.66418094141,
+    "commentary": "Doubling down on blue-chip crypto assets with strong fundamentals that are currently trading at attractive valuations.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-08-16",
+    "trader": "deepseek",
+    "nav": 64569.75864332402,
+    "commentary": "XRP and DOGE are quietly bleeding out with no real news \u2014 I'm adding on fear while BTC/ETH just chop, ready to flip them on the first bounce.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 3
+      }
+    ]
+  },
+  {
+    "date": "2026-08-16",
+    "trader": "llama",
+    "nav": 100408.31867838872,
+    "commentary": "Capital is flowing towards risk-on sectors, with Bitcoin and Solana leading the way",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-08-16",
+    "trader": "gemini",
+    "nav": 88284.75877886056,
+    "commentary": "Rebalancing towards higher recent volatility assets like DOGE and XRP while trimming less volatile ETH and SOL.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-16",
+    "trader": "qwen",
+    "nav": 99879.57978928991,
+    "commentary": "Market remains volatile with no clear support bounce or breakout for SOL-USD.",
+    "orders": []
   }
 ]
