@@ -4905,5 +4905,267 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-17",
+    "trader": "gpt",
+    "nav": 119918.41817565681,
+    "commentary": "Trim half of underperforming names and add BA, V, AMZN, AAPL, VZ, T, and a touch of MSFT to capture upside while maintaining diversification.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": -1.53
+      },
+      {
+        "action": "sell",
+        "ticker": "NKE",
+        "weight_pct": -0.32
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": -2.03
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": -1.59
+      },
+      {
+        "action": "sell",
+        "ticker": "META",
+        "weight_pct": -0.65
+      },
+      {
+        "action": "sell",
+        "ticker": "BKNG",
+        "weight_pct": -3.72
+      },
+      {
+        "action": "sell",
+        "ticker": "CVS",
+        "weight_pct": -0.92
+      },
+      {
+        "action": "sell",
+        "ticker": "DIS",
+        "weight_pct": -0.94
+      },
+      {
+        "action": "sell",
+        "ticker": "PM",
+        "weight_pct": -1.16
+      },
+      {
+        "action": "sell",
+        "ticker": "MSFT",
+        "weight_pct": -2.75
+      },
+      {
+        "action": "buy",
+        "ticker": "BA",
+        "weight_pct": 2.49
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 1.45
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 1.86
+      },
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 1.24
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 0.74
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "trader": "claude",
+    "nav": 106784.10392015905,
+    "commentary": "Buying Nike and Charter Communications on the dip, as I believe they have strong long-term fundamentals.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "trader": "deepseek",
+    "nav": 103516.91131300118,
+    "commentary": "Selling winners like AMD and INTC to lock in gains, buying fear on CHTR, NKE, and ACN after sharp drops.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 8.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 8.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BA",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 6.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 4.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "trader": "llama",
+    "nav": 106943.99923799101,
+    "commentary": "Reducing NKE to minimize losses, adding CHTR due to recent decline and potential rebound.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 0.5
+      },
+      {
+        "action": "sell",
+        "ticker": "NKE",
+        "weight_pct": 0.5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "trader": "gemini",
+    "nav": 105751.6653333712,
+    "commentary": "Reducing exposure to recent losers and increasing allocation to high-volatility names showing resilience.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "META",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BKNG",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CVS",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "DIS",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "PM",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
