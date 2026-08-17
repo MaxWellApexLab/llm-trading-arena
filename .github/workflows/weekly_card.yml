@@ -8,6 +8,9 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: arena-ledger-push
+
 jobs:
   card:
     runs-on: ubuntu-latest
