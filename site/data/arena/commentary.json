@@ -5167,5 +5167,232 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-18",
+    "trader": "gpt",
+    "nav": 116996.7136967124,
+    "commentary": "Trim weak names, stack the momentum\u2011driven winners for a sharp upside play.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "TXN",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "COST",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "LLY",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "ABBV",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "JNJ",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "GILD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "trader": "claude",
+    "nav": 103668.89410036942,
+    "commentary": "Trimming TSLA exposure and adding to NVDA on the recent dip.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 0.5
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 0.5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "trader": "deepseek",
+    "nav": 100884.62816585205,
+    "commentary": "Aggressively buying the fear in INTC, CAT, META, AMD, and initiating TXN after sharp drops, funded by taking profits in ADBE and selling other non-fear names.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 3.84
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 5.29
+      },
+      {
+        "action": "sell",
+        "ticker": "BKNG",
+        "weight_pct": 4.25
+      },
+      {
+        "action": "sell",
+        "ticker": "CVS",
+        "weight_pct": 6.17
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 3.9
+      },
+      {
+        "action": "buy",
+        "ticker": "CAT",
+        "weight_pct": 3.9
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 3.9
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 3.9
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 3.9
+      }
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "trader": "llama",
+    "nav": 106712.15185351178,
+    "commentary": "Rotating into growth stocks as market momentum suggests capital is flowing toward this sector, while trimming overbought and underperforming stocks in the recent notable moves.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "sell",
+        "ticker": "V",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "USB",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "sell",
+        "ticker": "LLY",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 0.1
+      }
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "trader": "gemini",
+    "nav": 99615.05838217784,
+    "commentary": "Rebalancing exposure towards recent weakness in industrials and semis, while trimming recent strength in tech and biotech.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "CAT",
+        "weight_pct": 4.5
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "META",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "GILD",
+        "weight_pct": 3.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
