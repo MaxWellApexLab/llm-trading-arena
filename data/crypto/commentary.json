@@ -7560,5 +7560,138 @@
         "weight_pct": 100
       }
     ]
+  },
+  {
+    "date": "2026-08-18",
+    "trader": "gpt",
+    "nav": 116336.3023733208,
+    "commentary": "Trim the weak dollar and doge, double down on BTC as custody hype builds.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 45
+      }
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "trader": "claude",
+    "nav": 109085.94192049373,
+    "commentary": "Reducing BTC exposure, increasing ETH and SOL positions to capitalize on the altcoin market's resilience amid the crypto downturn.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "trader": "deepseek",
+    "nav": 68992.68537826091,
+    "commentary": "XRP is bleeding with no catalyst, I'll exit and wait for a true panic to redeploy cash.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "trader": "llama",
+    "nav": 106731.29595710908,
+    "commentary": "I'm rotating into Solana, which is the only asset that's not showing signs of distress, and selling the other assets to free up cash and rebalance the portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "trader": "gemini",
+    "nav": 103802.38015010208,
+    "commentary": "Reducing exposure to volatile altcoins and increasing allocation to the two largest cryptocurrencies based on recent price action and market conditions.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 60
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 40
+      }
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "trader": "qwen",
+    "nav": 107482.23201970826,
+    "commentary": "SOL showed a clean support bounce and breakout, warranting a bold entry.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
