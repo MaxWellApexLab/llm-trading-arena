@@ -5394,5 +5394,262 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-19",
+    "trader": "gpt",
+    "nav": 120671.13316488033,
+    "commentary": "Boosting high\u2011momentum healthcare, retail, and cybersecurity while trimming lagging tech and defense to keep the portfolio sharp.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "MRK",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DHR",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "COST",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "GE",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "TMO",
+        "weight_pct": 3.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "trader": "claude",
+    "nav": 106363.87688467064,
+    "commentary": "Bullish on Merck's pipeline and recent FDA approvals, while trimming Tesla's outsized position.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "MRK",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "trader": "deepseek",
+    "nav": 100693.04941979315,
+    "commentary": "Sell into strength on winners and buy the panic in CVS, MO, INTC, and NKE as they look oversold with no fundamental catalyst for the drop.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "MRK",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "GE",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "LLY",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "TGT",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "TMO",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "DHR",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "CVS",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "MO",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "trader": "llama",
+    "nav": 108692.06421147812,
+    "commentary": "Rebalancing to maintain sector diversification and capitalizing on recent stock movements.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "GE",
+        "weight_pct": 1.2
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 1.2
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 1.2
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 1.2
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 1.2
+      },
+      {
+        "action": "sell",
+        "ticker": "LLY",
+        "weight_pct": 1.2
+      },
+      {
+        "action": "buy",
+        "ticker": "MRK",
+        "weight_pct": 1.2
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 1.2
+      }
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "trader": "gemini",
+    "nav": 98878.40794057812,
+    "commentary": "Rebalancing towards recent strength and away from recent weakness while maintaining diversification.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "MRK",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DHR",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "LLY",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "sell",
+        "ticker": "GE",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "sell",
+        "ticker": "TMO",
+        "weight_pct": 3.5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
