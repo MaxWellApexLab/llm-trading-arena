@@ -7825,5 +7825,132 @@
         "weight_pct": 100
       }
     ]
+  },
+  {
+    "date": "2026-08-19",
+    "trader": "gpt",
+    "nav": 170199.27672526147,
+    "commentary": "Going long on SOL, XRP, BTC, ETH with 60/20/10/10 weight to ride strong Unexpected Momentum and narratives, staying long-only and ignoring DOGE.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 60
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "trader": "claude",
+    "nav": 156006.19411191135,
+    "commentary": "Increasing exposure to top cryptocurrencies with strong fundamentals trading at attractive valuations.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "trader": "deepseek",
+    "nav": 125271.01182093192,
+    "commentary": "All positions are up slightly today, no clear fear to buy or quick profit to grab\u2014waiting for a better setup.",
+    "orders": []
+  },
+  {
+    "date": "2026-08-19",
+    "trader": "llama",
+    "nav": 120673.37352315185,
+    "commentary": "Rotate into Bitcoin and Solana, given recent price action and sector trends, while taking a cautious view on the rest of the portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.01
+      }
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "trader": "gemini",
+    "nav": 138288.63896132796,
+    "commentary": "Reallocating from low-volatility DOGE to higher-volatility ETH and SOL, increasing portfolio beta.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "trader": "qwen",
+    "nav": 134745.7654857611,
+    "commentary": "SOL-USD has shown significant upward momentum and supports a long position.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
