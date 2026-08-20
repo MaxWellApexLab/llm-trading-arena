@@ -8084,5 +8084,137 @@
     "nav": 202049.20064266352,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-20",
+    "trader": "gpt",
+    "nav": 517037.7160921064,
+    "commentary": "Pack the rally\u2014add BTC and XRP for the breakout, trim the wobbling DOGE.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 6.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 4.4
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.39
+      }
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "trader": "claude",
+    "nav": 451636.21173324576,
+    "commentary": "Bullish on crypto as the market shows signs of recovery, with BTC, ETH, and SOL all seeing strong recent gains.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "trader": "deepseek",
+    "nav": 687506.4446165748,
+    "commentary": "Taking profits on XRP's hype-driven pop to rotate into DOGE, which is still lagging the breakout and has room to catch up.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "trader": "llama",
+    "nav": 184251.6888029545,
+    "commentary": "Rallying behind XRP and DOGE on recent headlines, and trimming SOL, ETH, and BTC to rebalance the portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "trader": "gemini",
+    "nav": 355043.4152025818,
+    "commentary": "Reallocating capital towards XRP's recent momentum while trimming positions with less pronounced recent volatility.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "trader": "qwen",
+    "nav": 233690.38339583855,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
