@@ -8388,5 +8388,187 @@
     "nav": 278316.5759163727,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-21",
+    "trader": "gpt",
+    "nav": 752028.8124717236,
+    "commentary": "Ramp up BTC and XRP on strong momentum, trim ETH, SOL and wipe DOGE to sharpen the focus.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "trader": "claude",
+    "nav": 666604.738214707,
+    "commentary": "Bullish on crypto's long-term fundamentals, adding to core positions while staying diversified across sectors.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "trader": "deepseek",
+    "nav": 985529.1456626141,
+    "commentary": "XRP and BTC show strong momentum with no fundamental reason to fade, so I'm doubling down on the leaders while dumping the lagging meme coin to free up margin for the rally.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "trader": "llama",
+    "nav": 229584.03006913944,
+    "commentary": "Rotating into BTC and ETH, exiting other positions in response to recent notable moves and macro headlines.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "trader": "gemini",
+    "nav": 510050.74353288114,
+    "commentary": "Rebalancing to capture recent volatility spikes and allocate capital towards the top performers.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "trader": "qwen",
+    "nav": 297868.4474379767,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
