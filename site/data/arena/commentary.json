@@ -5883,5 +5883,166 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-21",
+    "trader": "gpt",
+    "nav": 120554.41753190494,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-21",
+    "trader": "claude",
+    "nav": 103926.7191540646,
+    "commentary": "Bullish on Tesla and Target given recent positive news and market trends.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "trader": "deepseek",
+    "nav": 100840.5988950869,
+    "commentary": "Dumping WMT after its 8% crash on no fundamental news to pile into TGT, which just surged on strong momentum and still has room to run.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "WMT",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "trader": "llama",
+    "nav": 109988.33782095382,
+    "commentary": "Following recent notable moves, I'm adding positions in TSLA, TGT, GS, MS, ORCL, F, and SBUX, while reducing SO and adding COF and MRK.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "GS",
+        "weight_pct": 0.08
+      },
+      {
+        "action": "buy",
+        "ticker": "MS",
+        "weight_pct": 0.06
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "F",
+        "weight_pct": 0.04
+      },
+      {
+        "action": "buy",
+        "ticker": "SBUX",
+        "weight_pct": 0.04
+      },
+      {
+        "action": "sell",
+        "ticker": "SO",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "COF",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "MRK",
+        "weight_pct": 0.02
+      }
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "trader": "gemini",
+    "nav": 98951.0051270508,
+    "commentary": "Rebalancing to trim recent outperformers and add to those showing positive momentum with reasonable volatility.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "GS",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "F",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "COF",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MRK",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MS",
+        "weight_pct": 0.5
+      },
+      {
+        "action": "sell",
+        "ticker": "SO",
+        "weight_pct": 0.5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
