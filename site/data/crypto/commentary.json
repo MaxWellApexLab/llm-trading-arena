@@ -8570,5 +8570,136 @@
     "nav": 297868.4474379767,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-22",
+    "trader": "gpt",
+    "nav": 928135.1257358794,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-22",
+    "trader": "claude",
+    "nav": 828938.9016371677,
+    "commentary": "Bullish on crypto fundamentals, looking to increase exposure while maintaining diversification.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "trader": "deepseek",
+    "nav": 1259911.382227351,
+    "commentary": "Taking profits on the euphoric meme pumps to reload into BTC and ETH at still-reasonable levels before the next leg up.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 60
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "trader": "llama",
+    "nav": 267613.99326906167,
+    "commentary": "Capital is flowing towards BTC and SOL, and I'm adding to my positions to capture the momentum.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 2.5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "trader": "gemini",
+    "nav": 630630.4981070422,
+    "commentary": "Reducing exposure across all positions due to the recent outsized moves and increasing overall portfolio risk.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": -12.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": -18.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": -16.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "trader": "qwen",
+    "nav": 345778.07083563344,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
