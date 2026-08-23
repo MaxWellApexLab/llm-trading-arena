@@ -8862,5 +8862,116 @@
     "nav": 344882.60003911215,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-23",
+    "trader": "gpt",
+    "nav": 892755.7368647978,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-23",
+    "trader": "claude",
+    "nav": 770905.4196090382,
+    "commentary": "Selectively adding to positions in crypto assets with strong long-term fundamentals and growth potential, while maintaining a balanced and diversified portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-23",
+    "trader": "deepseek",
+    "nav": 1232128.3151504258,
+    "commentary": "Taking profits on SOL and XRP after the massive squeeze, trimming leverage while holding core BTC and ETH for the next leg.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 137.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 28.3
+      }
+    ]
+  },
+  {
+    "date": "2026-08-23",
+    "trader": "llama",
+    "nav": 269716.3871128992,
+    "commentary": "Dovetailing the recent weakness in ETH with its improving fundamentals and the recent uptick in SOL could provide a risk-reward opportunity, thus buying ETH and trimming SOL.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-08-23",
+    "trader": "gemini",
+    "nav": 595779.6893969099,
+    "commentary": "Rebalancing towards assets showing recent strength and higher volatility, while maintaining diversified exposure.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-23",
+    "trader": "qwen",
+    "nav": 376374.6135726224,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
