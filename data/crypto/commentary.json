@@ -9114,5 +9114,126 @@
     "nav": 358912.13595302356,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-24",
+    "trader": "gpt",
+    "nav": 862734.0824202592,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-24",
+    "trader": "claude",
+    "nav": 720536.4770928351,
+    "commentary": "I'm allocating capital across a diversified portfolio of top cryptocurrencies with strong fundamentals and growth potential.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-08-24",
+    "trader": "deepseek",
+    "nav": 1269128.3924347276,
+    "commentary": "Taking profits after the massive rally; XRP and ETH have surged on hype, time to cash out.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-24",
+    "trader": "llama",
+    "nav": 256291.17806857766,
+    "commentary": "Rotating into XRP-USD as it's on track for its biggest weekly gain in 21 months, while reducing exposure to DOGE-USD and BTC-USD given their recent moves and overall market sentiment.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-08-24",
+    "trader": "gemini",
+    "nav": 565230.7844077991,
+    "commentary": "Rebalancing towards higher conviction assets with recent strength and away from laggards, while maintaining diversification.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-24",
+    "trader": "qwen",
+    "nav": 345927.3539249315,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
