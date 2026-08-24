@@ -9235,5 +9235,126 @@
     "nav": 345927.3539249315,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-24",
+    "trader": "gpt",
+    "nav": 965567.3428363516,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-24",
+    "trader": "claude",
+    "nav": 908409.9018960111,
+    "commentary": "Bullish on Ethereum and Solana based on the latest industry news, while maintaining a core Bitcoin position.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-08-24",
+    "trader": "deepseek",
+    "nav": 1304562.7353593323,
+    "commentary": "Rotating out of recent winners into beaten-down DOGE on fear dip with no fundamental catalyst, aiming for quick mean reversion.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 200
+      }
+    ]
+  },
+  {
+    "date": "2026-08-24",
+    "trader": "llama",
+    "nav": 278896.8365100975,
+    "commentary": "Rotating into ETH and SOL, trimming BTC and XRP, amid signs of capital flowing into ETH and a potentially bullish Solana development",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 3
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 2
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 1
+      }
+    ]
+  },
+  {
+    "date": "2026-08-24",
+    "trader": "gemini",
+    "nav": 691158.3534639785,
+    "commentary": "Increasing exposure to BTC and ETH on recent upward momentum while maintaining diversification across other altcoins.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-24",
+    "trader": "qwen",
+    "nav": 374732.8411992446,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
