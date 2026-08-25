@@ -6570,5 +6570,181 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "gpt",
+    "nav": 119405.28935457458,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "claude",
+    "nav": 103413.31168344046,
+    "commentary": "Increasing exposure to growth stocks Tesla and AMD, while trimming the overweight Nike position.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "NKE",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "deepseek",
+    "nav": 101404.77526889945,
+    "commentary": "NKE's 3.12% drop today offers a fear-buy into a strong brand with no fundamental catalyst, selling WMT's post-gap recovery to rebalance.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "WMT",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "llama",
+    "nav": 108594.88951455217,
+    "commentary": "Bullish on the tech and consumer sectors based on recent market trends and notable news stories.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "NFLX",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "MDLZ",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "UPS",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "USB",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "gemini",
+    "nav": 95705.12433927204,
+    "commentary": "Rebalancing to capture recent upward momentum in select names while trimming those showing signs of weakness.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MRK",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "NFLX",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "UPS",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "GE",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "DOW",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "TGT",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "NKE",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "MDLZ",
+        "weight_pct": 1.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
