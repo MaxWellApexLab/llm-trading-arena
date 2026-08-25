@@ -9356,5 +9356,126 @@
     "nav": 374732.8411992446,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "gpt",
+    "nav": 1027374.6648401902,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "claude",
+    "nav": 1035222.9355870774,
+    "commentary": "Bullish on crypto's long-term prospects, with a diversified portfolio focused on top-tier assets with strong fundamentals.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "deepseek",
+    "nav": 1315362.8497321876,
+    "commentary": "Rotating out of DOGE's lagging recovery into SOL for the bullish burn-vote catalyst and recent dip-buying momentum.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "llama",
+    "nav": 303868.22283703694,
+    "commentary": "Adding exposure to Solana amidst increasing SOL burns, cutting back on Bitcoin due to its recent surge and potential for a pullback, and trimming XRP as it faces increased regulatory scrutiny",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -2
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -1
+      }
+    ]
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "gemini",
+    "nav": 778111.1295561017,
+    "commentary": "Increasing exposure to BTC, ETH, and SOL based on recent volatility and upward price momentum, while reducing exposure to DOGE and XRP due to underperformance and lower conviction.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "qwen",
+    "nav": 443686.8254025853,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
