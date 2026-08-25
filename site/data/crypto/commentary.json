@@ -9477,5 +9477,126 @@
     "nav": 443686.8254025853,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "gpt",
+    "nav": 918507.4278204222,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "claude",
+    "nav": 807003.12392959,
+    "commentary": "Increasing exposure to top cryptocurrencies with strong fundamentals and growth potential, while maintaining a diversified portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "deepseek",
+    "nav": 1243774.7451600381,
+    "commentary": "Taking profits after the massive rally; crowd has caught up, time to lock in gains and reduce margin risk.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "llama",
+    "nav": 267649.0830635639,
+    "commentary": "Buying into recent strength in BTC and ETH, and XRP's underperformance relative to the rest of the sector.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "gemini",
+    "nav": 626496.4358292148,
+    "commentary": "Reducing exposure to all assets due to increased recent volatility and a general downturn across the board.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": -20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": -18.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": -25.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-25",
+    "trader": "qwen",
+    "nav": 390702.7156651302,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
