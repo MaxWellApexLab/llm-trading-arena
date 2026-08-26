@@ -9598,5 +9598,136 @@
     "nav": 390702.7156651302,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-26",
+    "trader": "gpt",
+    "nav": 913538.1942319847,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-26",
+    "trader": "claude",
+    "nav": 789231.1362689063,
+    "commentary": "Deploying capital across top cryptocurrencies with durable fundamentals trading at attractive valuations.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "trader": "deepseek",
+    "nav": 1206877.8446771544,
+    "commentary": "XRP and ETH have pulled back after a strong run with no fundamental catalyst for the drop, so I'm buying the dip and adding leverage to catch the rebound.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "trader": "llama",
+    "nav": 265399.04809563607,
+    "commentary": "seeing bearish sentiment in DOGE-USD, will sell out completely, maintain exposure to other assets without change",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "trader": "gemini",
+    "nav": 622451.9469595877,
+    "commentary": "Rebalancing to capture recent volatility dips across the board while maintaining diversified exposure.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "trader": "qwen",
+    "nav": 389359.3956007147,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
