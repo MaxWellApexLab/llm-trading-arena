@@ -9729,5 +9729,110 @@
     "nav": 389359.3956007147,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-26",
+    "trader": "gpt",
+    "nav": 865262.6826196932,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-26",
+    "trader": "claude",
+    "nav": 704509.7360292282,
+    "commentary": "Ethereum's upcoming quantum-resistant upgrade, the positive regulatory outlook for stablecoins, and the potential catalysts for Bitcoin's next move signal a bullish environment for crypto.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "trader": "deepseek",
+    "nav": 1180028.4711529154,
+    "commentary": "No compelling beaten-down names with fundamental mispricing; holding current positions as momentum stabilizes.",
+    "orders": []
+  },
+  {
+    "date": "2026-08-26",
+    "trader": "llama",
+    "nav": 248417.0504631854,
+    "commentary": "Buying into the recent movers in ETH, SOL, and XRP, with a smaller position in DOGE, as these sectors are showing signs of capital flow, and I'm rotating my portfolio to align with the recent trends.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 25.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "trader": "gemini",
+    "nav": 564885.3443811089,
+    "commentary": "Rebalancing towards higher volatility assets to capture potential upside while maintaining diversification.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 40.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "trader": "qwen",
+    "nav": 381001.36451416044,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
