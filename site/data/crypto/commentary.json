@@ -9965,5 +9965,116 @@
     "nav": 508461.90793228196,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-27",
+    "trader": "gpt",
+    "nav": 1097757.2579800808,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-27",
+    "trader": "claude",
+    "nav": 1354119.6970476713,
+    "commentary": "Increased exposure to Ethereum and Solana while reducing the overweight Dogecoin position.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-08-27",
+    "trader": "deepseek",
+    "nav": 1419101.1990805415,
+    "commentary": "Taking profits on all positions after the massive rally; crowd is euphoric, waiting for the next fear-driven dip.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-27",
+    "trader": "llama",
+    "nav": 344561.9342099994,
+    "commentary": "Rotating into Solana and XRP on the heels of recent strength, ahead of MoonPay's integration with Solana",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-27",
+    "trader": "gemini",
+    "nav": 991235.2160812402,
+    "commentary": "Increasing exposure to the leading cryptocurrencies based on recent volatility and upward momentum.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 40.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-27",
+    "trader": "qwen",
+    "nav": 572490.6888851223,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
