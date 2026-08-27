@@ -6746,5 +6746,186 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-27",
+    "trader": "gpt",
+    "nav": 118783.22813757829,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-27",
+    "trader": "claude",
+    "nav": 102564.78542890016,
+    "commentary": "Increasing exposure to Oracle and T-Mobile as they appear undervalued compared to peers.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 2
+      }
+    ]
+  },
+  {
+    "date": "2026-08-27",
+    "trader": "deepseek",
+    "nav": 102243.13213031582,
+    "commentary": "Buying the fear in LLY, INTC, BA, NKE after sharp drops, while trimming AMD to stay within position size limit.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": -16.4
+      },
+      {
+        "action": "buy",
+        "ticker": "LLY",
+        "weight_pct": 3.48
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 4.13
+      },
+      {
+        "action": "buy",
+        "ticker": "BA",
+        "weight_pct": 4.14
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 4.1
+      }
+    ]
+  },
+  {
+    "date": "2026-08-27",
+    "trader": "llama",
+    "nav": 108262.22826409698,
+    "commentary": "Recent moves in LLY and NKE suggest a rotation out of technology and into consumer staples, which I'm trying to capture with these trades.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "LLY",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "SBUX",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "HON",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "BKNG",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "EMR",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "MRK",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "SCHW",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-08-27",
+    "trader": "gemini",
+    "nav": 95507.77885265311,
+    "commentary": "Rebalancing towards stronger performers and away from recent laggards, while increasing exposure to healthcare.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 2.51
+      },
+      {
+        "action": "sell",
+        "ticker": "MRK",
+        "weight_pct": 2.14
+      },
+      {
+        "action": "sell",
+        "ticker": "HON",
+        "weight_pct": 2.31
+      },
+      {
+        "action": "sell",
+        "ticker": "EMR",
+        "weight_pct": 2.15
+      },
+      {
+        "action": "sell",
+        "ticker": "NKE",
+        "weight_pct": 2.25
+      },
+      {
+        "action": "sell",
+        "ticker": "BKNG",
+        "weight_pct": 2.29
+      },
+      {
+        "action": "sell",
+        "ticker": "SCHW",
+        "weight_pct": 2.57
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 2.84
+      },
+      {
+        "action": "buy",
+        "ticker": "SBUX",
+        "weight_pct": 2.58
+      },
+      {
+        "action": "buy",
+        "ticker": "LLY",
+        "weight_pct": 3.59
+      }
+    ]
+  },
+  {
+    "date": "2026-08-27",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
