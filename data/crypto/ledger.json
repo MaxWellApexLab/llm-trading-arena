@@ -1,6 +1,6 @@
 {
   "claude": {
-    "cash": -10371355.89081115,
+    "cash": -10838377.522869583,
     "liquidations": 3,
     "nav_history": [
       {
@@ -1782,9 +1782,18 @@
       {
         "date": "2026-08-27T00:39Z",
         "nav": 965629.2976858802
+      },
+      {
+        "date": "2026-08-27",
+        "nav": 1236775.5202835388
       }
     ],
     "pending_orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 25.0
+      },
       {
         "action": "buy",
         "ticker": "ETH-USD",
@@ -1793,20 +1802,25 @@
       {
         "action": "buy",
         "ticker": "SOL-USD",
-        "weight_pct": 15.0
+        "weight_pct": 20.0
       },
       {
         "action": "buy",
         "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
         "weight_pct": 10.0
       }
     ],
     "positions": {
       "BTC-USD": 39.532113161950534,
       "DOGE-USD": 8283816.255417504,
-      "ETH-USD": 1462.4531882288911,
-      "SOL-USD": 29191.787859589276,
-      "XRP-USD": 639631.9519002308
+      "ETH-USD": 1545.2559635880107,
+      "SOL-USD": 30715.561678247457,
+      "XRP-USD": 712584.4332700596
     },
     "rejected": [
       {
@@ -3934,6 +3948,33 @@
         "shares": 26218.28849179809,
         "status": "filled",
         "ticker": "XRP-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-27",
+        "fee": 0.0,
+        "price": 2506.74169921875,
+        "shares": 82.80277535911947,
+        "status": "filled",
+        "ticker": "ETH-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-27",
+        "fee": 0.0,
+        "price": 102.16337585449219,
+        "shares": 1523.7738186581817,
+        "status": "filled",
+        "ticker": "SOL-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-27",
+        "fee": 0.0,
+        "price": 1.422605276107788,
+        "shares": 72952.48136982882,
+        "status": "filled",
+        "ticker": "XRP-USD"
       }
     ]
   },
@@ -5716,6 +5757,10 @@
       {
         "date": "2026-08-27T00:39Z",
         "nav": 1273213.5930715424
+      },
+      {
+        "date": "2026-08-27",
+        "nav": 1367957.205760048
       }
     ],
     "pending_orders": [],
@@ -6069,6 +6114,42 @@
         "raw": {
           "action": "sell",
           "ticker": "SOL-USD",
+          "weight_pct": 0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-08-27",
+        "raw": {
+          "action": "sell",
+          "ticker": "DOGE-USD",
+          "weight_pct": 0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-08-27",
+        "raw": {
+          "action": "sell",
+          "ticker": "ETH-USD",
+          "weight_pct": 0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-08-27",
+        "raw": {
+          "action": "sell",
+          "ticker": "SOL-USD",
+          "weight_pct": 0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-08-27",
+        "raw": {
+          "action": "sell",
+          "ticker": "XRP-USD",
           "weight_pct": 0
         },
         "reason": "invalid sell weight_pct 0.0"
@@ -7176,7 +7257,7 @@
     ]
   },
   "gemini": {
-    "cash": -6611145.665961352,
+    "cash": -7503386.625390082,
     "liquidations": 3,
     "nav_history": [
       {
@@ -8958,18 +9039,22 @@
       {
         "date": "2026-08-27T00:39Z",
         "nav": 730901.0341122253
+      },
+      {
+        "date": "2026-08-27",
+        "nav": 911805.1937221354
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
         "ticker": "BTC-USD",
-        "weight_pct": 40.0
+        "weight_pct": 30.0
       },
       {
         "action": "buy",
         "ticker": "ETH-USD",
-        "weight_pct": 30.0
+        "weight_pct": 25.0
       },
       {
         "action": "buy",
@@ -8988,11 +9073,11 @@
       }
     ],
     "positions": {
-      "BTC-USD": 28.371191772620346,
-      "DOGE-USD": 1403648.27557577,
-      "ETH-USD": 970.4963240840293,
-      "SOL-USD": 18349.576893793237,
-      "XRP-USD": 502128.2433554989
+      "BTC-USD": 32.2982757225541,
+      "DOGE-USD": 2287924.9671185445,
+      "ETH-USD": 1063.349333721146,
+      "SOL-USD": 19868.441550255062,
+      "XRP-USD": 583935.3739293928
     },
     "rejected": [
       {
@@ -11836,6 +11921,51 @@
         "shares": 699778.4891192532,
         "status": "filled",
         "ticker": "DOGE-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-27",
+        "fee": 0.0,
+        "price": 79026.75,
+        "shares": 3.9270839499337593,
+        "status": "filled",
+        "ticker": "BTC-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-27",
+        "fee": -2.9103830456733704e-11,
+        "price": 2506.74169921875,
+        "shares": 92.85300963711667,
+        "status": "filled",
+        "ticker": "ETH-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-27",
+        "fee": 0.0,
+        "price": 102.16337585449219,
+        "shares": 1518.8646564618261,
+        "status": "filled",
+        "ticker": "SOL-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-27",
+        "fee": -1.4551915228366852e-11,
+        "price": 1.422605276107788,
+        "shares": 81807.13057389394,
+        "status": "filled",
+        "ticker": "XRP-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-27",
+        "fee": 0.0,
+        "price": 0.08773969858884811,
+        "shares": 884276.6915427744,
+        "status": "filled",
+        "ticker": "DOGE-USD"
       }
     ]
   },
@@ -13618,6 +13748,10 @@
       {
         "date": "2026-08-27T00:39Z",
         "nav": 960451.1497647013
+      },
+      {
+        "date": "2026-08-27",
+        "nav": 1058999.0302157677
       }
     ],
     "pending_orders": [],
@@ -13962,6 +14096,11 @@
       },
       {
         "date": "2026-08-26",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-08-27",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
@@ -15419,7 +15558,7 @@
     ]
   },
   "llama": {
-    "cash": -888839.0154531477,
+    "cash": -1182496.4418322882,
     "liquidations": 1,
     "nav_history": [
       {
@@ -17193,35 +17332,35 @@
       {
         "date": "2026-08-27T00:39Z",
         "nav": 283165.342806143
+      },
+      {
+        "date": "2026-08-27",
+        "nav": 320619.54840343236
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
         "ticker": "ETH-USD",
-        "weight_pct": 30.0
+        "weight_pct": 15.0
       },
       {
-        "action": "buy",
+        "action": "sell",
         "ticker": "SOL-USD",
-        "weight_pct": 25.0
-      },
-      {
-        "action": "buy",
-        "ticker": "XRP-USD",
-        "weight_pct": 20.0
-      },
-      {
-        "action": "buy",
-        "ticker": "DOGE-USD",
-        "weight_pct": 25.0
+        "weight_pct": 5.0
       }
     ],
     "positions": {
       "BTC-USD": 1.6453591655874285,
-      "ETH-USD": 75.49380563302974,
-      "SOL-USD": 5158.764690346016,
-      "XRP-USD": 236319.0783990846
+      "DOGE-USD": 836729.0721935101,
+      "ETH-USD": 110.63792436740053,
+      "SOL-USD": 5877.362289346138,
+      "XRP-USD": 277603.5346444009
     },
     "rejected": [
       {
@@ -19723,6 +19862,42 @@
         "shares": 9133.72061701293,
         "status": "filled",
         "ticker": "XRP-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-27",
+        "fee": 0.0,
+        "price": 2506.74169921875,
+        "shares": 35.14411873437079,
+        "status": "filled",
+        "ticker": "ETH-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-27",
+        "fee": 0.0,
+        "price": 102.16337585449219,
+        "shares": 718.5975990001219,
+        "status": "filled",
+        "ticker": "SOL-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-27",
+        "fee": 7.275957614183426e-12,
+        "price": 1.422605276107788,
+        "shares": 41284.4562453163,
+        "status": "filled",
+        "ticker": "XRP-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-27",
+        "fee": 0.0,
+        "price": 0.08773969858884811,
+        "shares": 836729.0721935101,
+        "status": "filled",
+        "ticker": "DOGE-USD"
       }
     ]
   },
@@ -21501,6 +21676,10 @@
       {
         "date": "2026-08-27T00:39Z",
         "nav": 452940.4457100795
+      },
+      {
+        "date": "2026-08-27",
+        "nav": 508461.90793228196
       }
     ],
     "pending_orders": [],
@@ -21600,6 +21779,11 @@
         "date": "2026-08-26",
         "raw": null,
         "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"\\'max_tokens\\' or \\'max_completion_tokens\\' is too large: 27639. This model\\'s maximum context length is 32768 tokens and your request has 5664 input tokens (27639 > 32768 - 5664). None\",\"type\":\"invalid_request_error\",\"code\":null,\"param\":null}}', 'provider_name': 'Phala', 'is_byok': False}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-08-27",
+        "raw": null,
+        "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"\\'max_tokens\\' or \\'max_completion_tokens\\' is too large: 27636. This model\\'s maximum context length is 32768 tokens and your request has 5668 input tokens (27636 > 32768 - 5668). None\",\"type\":\"invalid_request_error\",\"code\":null,\"param\":null}}', 'provider_name': 'Phala', 'is_byok': False}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
     ],
     "trades": [
