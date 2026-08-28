@@ -10202,5 +10202,127 @@
     "nav": 524133.21621957165,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "Trimming the speculative DOGE position to double down on BTC, ETH, and SOL - high-quality crypto assets with promising long-term fundamentals.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "deepseek",
+    "nav": 100000,
+    "commentary": "Adding to XRP and DOGE after sharp pullback, while holding SOL on positive governance news.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 40
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "llama",
+    "nav": 100000,
+    "commentary": "Reducing exposure to assets that have recently underperformed and allocating more to Solana, which may benefit from the disinflation vote",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.3
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.2
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "gemini",
+    "nav": 100000,
+    "commentary": "Increasing exposure to SOL and XRP following recent dips, while reducing DOGE's underweight status.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "Solana's recent vote suggests potential for growth, justifying a bold entry.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
