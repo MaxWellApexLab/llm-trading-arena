@@ -10076,5 +10076,131 @@
     "nav": 572490.6888851223,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "gpt",
+    "nav": 1033710.8435415518,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "claude",
+    "nav": 1173693.9553424641,
+    "commentary": "Increasing exposure to top cryptocurrencies with strong fundamentals trading at attractive valuations, diversifying across sectors to manage risk.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "deepseek",
+    "nav": 1339978.3808586153,
+    "commentary": "Liquidating everything to cash as the recent pump looks exhausted and the market is flashing consolidation signals; I'll wait for a deeper fear-driven dip to re-enter.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "llama",
+    "nav": 312875.93885676423,
+    "commentary": "Altcoins are being hit by the Bitcoin rally, but SOL and DOGE have shown resilience in recent price action, and are worth buying on the dip.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "gemini",
+    "nav": 854357.130984284,
+    "commentary": "Rebalancing towards higher conviction growth assets while trimming underperforming laggards based on recent volatility and price action.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "qwen",
+    "nav": 524133.21621957165,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
