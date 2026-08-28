@@ -285,5 +285,12 @@
     "overtaker": "deepseek",
     "overtaken": "qwen",
     "rank": 4
+  },
+  {
+    "ts": "2026-08-28T05:32:23.146047+00:00",
+    "game": "arena",
+    "overtaker": "gemini",
+    "overtaken": "qwen",
+    "rank": 5
   }
 ]

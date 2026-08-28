@@ -6927,5 +6927,151 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "gpt",
+    "nav": 129301.70405526512,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "claude",
+    "nav": 110915.98595487064,
+    "commentary": "Capitalize on Nvidia's AI momentum while trimming the underperforming Charter position.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "deepseek",
+    "nav": 104225.74069569918,
+    "commentary": "Taking profits on CRM and NVDA after big moves, and buying beaten-down CHTR, GE, BKNG on fear.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "GE",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "llama",
+    "nav": 112157.72403113573,
+    "commentary": "Taking advantage of recent strength in NVDA, ADBE, AVGO, INTC, and IBM while reducing exposure to CHTR, and adding to BKNG",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "gemini",
+    "nav": 104118.35134878871,
+    "commentary": "Rebalancing into recent outperformers with strong news flow, while trimming recent laggards and those with negative momentum.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "GE",
+        "weight_pct": 0.5
+      },
+      {
+        "action": "sell",
+        "ticker": "BKNG",
+        "weight_pct": 2.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
