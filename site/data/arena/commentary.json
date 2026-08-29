@@ -7073,5 +7073,181 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-08-29",
+    "trader": "gpt",
+    "nav": 128308.83842485811,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-08-29",
+    "trader": "claude",
+    "nav": 107513.93349254451,
+    "commentary": "Nvidia's stock price dip presents a buying opportunity, while PayPal's recent decline signals it's time to take some profits.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "PYPL",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-08-29",
+    "trader": "deepseek",
+    "nav": 101685.36018052144,
+    "commentary": "Buying the fear in PYPL, NVDA, INTC, TXN, and MMM after sharp drops with no fundamental catalyst, trimming overweight laggards NKE, F, CVS, and BMY to free cash.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 3
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 3
+      },
+      {
+        "action": "buy",
+        "ticker": "MMM",
+        "weight_pct": 2
+      },
+      {
+        "action": "sell",
+        "ticker": "NKE",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "F",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "CVS",
+        "weight_pct": 4
+      },
+      {
+        "action": "sell",
+        "ticker": "BMY",
+        "weight_pct": 4
+      }
+    ]
+  },
+  {
+    "date": "2026-08-29",
+    "trader": "llama",
+    "nav": 112254.33468127287,
+    "commentary": "Catching recent notable moves with a long-only strategy, focusing on Nvidia's correction and the resurgence of Netflix and PayPal.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "NFLX",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-08-29",
+    "trader": "gemini",
+    "nav": 99964.48668464855,
+    "commentary": "Reducing exposure to recent decliners and increasing exposure to recent outperformers to rebalance volatility-weighted positions.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "PYPL",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MMM",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "CMCSA",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "NFLX",
+        "weight_pct": 2.0
+      }
+    ]
+  },
+  {
+    "date": "2026-08-29",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
