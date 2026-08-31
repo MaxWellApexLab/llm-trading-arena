@@ -1,6 +1,6 @@
 {
   "claude": {
-    "cash": -222048.24087420493,
+    "cash": -255584.58181680433,
     "liquidations": 4,
     "nav_history": [
       {
@@ -1898,29 +1898,37 @@
       {
         "date": "2026-08-31T19:03Z",
         "nav": 103296.65138888583
+      },
+      {
+        "date": "2026-08-31",
+        "nav": 104354.64716506141
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
         "ticker": "BTC-USD",
-        "weight_pct": 25.0
+        "weight_pct": 40.0
       },
       {
         "action": "buy",
         "ticker": "ETH-USD",
-        "weight_pct": 20.0
+        "weight_pct": 30.0
       },
       {
-        "action": "sell",
-        "ticker": "DOGE-USD",
-        "weight_pct": 50.0
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
       }
     ],
     "positions": {
-      "BTC-USD": 1.2069043557016,
-      "DOGE-USD": 118163.9984886448,
-      "ETH-USD": 32.46723143443822,
+      "BTC-USD": 1.5160748054829447,
+      "ETH-USD": 40.41474711193557,
       "SOL-USD": 666.3326985513586,
       "XRP-USD": 50226.21401490194
     },
@@ -4329,11 +4337,38 @@
         "shares": 14137.271627319824,
         "status": "filled",
         "ticker": "XRP-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-31",
+        "fee": 0.0,
+        "price": 77695.484375,
+        "shares": 0.30917044978134484,
+        "status": "filled",
+        "ticker": "BTC-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-31",
+        "fee": 0.0,
+        "price": 2417.97802734375,
+        "shares": 7.947515677497346,
+        "status": "filled",
+        "ticker": "ETH-USD"
+      },
+      {
+        "action": "sell",
+        "date": "2026-08-31",
+        "fee": 0.0,
+        "price": 0.0821039006114006,
+        "shares": 118163.9984886448,
+        "status": "filled",
+        "ticker": "DOGE-USD"
       }
     ]
   },
   "deepseek": {
-    "cash": -221763.27121586396,
+    "cash": -244028.87701308008,
     "liquidations": 3,
     "nav_history": [
       {
@@ -6227,24 +6262,38 @@
       {
         "date": "2026-08-31T19:03Z",
         "nav": 94867.67661734452
+      },
+      {
+        "date": "2026-08-31",
+        "nav": 95442.77920189031
       }
     ],
     "pending_orders": [
       {
-        "action": "buy",
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 100.0
+      },
+      {
+        "action": "sell",
         "ticker": "XRP-USD",
-        "weight_pct": 15.0
+        "weight_pct": 100.0
       },
       {
         "action": "buy",
-        "ticker": "SOL-USD",
-        "weight_pct": 10.0
+        "ticker": "BTC-USD",
+        "weight_pct": 150.0
       }
     ],
     "positions": {
       "DOGE-USD": 3069766.654263361,
-      "SOL-USD": 384.1322142567527,
-      "XRP-USD": 14457.878753069039
+      "SOL-USD": 471.5561522886538,
+      "XRP-USD": 24285.934818449998
     },
     "rejected": [
       {
@@ -7891,11 +7940,29 @@
         "shares": 1654797.7845587954,
         "status": "filled",
         "ticker": "DOGE-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-31",
+        "fee": 0.0,
+        "price": 1.3593088388442993,
+        "shares": 9828.05606538096,
+        "status": "filled",
+        "ticker": "XRP-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-31",
+        "fee": 0.0,
+        "price": 101.87418365478516,
+        "shares": 87.42393803190107,
+        "status": "filled",
+        "ticker": "SOL-USD"
       }
     ]
   },
   "gemini": {
-    "cash": -118564.54114429378,
+    "cash": -216188.04425611428,
     "liquidations": 4,
     "nav_history": [
       {
@@ -9793,18 +9860,22 @@
       {
         "date": "2026-08-31T19:03Z",
         "nav": 102685.18224287037
+      },
+      {
+        "date": "2026-08-31",
+        "nav": 105057.39286694542
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
         "ticker": "BTC-USD",
-        "weight_pct": 30.0
+        "weight_pct": 45.0
       },
       {
         "action": "buy",
         "ticker": "ETH-USD",
-        "weight_pct": 25.0
+        "weight_pct": 30.0
       },
       {
         "action": "buy",
@@ -9812,22 +9883,22 @@
         "weight_pct": 20.0
       },
       {
-        "action": "buy",
-        "ticker": "XRP-USD",
-        "weight_pct": 15.0
-      },
-      {
-        "action": "buy",
+        "action": "sell",
         "ticker": "DOGE-USD",
         "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 5.0
       }
     ],
     "positions": {
-      "BTC-USD": 0.7651829921405601,
-      "DOGE-USD": 59081.9992443224,
-      "ETH-USD": 26.443781646498046,
-      "SOL-USD": 622.4143405446288,
-      "XRP-USD": 18051.44050567737
+      "BTC-USD": 1.1421296212675651,
+      "DOGE-USD": 177984.39290022737,
+      "ETH-USD": 36.53728766762844,
+      "SOL-USD": 814.0693793572711,
+      "XRP-USD": 28824.213438738836
     },
     "rejected": [
       {
@@ -12995,6 +13066,51 @@
         "shares": 0.2512977527513368,
         "status": "filled",
         "ticker": "BTC-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-31",
+        "fee": 0.0,
+        "price": 77695.484375,
+        "shares": 0.37694662912700516,
+        "status": "filled",
+        "ticker": "BTC-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-31",
+        "fee": 0.0,
+        "price": 2417.97802734375,
+        "shares": 10.093506021130393,
+        "status": "filled",
+        "ticker": "ETH-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-31",
+        "fee": 0.0,
+        "price": 101.87418365478516,
+        "shares": 191.65503881264232,
+        "status": "filled",
+        "ticker": "SOL-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-31",
+        "fee": 1.8189894035458565e-12,
+        "price": 1.3593088388442993,
+        "shares": 10772.772933061466,
+        "status": "filled",
+        "ticker": "XRP-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-31",
+        "fee": 0.0,
+        "price": 0.0821039006114006,
+        "shares": 118902.39365590498,
+        "status": "filled",
+        "ticker": "DOGE-USD"
       }
     ]
   },
@@ -14893,6 +15009,10 @@
       {
         "date": "2026-08-31T19:03Z",
         "nav": 100000
+      },
+      {
+        "date": "2026-08-31",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -15271,6 +15391,11 @@
       },
       {
         "date": "2026-08-30",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-08-31",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       },
@@ -16742,7 +16867,7 @@
     ]
   },
   "llama": {
-    "cash": -203183.0032659059,
+    "cash": -165693.75395221775,
     "liquidations": 2,
     "nav_history": [
       {
@@ -18632,41 +18757,35 @@
       {
         "date": "2026-08-31T19:03Z",
         "nav": 100014.09564195818
+      },
+      {
+        "date": "2026-08-31",
+        "nav": 99714.56470668601
       }
     ],
     "pending_orders": [
       {
-        "action": "sell",
-        "ticker": "DOGE-USD",
-        "weight_pct": 20.0
-      },
-      {
         "action": "buy",
-        "ticker": "XRP-USD",
-        "weight_pct": 10.0
+        "ticker": "BTC-USD",
+        "weight_pct": 0.3
       },
       {
         "action": "buy",
         "ticker": "ETH-USD",
-        "weight_pct": 15.0
+        "weight_pct": 0.2
       },
       {
         "action": "buy",
         "ticker": "SOL-USD",
-        "weight_pct": 5.0
-      },
-      {
-        "action": "sell",
-        "ticker": "BTC-USD",
-        "weight_pct": 50.0
+        "weight_pct": 0.1
       }
     ],
     "positions": {
-      "BTC-USD": 1.1333212558681323,
-      "DOGE-USD": 765807.5382188108,
-      "ETH-USD": 19.395174974025494,
-      "SOL-USD": 491.32695542492655,
-      "XRP-USD": 36066.68021381044
+      "BTC-USD": 0.5301773020196539,
+      "DOGE-USD": 537503.8337996657,
+      "ETH-USD": 25.209317341595668,
+      "SOL-USD": 537.32640294041,
+      "XRP-USD": 42961.590377412766
     },
     "rejected": [
       {
@@ -19222,6 +19341,24 @@
           "weight_pct": 10.0
         },
         "reason": "no open price for SOL-USD"
+      },
+      {
+        "date": "2026-08-31",
+        "raw": {
+          "action": "sell",
+          "ticker": "DOGE-USD",
+          "weight_pct": "0.0"
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-08-31",
+        "raw": {
+          "action": "buy",
+          "ticker": "XRP-USD",
+          "weight_pct": "0.0"
+        },
+        "reason": "weight_pct 0.0 out of range (0, 10000]"
       }
     ],
     "trades": [
@@ -21438,6 +21575,51 @@
         "shares": 13.79983425464505,
         "status": "filled",
         "ticker": "SOL-USD"
+      },
+      {
+        "action": "sell",
+        "date": "2026-08-31",
+        "fee": 0.0,
+        "price": 0.0821039006114006,
+        "shares": 228303.7044191451,
+        "status": "filled",
+        "ticker": "DOGE-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-31",
+        "fee": 0.0,
+        "price": 1.3593088388442993,
+        "shares": 6894.910163602325,
+        "status": "filled",
+        "ticker": "XRP-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-31",
+        "fee": 0.0,
+        "price": 2417.97802734375,
+        "shares": 5.814142367570175,
+        "status": "filled",
+        "ticker": "ETH-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-08-31",
+        "fee": 0.0,
+        "price": 101.87418365478516,
+        "shares": 45.999447515483496,
+        "status": "filled",
+        "ticker": "SOL-USD"
+      },
+      {
+        "action": "sell",
+        "date": "2026-08-31",
+        "fee": 0.0,
+        "price": 77695.484375,
+        "shares": 0.6031439538484784,
+        "status": "filled",
+        "ticker": "BTC-USD"
       }
     ]
   },
@@ -23332,6 +23514,10 @@
       {
         "date": "2026-08-31T19:03Z",
         "nav": 100000
+      },
+      {
+        "date": "2026-08-31",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -23469,6 +23655,11 @@
         "date": "2026-08-31",
         "raw": null,
         "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"\\'max_tokens\\' or \\'max_completion_tokens\\' is too large: 27648. This model\\'s maximum context length is 32768 tokens and your request has 5652 input tokens (27648 > 32768 - 5652). None\",\"type\":\"invalid_request_error\",\"code\":null,\"param\":null}}', 'provider_name': 'Phala', 'is_byok': False}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-08-31",
+        "raw": null,
+        "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"\\'max_tokens\\' or \\'max_completion_tokens\\' is too large: 27649. This model\\'s maximum context length is 32768 tokens and your request has 5642 input tokens (27649 > 32768 - 5642). None\",\"type\":\"invalid_request_error\",\"code\":null,\"param\":null}}', 'provider_name': 'Phala', 'is_byok': False}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
     ],
     "trades": [
