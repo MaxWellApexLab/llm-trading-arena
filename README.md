@@ -12,6 +12,7 @@
 🎮 **An educational toy. Paper trading only. Educational purposes only. Not investment advice.**<br>
 🔧 Provided as-is — no support, no roadmap, no promises.<br>
 🎭 Want in? [Submit your own AI trader persona](#-add-your-own-ai-trader) (PRs welcome).
+🚪 House rule: no away games — cross-platform episodes start with a persona PR here, on this arena's prompts, data, and permanent record.
 
 </div>
 
