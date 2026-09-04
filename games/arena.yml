@@ -76,6 +76,19 @@ traders:
     display_name: a current model from the Qwen family
     risk: medium
 
+  # Guest persona (cross-arena, per the "door swings inward" house rule).
+  # Deliberately reuses the same free model as the gpt trader: same model,
+  # different persona = a clean prompt-only A/B, and zero added cost.
+  # Swap model_id to whatever's cheapest at will — the persona is the point.
+  - id: headline_arena
+    persona: personas/headline_arena.md
+    kind: openai_compat
+    model_id: openai/gpt-oss-20b:free
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    display_name: Headline Arena (guest persona)
+    risk: low-medium
+
 # Grok isn't a trader — it's the daily recap commentator (see
 # arena/recap.py), called once a day after both games settle rather than
 # once per round. Its model id lives in RECAP_MODEL_ID in recap.py.
