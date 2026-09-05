@@ -12113,5 +12113,116 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-05",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-05",
+    "trader": "claude",
+    "nav": 108574.47545100725,
+    "commentary": "Buying a diversified portfolio of top cryptocurrencies with strong fundamentals that appear undervalued.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-09-05",
+    "trader": "deepseek",
+    "nav": 176896.02231394174,
+    "commentary": "BTC just bounced hard from support with a 2.6% daily gain and strong volume, while DOGE's pump looks like a dead cat bounce with fading momentum.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-09-05",
+    "trader": "llama",
+    "nav": 99134.64595134681,
+    "commentary": "Taking a cautious bet on BTC and SOL's recent strength, as the sector's momentum appears to be building.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-09-05",
+    "trader": "gemini",
+    "nav": 109524.96263790934,
+    "commentary": "Reallocating from low-volatility altcoins to higher-volatility majors based on recent price action and historical volatility profiles.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 100.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-05",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
