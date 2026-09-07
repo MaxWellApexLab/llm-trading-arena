@@ -1,6 +1,6 @@
 {
   "claude": {
-    "cash": -429121.0275121809,
+    "cash": -452585.34797966183,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -145,18 +145,22 @@
       {
         "date": "2026-09-04",
         "nav": 114491.76065061853
+      },
+      {
+        "date": "2026-09-07",
+        "nav": 114866.85457208456
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
-        "ticker": "ORCL",
+        "ticker": "INTC",
         "weight_pct": 10.0
       },
       {
-        "action": "buy",
-        "ticker": "INTC",
-        "weight_pct": 10.0
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 20.0
       }
     ],
     "positions": {
@@ -175,7 +179,7 @@
       "EMR": 32.40569206440153,
       "FDX": 33.51506613286016,
       "GOOG": 30.82626652335558,
-      "INTC": 307.8115752442334,
+      "INTC": 434.7143402092627,
       "LIN": 19.653891223743265,
       "LLY": 8.5611936091899,
       "MET": 108.13243870769874,
@@ -184,7 +188,7 @@
       "MSFT": 20.744901043061496,
       "NKE": 3.250028815523649,
       "NVDA": 448.4383843364012,
-      "ORCL": 165.33968077286735,
+      "ORCL": 238.91399244834898,
       "PYPL": 51.59909180528401,
       "QCOM": 129.50161465910304,
       "TGT": 31.06622295853688,
@@ -941,6 +945,24 @@
         "shares": 16.181864497913597,
         "status": "filled",
         "ticker": "TSLA"
+      },
+      {
+        "action": "buy",
+        "date": "2026-09-07",
+        "fee": 0.0,
+        "price": 159.4600067138672,
+        "shares": 73.57431167548162,
+        "status": "filled",
+        "ticker": "ORCL"
+      },
+      {
+        "action": "buy",
+        "date": "2026-09-07",
+        "fee": 0.0,
+        "price": 92.44999694824219,
+        "shares": 126.90276496502932,
+        "status": "filled",
+        "ticker": "INTC"
       }
     ]
   },
@@ -1090,39 +1112,53 @@
       {
         "date": "2026-09-04",
         "nav": 110494.51654557383
+      },
+      {
+        "date": "2026-09-07",
+        "nav": 109394.05173228006
       }
     ],
     "pending_orders": [
       {
         "action": "sell",
         "ticker": "AMD",
-        "weight_pct": 11.0
+        "weight_pct": 5.0
       },
       {
         "action": "sell",
         "ticker": "INTC",
-        "weight_pct": 5.0
+        "weight_pct": 3.0
       },
       {
         "action": "buy",
         "ticker": "ADBE",
-        "weight_pct": 8.0
+        "weight_pct": 2.0
       },
       {
         "action": "buy",
         "ticker": "TSLA",
-        "weight_pct": 5.0
+        "weight_pct": 2.0
       },
       {
         "action": "buy",
         "ticker": "NFLX",
-        "weight_pct": 3.0
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 1.0
       }
     ],
     "positions": {
       "AAPL": 112.47455782928566,
-      "ADBE": 4.5475651544602975,
-      "AMD": 141.11655217845103,
+      "ADBE": 35.467719374360854,
+      "AMD": 115.85865108773547,
       "AMZN": 30.312330983214885,
       "BA": 116.81103529175618,
       "BKNG": 55.67689730711801,
@@ -1140,19 +1176,19 @@
       "GOOGL": 15.34845503765385,
       "HD": 3.0475670127945205,
       "HON": 35.4104031509565,
-      "INTC": 515.0018431902809,
+      "INTC": 457.628566779901,
       "LIN": 27.232782664164098,
       "LLY": 3.030558812198754,
       "META": 11.312087587343491,
       "MMM": 11.609075721541604,
       "MS": 48.52985913194269,
-      "NFLX": 7.791217486164726,
+      "NFLX": 46.52184433718165,
       "NKE": 789.9200984649949,
       "NVDA": 106.4884633252764,
       "PYPL": 77.31960531373863,
       "QCOM": 5.347632385839017,
       "RTX": 81.41237544486063,
-      "TSLA": 28.32941730104956,
+      "TSLA": 42.97895778149211,
       "TXN": 25.85981003107115,
       "UNH": 17.238650712705777,
       "UPS": 51.33646460850788,
@@ -2834,11 +2870,56 @@
         "shares": 6.92442487944836,
         "status": "filled",
         "ticker": "META"
+      },
+      {
+        "action": "sell",
+        "date": "2026-09-07",
+        "fee": 0.0,
+        "price": 462.0,
+        "shares": 25.257901090715567,
+        "status": "filled",
+        "ticker": "AMD"
+      },
+      {
+        "action": "sell",
+        "date": "2026-09-07",
+        "fee": 0.0,
+        "price": 92.44999694824219,
+        "shares": 57.373276410379866,
+        "status": "filled",
+        "ticker": "INTC"
+      },
+      {
+        "action": "buy",
+        "date": "2026-09-07",
+        "fee": 0.0,
+        "price": 274.4700012207031,
+        "shares": 30.920154219900557,
+        "status": "filled",
+        "ticker": "ADBE"
+      },
+      {
+        "action": "buy",
+        "date": "2026-09-07",
+        "fee": 0.0,
+        "price": 362.07000732421875,
+        "shares": 14.649540480442552,
+        "status": "filled",
+        "ticker": "TSLA"
+      },
+      {
+        "action": "buy",
+        "date": "2026-09-07",
+        "fee": 0.0,
+        "price": 82.16999816894531,
+        "shares": 38.73062685101692,
+        "status": "filled",
+        "ticker": "NFLX"
       }
     ]
   },
   "gemini": {
-    "cash": -617921.6810032685,
+    "cash": -641089.5831932568,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -2983,34 +3064,68 @@
       {
         "date": "2026-09-04",
         "nav": 101232.10331587214
+      },
+      {
+        "date": "2026-09-07",
+        "nav": 101557.17634497676
       }
     ],
     "pending_orders": [
       {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "NFLX",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "PYPL",
+        "weight_pct": 2.0
+      },
+      {
         "action": "buy",
         "ticker": "AMD",
-        "weight_pct": 7.0
+        "weight_pct": 1.5
       },
       {
         "action": "buy",
         "ticker": "INTC",
-        "weight_pct": 6.0
+        "weight_pct": 1.5
       },
       {
         "action": "buy",
         "ticker": "ORCL",
-        "weight_pct": 5.0
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 1.0
       },
       {
         "action": "buy",
         "ticker": "DOW",
-        "weight_pct": 5.0
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 1.0
       }
     ],
     "positions": {
       "ACN": 89.48253666115302,
       "ADBE": 42.569832612882976,
-      "AMD": 112.76868125928137,
+      "AMD": 128.03080391408264,
       "AMZN": 132.39553601427536,
       "AVGO": 50.24060607386558,
       "BA": 72.18465174470823,
@@ -3026,7 +3141,7 @@
       "CVS": 27.890284154052182,
       "CVX": 19.06667279932009,
       "DHR": 82.73330814190722,
-      "DOW": 278.1117637664779,
+      "DOW": 445.43735885799845,
       "F": 575.9348633053801,
       "FDX": 53.771861753728736,
       "GD": 2.35323737914582,
@@ -3038,7 +3153,7 @@
       "GS": 8.666179604025512,
       "HD": 9.485693238096491,
       "IBM": 23.667394410043865,
-      "INTC": 356.53228435445334,
+      "INTC": 421.90600821390245,
       "LLY": 12.095687232175328,
       "LMT": 12.419732967615484,
       "MA": 11.408576446465693,
@@ -3052,7 +3167,7 @@
       "NFLX": 47.21079207804084,
       "NKE": 83.3019093163325,
       "NVDA": 162.47638506468053,
-      "ORCL": 137.74601429415367,
+      "ORCL": 169.33073939153712,
       "PM": 20.362046226453952,
       "PYPL": 53.839936255498735,
       "QCOM": 150.39776513949437,
@@ -6747,6 +6862,42 @@
         "shares": 9.561584239616852,
         "status": "filled",
         "ticker": "CRM"
+      },
+      {
+        "action": "buy",
+        "date": "2026-09-07",
+        "fee": 0.0,
+        "price": 462.0,
+        "shares": 15.262122654801264,
+        "status": "filled",
+        "ticker": "AMD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-09-07",
+        "fee": 9.094947017729282e-13,
+        "price": 92.44999694824219,
+        "shares": 65.37372385944913,
+        "status": "filled",
+        "ticker": "INTC"
+      },
+      {
+        "action": "buy",
+        "date": "2026-09-07",
+        "fee": 0.0,
+        "price": 159.4600067138672,
+        "shares": 31.584725097383465,
+        "status": "filled",
+        "ticker": "ORCL"
+      },
+      {
+        "action": "buy",
+        "date": "2026-09-07",
+        "fee": 0.0,
+        "price": 30.100000381469727,
+        "shares": 167.3255950915205,
+        "status": "filled",
+        "ticker": "DOW"
       }
     ]
   },
@@ -6896,6 +7047,10 @@
       {
         "date": "2026-09-04",
         "nav": 126132.12724099954
+      },
+      {
+        "date": "2026-09-07",
+        "nav": 126132.39594468876
       }
     ],
     "pending_orders": [],
@@ -8063,6 +8218,11 @@
       },
       {
         "date": "2026-09-04",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-09-07",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
@@ -9534,6 +9694,10 @@
       {
         "date": "2026-09-04",
         "nav": 100000
+      },
+      {
+        "date": "2026-09-07",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -9543,12 +9707,17 @@
         "date": "2026-09-04",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-09-07",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
     ],
     "trades": []
   },
   "llama": {
-    "cash": -126429.83420930352,
+    "cash": -126497.59243007016,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -9693,50 +9862,59 @@
       {
         "date": "2026-09-04",
         "nav": 110749.56245283133
+      },
+      {
+        "date": "2026-09-07",
+        "nav": 110755.81038306531
       }
     ],
     "pending_orders": [
       {
         "action": "sell",
         "ticker": "TSLA",
-        "weight_pct": 0.04
-      },
-      {
-        "action": "sell",
-        "ticker": "ADBE",
-        "weight_pct": 0.04
+        "weight_pct": 3.85
       },
       {
         "action": "sell",
         "ticker": "NFLX",
-        "weight_pct": 0.04
+        "weight_pct": 3.85
       },
       {
-        "action": "buy",
+        "action": "sell",
         "ticker": "AMD",
-        "weight_pct": 0.045
+        "weight_pct": 3.85
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 3.85
+      },
+      {
+        "action": "sell",
+        "ticker": "PYPL",
+        "weight_pct": 3.85
       },
       {
         "action": "buy",
         "ticker": "INTC",
-        "weight_pct": 0.045
+        "weight_pct": 4.5
       },
       {
         "action": "buy",
         "ticker": "TMUS",
-        "weight_pct": 0.045
+        "weight_pct": 4.5
       },
       {
         "action": "buy",
         "ticker": "ORCL",
-        "weight_pct": 0.045
+        "weight_pct": 4.5
       }
     ],
     "positions": {
       "AAPL": 17.690632119321624,
       "ACN": 52.03293022416321,
-      "ADBE": 77.88954838417447,
-      "AMD": 29.041973750026663,
+      "ADBE": 77.72496884186796,
+      "AMD": 29.151970861660846,
       "AMZN": 0.9708538578986846,
       "AVGO": 12.823777920960099,
       "BKNG": 13.40126310344545,
@@ -9757,7 +9935,7 @@
       "HD": 0.06238666724787246,
       "HON": 0.47264895866431755,
       "IBM": 0.2358053326407464,
-      "INTC": 98.97201935413817,
+      "INTC": 99.52170748017936,
       "JNJ": 0.6383965401347287,
       "JPM": 30.721313260049534,
       "KHC": 8.945713194074738,
@@ -9776,10 +9954,10 @@
       "MS": 0.30589550968378676,
       "MSFT": 70.42708169359238,
       "NEE": 1.9116799433650646,
-      "NFLX": 3.538267939711999,
+      "NFLX": 2.988527788995486,
       "NKE": 2.76776601324981,
       "NVDA": 4.713581819557564,
-      "ORCL": 36.508591595868346,
+      "ORCL": 36.82728382862474,
       "PEP": 0.00947671942875984,
       "PYPL": 15.407267477488677,
       "QCOM": 18.35428179599113,
@@ -9791,8 +9969,8 @@
       "T": 15.384056218518769,
       "TGT": 10.825610722781693,
       "TMO": 7.1034458657271955,
-      "TMUS": 1.6351056433838527,
-      "TSLA": 84.58708615972398,
+      "TMUS": 1.9061674458859543,
+      "TSLA": 84.46232535031145,
       "TXN": 12.898577240735282,
       "UNH": 1.1266342153163649,
       "UNP": 0.5588480129603183,
@@ -12745,6 +12923,69 @@
         "shares": 0.7013542163742003,
         "status": "filled",
         "ticker": "XOM"
+      },
+      {
+        "action": "sell",
+        "date": "2026-09-07",
+        "fee": 0.0,
+        "price": 362.07000732421875,
+        "shares": 0.1247608094125339,
+        "status": "filled",
+        "ticker": "TSLA"
+      },
+      {
+        "action": "sell",
+        "date": "2026-09-07",
+        "fee": 0.0,
+        "price": 274.4700012207031,
+        "shares": 0.16457954230651378,
+        "status": "filled",
+        "ticker": "ADBE"
+      },
+      {
+        "action": "sell",
+        "date": "2026-09-07",
+        "fee": 0.0,
+        "price": 82.16999816894531,
+        "shares": 0.5497401507165132,
+        "status": "filled",
+        "ticker": "NFLX"
+      },
+      {
+        "action": "buy",
+        "date": "2026-09-07",
+        "fee": 0.0,
+        "price": 462.0,
+        "shares": 0.1099971116341841,
+        "status": "filled",
+        "ticker": "AMD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-09-07",
+        "fee": 0.0,
+        "price": 92.44999694824219,
+        "shares": 0.5496881260411909,
+        "status": "filled",
+        "ticker": "INTC"
+      },
+      {
+        "action": "buy",
+        "date": "2026-09-07",
+        "fee": 0.0,
+        "price": 187.47999572753906,
+        "shares": 0.27106180250210166,
+        "status": "filled",
+        "ticker": "TMUS"
+      },
+      {
+        "action": "buy",
+        "date": "2026-09-07",
+        "fee": -7.105427357601002e-15,
+        "price": 159.4600067138672,
+        "shares": 0.31869223275640124,
+        "status": "filled",
+        "ticker": "ORCL"
       }
     ]
   },
@@ -12893,6 +13134,10 @@
       },
       {
         "date": "2026-09-04",
+        "nav": 100000
+      },
+      {
+        "date": "2026-09-07",
         "nav": 100000
       }
     ],
@@ -13078,6 +13323,11 @@
         "date": "2026-09-04",
         "raw": null,
         "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"The input (87632 tokens) is longer than the model\\'s context length (32768 tokens).\",\"type\":\"invalid_request_error\",\"code\":null,\"param\":null}}', 'provider_name': 'Phala', 'is_byok': False}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-09-07",
+        "raw": null,
+        "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"The input (87649 tokens) is longer than the model\\'s context length (32768 tokens).\",\"type\":\"invalid_request_error\",\"code\":null,\"param\":null}}', 'provider_name': 'Phala', 'is_byok': False}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
     ],
     "trades": []
