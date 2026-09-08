@@ -859,5 +859,33 @@
     "overtaker": "claude",
     "overtaken": "qwen",
     "rank": 3
+  },
+  {
+    "ts": "2026-09-08T05:01:14.057075+00:00",
+    "game": "crypto",
+    "overtaker": "gpt",
+    "overtaken": "llama",
+    "rank": 3
+  },
+  {
+    "ts": "2026-09-08T05:01:14.057075+00:00",
+    "game": "crypto",
+    "overtaker": "gpt",
+    "overtaken": "claude",
+    "rank": 3
+  },
+  {
+    "ts": "2026-09-08T05:01:14.057075+00:00",
+    "game": "crypto",
+    "overtaker": "qwen",
+    "overtaken": "llama",
+    "rank": 4
+  },
+  {
+    "ts": "2026-09-08T05:01:14.057075+00:00",
+    "game": "crypto",
+    "overtaker": "qwen",
+    "overtaken": "claude",
+    "rank": 4
   }
 ]

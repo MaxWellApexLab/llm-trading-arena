@@ -12733,5 +12733,136 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-08",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-08",
+    "trader": "claude",
+    "nav": 96485.19812524877,
+    "commentary": "Increasing exposure to top cryptocurrencies with strong fundamentals that are trading below fair value.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-09-08",
+    "trader": "deepseek",
+    "nav": 104101.43117627129,
+    "commentary": "SOL and XRP got hammered with no catalyst, so I'm leaning into the fear with leverage while dumping DOGE as its dead-cat bounce fades.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 150
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 130
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-09-08",
+    "trader": "llama",
+    "nav": 99120.35387163839,
+    "commentary": "Liquidating everything and restarting with a fresh $100,000 after a macro regime shift likely occurred with the recent Liquid Network news and the subsequent BTC price drop, likely indicating a shift away from risk-on assets",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-08",
+    "trader": "gemini",
+    "nav": 102890.62528859032,
+    "commentary": "Increasing exposure to lower volatility assets as recent price action presents a buying opportunity.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": -10
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": -15
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": -20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": -25
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": -30
+      }
+    ]
+  },
+  {
+    "date": "2026-09-08",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
