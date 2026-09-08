@@ -887,5 +887,12 @@
     "overtaker": "qwen",
     "overtaken": "claude",
     "rank": 4
+  },
+  {
+    "ts": "2026-09-08T16:47:13.329735+00:00",
+    "game": "crypto",
+    "overtaker": "claude",
+    "overtaken": "gemini",
+    "rank": 2
   }
 ]
