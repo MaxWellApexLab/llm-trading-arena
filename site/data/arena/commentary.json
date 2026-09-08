@@ -8364,5 +8364,182 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-08",
+    "trader": "gpt",
+    "nav": 128158.70916837285,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-08",
+    "trader": "claude",
+    "nav": 115872.63528422744,
+    "commentary": "I'm taking advantage of the recent dips in AMGN and INTC to add to my positions, as I believe they have durable business models and are currently trading at attractive valuations.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AMGN",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-08",
+    "trader": "deepseek",
+    "nav": 109892.90405594173,
+    "commentary": "Taking profits on AMD and INTC after their recent rallies to buy the fear in AMGN, BKNG, ADBE, and CHTR which have dropped without clear fundamental reasons.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 15
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "AMGN",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 3
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 3
+      }
+    ]
+  },
+  {
+    "date": "2026-09-08",
+    "trader": "llama",
+    "nav": 111363.79469753563,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-08",
+    "trader": "gemini",
+    "nav": 104782.55727752089,
+    "commentary": "Rebalancing to overweight high-volatility tech and energy names while reducing exposure to declining momentum stocks.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMGN",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BKNG",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CVX",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOG",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOGL",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-08",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-08",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
