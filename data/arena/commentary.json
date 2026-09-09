@@ -8541,5 +8541,132 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-09",
+    "trader": "gpt",
+    "nav": 125847.80260697141,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-09",
+    "trader": "claude",
+    "nav": 115166.67291346006,
+    "commentary": "Buying META and IBM to take advantage of their recent price movements and strong fundamentals.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-09-09",
+    "trader": "deepseek",
+    "nav": 104660.12015382358,
+    "commentary": "Selling winners META and AMD to lock profits and buying beaten-down CMCSA, SPG, TGT, and adding to CHTR, BKNG, GE on fear-driven drops.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "META",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "CMCSA",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "SPG",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 17
+      },
+      {
+        "action": "buy",
+        "ticker": "GE",
+        "weight_pct": 22
+      }
+    ]
+  },
+  {
+    "date": "2026-09-09",
+    "trader": "llama",
+    "nav": 110644.47957292947,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-09",
+    "trader": "gemini",
+    "nav": 101881.241869624,
+    "commentary": "Rebalancing to capture recent strength in META and AMD while reducing exposure to recent weakness in CHTR and CMCSA, and adding to energy exposure given geopolitical headlines.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CMCSA",
+        "weight_pct": 1.8
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 1.5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-09",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-09",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
