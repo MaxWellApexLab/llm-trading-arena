@@ -13216,5 +13216,111 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-10",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-10",
+    "trader": "claude",
+    "nav": 85644.8387738401,
+    "commentary": "Capitalizing on the recent dips in major crypto prices to build a diversified long-term portfolio of top-performing assets.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "trader": "deepseek",
+    "nav": 100000.0,
+    "commentary": "Buying the biggest recent dips in DOGE and XRP as panic seems overdone with no fundamental catalyst for the selloff.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "trader": "llama",
+    "nav": 95933.63653215233,
+    "commentary": "Capital is flowing toward Bitcoin, which is showing relative strength, so I'm buying in and selling out of Dogecoin to reallocate funds.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "trader": "gemini",
+    "nav": 94700.20889322413,
+    "commentary": "Rebalancing towards higher volatility assets and away from recent underperformers.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": -5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
