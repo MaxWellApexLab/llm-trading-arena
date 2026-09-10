@@ -8668,5 +8668,188 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-10",
+    "trader": "gpt",
+    "nav": 119782.18398787553,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-10",
+    "trader": "claude",
+    "nav": 105885.975741236,
+    "commentary": "Opportunistically adding to positions in ORCL and TMUS, which have recently pulled back, to take advantage of attractive entry points.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "trader": "deepseek",
+    "nav": 102954.81724541663,
+    "commentary": "Taking profits on AAPL and CHTR after their recent bounces to fund purchases of beaten-down semis and tech into fear.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AAPL",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 3
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 3
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 2
+      }
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "trader": "llama",
+    "nav": 108476.34350247719,
+    "commentary": "Rotating into sector leaders with recent notable moves, focusing on tech and industrials.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "buy",
+        "ticker": "F",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 0.03
+      }
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "trader": "gemini",
+    "nav": 92207.0908586036,
+    "commentary": "Reducing exposure to recent decliners and reallocating to stronger performers based on recent price action.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 6.84
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 6.04
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 4.01
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 3.54
+      },
+      {
+        "action": "sell",
+        "ticker": "IBM",
+        "weight_pct": 3.21
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 1.91
+      },
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "F",
+        "weight_pct": 1.27
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 1.18
+      }
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-10",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
