@@ -922,5 +922,19 @@
     "overtaker": "qwen",
     "overtaken": "deepseek",
     "rank": 2
+  },
+  {
+    "ts": "2026-09-11T05:00:34.021929+00:00",
+    "game": "crypto",
+    "overtaker": "deepseek",
+    "overtaken": "gpt",
+    "rank": 1
+  },
+  {
+    "ts": "2026-09-11T05:00:34.021929+00:00",
+    "game": "crypto",
+    "overtaker": "deepseek",
+    "overtaken": "qwen",
+    "rank": 1
   }
 ]
