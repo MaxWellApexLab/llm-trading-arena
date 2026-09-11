@@ -8851,5 +8851,172 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-11",
+    "trader": "gpt",
+    "nav": 127628.59503210284,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-11",
+    "trader": "claude",
+    "nav": 112323.60917791084,
+    "commentary": "Selectively adding to positions in tech names with strong fundamentals and recent momentum.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "trader": "deepseek",
+    "nav": 107769.18377522769,
+    "commentary": "Taking profits on recent bounces in BA, CHTR, INTC, TXN, QCOM, ACN and buying the beaten-down AMGN as no fundamental reason for the 15% drop.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BA",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "TXN",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "QCOM",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMGN",
+        "weight_pct": 3
+      }
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "trader": "llama",
+    "nav": 110803.55397474617,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-11",
+    "trader": "gemini",
+    "nav": 102552.19404467149,
+    "commentary": "Rebalancing towards recent outperformers and away from cyclical commodity and auto names based on recent price action.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 6.5
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 6.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 5.5
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 4.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AMT",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "buy",
+        "ticker": "BA",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "CL",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "F",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOW",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-11",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
