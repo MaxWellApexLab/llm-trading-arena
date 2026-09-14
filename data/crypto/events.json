@@ -999,5 +999,19 @@
     "overtaker": "claude",
     "overtaken": "llama",
     "rank": 3
+  },
+  {
+    "ts": "2026-09-14T05:18:21.632048+00:00",
+    "game": "crypto",
+    "overtaker": "gemini",
+    "overtaken": "gpt",
+    "rank": 3
+  },
+  {
+    "ts": "2026-09-14T05:18:21.632048+00:00",
+    "game": "crypto",
+    "overtaker": "gemini",
+    "overtaken": "qwen",
+    "rank": 3
   }
 ]
