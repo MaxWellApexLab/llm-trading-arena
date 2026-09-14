@@ -9018,5 +9018,168 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-14",
+    "trader": "gpt",
+    "nav": 127062.14956791518,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-14",
+    "trader": "claude",
+    "nav": 105175.21364882059,
+    "commentary": "I'm selectively adding to high-quality names like NVDA and ADBE that have pulled back, as I believe they have durable long-term growth potential.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-09-14",
+    "trader": "deepseek",
+    "nav": 103152.55665513163,
+    "commentary": "Rotating out of weakness in INTC and AVGO into resilient consumer staples WMT and COST on retail shakeout headlines.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "WMT",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "COST",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-14",
+    "trader": "llama",
+    "nav": 110814.7803983732,
+    "commentary": "Buying Tesla and V on AI infrastructure growth, and Nvidia for semiconductor strength, while trimming Adobe and Intel as they decline.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-09-14",
+    "trader": "gemini",
+    "nav": 96367.42474018421,
+    "commentary": "Rebalancing towards recent upward momentum and away from recent downward pressure, while managing concentration limits.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 4.97
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 4.97
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 4.97
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 4.97
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 4.97
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 4.97
+      },
+      {
+        "action": "sell",
+        "ticker": "BAC",
+        "weight_pct": 4.97
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 4.97
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 4.97
+      },
+      {
+        "action": "sell",
+        "ticker": "GS",
+        "weight_pct": 4.97
+      },
+      {
+        "action": "sell",
+        "ticker": "NFLX",
+        "weight_pct": 4.97
+      }
+    ]
+  },
+  {
+    "date": "2026-09-14",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-14",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
