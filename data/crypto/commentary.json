@@ -14052,5 +14052,110 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-14",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-14",
+    "trader": "claude",
+    "nav": 109717.40529606948,
+    "commentary": "Doubling down on Dogecoin and adding to Solana and XRP positions, as the recent positive news around the Clarity Act suggests a more favorable regulatory environment for these assets.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-09-14",
+    "trader": "deepseek",
+    "nav": 120712.98500748724,
+    "commentary": "Taking profits on the bounce, trimming XRP and DOGE to lock in gains while maintaining a leveraged long bias.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 150
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 80
+      }
+    ]
+  },
+  {
+    "date": "2026-09-14",
+    "trader": "llama",
+    "nav": 104433.14351955085,
+    "commentary": "Watching the Clarity Act and its impact on stablecoins, but no clear direction yet, holding as is.",
+    "orders": []
+  },
+  {
+    "date": "2026-09-14",
+    "trader": "gemini",
+    "nav": 108579.27860861609,
+    "commentary": "Reducing exposure to recent outperformers and increasing allocation to more stable assets based on volatility.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-09-14",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
