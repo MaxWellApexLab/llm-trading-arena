@@ -9181,5 +9181,198 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-15",
+    "trader": "gpt",
+    "nav": 127786.83108381991,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-15",
+    "trader": "claude",
+    "nav": 103550.14289778948,
+    "commentary": "Increase exposure to Oracle given the positive cloud infrastructure commentary, and trim Netflix after its recent underperformance.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "NFLX",
+        "weight_pct": 2
+      }
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "trader": "deepseek",
+    "nav": 96822.10054541129,
+    "commentary": "Selling META and QCOM to take profits on recent surges, and buying ORCL, GE, ADBE, NFLX, TGT on their unjustified dips with positive catalysts.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "QCOM",
+        "weight_pct": -1.04
+      },
+      {
+        "action": "sell",
+        "ticker": "META",
+        "weight_pct": -7.83
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GE",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NFLX",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 0.87
+      }
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "trader": "llama",
+    "nav": 110113.79470017247,
+    "commentary": "Rotating into energy and industrials following recent sector rotation patterns.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DHR",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "NFLX",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 0.025
+      },
+      {
+        "action": "sell",
+        "ticker": "GE",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOW",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 0.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "trader": "gemini",
+    "nav": 96653.71784809756,
+    "commentary": "Rebalancing into recent strength while trimming outsized moves and underperformers based on volatility.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 6.0
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 6.0
+      },
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "GE",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOW",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "NFLX",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DHR",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "TGT",
+        "weight_pct": 2.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-15",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
