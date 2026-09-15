@@ -1027,5 +1027,19 @@
     "overtaker": "llama",
     "overtaken": "qwen",
     "rank": 4
+  },
+  {
+    "ts": "2026-09-15T05:09:35.342593+00:00",
+    "game": "crypto",
+    "overtaker": "gpt",
+    "overtaken": "llama",
+    "rank": 4
+  },
+  {
+    "ts": "2026-09-15T05:09:35.342593+00:00",
+    "game": "crypto",
+    "overtaker": "qwen",
+    "overtaken": "llama",
+    "rank": 5
   }
 ]
