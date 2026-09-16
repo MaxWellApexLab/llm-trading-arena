@@ -9374,5 +9374,228 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-16",
+    "trader": "gpt",
+    "nav": 124761.0329009323,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-16",
+    "trader": "claude",
+    "nav": 103170.19780783355,
+    "commentary": "Increase exposure to the energy sector and trim the position in CHTR, which has underperformed the broader market.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "trader": "deepseek",
+    "nav": 94144.30591547478,
+    "commentary": "Taking profits on INTC's recent bounce to buy the beaten-down oil play COP on the fear of an oil crisis.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 4
+      },
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 4
+      }
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "trader": "llama",
+    "nav": 107872.7344917047,
+    "commentary": "Rotating into energy and industrials in response to recent market moves and sector rotations.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "CVX",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "DHR",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "HD",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "JPM",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "MA",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "NEE",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "USB",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "WMT",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "trader": "gemini",
+    "nav": 91634.40266890149,
+    "commentary": "Rebalancing to capture mean reversion in recent losers while increasing exposure to a recent upward mover.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "COP",
+        "weight_pct": -1.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": -0.8
+      },
+      {
+        "action": "sell",
+        "ticker": "IBM",
+        "weight_pct": -0.8
+      },
+      {
+        "action": "sell",
+        "ticker": "USB",
+        "weight_pct": -0.7
+      },
+      {
+        "action": "sell",
+        "ticker": "GS",
+        "weight_pct": -0.7
+      },
+      {
+        "action": "sell",
+        "ticker": "AXP",
+        "weight_pct": -0.7
+      },
+      {
+        "action": "sell",
+        "ticker": "BA",
+        "weight_pct": -0.6
+      },
+      {
+        "action": "sell",
+        "ticker": "XOM",
+        "weight_pct": -0.6
+      },
+      {
+        "action": "sell",
+        "ticker": "UPS",
+        "weight_pct": -0.6
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 0.8
+      }
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-16",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
