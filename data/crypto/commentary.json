@@ -14802,5 +14802,116 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-17",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-17",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "Trimming speculative positions in DOGE and XRP to double down on blue-chip crypto assets with strong fundamentals.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "trader": "deepseek",
+    "nav": 100000,
+    "commentary": "Holding through the noise; the recent bounce is too small to take profits and regulatory headwinds may be overblown, but absent SOL price data I'll stay put.",
+    "orders": []
+  },
+  {
+    "date": "2026-09-17",
+    "trader": "llama",
+    "nav": 100000,
+    "commentary": "Rotating into ETH-USD given its recent 2.2% gain, and exiting DOGE-USD after its recent 1.55% gain, while BTC-USD and XRP-USD show little change",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 3
+      }
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "trader": "gemini",
+    "nav": 3816.6134016749565,
+    "commentary": "Rebalancing based on recent volatility and positioning for potential upside in uncorrelated crypto assets.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "ETH showed a significant 2.2% increase and is breaking out of its recent range, indicating a potential trend change.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 50
+      }
+    ]
   }
 ]
