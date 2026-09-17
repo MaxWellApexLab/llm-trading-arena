@@ -9597,5 +9597,273 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-17",
+    "trader": "gpt",
+    "nav": 134120.7409904147,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-17",
+    "trader": "claude",
+    "nav": 116401.75652363221,
+    "commentary": "Buying INTC and AMD on the dip while trimming TMUS to rebalance the portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "TMUS",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "trader": "deepseek",
+    "nav": 101167.4008876204,
+    "commentary": "Buying the dip on TMUS, CMCSA, VZ, CRM, and BA after recent fear-driven drops, while taking profits on INTC, AMD, ORCL, and NVDA after their sharp rallies.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": -0.0134
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": -0.0199
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": -0.003
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": -0.0121
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 0.0097
+      },
+      {
+        "action": "buy",
+        "ticker": "CMCSA",
+        "weight_pct": 0.0097
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 0.0097
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 0.0097
+      },
+      {
+        "action": "buy",
+        "ticker": "BA",
+        "weight_pct": 0.0097
+      }
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "trader": "llama",
+    "nav": 110744.70572681783,
+    "commentary": "Diversifying into tech and energy to benefit from recent price movements and sector rotation.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 4.23
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 4.13
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 4.02
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 3.93
+      },
+      {
+        "action": "buy",
+        "ticker": "CMCSA",
+        "weight_pct": 3.83
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 3.73
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 3.64
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 3.55
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 3.46
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 3.37
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 3.29
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 3.21
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 3.13
+      },
+      {
+        "action": "buy",
+        "ticker": "UNP",
+        "weight_pct": 3.06
+      },
+      {
+        "action": "buy",
+        "ticker": "UPS",
+        "weight_pct": 2.99
+      },
+      {
+        "action": "buy",
+        "ticker": "USB",
+        "weight_pct": 2.93
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 2.87
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 2.81
+      },
+      {
+        "action": "buy",
+        "ticker": "WFC",
+        "weight_pct": 2.76
+      },
+      {
+        "action": "buy",
+        "ticker": "WMT",
+        "weight_pct": 2.71
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 2.66
+      }
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "trader": "gemini",
+    "nav": 105223.60662195971,
+    "commentary": "Rebalancing to capture recent strength in semiconductors and add exposure to a beaten-down telecom.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "sell",
+        "ticker": "TMUS",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CMCSA",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "VZ",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 3.5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-17",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
