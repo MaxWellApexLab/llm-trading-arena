@@ -14913,5 +14913,116 @@
         "weight_pct": 50
       }
     ]
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "Bullish on Bitcoin, Ethereum, and Solana as leading crypto assets with strong fundamentals and growth potential.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "deepseek",
+    "nav": 100000,
+    "commentary": "XRP and DOGE remain deeply discounted from September highs despite no fundamental catalyst for the selloff, so I'm loading up on the fear.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 75
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 75
+      }
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "llama",
+    "nav": 100000,
+    "commentary": "Capital is flowing towards crypto assets, and recent notable moves suggest a strong sentiment in the SOL-USD and DOGE-USD sectors. To capitalize on this momentum, I'm buying into these sectors with a mix of BTC-USD, ETH-USD, and SOL-USD, allocating 50% to BTC-USD, 25% to ETH-USD, and 25% to SOL-USD.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "gemini",
+    "nav": 106751.99645035545,
+    "commentary": "Increasing exposure to higher volatility assets based on recent price action and news flow, while maintaining a core BTC-USD holding.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "qwen",
+    "nav": 100689.3283391438,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
