@@ -9865,5 +9865,193 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "gpt",
+    "nav": 129267.01475231751,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "claude",
+    "nav": 114689.09222750063,
+    "commentary": "Buying QCOM on the recent dip and trimming CHTR to maintain position sizing discipline.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 3
+      }
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "deepseek",
+    "nav": 97524.87407001795,
+    "commentary": "Buying the most oversold names from recent drops, as these moves seem overdone with no fundamental catalyst.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "PEP",
+        "weight_pct": 2.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "llama",
+    "nav": 109245.2860466043,
+    "commentary": "Reducing exposure to recent underperformers, adding to strong performers and sectors.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "MDLZ",
+        "weight_pct": 0.04
+      },
+      {
+        "action": "buy",
+        "ticker": "MDT",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 0.04
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "UNP",
+        "weight_pct": 0.04
+      },
+      {
+        "action": "buy",
+        "ticker": "UPS",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "WMT",
+        "weight_pct": 0.03
+      }
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "gemini",
+    "nav": 101715.16436068935,
+    "commentary": "Rebalancing to capture mean reversion in recent underperformers while trimming recent outperformance.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NFLX",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 6.0
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 6.0
+      },
+      {
+        "action": "sell",
+        "ticker": "TXN",
+        "weight_pct": 6.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 6.0
+      },
+      {
+        "action": "sell",
+        "ticker": "F",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "PEP",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
