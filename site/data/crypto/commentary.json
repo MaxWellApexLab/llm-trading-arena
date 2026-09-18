@@ -15024,5 +15024,95 @@
     "nav": 100689.3283391438,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "claude",
+    "nav": 107054.14650236297,
+    "commentary": "Capitalizing on the recent notable moves in XRP and DOGE to diversify the portfolio and seek further upside potential.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "deepseek",
+    "nav": 111165.1252753204,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "llama",
+    "nav": 107248.19517432577,
+    "commentary": "Following recent notable moves, I'm adding to Solana and reducing Bitcoin exposure.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.12
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.06
+      }
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "gemini",
+    "nav": 143784.9957802446,
+    "commentary": "Reallocating capital towards higher recent volatility assets and away from laggards, while considering regulatory headwinds.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "trader": "qwen",
+    "nav": 103209.07360073525,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
