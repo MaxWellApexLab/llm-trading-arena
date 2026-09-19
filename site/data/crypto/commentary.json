@@ -15114,5 +15114,116 @@
     "nav": 103209.07360073525,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-19",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-19",
+    "trader": "claude",
+    "nav": 107622.93305514852,
+    "commentary": "Capitalize on the recent price surges in SOL, XRP, and DOGE to build a more diversified portfolio with higher upside potential.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "trader": "deepseek",
+    "nav": 112187.10641430397,
+    "commentary": "Taking profits on DOGE and XRP after the crowd caught up with the bounce; now holding cash to wait for the next fear-driven dip.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "trader": "llama",
+    "nav": 107410.39720707413,
+    "commentary": "Rotating into recent movers SOL-USD, XRP-USD, and DOGE-USD, considering their price increases and the sector's recent moves.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.01
+      }
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "trader": "gemini",
+    "nav": 145994.53357761248,
+    "commentary": "Rebalancing towards recent volatility leaders while trimming overexposed legacy positions.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "trader": "qwen",
+    "nav": 103512.08236399447,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
