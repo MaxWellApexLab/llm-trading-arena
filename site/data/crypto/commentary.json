@@ -15467,5 +15467,126 @@
     "nav": 102818.97034624254,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-20",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-20",
+    "trader": "claude",
+    "nav": 104080.01650114948,
+    "commentary": "Increasing exposure to top cryptocurrencies with strong fundamentals trading at attractive levels, while maintaining diversification.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-20",
+    "trader": "deepseek",
+    "nav": 107756.6661164931,
+    "commentary": "DOGE pulled back after a bounce, presenting a fear-buy opportunity with no fundamental reason for the drop, while staying leveraged in SOL.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-09-20",
+    "trader": "llama",
+    "nav": 106666.74632796863,
+    "commentary": "Riding the recent Bitcoin momentum and cutting back on overextended SOL and DOGE",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 70
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-20",
+    "trader": "gemini",
+    "nav": 133741.05671260133,
+    "commentary": "Increasing exposure to higher volatility assets as recent pullbacks present attractive entry points based on their recent price action.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": -35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": -20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": -5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-20",
+    "trader": "qwen",
+    "nav": 103486.3204045002,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
