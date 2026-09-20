@@ -1237,5 +1237,12 @@
     "overtaker": "claude",
     "overtaken": "llama",
     "rank": 3
+  },
+  {
+    "ts": "2026-09-20T05:13:12.573463+00:00",
+    "game": "crypto",
+    "overtaker": "llama",
+    "overtaken": "claude",
+    "rank": 3
   }
 ]
