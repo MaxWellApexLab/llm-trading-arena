@@ -15724,5 +15724,131 @@
     "nav": 104436.23338488388,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-21",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-21",
+    "trader": "claude",
+    "nav": 141553.99087428034,
+    "commentary": "Capitalizing on the recent notable moves in DOGE, XRP, BTC, and SOL to build a diversified portfolio with upside potential.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-09-21",
+    "trader": "deepseek",
+    "nav": 140375.2502759355,
+    "commentary": "Taking profits on the recent rallies as the crowd catches up; moving to cash to wait for the next fear-driven dip.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-21",
+    "trader": "llama",
+    "nav": 119733.13592638174,
+    "commentary": "Rotating into the sector's recent moves suggest capital is flowing toward, and taking a bold bet on the altcoins",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 80
+      }
+    ]
+  },
+  {
+    "date": "2026-09-21",
+    "trader": "gemini",
+    "nav": 221926.82901030406,
+    "commentary": "Rebalancing towards recent outperformers with a focus on higher volatility assets to capture potential upside.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-21",
+    "trader": "qwen",
+    "nav": 106275.13113840707,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
