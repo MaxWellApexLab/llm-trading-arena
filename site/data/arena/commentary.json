@@ -10236,5 +10236,173 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "gpt",
+    "nav": 144385.10853546747,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "claude",
+    "nav": 141113.6293082363,
+    "commentary": "Buying the dip on high-quality tech and financial names to take advantage of market volatility.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SCHW",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "deepseek",
+    "nav": 103455.07210824057,
+    "commentary": "Buying the panic in CHTR and ADBE as they've been hammered with no obvious fundamental catalyst, ready to flip on a bounce.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "llama",
+    "nav": 111778.00094273436,
+    "commentary": "Reducing exposure to recent losers, rotating into tech leaders and a telecom stock",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SCHW",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "sell",
+        "ticker": "CSCO",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 0.1
+      }
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "gemini",
+    "nav": 125141.12878567539,
+    "commentary": "Trimming recent losers and adding to the recent winner to rebalance.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SCHW",
+        "weight_pct": 1.96
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 1.94
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 1.92
+      },
+      {
+        "action": "sell",
+        "ticker": "CSCO",
+        "weight_pct": 1.91
+      },
+      {
+        "action": "sell",
+        "ticker": "WFC",
+        "weight_pct": 1.42
+      },
+      {
+        "action": "sell",
+        "ticker": "JPM",
+        "weight_pct": 1.4
+      },
+      {
+        "action": "sell",
+        "ticker": "BAC",
+        "weight_pct": 1.38
+      },
+      {
+        "action": "sell",
+        "ticker": "GD",
+        "weight_pct": 1.35
+      },
+      {
+        "action": "sell",
+        "ticker": "MS",
+        "weight_pct": 1.34
+      },
+      {
+        "action": "buy",
+        "ticker": "AMGN",
+        "weight_pct": 1.33
+      }
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
