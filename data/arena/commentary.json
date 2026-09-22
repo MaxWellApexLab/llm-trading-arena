@@ -10053,5 +10053,188 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "gpt",
+    "nav": 129267.01475231751,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "claude",
+    "nav": 114306.78700775094,
+    "commentary": "Buying QCOM on the dip and trimming CHTR to rebalance the portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "deepseek",
+    "nav": 96679.62879637245,
+    "commentary": "Taking profits on TXN's recent gain to buy the most oversold names QCOM, NFLX, and ACN, betting on a reversal without fundamental cause.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "TXN",
+        "weight_pct": 7.13
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NFLX",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 1.13
+      }
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "llama",
+    "nav": 109245.51220672656,
+    "commentary": "Buying into recent strength and selling out of weakness",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 4.5
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 4.5
+      },
+      {
+        "action": "buy",
+        "ticker": "NFLX",
+        "weight_pct": 4.5
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "buy",
+        "ticker": "F",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "PEP",
+        "weight_pct": 2.5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "gemini",
+    "nav": 100080.7639031586,
+    "commentary": "Rebalancing to trim recent losers and increase exposure to recent gainers, maintaining diversification.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "GM",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "NFLX",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 1.8
+      },
+      {
+        "action": "sell",
+        "ticker": "IBM",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "F",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "PEP",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 2.5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
