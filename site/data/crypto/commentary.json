@@ -15850,5 +15850,131 @@
     "nav": 106275.13113840707,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "claude",
+    "nav": 137445.70984736225,
+    "commentary": "Capitalizing on the recent market momentum, I'm allocating aggressively to Dogecoin, XRP, Solana, and Ethereum to capture potential upside.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "deepseek",
+    "nav": 138526.76278507285,
+    "commentary": "Taking half profits on SOL and XRP after the recent rebound to reduce margin and lock in gains.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 42.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 117.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "llama",
+    "nav": 118964.1889615385,
+    "commentary": "Rotating into Bitcoin and XRP, selling Dogecoin as it's led the recent market rebound.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "gemini",
+    "nav": 209146.9343574813,
+    "commentary": "Reallocating from speculative DOGE to more fundamentally sound BTC and ETH, while increasing exposure to SOL and XRP based on recent momentum.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 60
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "trader": "qwen",
+    "nav": 105742.52097021506,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]

@@ -1251,5 +1251,12 @@
     "overtaker": "claude",
     "overtaken": "qwen",
     "rank": 4
+  },
+  {
+    "ts": "2026-09-22T05:15:46.204660+00:00",
+    "game": "crypto",
+    "overtaker": "deepseek",
+    "overtaken": "claude",
+    "rank": 2
   }
 ]
