@@ -10404,5 +10404,168 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-23",
+    "trader": "gpt",
+    "nav": 142423.2120149546,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-23",
+    "trader": "claude",
+    "nav": 135847.34810250602,
+    "commentary": "Nvidia and AMD are attractive buys given their recent pullback and strong long-term fundamentals.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "trader": "deepseek",
+    "nav": 102357.39234763756,
+    "commentary": "Cutting overweight CHTR and ADBE to meet 50% concentration rule, then deploying freed capital into beaten-down MCD for a quick mean-reversion play.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 21.58
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 17.45
+      },
+      {
+        "action": "buy",
+        "ticker": "MCD",
+        "weight_pct": 20.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "trader": "llama",
+    "nav": 110779.12596008996,
+    "commentary": "Tactically buying into historically cheap NVDA and XOM, while reducing exposure to recent laggards CHTR and WFC. Also adding MSFT and PYPL, with a focus on long-term growth",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 0.4
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "sell",
+        "ticker": "WFC",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "sell",
+        "ticker": "GOOGL",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 0.1
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "trader": "gemini",
+    "nav": 119032.2716376842,
+    "commentary": "Reducing exposure to recent decliners and increasing exposure to a recent gainer based on volatility distribution.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "WFC",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BKNG",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "MCD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "COF",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "GOOGL",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "MS",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AXP",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "GOOG",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMGN",
+        "weight_pct": 0.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-23",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
