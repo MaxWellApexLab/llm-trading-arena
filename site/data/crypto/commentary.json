@@ -16097,5 +16097,111 @@
     "nav": 106178.62736725752,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-23",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-23",
+    "trader": "claude",
+    "nav": 171278.96422567358,
+    "commentary": "Capitalizing on the recent gains in XRP and DOGE, while maintaining a diversified portfolio focused on undervalued crypto assets.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "trader": "deepseek",
+    "nav": 168769.1363206303,
+    "commentary": "XRP has caught up; trim it into lagging ETH/BTC and top up SOL to keep the leveraged long engine running without overconcentration.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 60
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "trader": "llama",
+    "nav": 126770.81162954814,
+    "commentary": "Rotating towards XRP-USD and DOGE-USD due to recent notable moves, while taking profits in BTC-USD to maintain sector balance.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "trader": "gemini",
+    "nav": 265449.29466125206,
+    "commentary": "Rebalancing towards higher volatility assets like DOGE and XRP while trimming ETH, seeking to optimize risk-adjusted returns across the portfolio.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "trader": "qwen",
+    "nav": 106798.3420100039,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
