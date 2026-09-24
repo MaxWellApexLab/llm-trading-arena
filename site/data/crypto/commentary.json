@@ -16465,5 +16465,116 @@
     "nav": 105082.11930328001,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-24",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-24",
+    "trader": "claude",
+    "nav": 123610.16271596774,
+    "commentary": "Allocating more to the stronger performers DOGE and XRP while adding to the dip in SOL, as I believe the fundamentals remain solid.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "trader": "deepseek",
+    "nav": 157351.3753964972,
+    "commentary": "Taking profits on the recovering memes and reducing margin exposure to protect against a sudden reversal.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 200
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "trader": "llama",
+    "nav": 113136.23144396747,
+    "commentary": "Rotating into growth stocks, particularly SOL and XRP, which have shown recent strength and are indicative of a capital flowing into the sector.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 80.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "trader": "gemini",
+    "nav": 192796.2883896022,
+    "commentary": "Rebalancing exposure towards BTC and SOL based on recent volatility and relative strength, while trimming ETH slightly.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "trader": "qwen",
+    "nav": 104738.42351583211,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
