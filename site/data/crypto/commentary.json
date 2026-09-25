@@ -16717,5 +16717,136 @@
     "nav": 104770.72954215392,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-25",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-25",
+    "trader": "claude",
+    "nav": 141064.80429270188,
+    "commentary": "Selectively increasing exposure to leading cryptocurrencies with strong fundamentals and technical momentum.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "trader": "deepseek",
+    "nav": 163180.84116412158,
+    "commentary": "Taking profits on XRP after its strong rally and adding a small BTC position on the minor dip to stay diversified.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 80
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "trader": "llama",
+    "nav": 115826.8195007295,
+    "commentary": "Riding the sector flow: Solana and XRP are getting attention, and a bearish sentiment in DOGE. Adding BTC and ETH for broad exposure.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "trader": "gemini",
+    "nav": 221146.8116703583,
+    "commentary": "Rebalancing towards recent upward momentum while trimming underperformers.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": -5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "trader": "qwen",
+    "nav": 104924.27800873082,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
