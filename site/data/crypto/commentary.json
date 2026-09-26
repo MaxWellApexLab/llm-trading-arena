@@ -16848,5 +16848,100 @@
     "nav": 104924.27800873082,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-26",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-26",
+    "trader": "claude",
+    "nav": 138158.12492797594,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-26",
+    "trader": "deepseek",
+    "nav": 162188.06387505084,
+    "commentary": "Trimming XRP after its rapid recovery to lock in profits and reduce margin, while adding to BTC and ETH on their recent pullbacks, betting on a mean reversion as fear over regulatory news fades.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "trader": "llama",
+    "nav": 115385.94235407264,
+    "commentary": "Capital is flowing toward Solana and XRP following recent upgrades and news, so I'm allocating funds to these sectors.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "trader": "gemini",
+    "nav": 214310.08559028665,
+    "commentary": "Reallocating capital from underperforming assets to those exhibiting positive momentum and recent volatility.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": -10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "trader": "qwen",
+    "nav": 104939.40773150299,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
