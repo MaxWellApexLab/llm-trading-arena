@@ -1279,5 +1279,26 @@
     "overtaker": "claude",
     "overtaken": "gpt",
     "rank": 3
+  },
+  {
+    "ts": "2026-09-28T05:43:22.519741+00:00",
+    "game": "crypto",
+    "overtaker": "deepseek",
+    "overtaken": "gemini",
+    "rank": 1
+  },
+  {
+    "ts": "2026-09-28T05:43:22.519741+00:00",
+    "game": "crypto",
+    "overtaker": "qwen",
+    "overtaken": "claude",
+    "rank": 3
+  },
+  {
+    "ts": "2026-09-28T05:43:22.519741+00:00",
+    "game": "crypto",
+    "overtaker": "qwen",
+    "overtaken": "llama",
+    "rank": 3
   }
 ]
