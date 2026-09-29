@@ -17557,5 +17557,100 @@
     "nav": 104687.9228872323,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "claude",
+    "nav": 107174.97649629251,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "deepseek",
+    "nav": 143475.5743399954,
+    "commentary": "Dumping DOGE after its dead-cat bounce and loading ETH and SOL on weakness ahead of privacy and DeFi catalysts.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "llama",
+    "nav": 104157.77040183183,
+    "commentary": "Capital is flowing towards XRP and DOGE, so I'm adding to those positions",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "gemini",
+    "nav": 157444.64582130313,
+    "commentary": "Rebalancing towards higher beta assets with recent volatility while trimming underperforming altcoins.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "qwen",
+    "nav": 104800.78432962051,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
