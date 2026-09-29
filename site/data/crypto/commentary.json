@@ -17478,5 +17478,84 @@
     "nav": 104628.0179703769,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "claude",
+    "nav": 108553.95734964265,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "deepseek",
+    "nav": 144643.22671082825,
+    "commentary": "Cutting the DOGE-heavy leverage to 2.5x and rotating into BTC/ETH on the institutional adoption dip.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 80
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "llama",
+    "nav": 104492.92342792056,
+    "commentary": "Rotating into SOL-USD due to recent capital inflows, selling DOGE-USD as it's the only one with a negative move",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "gemini",
+    "nav": 157506.00799107458,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "qwen",
+    "nav": 104687.9228872323,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
