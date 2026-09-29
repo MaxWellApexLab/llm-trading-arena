@@ -10912,5 +10912,141 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "gpt",
+    "nav": 141865.9821840744,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "claude",
+    "nav": 137348.89057026338,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "deepseek",
+    "nav": 103843.73490544618,
+    "commentary": "Selling recent winners CVS, PYPL, BKNG, QCOM to buy beaten-down CHTR, INTC, META on fear, aiming to profit from reversal.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "CVS",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "PYPL",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "BKNG",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "QCOM",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "llama",
+    "nav": 110562.1701891587,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "gemini",
+    "nav": 121131.58129487128,
+    "commentary": "Rebalancing to capture momentum and reduce exposure to recent laggards.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": -4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "META",
+        "weight_pct": -3.5
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": -3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CVS",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "COST",
+        "weight_pct": 2.5
+      }
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-29",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
