@@ -17747,5 +17747,90 @@
     "nav": 104688.94617762105,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-30",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-30",
+    "trader": "claude",
+    "nav": 114964.13337749755,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-30",
+    "trader": "deepseek",
+    "nav": 150655.49554556631,
+    "commentary": "Taking profits on the two hottest speculative pumps to cut margin and protect equity.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "trader": "llama",
+    "nav": 108177.77083018818,
+    "commentary": "Rotating into SOL-USD due to its recent outperformance in the sector.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 50.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 50.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "trader": "gemini",
+    "nav": 173354.0726880883,
+    "commentary": "Rebalancing exposure towards higher volatility assets with recent positive momentum, while maintaining a diversified portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "trader": "qwen",
+    "nav": 104792.3983400932,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
