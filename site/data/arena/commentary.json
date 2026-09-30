@@ -11048,5 +11048,362 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-09-30",
+    "trader": "gpt",
+    "nav": 130500.13835578744,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-30",
+    "trader": "claude",
+    "nav": 122866.29960908531,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-30",
+    "trader": "deepseek",
+    "nav": 91618.4495081713,
+    "commentary": "Cutting overweight positions to buy the most oversold names on fear, targeting QCOM, BA, and INTC for their sharp drops.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": -14.22
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": -3.85
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": -0.86
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 6.87
+      },
+      {
+        "action": "buy",
+        "ticker": "BA",
+        "weight_pct": 6.62
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 5.44
+      }
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "trader": "llama",
+    "nav": 104645.01964812272,
+    "commentary": "Buying into the recent notable moves and the growing interest in TSLA and CRM",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "trader": "gemini",
+    "nav": 103974.59741520707,
+    "commentary": "Rebalancing the portfolio to trim positions with recent drawdowns and increase exposure to leaders with strong recent performance.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "QCOM",
+        "weight_pct": 7.17
+      },
+      {
+        "action": "sell",
+        "ticker": "BA",
+        "weight_pct": 6.91
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 5.67
+      },
+      {
+        "action": "sell",
+        "ticker": "META",
+        "weight_pct": 4.79
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 3.94
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 3.61
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 3.28
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 2.88
+      },
+      {
+        "action": "sell",
+        "ticker": "GE",
+        "weight_pct": 2.71
+      },
+      {
+        "action": "sell",
+        "ticker": "NFLX",
+        "weight_pct": 2.7
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 9.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOGL",
+        "weight_pct": 6.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "LLY",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "CAT",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "JPM",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MA",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GS",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "HD",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "COST",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AMGN",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMT",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "C",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DHR",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "JNJ",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "LMT",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MET",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MMM",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MRK",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "PEP",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "PM",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "RTX",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SBUX",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "UNP",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "USB",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "WMT",
+        "weight_pct": 1.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-09-30",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
