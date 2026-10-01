@@ -17942,5 +17942,74 @@
     "nav": 105536.83461041638,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-01",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-01",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-01",
+    "trader": "deepseek",
+    "nav": 131269.15232334868,
+    "commentary": "Holding steady as the market shows tentative recovery; waiting for a deeper fear-driven selloff to deploy cash.",
+    "orders": []
+  },
+  {
+    "date": "2026-10-01",
+    "trader": "llama",
+    "nav": 100000,
+    "commentary": "Rotating into XRP-USD and DOGE-USD due to recent price strength, while maintaining exposure to ETH-USD and SOL-USD, which are showing signs of potential upside.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "trader": "gemini",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-01",
+    "trader": "qwen",
+    "nav": 105215.01727064594,
+    "commentary": "ETH shows a strong support bounce and breakout, fitting the criteria for a clean entry.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
