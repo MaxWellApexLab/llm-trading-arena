@@ -11405,5 +11405,105 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-01",
+    "trader": "gpt",
+    "nav": 128813.58187787287,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-01",
+    "trader": "claude",
+    "nav": 122092.70914294175,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-01",
+    "trader": "deepseek",
+    "nav": 89771.41312027595,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-01",
+    "trader": "llama",
+    "nav": 102874.53163699742,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-01",
+    "trader": "gemini",
+    "nav": 102944.1687898084,
+    "commentary": "Rebalancing based on recent volatility, trimming outperformers and adding to underperformers.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": -5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AIG",
+        "weight_pct": -4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "META",
+        "weight_pct": -4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MDT",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BA",
+        "weight_pct": -2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "WMT",
+        "weight_pct": -2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "T",
+        "weight_pct": -2.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-01",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
