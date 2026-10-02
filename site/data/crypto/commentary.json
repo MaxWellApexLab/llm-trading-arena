@@ -18126,5 +18126,95 @@
     "nav": 106198.92223792037,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-02",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-02",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-02",
+    "trader": "deepseek",
+    "nav": 153154.15070720948,
+    "commentary": "ETH dropped on Blast FUD but fundamentals unchanged; buying the dip.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "trader": "llama",
+    "nav": 100169.0715095695,
+    "commentary": "Rotating into SOL and XRP, which have recently shown signs of capital inflows, while reducing exposure to ETH, which has been declining.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 1.5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "trader": "gemini",
+    "nav": 99905.80889272338,
+    "commentary": "Rebalancing volatility exposure by trimming recent outperformers and adding to relatively stable assets.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "trader": "qwen",
+    "nav": 103919.63730887524,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
