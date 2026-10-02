@@ -217,6 +217,10 @@
       {
         "date": "2026-10-01",
         "nav": 122092.70914294175
+      },
+      {
+        "date": "2026-10-02",
+        "nav": 127710.3634523974
       }
     ],
     "pending_orders": [],
@@ -340,6 +344,11 @@
       },
       {
         "date": "2026-10-01",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - {'error': {'message': 'Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5).', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-10-02",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - {'error': {'message': 'Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5).', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
@@ -1582,9 +1591,59 @@
       {
         "date": "2026-10-01",
         "nav": 89771.41312027595
+      },
+      {
+        "date": "2026-10-02",
+        "nav": 87582.59341961308
       }
     ],
-    "pending_orders": [],
+    "pending_orders": [
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "WMT",
+        "weight_pct": 0.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MRK",
+        "weight_pct": 0.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MDLZ",
+        "weight_pct": 0.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MMM",
+        "weight_pct": 0.25
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 0.25
+      }
+    ],
     "positions": {
       "AAPL": 95.91948689248679,
       "ACN": 60.07520715279972,
@@ -4275,7 +4334,7 @@
     ]
   },
   "gemini": {
-    "cash": -861974.5211962045,
+    "cash": -872500.6548381275,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -4492,32 +4551,31 @@
       {
         "date": "2026-10-01",
         "nav": 102944.1687898084
+      },
+      {
+        "date": "2026-10-02",
+        "nav": 102858.58988512808
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
-        "ticker": "MDT",
-        "weight_pct": 3.0
+        "ticker": "INTC",
+        "weight_pct": 2.5
       },
       {
         "action": "buy",
-        "ticker": "AAPL",
-        "weight_pct": 3.0
-      },
-      {
-        "action": "buy",
-        "ticker": "TMUS",
+        "ticker": "ACN",
         "weight_pct": 2.0
       },
       {
         "action": "buy",
-        "ticker": "QCOM",
+        "ticker": "ADBE",
         "weight_pct": 2.0
       }
     ],
     "positions": {
-      "AAPL": 20.48041957204847,
+      "AAPL": 30.02649033718189,
       "ACN": 203.87880347599528,
       "ADBE": 25.007067746547605,
       "AMD": 141.1407244177294,
@@ -4554,6 +4612,7 @@
       "LLY": 16.74034825011015,
       "LMT": 14.488629728067734,
       "MA": 15.186807377179289,
+      "MDT": 36.47730280361489,
       "MET": 26.527225117531792,
       "MMM": 154.56571410607438,
       "MO": 99.83779466443175,
@@ -4566,13 +4625,13 @@
       "PEP": 22.78938621290972,
       "PM": 25.9127684947566,
       "PYPL": 87.8209034377858,
-      "QCOM": 297.285429602443,
+      "QCOM": 308.6724193946547,
       "RTX": 38.93868205749189,
       "SBUX": 34.92611116483869,
       "T": 207.30448899721264,
       "TGT": 56.46462666180031,
       "TMO": 30.219779467041526,
-      "TMUS": 36.51311207149064,
+      "TMUS": 49.450837689678416,
       "TSLA": 42.7651509106822,
       "TXN": 156.82548211443859,
       "UNH": 20.154419019853364,
@@ -6356,6 +6415,69 @@
           "weight_pct": -2.0
         },
         "reason": "invalid sell weight_pct -2.0"
+      },
+      {
+        "date": "2026-10-02",
+        "raw": {
+          "action": "sell",
+          "ticker": "GM",
+          "weight_pct": 0.0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-10-02",
+        "raw": {
+          "action": "sell",
+          "ticker": "KHC",
+          "weight_pct": 0.0
+        },
+        "reason": "cannot short KHC (long_only)"
+      },
+      {
+        "date": "2026-10-02",
+        "raw": {
+          "action": "sell",
+          "ticker": "WMT",
+          "weight_pct": 0.0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-10-02",
+        "raw": {
+          "action": "sell",
+          "ticker": "MRK",
+          "weight_pct": 0.0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-10-02",
+        "raw": {
+          "action": "sell",
+          "ticker": "MMM",
+          "weight_pct": 0.0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-10-02",
+        "raw": {
+          "action": "sell",
+          "ticker": "MDLZ",
+          "weight_pct": 0.0
+        },
+        "reason": "cannot short MDLZ (long_only)"
+      },
+      {
+        "date": "2026-10-02",
+        "raw": {
+          "action": "sell",
+          "ticker": "PYPL",
+          "weight_pct": 0.0
+        },
+        "reason": "invalid sell weight_pct 0.0"
       }
     ],
     "trades": [
@@ -10264,6 +10386,42 @@
         "shares": 9.888270278062484,
         "status": "filled",
         "ticker": "WMT"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-02",
+        "fee": 0.0,
+        "price": 86.56999969482422,
+        "shares": 36.47730280361489,
+        "status": "filled",
+        "ticker": "MDT"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-02",
+        "fee": -4.547473508864641e-13,
+        "price": 330.79998779296875,
+        "shares": 9.546070765133422,
+        "status": "filled",
+        "ticker": "AAPL"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-02",
+        "fee": 0.0,
+        "price": 162.72000122070312,
+        "shares": 12.937725618187775,
+        "status": "filled",
+        "ticker": "TMUS"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-02",
+        "fee": 0.0,
+        "price": 184.8800048828125,
+        "shares": 11.38698979221171,
+        "status": "filled",
+        "ticker": "QCOM"
       }
     ]
   },
@@ -10485,6 +10643,10 @@
       {
         "date": "2026-10-01",
         "nav": 128813.58187787287
+      },
+      {
+        "date": "2026-10-02",
+        "nav": 129863.65912702197
       }
     ],
     "pending_orders": [],
@@ -11742,6 +11904,11 @@
       },
       {
         "date": "2026-10-01",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-10-02",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
@@ -13285,6 +13452,10 @@
       {
         "date": "2026-10-01",
         "nav": 100000
+      },
+      {
+        "date": "2026-10-02",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -13382,6 +13553,11 @@
       },
       {
         "date": "2026-10-01",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-10-02",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
@@ -13606,9 +13782,54 @@
       {
         "date": "2026-10-01",
         "nav": 102874.53163699742
+      },
+      {
+        "date": "2026-10-02",
+        "nav": 103304.32716620015
       }
     ],
-    "pending_orders": [],
+    "pending_orders": [
+      {
+        "action": "sell",
+        "ticker": "WMT",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AAPL",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 5.0
+      }
+    ],
     "positions": {
       "AAPL": 17.957299300689055,
       "ACN": 56.51964771732062,
@@ -17991,6 +18212,10 @@
       {
         "date": "2026-10-01",
         "nav": 100000
+      },
+      {
+        "date": "2026-10-02",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -18263,6 +18488,11 @@
       },
       {
         "date": "2026-10-01",
+        "raw": null,
+        "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"The request was rejected as invalid\",\"type\":\"invalid_request_error\",\"code\":null,\"param\":null}}', 'provider_name': 'Phala', 'is_byok': False}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-10-02",
         "raw": null,
         "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"The request was rejected as invalid\",\"type\":\"invalid_request_error\",\"code\":null,\"param\":null}}', 'provider_name': 'Phala', 'is_byok': False}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
