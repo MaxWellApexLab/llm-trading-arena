@@ -18596,5 +18596,94 @@
     "nav": 106317.78305494878,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-05",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-05",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-05",
+    "trader": "deepseek",
+    "nav": 86479.25367741595,
+    "commentary": "No clear fear opportunity; holding current positions as recent bounces are modest.",
+    "orders": []
+  },
+  {
+    "date": "2026-10-05",
+    "trader": "llama",
+    "nav": 101232.80419762785,
+    "commentary": "Rotating broad exposure into Ethereum and Solana, as capital is flowing toward the decentralized finance and gaming sectors, while taking profits in DOGE and XRP, which have shown recent weakness",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "trader": "gemini",
+    "nav": 100000,
+    "commentary": "Rebalancing towards higher volatility assets like BTC and ETH while trimming DOGE and adding to SOL and XRP based on recent volatility.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "trader": "qwen",
+    "nav": 106905.51953586296,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
