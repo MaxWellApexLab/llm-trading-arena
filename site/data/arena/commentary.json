@@ -11869,5 +11869,111 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-06",
+    "trader": "gpt",
+    "nav": 136538.91644206346,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-06",
+    "trader": "claude",
+    "nav": 136814.09829206858,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-06",
+    "trader": "deepseek",
+    "nav": 90166.10317197733,
+    "commentary": "Selling overweights and taking profits on GM to buy beaten-down BMY, INTC, and MRK on fear, expecting mean reversion.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 13.258
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 5.689
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 3.81
+      },
+      {
+        "action": "sell",
+        "ticker": "GM",
+        "weight_pct": 3.838
+      },
+      {
+        "action": "buy",
+        "ticker": "BMY",
+        "weight_pct": 10.638
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 7.9785
+      },
+      {
+        "action": "buy",
+        "ticker": "MRK",
+        "weight_pct": 7.9785
+      }
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "trader": "llama",
+    "nav": 113468.67590509844,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-06",
+    "trader": "gemini",
+    "nav": 117366.18630126328,
+    "commentary": "Reducing exposure to underperforming INTC and increasing positions in high-volatility tech names based on recent price action.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-06",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
