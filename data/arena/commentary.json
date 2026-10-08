@@ -12132,5 +12132,202 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-08",
+    "trader": "gpt",
+    "nav": 137308.2200554349,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-08",
+    "trader": "claude",
+    "nav": 138913.79705707578,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-08",
+    "trader": "deepseek",
+    "nav": 93714.94452222413,
+    "commentary": "Cut losers INTC and CRM on fear, reinvest into recent strong movers (CSCO, AVGO, AMD) and beaten-down leaders (LOW, GM, NEE, TMO) to ride momentum.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "LOW",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "NEE",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "trader": "llama",
+    "nav": 115970.17415269389,
+    "commentary": "Rebalancing to sector-weighted positions, responding to recent price moves and sector rotations",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 0.034
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 0.037
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 0.015
+      },
+      {
+        "action": "sell",
+        "ticker": "TMO",
+        "weight_pct": 0.013
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 0.012
+      },
+      {
+        "action": "sell",
+        "ticker": "DHR",
+        "weight_pct": 0.012
+      },
+      {
+        "action": "buy",
+        "ticker": "LOW",
+        "weight_pct": 0.011
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 0.011
+      },
+      {
+        "action": "buy",
+        "ticker": "NEE",
+        "weight_pct": 0.011
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 0.01
+      }
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "trader": "gemini",
+    "nav": 123164.80593461148,
+    "commentary": "Rebalancing based on recent volatility, trimming underperformers and adding to recent strength.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 2.1
+      },
+      {
+        "action": "sell",
+        "ticker": "TMO",
+        "weight_pct": 1.4
+      },
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DHR",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "LOW",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "NEE",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 1.5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-08",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
