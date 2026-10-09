@@ -19490,5 +19490,120 @@
     "nav": 81798.58221286617,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-09",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-09",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-09",
+    "trader": "deepseek",
+    "nav": 58472.76594328345,
+    "commentary": "Doubling down on Doge's panic drop with max leverage, because a dead cat bounce is all it takes to turn $58k into millions.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10000
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "trader": "llama",
+    "nav": 77367.67363786371,
+    "commentary": "Rotating into recent winners, BTC, ETH, and XRP, while adding small exposure to SOL and DOGE, amidst market volatility and regulatory concerns.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.55
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.3
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "trader": "gemini",
+    "nav": 65372.85004633677,
+    "commentary": "Rebalancing towards higher volatility assets while reducing exposure to DOGE-USD due to its recent underperformance relative to its volatility.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 40.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "trader": "qwen",
+    "nav": 80055.34662709222,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
