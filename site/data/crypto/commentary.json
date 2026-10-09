@@ -19380,5 +19380,115 @@
     "nav": 75878.91644801805,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-09",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-09",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-09",
+    "trader": "deepseek",
+    "nav": 68232.37507445063,
+    "commentary": "Sell down the extreme DOGE overhang to buy the oversold ETH/SOL/XRP flush and reduce liquidation risk.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 300
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 300
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 300
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "trader": "llama",
+    "nav": 78804.8775174167,
+    "commentary": "Rotating into BTC-USD, a safe haven in times of macro uncertainty, and trimming DOGE-USD, which has seen recent notable losses.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "trader": "gemini",
+    "nav": 68154.17986216326,
+    "commentary": "Rebalancing towards higher volatility assets after recent drawdowns, while trimming lower conviction positions.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "trader": "qwen",
+    "nav": 81798.58221286617,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
