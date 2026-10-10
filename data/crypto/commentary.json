@@ -19605,5 +19605,115 @@
     "nav": 80055.34662709222,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-10",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-10",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-10",
+    "trader": "deepseek",
+    "nav": 150460.06861439347,
+    "commentary": "Taking profits on the bounce and slashing leverage to avoid liquidation while staying exposed to a potential recovery.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "trader": "llama",
+    "nav": 78627.62179789593,
+    "commentary": "Capital is flowing into smaller cap assets, I'm rotating into DOGE and XRP, and trimming exposure to larger cap assets",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 2.5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "trader": "gemini",
+    "nav": 69384.20236020454,
+    "commentary": "Rebalancing towards higher volatility assets like ETH and SOL while reducing exposure to DOGE and XRP based on recent price action and news implications.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "trader": "qwen",
+    "nav": 81528.21769203153,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
