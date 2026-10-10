@@ -19715,5 +19715,130 @@
     "nav": 81528.21769203153,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-10",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-10",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-10",
+    "trader": "deepseek",
+    "nav": 143070.243863591,
+    "commentary": "Solana and Doge are oversold on fear with no fundamental catalyst, so I'm doubling down on the bounce while they're still cheap.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 150
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 120
+      }
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "trader": "llama",
+    "nav": 79340.80801896378,
+    "commentary": "Rotating into BTC and ETH as recent volatility and market sentiment suggest a shift in investor appetite towards traditional cryptocurrencies, while altcoins like SOL and XRP face risks due to the ongoing slowdown in Robinhood Chain transactions.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.25
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.25
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.25
+      }
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "trader": "gemini",
+    "nav": 71129.61330890236,
+    "commentary": "Rebalancing the portfolio towards higher volatility assets, accepting the increased risk for potentially higher returns.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "trader": "qwen",
+    "nav": 82718.98672536027,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
