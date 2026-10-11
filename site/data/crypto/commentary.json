@@ -19840,5 +19840,94 @@
     "nav": 82718.98672536027,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-11",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-11",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-11",
+    "trader": "deepseek",
+    "nav": 58205.766818078235,
+    "commentary": "Holding the line; the recent dip is fear, not fundamentals, and we're already positioned to ride the recovery.",
+    "orders": []
+  },
+  {
+    "date": "2026-10-11",
+    "trader": "llama",
+    "nav": 78099.71403207723,
+    "commentary": "Rotating into sectors that are experiencing capital inflows, while reducing exposure to those that are seeing outflows.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 1.5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "trader": "gemini",
+    "nav": 68541.06186570518,
+    "commentary": "Rebalancing towards higher volatility assets like ETH and BTC while trimming XRP's recent weakness and adding to SOL's positive momentum.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -10
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "trader": "qwen",
+    "nav": 82405.11592986423,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
