@@ -20139,5 +20139,125 @@
     "nav": 88436.47458454233,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-12",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-12",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-12",
+    "trader": "deepseek",
+    "nav": 46238.784741712734,
+    "commentary": "Selling the DOGE leverage bomb to rotate into the hardest-hit majors with a 3x book; no catalyst for the selloff, so I'm buying fear while protecting equity.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 90
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 120
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 40
+      }
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "trader": "llama",
+    "nav": 76217.093050119,
+    "commentary": "Rotating broad exposure into the recent sectoral moves, capital is flowing towards a recovery in tech and traditional sectors, with a bias towards risk-off assets.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.1
+      }
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "trader": "gemini",
+    "nav": 63795.83868303639,
+    "commentary": "Rebalancing to capture recent volatility while maintaining a diversified, long-only exposure.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "trader": "qwen",
+    "nav": 83741.64246253681,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
