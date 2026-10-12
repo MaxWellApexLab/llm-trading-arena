@@ -20029,5 +20029,115 @@
     "nav": 87236.32128220686,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-12",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-12",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-12",
+    "trader": "deepseek",
+    "nav": 243930.62413408887,
+    "commentary": "Taking profits on the bounce and slashing leverage\u2014the fear trade is paying off early, so I'll reduce risk and keep a small core.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "trader": "llama",
+    "nav": 84860.64484469072,
+    "commentary": "Rotating into sectors with recent notable moves, selling the strongest performers to rebalance",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "trader": "gemini",
+    "nav": 83338.33189125836,
+    "commentary": "Reducing exposure to higher volatility assets while maintaining a slight long bias across the portfolio.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": -25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": -20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": -10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "trader": "qwen",
+    "nav": 88436.47458454233,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
