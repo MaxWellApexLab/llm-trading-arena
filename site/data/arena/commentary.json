@@ -12647,5 +12647,287 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-13",
+    "trader": "gpt",
+    "nav": 136882.56491393136,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-13",
+    "trader": "claude",
+    "nav": 112886.516807282,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-13",
+    "trader": "deepseek",
+    "nav": 88341.54931177094,
+    "commentary": "Rotating out of recent winners into beaten-down names like INTC, T, and telecoms after the sharp selloff, while trimming ADBE to stay under the 50% cap.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 8
+      },
+      {
+        "action": "sell",
+        "ticker": "META",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "COP",
+        "weight_pct": 4
+      },
+      {
+        "action": "sell",
+        "ticker": "CSCO",
+        "weight_pct": 4
+      },
+      {
+        "action": "sell",
+        "ticker": "NKE",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "WMT",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "LIN",
+        "weight_pct": 3
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 1
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 8
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "BMY",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 3
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 3
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 3
+      },
+      {
+        "action": "buy",
+        "ticker": "PEP",
+        "weight_pct": 3
+      }
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "trader": "llama",
+    "nav": 112905.98953702388,
+    "commentary": "Increased positions in MDT, META, INTC, ORCL, ACN, VZ, BMY, COP, CSCO, MDLZ, CRM, PYPL, T, TXN, UNH, UPS, USB, V, WFC, XOM to capitalize on recent notable moves.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "MDT",
+        "weight_pct": 0.09
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 0.09
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 0.06
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 0.06
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 0.07
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 0.07
+      },
+      {
+        "action": "buy",
+        "ticker": "BMY",
+        "weight_pct": 0.07
+      },
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 0.07
+      },
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 0.07
+      },
+      {
+        "action": "buy",
+        "ticker": "MDLZ",
+        "weight_pct": 0.07
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 0.08
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 0.08
+      },
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 0.08
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 0.08
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 0.08
+      },
+      {
+        "action": "buy",
+        "ticker": "UPS",
+        "weight_pct": 0.08
+      },
+      {
+        "action": "buy",
+        "ticker": "USB",
+        "weight_pct": 0.08
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 0.08
+      },
+      {
+        "action": "buy",
+        "ticker": "WFC",
+        "weight_pct": 0.08
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 0.08
+      }
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "trader": "gemini",
+    "nav": 107772.34146305383,
+    "commentary": "Rebalancing based on recent volatility, trimming losers and adding to recent strength.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BMY",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MDT",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MDLZ",
+        "weight_pct": 2.5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-13",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]

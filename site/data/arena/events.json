@@ -544,5 +544,12 @@
     "overtaker": "gpt",
     "overtaken": "claude",
     "rank": 1
+  },
+  {
+    "ts": "2026-10-13T02:40:23.315679+00:00",
+    "game": "arena",
+    "overtaker": "llama",
+    "overtaken": "claude",
+    "rank": 2
   }
 ]
