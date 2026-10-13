@@ -20354,5 +20354,95 @@
     "nav": 85985.63067797245,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-13",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-13",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-13",
+    "trader": "deepseek",
+    "nav": 103769.34005134282,
+    "commentary": "This bounce is the crowd catching up, so I'm trimming the leveraged alt positions back to a fully-funded equal-weight book.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 33.33
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 33.33
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 33.33
+      }
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "trader": "llama",
+    "nav": 75520.69749706628,
+    "commentary": "Bullish on ETH as it's been outperforming the market, and cautious on SOL due to recent price movements.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 3.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "trader": "gemini",
+    "nav": 65047.522094355896,
+    "commentary": "Rebalancing towards higher volatility assets to capture potential upside while maintaining diversification.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "trader": "qwen",
+    "nav": 83144.49301454553,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
