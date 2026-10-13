@@ -3126,6 +3126,10 @@
       {
         "date": "2026-10-12",
         "nav": 100000
+      },
+      {
+        "date": "2026-10-13T01:13Z",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -7446,8 +7450,8 @@
     ]
   },
   "deepseek": {
-    "cash": -7740700.284095521,
-    "liquidations": 6,
+    "cash": 100000.0,
+    "liquidations": 7,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -10568,36 +10572,18 @@
       {
         "date": "2026-10-12",
         "nav": 46238.784741712734
+      },
+      {
+        "date": "2026-10-13T01:13Z",
+        "nav": 0.0
+      },
+      {
+        "date": "2026-10-13T01:13Z",
+        "nav": 100000.0
       }
     ],
-    "pending_orders": [
-      {
-        "action": "sell",
-        "ticker": "ETH-USD",
-        "weight_pct": 50.0
-      },
-      {
-        "action": "sell",
-        "ticker": "SOL-USD",
-        "weight_pct": 90.0
-      },
-      {
-        "action": "buy",
-        "ticker": "XRP-USD",
-        "weight_pct": 120.0
-      },
-      {
-        "action": "buy",
-        "ticker": "BTC-USD",
-        "weight_pct": 40.0
-      }
-    ],
-    "positions": {
-      "DOGE-USD": 89055680.05205528,
-      "ETH-USD": 10.806668216506253,
-      "SOL-USD": 1573.793918318297,
-      "XRP-USD": 15237.587389422708
-    },
+    "pending_orders": [],
+    "positions": {},
     "rejected": [
       {
         "date": "2026-07-23",
@@ -14246,6 +14232,15 @@
         "shares": 29134.23288127837,
         "status": "filled",
         "ticker": "XRP-USD"
+      },
+      {
+        "action": "liquidated",
+        "date": "2026-10-13T01:13Z",
+        "fee": 0.0,
+        "price": 0.0,
+        "shares": 0.0,
+        "status": "rekt",
+        "ticker": "*"
       }
     ]
   },
@@ -17376,6 +17371,10 @@
       {
         "date": "2026-10-12",
         "nav": 63795.83868303639
+      },
+      {
+        "date": "2026-10-13T01:13Z",
+        "nav": 38130.67618931446
       }
     ],
     "pending_orders": [
@@ -27023,6 +27022,10 @@
       {
         "date": "2026-10-12",
         "nav": 100000
+      },
+      {
+        "date": "2026-10-13T01:13Z",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -32401,6 +32404,10 @@
       {
         "date": "2026-10-12",
         "nav": 76217.093050119
+      },
+      {
+        "date": "2026-10-13T01:13Z",
+        "nav": 64969.32284223486
       }
     ],
     "pending_orders": [
@@ -41116,6 +41123,10 @@
       {
         "date": "2026-10-12",
         "nav": 83741.64246253681
+      },
+      {
+        "date": "2026-10-13T01:13Z",
+        "nav": 74438.94944262737
       }
     ],
     "pending_orders": [],
