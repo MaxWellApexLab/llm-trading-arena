@@ -20534,5 +20534,95 @@
     "nav": 82586.14335767704,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "deepseek",
+    "nav": 100869.95692868964,
+    "commentary": "Buying ETH on the dip as it leads the selloff with a 2.4% drop, perfect fear-buy opportunity.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "llama",
+    "nav": 66200.10842748068,
+    "commentary": "Reducing exposure to declining sectors, rotating out of overvalued assets",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "gemini",
+    "nav": 39316.80419042625,
+    "commentary": "Increasing exposure to higher volatility assets to capitalize on potential mean reversion after broad market declines.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 100.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 75.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 50.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "qwen",
+    "nav": 74764.54167798004,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
