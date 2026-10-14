@@ -20444,5 +20444,95 @@
     "nav": 83144.49301454553,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "deepseek",
+    "nav": 102964.53049161739,
+    "commentary": "Doubling down on Solana as the Alpenglow upgrade promises 150ms finality, buying the irrational fear sell-off.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 40
+      }
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "llama",
+    "nav": 74608.97878112504,
+    "commentary": "Rotating into BTC/ETH as Solana's recent upgrade news doesn't appear to have a significant impact on SOL's price, while BTC and ETH show signs of strength",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "gemini",
+    "nav": 64452.76770746149,
+    "commentary": "Increasing exposure to higher-volatility assets while reducing exposure to lower-volatility assets to rebalance portfolio weights based on recent price action and news.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "qwen",
+    "nav": 82586.14335767704,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
