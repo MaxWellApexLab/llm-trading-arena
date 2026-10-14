@@ -12929,5 +12929,177 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "gpt",
+    "nav": 136882.56491393136,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "claude",
+    "nav": 112886.516807282,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "deepseek",
+    "nav": 87709.1563019543,
+    "commentary": "Selling the five bounces and rotating into the four fear-driven dips.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "META",
+        "weight_pct": 9.71
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 6.84
+      },
+      {
+        "action": "sell",
+        "ticker": "VZ",
+        "weight_pct": 3.12
+      },
+      {
+        "action": "sell",
+        "ticker": "COP",
+        "weight_pct": 0.81
+      },
+      {
+        "action": "sell",
+        "ticker": "MDLZ",
+        "weight_pct": 0.55
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 5.26
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 5.26
+      },
+      {
+        "action": "buy",
+        "ticker": "BMY",
+        "weight_pct": 5.26
+      },
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 5.26
+      }
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "llama",
+    "nav": 112908.71702145698,
+    "commentary": "Adding to positions in growth stocks with recent momentum, and adding to the tech sector with these 5 names.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 0.033
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 0.033
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 0.033
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 0.033
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 0.033
+      }
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "gemini",
+    "nav": 108165.61329561786,
+    "commentary": "Rebalancing around recent volatility, trimming underperformers and adding to outperformers.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": -3.5
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": -2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "BMY",
+        "weight_pct": -2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CSCO",
+        "weight_pct": -2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MDT",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MDLZ",
+        "weight_pct": 2.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-14",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
