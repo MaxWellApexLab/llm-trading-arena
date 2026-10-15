@@ -20624,5 +20624,110 @@
     "nav": 74764.54167798004,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-15",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-15",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-15",
+    "trader": "deepseek",
+    "nav": 99632.16749201929,
+    "commentary": "Liquidation-driven fear, not project failures \u2014 I\u2019m leaning into the hardest-hit altcoins on margin.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "trader": "llama",
+    "nav": 61959.35964260169,
+    "commentary": "Rotating into Bitcoin and Solana as they buck the trend, while taking a cautious approach to the other altcoins",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.2
+      }
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "trader": "gemini",
+    "nav": 27099.688776643947,
+    "commentary": "Reducing exposure to the higher volatility assets that have seen recent drawdowns, reallocating to cash to manage risk.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": -5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "trader": "qwen",
+    "nav": 68225.39936640277,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
