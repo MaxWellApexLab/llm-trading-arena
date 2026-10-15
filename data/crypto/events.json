@@ -1629,5 +1629,19 @@
     "overtaker": "deepseek",
     "overtaken": "claude",
     "rank": 1
+  },
+  {
+    "ts": "2026-10-15T17:15:34.391711+00:00",
+    "game": "crypto",
+    "overtaker": "deepseek",
+    "overtaken": "claude",
+    "rank": 1
+  },
+  {
+    "ts": "2026-10-15T17:15:34.391711+00:00",
+    "game": "crypto",
+    "overtaker": "deepseek",
+    "overtaken": "gpt",
+    "rank": 1
   }
 ]
