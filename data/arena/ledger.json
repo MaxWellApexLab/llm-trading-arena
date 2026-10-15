@@ -253,6 +253,10 @@
       {
         "date": "2026-10-14",
         "nav": 112886.516807282
+      },
+      {
+        "date": "2026-10-15",
+        "nav": 120946.25327406696
       }
     ],
     "pending_orders": [],
@@ -421,6 +425,11 @@
       },
       {
         "date": "2026-10-14",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - {'error': {'message': 'Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5).', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-10-15",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - {'error': {'message': 'Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5).', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
@@ -1446,7 +1455,7 @@
     ]
   },
   "deepseek": {
-    "cash": -668131.0011492216,
+    "cash": -668289.7115338555,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -1699,58 +1708,41 @@
       {
         "date": "2026-10-14",
         "nav": 87709.1563019543
+      },
+      {
+        "date": "2026-10-15",
+        "nav": 89437.7005643486
       }
     ],
     "pending_orders": [
       {
         "action": "sell",
-        "ticker": "META",
-        "weight_pct": 9.71
+        "ticker": "CHTR",
+        "weight_pct": 5.0
       },
       {
         "action": "sell",
-        "ticker": "ACN",
-        "weight_pct": 6.84
-      },
-      {
-        "action": "sell",
-        "ticker": "VZ",
-        "weight_pct": 3.12
-      },
-      {
-        "action": "sell",
-        "ticker": "COP",
-        "weight_pct": 0.81
-      },
-      {
-        "action": "sell",
-        "ticker": "MDLZ",
-        "weight_pct": 0.55
-      },
-      {
-        "action": "buy",
-        "ticker": "INTC",
-        "weight_pct": 5.26
-      },
-      {
-        "action": "buy",
         "ticker": "ORCL",
-        "weight_pct": 5.26
+        "weight_pct": 2.0
       },
       {
         "action": "buy",
-        "ticker": "BMY",
-        "weight_pct": 5.26
+        "ticker": "C",
+        "weight_pct": 5.0
       },
       {
         "action": "buy",
-        "ticker": "CSCO",
-        "weight_pct": 5.26
+        "ticker": "CAT",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "WFC",
+        "weight_pct": 2.0
       }
     ],
     "positions": {
       "AAPL": 95.91948689248679,
-      "ACN": 27.907991204628672,
       "ADBE": 183.55892018294415,
       "AMD": 70.80505070810412,
       "AMGN": 38.924607468722165,
@@ -1758,14 +1750,14 @@
       "AVGO": 12.172401479901326,
       "BA": 140.47061845492362,
       "BKNG": 155.68952722358128,
-      "BMY": 495.44703362557766,
+      "BMY": 575.8059568695923,
       "CAT": 16.356298625666554,
       "CHTR": 414.898748216173,
       "CMCSA": 408.3162625650554,
       "COF": 57.55730557029915,
-      "COP": 5.191590231897958,
+      "COP": 0.027959036344336496,
       "COST": 11.355272378868232,
-      "CSCO": 8.55434932171585,
+      "CSCO": 49.183842991135904,
       "CVS": 319.14377149773037,
       "DHR": 14.821434530652914,
       "DIS": 13.138195564300085,
@@ -1778,13 +1770,12 @@
       "HD": 3.0475670127945205,
       "HON": 35.4104031509565,
       "IBM": 11.153526249473552,
-      "INTC": 69.61358459122907,
+      "INTC": 116.23612357789042,
       "LIN": 21.692833188363245,
       "LLY": 2.6841357473099667,
       "LOW": 34.42998602367035,
       "MCD": 83.7222700444097,
-      "MDLZ": 7.828845243367797,
-      "META": 11.465320523220743,
+      "MDLZ": 0.02966015985619208,
       "MMM": 12.992873138516604,
       "MRK": 57.42620210579275,
       "MS": 48.52985913194269,
@@ -1792,7 +1783,7 @@
       "NFLX": 152.3831782938819,
       "NKE": 622.8123968764303,
       "NVDA": 116.29445287891927,
-      "ORCL": 91.35294963547041,
+      "ORCL": 125.51628097116989,
       "PEP": 36.27021442827535,
       "PM": 8.853692322469723,
       "PYPL": 11.859684180529342,
@@ -1806,7 +1797,7 @@
       "TSLA": 49.23161573412879,
       "UNH": 17.238650712705777,
       "UPS": 111.71431844720294,
-      "VZ": 64.12387649982472,
+      "VZ": 0.3123619545850431,
       "WMT": 95.59896550781376
     },
     "rejected": [
@@ -2269,6 +2260,15 @@
           "weight_pct": 2.0
         },
         "reason": "cannot short INTC (long_only)"
+      },
+      {
+        "date": "2026-10-15",
+        "raw": {
+          "action": "buy",
+          "title": "JNJ",
+          "weight_pct": 5.0
+        },
+        "reason": "malformed order"
       }
     ],
     "trades": [
@@ -4998,11 +4998,92 @@
         "shares": 21.11308083681227,
         "status": "filled",
         "ticker": "PEP"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 735.989990234375,
+        "shares": 11.465320523220743,
+        "status": "filled",
+        "ticker": "META"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 215.74000549316406,
+        "shares": 27.907991204628672,
+        "status": "filled",
+        "ticker": "ACN"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 43.15999984741211,
+        "shares": 63.811514545239675,
+        "status": "filled",
+        "ticker": "VZ"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 138.47000122070312,
+        "shares": 5.163631195553622,
+        "status": "filled",
+        "ticker": "COP"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 62.25,
+        "shares": 7.799185083511605,
+        "status": "filled",
+        "ticker": "MDLZ"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 99.58999633789062,
+        "shares": 46.622538986661354,
+        "status": "filled",
+        "ticker": "INTC"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 135.91000366210938,
+        "shares": 34.16333133569949,
+        "status": "filled",
+        "ticker": "ORCL"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 57.779998779296875,
+        "shares": 80.35892324401458,
+        "status": "filled",
+        "ticker": "BMY"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 114.27999877929688,
+        "shares": 40.62949366942005,
+        "status": "filled",
+        "ticker": "CSCO"
       }
     ]
   },
   "gemini": {
-    "cash": -902147.7827569703,
+    "cash": -919063.1546622608,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -5255,43 +5336,57 @@
       {
         "date": "2026-10-14",
         "nav": 108165.61329561786
+      },
+      {
+        "date": "2026-10-15",
+        "nav": 114356.13858524326
       }
     ],
     "pending_orders": [
       {
+        "action": "sell",
+        "ticker": "JNJ",
+        "weight_pct": 1.75
+      },
+      {
+        "action": "sell",
+        "ticker": "C",
+        "weight_pct": 1.72
+      },
+      {
         "action": "buy",
-        "ticker": "MDT",
-        "weight_pct": 3.5
+        "ticker": "CHTR",
+        "weight_pct": 1.78
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 1.77
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 1.76
       },
       {
         "action": "buy",
         "ticker": "META",
-        "weight_pct": 3.0
-      },
-      {
-        "action": "buy",
-        "ticker": "ACN",
-        "weight_pct": 2.5
-      },
-      {
-        "action": "buy",
-        "ticker": "VZ",
-        "weight_pct": 2.5
+        "weight_pct": 1.73
       },
       {
         "action": "buy",
         "ticker": "COP",
-        "weight_pct": 2.5
+        "weight_pct": 1.71
       },
       {
-        "action": "buy",
-        "ticker": "MDLZ",
-        "weight_pct": 2.0
+        "action": "sell",
+        "ticker": "MRK",
+        "weight_pct": 1.72
       }
     ],
     "positions": {
       "AAPL": 30.02649033718189,
-      "ACN": 144.69694618772567,
+      "ACN": 156.9479278921152,
       "ADBE": 14.365317728886353,
       "AMD": 150.94891852174356,
       "AMGN": 13.941599564781878,
@@ -5304,7 +5399,7 @@
       "CAT": 38.80955996587094,
       "CHTR": 61.54274694305392,
       "COF": 6.621907741358044,
-      "COP": 166.30195402510856,
+      "COP": 185.38931473068843,
       "COST": 4.820786385099615,
       "CRM": 124.15168242225623,
       "CSCO": 183.3222868589403,
@@ -5328,10 +5423,10 @@
       "LMT": 14.488629728067734,
       "LOW": 21.920662852216136,
       "MA": 15.186807377179289,
-      "MDLZ": 45.70234429016143,
-      "MDT": 85.27749521529495,
+      "MDLZ": 79.66895454174882,
+      "MDT": 125.34503896646464,
       "MET": 26.527225117531792,
-      "META": 5.319790489486573,
+      "META": 9.629132021742972,
       "MMM": 154.56571410607438,
       "MO": 99.83779466443175,
       "MRK": 62.474085840206335,
@@ -5356,7 +5451,7 @@
       "UNP": 3.9055061471212924,
       "USB": 33.48009476936053,
       "V": 20.766645038666162,
-      "VZ": 119.32128572228905,
+      "VZ": 180.55916499814174,
       "WMT": 27.390937776516836,
       "XOM": 49.99193521796846
     },
@@ -7304,6 +7399,24 @@
           "weight_pct": -2.0
         },
         "reason": "invalid sell weight_pct -2.0"
+      },
+      {
+        "date": "2026-10-15",
+        "raw": {
+          "action": "sell",
+          "ticker": "WFC",
+          "weight_pct": 1.74
+        },
+        "reason": "cannot short WFC (long_only)"
+      },
+      {
+        "date": "2026-10-15",
+        "raw": {
+          "action": "sell",
+          "ticker": "ABBV",
+          "weight_pct": 1.72
+        },
+        "reason": "cannot short ABBV (long_only)"
       }
     ],
     "trades": [
@@ -11815,6 +11928,60 @@
         "shares": 45.70234429016143,
         "status": "filled",
         "ticker": "MDLZ"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 92.3499984741211,
+        "shares": 40.0675437511697,
+        "status": "filled",
+        "ticker": "MDT"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 735.989990234375,
+        "shares": 4.309341532256398,
+        "status": "filled",
+        "ticker": "META"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 215.74000549316406,
+        "shares": 12.250981704389504,
+        "status": "filled",
+        "ticker": "ACN"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 43.15999984741211,
+        "shares": 61.237879275852706,
+        "status": "filled",
+        "ticker": "VZ"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 138.47000122070312,
+        "shares": 19.087360705579858,
+        "status": "filled",
+        "ticker": "COP"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 62.25,
+        "shares": 33.96661025158739,
+        "status": "filled",
+        "ticker": "MDLZ"
       }
     ]
   },
@@ -12072,6 +12239,10 @@
       {
         "date": "2026-10-14",
         "nav": 136882.56491393136
+      },
+      {
+        "date": "2026-10-15",
+        "nav": 139586.9305933995
       }
     ],
     "pending_orders": [],
@@ -13374,6 +13545,11 @@
       },
       {
         "date": "2026-10-14",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-10-15",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
@@ -14953,6 +15129,10 @@
       {
         "date": "2026-10-14",
         "nav": 100000
+      },
+      {
+        "date": "2026-10-15",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -15097,12 +15277,17 @@
         "date": "2026-10-14",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-10-15",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
     ],
     "trades": []
   },
   "llama": {
-    "cash": -405625.8353811818,
+    "cash": -405810.5044015408,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -15355,33 +15540,52 @@
       {
         "date": "2026-10-14",
         "nav": 112908.71702145698
+      },
+      {
+        "date": "2026-10-15",
+        "nav": 115729.08275517187
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
-        "ticker": "PYPL",
-        "weight_pct": 0.033
+        "ticker": "COP",
+        "weight_pct": 5.0
       },
       {
         "action": "buy",
-        "ticker": "TMO",
-        "weight_pct": 0.033
+        "ticker": "CHTR",
+        "weight_pct": 4.0
       },
       {
         "action": "buy",
-        "ticker": "TMUS",
-        "weight_pct": 0.033
+        "ticker": "ORCL",
+        "weight_pct": 4.0
       },
       {
         "action": "buy",
-        "ticker": "TXN",
-        "weight_pct": 0.033
+        "ticker": "C",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "WFC",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "JNJ",
+        "weight_pct": 2.5
       },
       {
         "action": "buy",
-        "ticker": "VZ",
-        "weight_pct": 0.033
+        "ticker": "META",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MRK",
+        "weight_pct": 1.5
       }
     ],
     "positions": {
@@ -15435,7 +15639,7 @@
       "NVDA": 74.13978015680658,
       "ORCL": 95.77419527056153,
       "PEP": 22.12176211753904,
-      "PYPL": 419.2806056636134,
+      "PYPL": 419.9376738840964,
       "QCOM": 48.794179926817876,
       "RTX": 0.7341187577893029,
       "SBUX": 1.4343421335574105,
@@ -15444,16 +15648,16 @@
       "SPG": 0.7378974057573063,
       "T": 25.715548872468386,
       "TGT": 36.73337605600956,
-      "TMO": 24.27923079161707,
-      "TMUS": 57.376508064540076,
+      "TMO": 24.334951331378374,
+      "TMUS": 57.619797733637974,
       "TSLA": 202.1752897106856,
-      "TXN": 42.1151817298653,
+      "TXN": 42.247191895827584,
       "UNH": 10.682635341480493,
       "UNP": 12.793538506413046,
       "UPS": 38.657164220893044,
       "USB": 145.57196614353163,
       "V": 40.319419190257406,
-      "VZ": 286.5957784644177,
+      "VZ": 287.45151998903214,
       "WFC": 41.1334670397119,
       "XOM": 55.81650381856237
     },
@@ -15713,6 +15917,24 @@
         "date": "2026-10-06",
         "raw": null,
         "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"This model\\'s maximum context length is 131072 tokens. However, you requested 93885 output tokens and your prompt contains at least 37188 input tokens, for a total of at least 131073 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=37188)\",\"type\":\"BadRequestError\",\"param\":\"input_tokens\",\"code\":400}}', 'provider_name': 'CoreWeave', 'is_byok': False, 'provider_error_code': '400', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Groq', 'raw': 'meta-llama/llama-3.1-8b-instruct is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'meta-llama/llama-3.1-8b-instruct is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}, {'code': 413, 'message': 'Provider returned error', 'provider_name': 'Cloudflare', 'raw': '{\"errors\":[{\"message\":\"AiError: Ai: The estimated number of input and maximum output tokens (33794) exceeded this model context window limit (32000). (ebea8907-3204-4ac0-9a29-dee4d8db4875)\",\"code\":5021}],\"success\":false,\"result\":{},\"messages\":[]}'}]}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-10-15",
+        "raw": {
+          "action": "sell",
+          "ticker": "CAT",
+          "weight_pct": 3.0
+        },
+        "reason": "cannot short CAT (long_only)"
+      },
+      {
+        "date": "2026-10-15",
+        "raw": {
+          "action": "sell",
+          "ticker": "ABBV",
+          "weight_pct": 1.5
+        },
+        "reason": "cannot short ABBV (long_only)"
       }
     ],
     "trades": [
@@ -20116,6 +20338,51 @@
         "shares": 0.5344674014198072,
         "status": "filled",
         "ticker": "XOM"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 56.209999084472656,
+        "shares": 0.6570682204829618,
+        "status": "filled",
+        "ticker": "PYPL"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 662.8400268554688,
+        "shares": 0.055720539761303096,
+        "status": "filled",
+        "ticker": "TMO"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 151.80999755859375,
+        "shares": 0.2432896690979005,
+        "status": "filled",
+        "ticker": "TMUS"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-15",
+        "fee": 7.105427357601002e-15,
+        "price": 279.7799987792969,
+        "shares": 0.1320101659622867,
+        "status": "filled",
+        "ticker": "TXN"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-15",
+        "fee": 0.0,
+        "price": 43.15999984741211,
+        "shares": 0.8557415246144379,
+        "status": "filled",
+        "ticker": "VZ"
       }
     ]
   },
@@ -20372,6 +20639,10 @@
       },
       {
         "date": "2026-10-14",
+        "nav": 100000
+      },
+      {
+        "date": "2026-10-15",
         "nav": 100000
       }
     ],
@@ -20690,6 +20961,11 @@
       },
       {
         "date": "2026-10-14",
+        "raw": null,
+        "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"The request was rejected as invalid\",\"type\":\"invalid_request_error\",\"code\":null,\"param\":null}}', 'provider_name': 'Phala', 'is_byok': False}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-10-15",
         "raw": null,
         "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"The request was rejected as invalid\",\"type\":\"invalid_request_error\",\"code\":null,\"param\":null}}', 'provider_name': 'Phala', 'is_byok': False}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }

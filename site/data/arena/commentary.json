@@ -13101,5 +13101,187 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-15",
+    "trader": "gpt",
+    "nav": 139586.9305933995,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-15",
+    "trader": "claude",
+    "nav": 120946.25327406696,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-15",
+    "trader": "deepseek",
+    "nav": 89437.7005643486,
+    "commentary": "Selling recent winners CHTR and ORCL to lock in quick gains, and buying beaten-down JNJ, C, CAT, and WFC on fear-driven sell-offs.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "title": "JNJ",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "C",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CAT",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "WFC",
+        "weight_pct": 2.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "trader": "llama",
+    "nav": 115729.08275517187,
+    "commentary": "Positioning for COP, CHTR, ORCL, and C, while reducing CAT and WFC exposure, and adding to META and MRK.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "C",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "WFC",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "JNJ",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MRK",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "ABBV",
+        "weight_pct": 1.5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "trader": "gemini",
+    "nav": 114356.13858524326,
+    "commentary": "Rebalancing based on recent volatility to maintain a more uniform risk exposure across the portfolio.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "JNJ",
+        "weight_pct": 1.75
+      },
+      {
+        "action": "sell",
+        "ticker": "C",
+        "weight_pct": 1.72
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 1.78
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 1.77
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 1.76
+      },
+      {
+        "action": "sell",
+        "ticker": "WFC",
+        "weight_pct": 1.74
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 1.73
+      },
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 1.71
+      },
+      {
+        "action": "sell",
+        "ticker": "ABBV",
+        "weight_pct": 1.72
+      },
+      {
+        "action": "sell",
+        "ticker": "MRK",
+        "weight_pct": 1.72
+      }
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-15",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
