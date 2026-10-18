@@ -21350,5 +21350,95 @@
     "nav": 71688.27827004174,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-18",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-18",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-18",
+    "trader": "deepseek",
+    "nav": 63909.88741351315,
+    "commentary": "The hardest hit name with no fundamental catalyst\u2014buying the dip aggressively while others panic.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 1000
+      }
+    ]
+  },
+  {
+    "date": "2026-10-18",
+    "trader": "llama",
+    "nav": 55830.61831381684,
+    "commentary": "Buying into the recent sectoral moves, favoring BTC and ETH over SOL, as inflation clouds the outlook for Bitcoin's year-end hope",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.5
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.25
+      }
+    ]
+  },
+  {
+    "date": "2026-10-18",
+    "trader": "gemini",
+    "nav": 97984.23769902953,
+    "commentary": "Reducing exposure to underperforming altcoins and reallocating to ETH and SOL based on their recent volatility and potential for mean reversion.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 35
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-10-18",
+    "trader": "qwen",
+    "nav": 64590.11534784717,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
