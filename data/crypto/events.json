@@ -1678,5 +1678,19 @@
     "overtaker": "gpt",
     "overtaken": "gemini",
     "rank": 2
+  },
+  {
+    "ts": "2026-10-18T04:56:45.447300+00:00",
+    "game": "crypto",
+    "overtaker": "claude",
+    "overtaken": "gemini",
+    "rank": 1
+  },
+  {
+    "ts": "2026-10-18T04:56:45.447300+00:00",
+    "game": "crypto",
+    "overtaker": "gpt",
+    "overtaken": "gemini",
+    "rank": 2
   }
 ]

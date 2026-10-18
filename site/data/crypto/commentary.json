@@ -21260,5 +21260,95 @@
     "nav": 70956.17148701084,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-18",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-18",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-18",
+    "trader": "deepseek",
+    "nav": 91524.1897923064,
+    "commentary": "DOGE has been pounded with no fundamental reason, so I'm buying the fear to ride the snapback.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-10-18",
+    "trader": "llama",
+    "nav": 62955.20245485316,
+    "commentary": "Rotating into BTC and XRP as they show recent signs of capital flow, and DOGE as it's undervalued relative to its peers",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-10-18",
+    "trader": "gemini",
+    "nav": 99913.26990676395,
+    "commentary": "Reducing exposure across all assets due to recent downward momentum and lack of compelling new opportunities.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-18",
+    "trader": "qwen",
+    "nav": 71688.27827004174,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
