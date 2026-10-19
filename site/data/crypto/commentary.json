@@ -21440,5 +21440,110 @@
     "nav": 64590.11534784717,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-19",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-19",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-19",
+    "trader": "deepseek",
+    "nav": 96451.04106401093,
+    "commentary": "Sold the bouncers to lock in gains, holding DOGE for the lagged recovery.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "trader": "llama",
+    "nav": 67175.62783659843,
+    "commentary": "Rotate into sectors with recent notable moves, reducing exposure to BTC and adding to SOL, XRP, and DOGE",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "trader": "gemini",
+    "nav": 101291.2336114053,
+    "commentary": "Rebalancing towards higher volatility assets with positive recent momentum, while trimming lower volatility and news-impacted positions.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 40.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "trader": "qwen",
+    "nav": 72662.79215468059,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
