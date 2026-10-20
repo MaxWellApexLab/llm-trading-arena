@@ -21740,5 +21740,79 @@
     "nav": 70586.86111002398,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "deepseek",
+    "nav": 135541.29778598575,
+    "commentary": "Taking partial profits on the biggest position after a small bounce, cutting leverage from 14x to 11x to reduce liquidation risk while staying long on the recovery.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 800
+      }
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "llama",
+    "nav": 72093.21545841784,
+    "commentary": "Rotating exposure into the broad crypto sector, buying BTC, ETH, SOL, and XRP, and selling DOGE in response to recent notable moves and sectoral trends.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "gemini",
+    "nav": 106272.5182451643,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "qwen",
+    "nav": 77257.16735541681,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
