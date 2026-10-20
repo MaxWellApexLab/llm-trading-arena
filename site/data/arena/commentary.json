@@ -14097,5 +14097,197 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "gpt",
+    "nav": 133350.54927074147,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "claude",
+    "nav": 88519.83322845015,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "deepseek",
+    "nav": 92998.08409649308,
+    "commentary": "Semis and big tech were sold on fear, not fundamentals, so I'm adding the beaten-down names and trimming RTX strength.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "RTX",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "NFLX",
+        "weight_pct": 1.5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "llama",
+    "nav": 108632.19817496542,
+    "commentary": "Trim underperforming stocks, rotate into relatively stronger performers in the aerospace and energy sectors.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "NFLX",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "QCOM",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "LMT",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "COP",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "RTX",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "gemini",
+    "nav": 93947.48359318671,
+    "commentary": "Rebalancing exposure away from recent losers and towards recent winners, adjusting for volatility.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "RTX",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "META",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "buy",
+        "ticker": "LMT",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "sell",
+        "ticker": "QCOM",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "NFLX",
+        "weight_pct": 2.5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]

@@ -265,6 +265,10 @@
       {
         "date": "2026-10-16",
         "nav": 88519.66717660544
+      },
+      {
+        "date": "2026-10-20",
+        "nav": 88519.83322845015
       }
     ],
     "pending_orders": [],
@@ -448,6 +452,11 @@
       },
       {
         "date": "2026-10-16",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - {'error': {'message': 'Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5).', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-10-20",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - {'error': {'message': 'Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5).', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
@@ -1473,7 +1482,7 @@
     ]
   },
   "deepseek": {
-    "cash": -670908.6427040357,
+    "cash": -674744.5026956425,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -1738,57 +1747,61 @@
       {
         "date": "2026-10-16",
         "nav": 93227.59291847865
+      },
+      {
+        "date": "2026-10-20",
+        "nav": 92998.08409649308
       }
     ],
     "pending_orders": [
       {
         "action": "sell",
         "ticker": "RTX",
-        "weight_pct": 2.0
+        "weight_pct": 1.5
       },
       {
         "action": "buy",
         "ticker": "AMD",
-        "weight_pct": 1.0
-      },
-      {
-        "action": "buy",
-        "ticker": "INTC",
-        "weight_pct": 1.0
-      },
-      {
-        "action": "buy",
-        "ticker": "ORCL",
-        "weight_pct": 1.0
+        "weight_pct": 2.0
       },
       {
         "action": "buy",
         "ticker": "AVGO",
-        "weight_pct": 0.75
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 2.0
       },
       {
         "action": "buy",
         "ticker": "QCOM",
-        "weight_pct": 0.75
+        "weight_pct": 1.5
       },
       {
         "action": "buy",
         "ticker": "META",
-        "weight_pct": 0.75
+        "weight_pct": 1.5
       },
       {
         "action": "buy",
         "ticker": "NFLX",
-        "weight_pct": 0.5
+        "weight_pct": 1.5
       }
     ],
     "positions": {
       "AAPL": 95.91948689248679,
       "ADBE": 159.4262072270282,
-      "AMD": 75.4764697772484,
+      "AMD": 77.34460240543974,
       "AMGN": 38.924607468722165,
       "AMZN": 30.312330983214885,
-      "AVGO": 18.228581724482808,
+      "AVGO": 20.495102562998,
       "BA": 140.47061845492362,
       "BKNG": 155.68952722358128,
       "BMY": 575.8059568695923,
@@ -1812,25 +1825,26 @@
       "HD": 2.716702742548943,
       "HON": 35.4104031509565,
       "IBM": 11.153526249473552,
-      "INTC": 160.0860838344933,
+      "INTC": 171.02848821006984,
       "LIN": 21.692833188363245,
       "LLY": 2.35784456534848,
       "LOW": 30.27062613712848,
       "MCD": 83.7222700444097,
       "MDLZ": 0.02966015985619208,
+      "META": 1.0413628147270482,
       "MMM": 12.992873138516604,
       "MRK": 57.42620210579275,
       "MS": 48.52985913194269,
       "NEE": 58.02759279941519,
-      "NFLX": 152.3831782938819,
+      "NFLX": 159.7031722651993,
       "NKE": 541.2179428418906,
       "NVDA": 128.122056348044,
-      "ORCL": 111.35014034139837,
+      "ORCL": 119.01285631764576,
       "PEP": 36.27021442827535,
       "PM": 8.853692322469723,
       "PYPL": 11.859684180529342,
-      "QCOM": 81.17054231698641,
-      "RTX": 81.41237544486063,
+      "QCOM": 85.55413195415653,
+      "RTX": 70.57431624238723,
       "SCHW": 10.953114189984944,
       "SPG": 49.053112349883534,
       "T": 200.38141243325327,
@@ -5294,11 +5308,83 @@
         "shares": 0.6975831552617747,
         "status": "filled",
         "ticker": "CAT"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-20",
+        "fee": 0.0,
+        "price": 188.75999450683594,
+        "shares": 10.838059202473403,
+        "status": "filled",
+        "ticker": "RTX"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-20",
+        "fee": 0.0,
+        "price": 547.5499877929688,
+        "shares": 1.868132628191349,
+        "status": "filled",
+        "ticker": "AMD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-20",
+        "fee": 0.0,
+        "price": 93.4800033569336,
+        "shares": 10.94240437557654,
+        "status": "filled",
+        "ticker": "INTC"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-20",
+        "fee": 0.0,
+        "price": 133.49000549316406,
+        "shares": 7.662715976247387,
+        "status": "filled",
+        "ticker": "ORCL"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-20",
+        "fee": 0.0,
+        "price": 338.4800109863281,
+        "shares": 2.2665208385151923,
+        "status": "filled",
+        "ticker": "AVGO"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-20",
+        "fee": 0.0,
+        "price": 175.00999450683594,
+        "shares": 4.383589637170115,
+        "status": "filled",
+        "ticker": "QCOM"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-20",
+        "fee": 0.0,
+        "price": 736.7000122070312,
+        "shares": 1.0413628147270482,
+        "status": "filled",
+        "ticker": "META"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-20",
+        "fee": 0.0,
+        "price": 69.87000274658203,
+        "shares": 7.319993971317397,
+        "status": "filled",
+        "ticker": "NFLX"
       }
     ]
   },
   "gemini": {
-    "cash": -919710.2675382405,
+    "cash": -925586.1370395914,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -5563,23 +5649,57 @@
       {
         "date": "2026-10-16",
         "nav": 93794.09399848722
+      },
+      {
+        "date": "2026-10-20",
+        "nav": 93947.48359318671
       }
     ],
     "pending_orders": [
       {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 4.0
+      },
+      {
         "action": "buy",
         "ticker": "RTX",
-        "weight_pct": 2.0
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "META",
+        "weight_pct": 3.5
       },
       {
         "action": "buy",
         "ticker": "LMT",
-        "weight_pct": 1.8
+        "weight_pct": 3.5
+      },
+      {
+        "action": "sell",
+        "ticker": "QCOM",
+        "weight_pct": 3.5
       },
       {
         "action": "buy",
         "ticker": "COP",
-        "weight_pct": 1.7
+        "weight_pct": 3.0
       }
     ],
     "positions": {
@@ -5597,7 +5717,7 @@
       "CAT": 36.553745337506356,
       "CHTR": 77.01715375291673,
       "COF": 6.621907741358044,
-      "COP": 196.51272250157157,
+      "COP": 209.24085912500374,
       "COST": 4.820786385099615,
       "CRM": 124.15168242225623,
       "CSCO": 183.3222868589403,
@@ -5617,7 +5737,7 @@
       "INTC": 266.27049584906416,
       "JPM": 7.904014261581844,
       "LLY": 16.74034825011015,
-      "LMT": 14.488629728067734,
+      "LMT": 18.055641820325143,
       "LOW": 21.920662852216136,
       "MA": 15.186807377179289,
       "MDLZ": 79.66895454174882,
@@ -5636,7 +5756,7 @@
       "PM": 31.40739120420268,
       "PYPL": 133.5358933145548,
       "QCOM": 342.6131458004833,
-      "RTX": 38.93868205749189,
+      "RTX": 50.25824065493433,
       "SBUX": 96.38457988088356,
       "T": 207.30448899721264,
       "TGT": 18.552462965528655,
@@ -7758,6 +7878,15 @@
           "weight_pct": -1.8
         },
         "reason": "invalid sell weight_pct -1.8"
+      },
+      {
+        "date": "2026-10-20",
+        "raw": {
+          "action": "sell",
+          "ticker": "NFLX",
+          "weight_pct": 2.5
+        },
+        "reason": "cannot short NFLX (long_only)"
       }
     ],
     "trades": [
@@ -12395,6 +12524,33 @@
         "shares": 10.687704575233397,
         "status": "filled",
         "ticker": "MRK"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-20",
+        "fee": 0.0,
+        "price": 188.75999450683594,
+        "shares": 11.319558597442443,
+        "status": "filled",
+        "ticker": "RTX"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-20",
+        "fee": 0.0,
+        "price": 539.1099853515625,
+        "shares": 3.5670120922574107,
+        "status": "filled",
+        "ticker": "LMT"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-20",
+        "fee": 0.0,
+        "price": 142.69000244140625,
+        "shares": 12.728136623432157,
+        "status": "filled",
+        "ticker": "COP"
       }
     ]
   },
@@ -12663,6 +12819,10 @@
       },
       {
         "date": "2026-10-16",
+        "nav": 133350.54927074147
+      },
+      {
+        "date": "2026-10-20",
         "nav": 133350.54927074147
       }
     ],
@@ -13981,6 +14141,11 @@
       },
       {
         "date": "2026-10-16",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-10-20",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
@@ -15572,6 +15737,10 @@
       {
         "date": "2026-10-16",
         "nav": 100000
+      },
+      {
+        "date": "2026-10-20",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -15731,12 +15900,17 @@
         "date": "2026-10-16",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-10-20",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b', 'code': 404}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
     ],
     "trades": []
   },
   "llama": {
-    "cash": -226590.2549008377,
+    "cash": -226705.93919075062,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -16001,33 +16175,52 @@
       {
         "date": "2026-10-16",
         "nav": 108619.93137581591
+      },
+      {
+        "date": "2026-10-20",
+        "nav": 108632.19817496542
       }
     ],
     "pending_orders": [
       {
-        "action": "buy",
-        "ticker": "RTX",
-        "weight_pct": 0.1
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 0.05
       },
       {
         "action": "sell",
-        "ticker": "META",
-        "weight_pct": 0.1
+        "ticker": "ORCL",
+        "weight_pct": 0.05
       },
       {
-        "action": "buy",
-        "ticker": "LMT",
-        "weight_pct": 0.1
-      },
-      {
-        "action": "buy",
-        "ticker": "COP",
-        "weight_pct": 0.1
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 0.05
       },
       {
         "action": "sell",
         "ticker": "NFLX",
-        "weight_pct": 0.1
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "LMT",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "COP",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "RTX",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 0.05
       }
     ],
     "positions": {
@@ -16039,7 +16232,7 @@
       "BLK": 4.4928956550553485,
       "CHTR": 82.39458375713744,
       "CMCSA": 187.61343676893986,
-      "COP": 50.24188012592863,
+      "COP": 51.05261870560193,
       "CRM": 107.48924435128265,
       "CSCO": 59.716501796841435,
       "CVX": 1.0093405239072268,
@@ -16050,17 +16243,19 @@
       "JPM": 8.076821863012178,
       "KHC": 8.945713194074738,
       "LIN": 0.1053478811193813,
+      "LMT": 0.21458383828206284,
       "MDLZ": 7.409858571498206,
       "MDT": 3.5713361746750945,
       "MET": 0.5427079873276122,
-      "META": 3.3834339861308003,
+      "META": 3.2264035965610294,
       "MMM": 23.410331534592427,
       "MS": 0.30589550968378676,
       "MSFT": 65.28295397601897,
-      "NFLX": 26.556413499832402,
+      "NFLX": 24.900705966336076,
       "NVDA": 31.934024392079415,
       "ORCL": 59.941154918130934,
       "PYPL": 249.49811964628836,
+      "RTX": 0.6128644483973825,
       "SBUX": 47.63720320310907,
       "TMO": 8.691613203685714,
       "TSLA": 173.70871422509182,
@@ -16621,6 +16816,24 @@
           "action": "sell",
           "ticker": "QCOM",
           "weight_pct": 0.1
+        },
+        "reason": "cannot short QCOM (long_only)"
+      },
+      {
+        "date": "2026-10-20",
+        "raw": {
+          "action": "sell",
+          "ticker": "INTC",
+          "weight_pct": 0.05
+        },
+        "reason": "cannot short INTC (long_only)"
+      },
+      {
+        "date": "2026-10-20",
+        "raw": {
+          "action": "sell",
+          "ticker": "QCOM",
+          "weight_pct": 0.05
         },
         "reason": "cannot short QCOM (long_only)"
       }
@@ -21728,6 +21941,51 @@
         "shares": 9.198328582423182,
         "status": "filled",
         "ticker": "AVGO"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-20",
+        "fee": -1.4210854715202004e-14,
+        "price": 188.75999450683594,
+        "shares": 0.6128644483973825,
+        "status": "filled",
+        "ticker": "RTX"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-20",
+        "fee": 0.0,
+        "price": 736.7000122070312,
+        "shares": 0.1570303895697707,
+        "status": "filled",
+        "ticker": "META"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-20",
+        "fee": 0.0,
+        "price": 539.1099853515625,
+        "shares": 0.21458383828206284,
+        "status": "filled",
+        "ticker": "LMT"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-20",
+        "fee": 0.0,
+        "price": 142.69000244140625,
+        "shares": 0.8107385796732968,
+        "status": "filled",
+        "ticker": "COP"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-20",
+        "fee": 0.0,
+        "price": 69.87000274658203,
+        "shares": 1.6557075334963274,
+        "status": "filled",
+        "ticker": "NFLX"
       }
     ]
   },
@@ -21996,6 +22254,10 @@
       },
       {
         "date": "2026-10-16",
+        "nav": 100000
+      },
+      {
+        "date": "2026-10-20",
         "nav": 100000
       }
     ],
@@ -22329,6 +22591,11 @@
       },
       {
         "date": "2026-10-16",
+        "raw": null,
+        "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"The request was rejected as invalid\",\"type\":\"invalid_request_error\",\"code\":null,\"param\":null}}', 'provider_name': 'Phala', 'is_byok': False}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
+      },
+      {
+        "date": "2026-10-20",
         "raw": null,
         "reason": "unparseable response: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"The request was rejected as invalid\",\"type\":\"invalid_request_error\",\"code\":null,\"param\":null}}', 'provider_name': 'Phala', 'is_byok': False}}, 'user_id': 'user_3Gmw0G8O9qlOGyHVsgiXqGdfxhA'}"
       }
