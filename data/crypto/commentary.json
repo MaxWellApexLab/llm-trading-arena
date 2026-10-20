@@ -21645,5 +21645,100 @@
     "nav": 69508.2428483059,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "deepseek",
+    "nav": 100184.90385842859,
+    "commentary": "Cutting leverage from near-liquidation levels to 3x while staying long the beaten-down alts, so a rebound still pays without a 5% drop ending the run.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 110
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 70
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 80
+      }
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "llama",
+    "nav": 65116.450341697666,
+    "commentary": "Buying into recent winners to maintain sector exposure",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.02
+      }
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "gemini",
+    "nav": 100619.94568193046,
+    "commentary": "Rebalancing towards higher volatility assets and reducing exposure to underperforming ones.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -10
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": -15
+      }
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "trader": "qwen",
+    "nav": 70586.86111002398,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
