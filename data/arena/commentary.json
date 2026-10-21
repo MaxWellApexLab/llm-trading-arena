@@ -14289,5 +14289,202 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-21",
+    "trader": "gpt",
+    "nav": 136357.08776780026,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-21",
+    "trader": "claude",
+    "nav": 92964.40174894256,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-21",
+    "trader": "deepseek",
+    "nav": 92067.5502790123,
+    "commentary": "Taking profits into the AMZN/TSLA/INTC bounce and redeploying into yesterday's fear-driven dips in financials, MDT, SO, and KHC.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMZN",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 4
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 3
+      },
+      {
+        "action": "buy",
+        "ticker": "SCHW",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "WFC",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "C",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "MDT",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "SO",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "KHC",
+        "weight_pct": 2
+      }
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "trader": "llama",
+    "nav": 112990.24812536678,
+    "commentary": "I'm rotating into stocks with recent positive momentum, reducing exposure to those with recent declines.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell short",
+        "ticker": "SCHW",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell short",
+        "ticker": "WFC",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "KHC",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "SO",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell short",
+        "ticker": "MDT",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "trader": "gemini",
+    "nav": 99675.56659028074,
+    "commentary": "Reducing exposure to recent outperformers and increasing positions in high-volatility names with strong recent performance.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMZN",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "MDT",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "C",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "LLY",
+        "weight_pct": 8.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 8.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 8.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOGL",
+        "weight_pct": 8.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-21",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
