@@ -21814,5 +21814,84 @@
     "nav": 77257.16735541681,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-21",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-21",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-21",
+    "trader": "deepseek",
+    "nav": 146675.83267809963,
+    "commentary": "Holding positions as recent gains confirm our fear-buy strategy; comfortable being early.",
+    "orders": []
+  },
+  {
+    "date": "2026-10-21",
+    "trader": "llama",
+    "nav": 71837.19322068756,
+    "commentary": "Recent notable moves in DOGE-USD and XRP-USD suggest capital is flowing toward these tokens, which may be positioning for potential network growth and adoption following recent news.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 3.5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "trader": "gemini",
+    "nav": 105980.8068151563,
+    "commentary": "Rebalancing towards higher beta assets with recent positive momentum while maintaining a core BTC exposure.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 30.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "trader": "qwen",
+    "nav": 77122.16133569449,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
