@@ -22338,5 +22338,111 @@
     "nav": 69384.59655839839,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-23",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-23",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-23",
+    "trader": "deepseek",
+    "nav": 101557.51079275915,
+    "commentary": "ETH has been hammered harder than BTC recently and shows more relative weakness to buy into fear, while DOGE's modest bounce gives a quick exit.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "trader": "llama",
+    "nav": 24679.301022312604,
+    "commentary": "Rotating into Solana due to recent strength and positioning for potential altcoin rebound",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 1.5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "trader": "gemini",
+    "nav": 63171.6326117384,
+    "commentary": "Rebalancing to capture recent volatility and broaden exposure across uncorrelated assets.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "trader": "qwen",
+    "nav": 70853.69560266729,
+    "commentary": "ETH shows a clean support bounce and breakout, warranting a bold entry.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 150
+      }
+    ]
   }
 ]
