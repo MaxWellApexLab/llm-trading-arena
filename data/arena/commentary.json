@@ -15713,5 +15713,197 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-23",
+    "trader": "gpt",
+    "nav": 143230.50327765458,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-23",
+    "trader": "claude",
+    "nav": 102311.91687924473,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-23",
+    "trader": "deepseek",
+    "nav": 94812.69886884501,
+    "commentary": "Trim momentum winners into strength, rotate into the sharp telecom/travel/REIT fear drops, and cut AMD exposure from near the 50% cap.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 12
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 6
+      },
+      {
+        "action": "sell",
+        "ticker": "MS",
+        "weight_pct": 4
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 4
+      },
+      {
+        "action": "sell",
+        "ticker": "IBM",
+        "weight_pct": 2
+      },
+      {
+        "action": "sell",
+        "ticker": "DHR",
+        "weight_pct": 3
+      },
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "NFLX",
+        "weight_pct": 6
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 6
+      },
+      {
+        "action": "buy",
+        "ticker": "AMT",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "trader": "llama",
+    "nav": 118338.39335679609,
+    "commentary": "Adding positions in strong performers, and trimming positions in weaker performers.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DHR",
+        "weight_pct": 0.027
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 0.025
+      },
+      {
+        "action": "buy",
+        "ticker": "MS",
+        "weight_pct": 0.023
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 0.022
+      },
+      {
+        "action": "sell",
+        "ticker": "BKNG",
+        "weight_pct": 0.012
+      },
+      {
+        "action": "sell",
+        "ticker": "AMT",
+        "weight_pct": 0.012
+      },
+      {
+        "action": "sell",
+        "ticker": "NFLX",
+        "weight_pct": 0.011
+      },
+      {
+        "action": "sell",
+        "ticker": "T",
+        "weight_pct": 0.011
+      }
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "trader": "gemini",
+    "nav": 109593.04132517579,
+    "commentary": "Rebalancing to capture mean reversion by trimming recent losers and adding to recent outperformers.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "T",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "NFLX",
+        "weight_pct": 1.3
+      },
+      {
+        "action": "buy",
+        "ticker": "DHR",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MS",
+        "weight_pct": 0.9
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 0.9
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 0.8
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 0.9
+      },
+      {
+        "action": "buy",
+        "ticker": "AMT",
+        "weight_pct": 0.8
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 0.7
+      }
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-23",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
