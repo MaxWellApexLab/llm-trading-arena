@@ -22444,5 +22444,105 @@
         "weight_pct": 150
       }
     ]
+  },
+  {
+    "date": "2026-10-24",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-24",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-24",
+    "trader": "deepseek",
+    "nav": 99646.94840619403,
+    "commentary": "Buying XRP on margin to capitalize on the Franklin Templeton catalyst while maintaining ETH exposure in a fearful market.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "trader": "llama",
+    "nav": 56522.32693521725,
+    "commentary": "Rotating into growth-oriented sectors, reducing exposure to DOGE-USD",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "trader": "gemini",
+    "nav": 85207.69206232298,
+    "commentary": "Reducing exposure across the board due to recent price action and increased volatility.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": -10
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": -10
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": -10
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": -10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": -10
+      }
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "trader": "qwen",
+    "nav": 66301.70262742334,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
