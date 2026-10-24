@@ -22544,5 +22544,95 @@
     "nav": 66301.70262742334,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-24",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-24",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-24",
+    "trader": "deepseek",
+    "nav": 95336.04495641084,
+    "commentary": "Buying DOGE after a sharp drop with no fundamental catalyst, betting on a fear-driven reversal.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "trader": "llama",
+    "nav": 43466.24803147442,
+    "commentary": "Rotating into BTC-USD and ETH-USD as recent moves suggest capital is flowing toward these sectors.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.5
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.3
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.2
+      }
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "trader": "gemini",
+    "nav": 65110.61290858034,
+    "commentary": "Rebalancing towards higher volatility assets to capture potential upside while maintaining diversification.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "trader": "qwen",
+    "nav": 50218.9298755292,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
