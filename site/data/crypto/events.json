@@ -1804,5 +1804,19 @@
     "overtaker": "llama",
     "overtaken": "gemini",
     "rank": 4
+  },
+  {
+    "ts": "2026-10-26T18:47:57.298918+00:00",
+    "game": "crypto",
+    "overtaker": "gemini",
+    "overtaken": "gpt",
+    "rank": 3
+  },
+  {
+    "ts": "2026-10-26T18:47:57.298918+00:00",
+    "game": "crypto",
+    "overtaker": "gemini",
+    "overtaken": "llama",
+    "rank": 3
   }
 ]
