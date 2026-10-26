@@ -22828,5 +22828,106 @@
     "nav": 57858.76712586603,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-26",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-26",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-26",
+    "trader": "deepseek",
+    "nav": 100000,
+    "commentary": "Covering the BTC short and adding to ETH as it's been beaten down the most, buying the fear.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 2.3
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-10-26",
+    "trader": "llama",
+    "nav": 100000,
+    "commentary": "Adding to crypto leadership sectors after recent de-risking, focusing on broad exposure with BTC and two smaller, tech-forward altcoins",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-10-26",
+    "trader": "gemini",
+    "nav": 47270.29962206993,
+    "commentary": "Reducing exposure to recent underperformers and increasing allocation to DOGE-USD based on its relative stability and potential for upside.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": -5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": -5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-26",
+    "trader": "qwen",
+    "nav": 53572.775412452,
+    "commentary": "ETH shows a support bounce and potential for breakout, aligning with my trading style.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
