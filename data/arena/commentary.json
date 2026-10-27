@@ -16062,5 +16062,242 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-27",
+    "trader": "gpt",
+    "nav": 140797.5893971527,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-27",
+    "trader": "claude",
+    "nav": 83782.24981743412,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-27",
+    "trader": "deepseek",
+    "nav": 84797.17132663087,
+    "commentary": "Buying the telecom/consumer panic while trimming crowded winners to keep the book disciplined.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CVS",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "MCD",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "WMT",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "sell",
+        "ticker": "COST",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "sell",
+        "ticker": "FDX",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "sell",
+        "ticker": "IBM",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "sell",
+        "ticker": "SO",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MET",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AXP",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CL",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 1.5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "trader": "llama",
+    "nav": 114171.38927734783,
+    "commentary": "I'm taking a contrarian view and buying into the recent losers, but scaling back on the recent winners.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 8.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 7.71
+      },
+      {
+        "action": "buy",
+        "ticker": "MET",
+        "weight_pct": 6.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AMT",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AXP",
+        "weight_pct": 4.68
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 4.62
+      },
+      {
+        "action": "buy",
+        "ticker": "CL",
+        "weight_pct": 4.56
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 4.5
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 4.44
+      }
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "trader": "gemini",
+    "nav": 94737.13790938258,
+    "commentary": "Reducing exposure to recent laggards and increasing exposure to high-volatility growth names.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "T",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "sell",
+        "ticker": "TMUS",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "sell",
+        "ticker": "MET",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "LLY",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOGL",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 1.5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-27",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
