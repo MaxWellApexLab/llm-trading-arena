@@ -23120,5 +23120,100 @@
     "nav": 51453.72257084452,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-27",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-27",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-27",
+    "trader": "deepseek",
+    "nav": 100740.17718000882,
+    "commentary": "Adding to SOL and initiating ETH as they are among the most beaten down with no bad news, ready to profit when fear subsides.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "trader": "llama",
+    "nav": 100662.07384305836,
+    "commentary": "Rotating into the recent winners across the sector, with a focus on the rapidly evolving DeFi and stablecoin space.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "trader": "gemini",
+    "nav": 100540.59051548508,
+    "commentary": "Rebalancing towards stronger performers while reducing exposure to recent underperformers based on volatility and momentum metrics.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": -20.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "trader": "qwen",
+    "nav": 58080.12575364328,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
