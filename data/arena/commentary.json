@@ -16299,5 +16299,237 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "gpt",
+    "nav": 147824.63720774796,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "claude",
+    "nav": 90873.54241552879,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "deepseek",
+    "nav": 84558.68264286732,
+    "commentary": "Selling the crowded momentum bounces and buying the fear-driven losers with no fundamental cracks.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "CSCO",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "RTX",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 2.5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "llama",
+    "nav": 117817.14542887517,
+    "commentary": "Rebalancing against recent sector moves, selling CHTR and TSLA as they've fallen out of favor, and buying PYPL and VZ as they've become more attractive.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 1.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "gemini",
+    "nav": 105512.69541255024,
+    "commentary": "Rebalancing to capture recent volatility and reduce exposure to the recent negative movers.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "LMT",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "TXN",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOW",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "PYPL",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CSCO",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "VZ",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "RTX",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOGL",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "LLY",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MA",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "COST",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BRK-B",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "JPM",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BA",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
