@@ -23215,5 +23215,125 @@
     "nav": 58080.12575364328,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "deepseek",
+    "nav": 102746.95244855972,
+    "commentary": "Trim the DOGE/XRP pop, keep beaten-down SOL, and rotate profits into BTC/ETH as the fear hedge.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "llama",
+    "nav": 101575.21499970433,
+    "commentary": "Rotating into SOL-USD and XRP-USD as they show recent strength, and trimming DOGE-USD",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "gemini",
+    "nav": 101207.83818527547,
+    "commentary": "Rebalancing towards higher-beta assets with recent positive momentum, reducing exposure to lower-volatility DOGE.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "qwen",
+    "nav": 59567.725577906705,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
