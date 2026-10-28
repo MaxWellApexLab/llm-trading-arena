@@ -23335,5 +23335,100 @@
     "nav": 59567.725577906705,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "deepseek",
+    "nav": 101971.62613593964,
+    "commentary": "Loading up on XRP, SOL, and ETH after their unjustified drops, ready to ride the rebound.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 35
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "llama",
+    "nav": 100744.68853623,
+    "commentary": "Buying XRP to catch up on the recent decline, selling DOGE as it's still down from its recent high",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.08
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "gemini",
+    "nav": 100625.81427808697,
+    "commentary": "Rebalancing towards higher volatility assets to capture potential upside while maintaining diversification.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-28",
+    "trader": "qwen",
+    "nav": 58228.0580376343,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
