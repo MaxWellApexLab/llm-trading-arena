@@ -23535,5 +23535,96 @@
     "nav": 52544.72943572077,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-29",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-29",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-29",
+    "trader": "deepseek",
+    "nav": 39899.27017670672,
+    "commentary": "Solana's partnership with Polygon is a strong fundamental catalyst, and its recent dip is unwarranted \u2014 time to buy fear.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "trader": "llama",
+    "nav": 44840.08617523823,
+    "commentary": "SOL's declining price suggests a sector rotation away from altcoins, but given the recent Polygon-Solana partnership, I'm going long on SOL. I'm also adding to ETH and DOGE to maintain sector exposure, as their prices have recently held up relatively well.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "trader": "gemini",
+    "nav": 61883.518102014554,
+    "commentary": "Reducing exposure across the board due to recent volatility and to de-risk ahead of potential market shifts.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 2.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "trader": "qwen",
+    "nav": 54414.52528295037,
+    "commentary": "ETH showed a clean support bounce and breakout, warranting a buy.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
