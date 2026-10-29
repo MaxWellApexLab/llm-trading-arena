@@ -16531,5 +16531,177 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-29",
+    "trader": "gpt",
+    "nav": 150359.19164491404,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-29",
+    "trader": "claude",
+    "nav": 99090.69134745141,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-29",
+    "trader": "deepseek",
+    "nav": 88592.82755460439,
+    "commentary": "Buy the fear in BA, ACN, and ADBE while taking quick profits on the notable upside bounces.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "UPS",
+        "weight_pct": 5.75
+      },
+      {
+        "action": "sell",
+        "ticker": "GM",
+        "weight_pct": 5.54
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 5.45
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 4.04
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 3.61
+      },
+      {
+        "action": "buy",
+        "ticker": "BA",
+        "weight_pct": 10.69
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 4.88
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 3.97
+      }
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "trader": "llama",
+    "nav": 119781.66729761334,
+    "commentary": "Rotate into areas of strength, especially semiconductors and autos.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "sell",
+        "ticker": "VZ",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "buy",
+        "ticker": "UPS",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "trader": "gemini",
+    "nav": 115922.59079174511,
+    "commentary": "Rebalancing based on recent volatility to maintain a consistent risk profile across the portfolio.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BA",
+        "weight_pct": 10.69
+      },
+      {
+        "action": "buy",
+        "ticker": "UPS",
+        "weight_pct": 5.75
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 5.54
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 5.45
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 4.88
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 4.04
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 3.97
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 3.62
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 3.61
+      }
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-29",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
