@@ -698,5 +698,26 @@
     "overtaker": "claude",
     "overtaken": "deepseek",
     "rank": 6
+  },
+  {
+    "ts": "2026-10-30T01:15:28.615638+00:00",
+    "game": "arena",
+    "overtaker": "gemini",
+    "overtaken": "llama",
+    "rank": 2
+  },
+  {
+    "ts": "2026-10-30T01:15:28.615638+00:00",
+    "game": "arena",
+    "overtaker": "claude",
+    "overtaken": "headline_arena",
+    "rank": 4
+  },
+  {
+    "ts": "2026-10-30T01:15:28.615638+00:00",
+    "game": "arena",
+    "overtaker": "claude",
+    "overtaken": "qwen",
+    "rank": 4
   }
 ]

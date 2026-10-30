@@ -16703,5 +16703,192 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-30",
+    "trader": "gpt",
+    "nav": 157130.70954039093,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-30",
+    "trader": "claude",
+    "nav": 107571.97772973531,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-30",
+    "trader": "deepseek",
+    "nav": 91927.24742045405,
+    "commentary": "Selling recent winners like ORCL and ACN to take profits, buying beaten-down names like NFLX, T, and BA that are due for a rebound.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 1.4
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 0.7
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 2.2
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 0.4
+      },
+      {
+        "action": "sell",
+        "ticker": "GM",
+        "weight_pct": 2.1
+      },
+      {
+        "action": "sell",
+        "ticker": "F",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 0.7
+      },
+      {
+        "action": "sell",
+        "ticker": "MS",
+        "weight_pct": 0.4
+      },
+      {
+        "action": "buy",
+        "ticker": "NFLX",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BA",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CAT",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 0.5
+      },
+      {
+        "action": "buy",
+        "ticker": "SCHW",
+        "weight_pct": 0.5
+      }
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "trader": "llama",
+    "nav": 122852.80436047999,
+    "commentary": "Adding high-growth tech stocks T, TMO, TMUS, and V to the portfolio, allocating up to 50% of the portfolio value to each stock.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 1.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "trader": "gemini",
+    "nav": 125233.12675436819,
+    "commentary": "Capital is reallocated towards recent strength in ORCL, ACN, AMD, and AVGO while trimming exposure to recent weakness in VZ and MS.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "VZ",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "MS",
+        "weight_pct": 1.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-30",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
