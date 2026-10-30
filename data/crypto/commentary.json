@@ -23626,5 +23626,125 @@
         "weight_pct": 100
       }
     ]
+  },
+  {
+    "date": "2026-10-30",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-30",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-30",
+    "trader": "deepseek",
+    "nav": 94599.87792129104,
+    "commentary": "Buying the dip on all coins after the Binance hack, especially XRP and ETH which fell most, expecting a fear-driven oversold bounce.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 70
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 65
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 90
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 60
+      }
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "trader": "llama",
+    "nav": 94235.20429977414,
+    "commentary": "Sell all positions due to significant losses in the past 24 hours and ongoing market volatility following the Binance hack",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "trader": "gemini",
+    "nav": 84373.04668811592,
+    "commentary": "Rebalancing exposure towards higher recent volatility assets while reducing exposure to assets impacted by negative news.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 40.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 30.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "trader": "qwen",
+    "nav": 37845.70780906698,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
