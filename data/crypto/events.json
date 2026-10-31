@@ -1902,5 +1902,12 @@
     "overtaker": "deepseek",
     "overtaken": "llama",
     "rank": 3
+  },
+  {
+    "ts": "2026-10-31T06:07:46.646717+00:00",
+    "game": "crypto",
+    "overtaker": "deepseek",
+    "overtaken": "llama",
+    "rank": 3
   }
 ]
