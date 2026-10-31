@@ -16890,5 +16890,172 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-10-31",
+    "trader": "gpt",
+    "nav": 156581.44166583003,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-31",
+    "trader": "claude",
+    "nav": 102365.44369790738,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-31",
+    "trader": "deepseek",
+    "nav": 100371.01384902117,
+    "commentary": "Cut losers hard on the Google and Caterpillar panic, rotate into LLY and MO for their strong momentum and fundamental resilience.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "GOOGL",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "GOOG",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "LLY",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "MO",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-10-31",
+    "trader": "llama",
+    "nav": 121904.65086223866,
+    "commentary": "Based on recent notable moves, I'm buying AMZN and MA, selling CRM and CAT, and rebalancing with TSLA, V, and PYPL.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "MA",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "WFC",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-10-31",
+    "trader": "gemini",
+    "nav": 116460.84119633003,
+    "commentary": "Rebalancing portfolio to capture recent downside strength and trim recent upside strength.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "GOOGL",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "GOOG",
+        "weight_pct": 4.9
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 4.5
+      },
+      {
+        "action": "buy",
+        "ticker": "LLY",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MO",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "GD",
+        "weight_pct": 2.2
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 2.1
+      },
+      {
+        "action": "buy",
+        "ticker": "LOW",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 1.8
+      },
+      {
+        "action": "buy",
+        "ticker": "MA",
+        "weight_pct": 1.7
+      }
+    ]
+  },
+  {
+    "date": "2026-10-31",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-10-31",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]

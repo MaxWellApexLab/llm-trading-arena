@@ -301,6 +301,10 @@
       {
         "date": "2026-10-30",
         "nav": 107571.97772973531
+      },
+      {
+        "date": "2026-10-31",
+        "nav": 102365.44369790738
       }
     ],
     "pending_orders": [],
@@ -529,6 +533,11 @@
       },
       {
         "date": "2026-10-30",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5)."
+      },
+      {
+        "date": "2026-10-31",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5)."
       }
@@ -1554,7 +1563,7 @@
     ]
   },
   "deepseek": {
-    "cash": -676095.0783077467,
+    "cash": -678068.8699928375,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -1855,110 +1864,49 @@
       {
         "date": "2026-10-30",
         "nav": 91927.24742045405
+      },
+      {
+        "date": "2026-10-31",
+        "nav": 100371.01384902117
       }
     ],
     "pending_orders": [
       {
         "action": "sell",
-        "ticker": "ORCL",
-        "weight_pct": 1.4
+        "ticker": "GOOGL",
+        "weight_pct": 100.0
       },
       {
         "action": "sell",
-        "ticker": "ACN",
-        "weight_pct": 0.7
-      },
-      {
-        "action": "sell",
-        "ticker": "AMD",
-        "weight_pct": 2.2
-      },
-      {
-        "action": "sell",
-        "ticker": "AVGO",
-        "weight_pct": 0.4
-      },
-      {
-        "action": "sell",
-        "ticker": "GM",
-        "weight_pct": 2.1
-      },
-      {
-        "action": "sell",
-        "ticker": "F",
-        "weight_pct": 2.0
-      },
-      {
-        "action": "sell",
-        "ticker": "INTC",
-        "weight_pct": 0.7
-      },
-      {
-        "action": "sell",
-        "ticker": "MS",
-        "weight_pct": 0.4
-      },
-      {
-        "action": "buy",
-        "ticker": "NFLX",
-        "weight_pct": 2.0
-      },
-      {
-        "action": "buy",
-        "ticker": "T",
-        "weight_pct": 2.0
-      },
-      {
-        "action": "buy",
-        "ticker": "BA",
-        "weight_pct": 2.0
-      },
-      {
-        "action": "buy",
-        "ticker": "BKNG",
-        "weight_pct": 1.5
-      },
-      {
-        "action": "buy",
-        "ticker": "TMUS",
-        "weight_pct": 1.5
-      },
-      {
-        "action": "buy",
-        "ticker": "VZ",
-        "weight_pct": 1.0
-      },
-      {
-        "action": "buy",
         "ticker": "CAT",
-        "weight_pct": 1.0
+        "weight_pct": 100.0
       },
       {
         "action": "buy",
-        "ticker": "META",
-        "weight_pct": 0.5
+        "ticker": "LLY",
+        "weight_pct": 50.0
       },
       {
         "action": "buy",
-        "ticker": "SCHW",
-        "weight_pct": 0.5
+        "ticker": "MO",
+        "weight_pct": 50.0
       }
     ],
     "positions": {
       "AAPL": 95.91948689248679,
-      "ACN": 39.67287783628467,
+      "ACN": 36.923481458071294,
       "ADBE": 144.2972085312643,
-      "AMD": 51.381590573156615,
+      "AMD": 47.70403051570034,
       "AMGN": 34.15502022914367,
       "AMT": 1.7326648507721174,
       "AMZN": 13.305280383830162,
-      "AVGO": 15.960177916362555,
+      "AVGO": 14.860878732240662,
       "AXP": 16.92650984793096,
-      "BA": 196.67781694533016,
-      "BKNG": 197.60565265037542,
+      "BA": 207.85048621634616,
+      "BKNG": 206.96721404810378,
       "BMY": 504.87548347756723,
       "C": 51.73790797626103,
-      "CAT": 20.80363941277969,
+      "CAT": 22.280704421786666,
       "CHTR": 352.865280831112,
       "CL": 9.150242001184083,
       "CMCSA": 408.3162625650554,
@@ -1970,15 +1918,15 @@
       "DHR": 3.1400545811985943,
       "DIS": 13.138195564300085,
       "DUK": 30.835939233222422,
-      "F": 2228.0595839147486,
+      "F": 2068.3483237840414,
       "FDX": 28.4621486536957,
       "GE": 142.42380238472887,
-      "GM": 337.22933833048285,
+      "GM": 313.50873135045975,
       "GOOGL": 15.34845503765385,
       "HD": 2.716702742548943,
       "HON": 35.4104031509565,
       "IBM": 3.668501355464921,
-      "INTC": 104.48223480369187,
+      "INTC": 97.40542988750089,
       "KHC": 67.44527048405669,
       "LIN": 21.692833188363245,
       "LLY": 2.062713171692912,
@@ -1987,31 +1935,31 @@
       "MDLZ": 0.02966015985619208,
       "MDT": 19.20762002581574,
       "MET": 12.919450369517655,
-      "META": 3.046900996474384,
+      "META": 3.8033117190555648,
       "MMM": 11.376408797925285,
       "MRK": 50.32256318402174,
-      "MS": 28.909353059149797,
+      "MS": 26.954992553288886,
       "NEE": 58.02759279941519,
-      "NFLX": 259.9354809222862,
+      "NFLX": 290.0219344853612,
       "NKE": 541.2179428418906,
       "NVDA": 102.74022463624428,
-      "ORCL": 133.48539355928835,
+      "ORCL": 124.3563445169279,
       "PEP": 36.27021442827535,
       "PM": 8.853692322469723,
       "PYPL": 58.55408551673626,
       "QCOM": 93.61275052610644,
       "RTX": 54.44430297691278,
-      "SCHW": 31.003211379290352,
+      "SCHW": 36.24059445775421,
       "SO": 19.038372818036116,
       "SPG": 49.053112349883534,
-      "T": 899.2972751881523,
+      "T": 988.4719246972569,
       "TGT": 75.0464570265068,
       "TMO": 11.71249435814256,
-      "TMUS": 69.05733502179534,
+      "TMUS": 78.42014008549914,
       "TSLA": 14.757437033007431,
       "UNH": 15.124806568528292,
       "UPS": 63.523298147979474,
-      "VZ": 50.45454743741879,
+      "VZ": 71.88411399794427,
       "WFC": 44.25506065944441,
       "WMT": 88.43936943294483
     },
@@ -2484,6 +2432,15 @@
           "weight_pct": 5.0
         },
         "reason": "malformed order"
+      },
+      {
+        "date": "2026-10-31",
+        "raw": {
+          "action": "sell",
+          "ticker": "GOOG",
+          "weight_pct": 100
+        },
+        "reason": "cannot short GOOG (long_only)"
       }
     ],
     "trades": [
@@ -6203,11 +6160,164 @@
         "shares": 14.301043409205054,
         "status": "filled",
         "ticker": "ADBE"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 144.13999938964844,
+        "shares": 9.129049042360448,
+        "status": "filled",
+        "ticker": "ORCL"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 239.3000030517578,
+        "shares": 2.749396378213376,
+        "status": "filled",
+        "ticker": "ACN"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 562.27001953125,
+        "shares": 3.6775600574562723,
+        "status": "filled",
+        "ticker": "AMD"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 342.0,
+        "shares": 1.0992991841218926,
+        "status": "filled",
+        "ticker": "AVGO"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 83.20999908447266,
+        "shares": 23.720606980023106,
+        "status": "filled",
+        "ticker": "GM"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 11.770000457763672,
+        "shares": 159.71126013070722,
+        "status": "filled",
+        "ticker": "F"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 92.97000122070312,
+        "shares": 7.076804916190983,
+        "status": "filled",
+        "ticker": "INTC"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 192.3699951171875,
+        "shares": 1.954360505860912,
+        "status": "filled",
+        "ticker": "MS"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 62.47999954223633,
+        "shares": 30.086453563074976,
+        "status": "filled",
+        "ticker": "NFLX"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-31",
+        "fee": -2.2737367544323206e-13,
+        "price": 21.079999923706055,
+        "shares": 89.1746495091046,
+        "status": "filled",
+        "ticker": "T"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 168.25,
+        "shares": 11.172669271015982,
+        "status": "filled",
+        "ticker": "BA"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 150.60000610351562,
+        "shares": 9.36156139772836,
+        "status": "filled",
+        "ticker": "BKNG"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 150.5800018310547,
+        "shares": 9.362805063703808,
+        "status": "filled",
+        "ticker": "TMUS"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 43.86000061035156,
+        "shares": 21.429566560525483,
+        "status": "filled",
+        "ticker": "VZ"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 636.3300170898438,
+        "shares": 1.4770650090069746,
+        "status": "filled",
+        "ticker": "CAT"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 621.2899780273438,
+        "shares": 0.756410722581181,
+        "status": "filled",
+        "ticker": "META"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 89.7300033569336,
+        "shares": 5.237383078463858,
+        "status": "filled",
+        "ticker": "SCHW"
       }
     ]
   },
   "gemini": {
-    "cash": -1066883.8756785048,
+    "cash": -1078659.6050809484,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -6508,48 +6618,72 @@
       {
         "date": "2026-10-30",
         "nav": 125233.12675436819
+      },
+      {
+        "date": "2026-10-31",
+        "nav": 116460.84119633003
       }
     ],
     "pending_orders": [
       {
-        "action": "buy",
-        "ticker": "ORCL",
+        "action": "sell",
+        "ticker": "GOOGL",
         "weight_pct": 5.0
       },
       {
+        "action": "sell",
+        "ticker": "GOOG",
+        "weight_pct": 4.9
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 4.5
+      },
+      {
         "action": "buy",
-        "ticker": "ACN",
+        "ticker": "LLY",
         "weight_pct": 3.0
       },
       {
         "action": "buy",
-        "ticker": "AMD",
-        "weight_pct": 3.0
-      },
-      {
-        "action": "buy",
-        "ticker": "AVGO",
+        "ticker": "MO",
         "weight_pct": 2.5
       },
       {
-        "action": "sell",
-        "ticker": "VZ",
+        "action": "buy",
+        "ticker": "GD",
+        "weight_pct": 2.2
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 2.1
+      },
+      {
+        "action": "buy",
+        "ticker": "LOW",
         "weight_pct": 2.0
       },
       {
-        "action": "sell",
-        "ticker": "MS",
-        "weight_pct": 1.0
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 1.8
+      },
+      {
+        "action": "buy",
+        "ticker": "MA",
+        "weight_pct": 1.7
       }
     ],
     "positions": {
       "AAPL": 45.980389945786115,
-      "ACN": 111.57902085637885,
-      "AMD": 200.30775390422784,
+      "ACN": 125.37068693781377,
+      "AMD": 206.17743505515887,
       "AMGN": 13.941599564781878,
       "AMT": 30.109031586320892,
       "AMZN": 185.5612480144793,
-      "AVGO": 124.20485916579645,
+      "AVGO": 132.24663727343824,
       "BKNG": 78.76368290009121,
       "BRK-B": 9.991240826361974,
       "C": 23.525514257375,
@@ -6587,12 +6721,11 @@
       "MMM": 154.56571410607438,
       "MO": 99.83779466443175,
       "MRK": 51.78638126497294,
-      "MS": 4.551624155135806,
       "MSFT": 55.9340699262076,
       "NEE": 37.25955511010961,
       "NKE": 83.3019093163325,
       "NVDA": 407.99513625899164,
-      "ORCL": 151.50456180591996,
+      "ORCL": 189.6659066714593,
       "PEP": 31.524605313751408,
       "PG": 32.686756648569464,
       "PM": 31.40739120420268,
@@ -6609,7 +6742,7 @@
       "UPS": 65.21948843915425,
       "USB": 33.48009476936053,
       "V": 20.766645038666162,
-      "VZ": 180.55916499814174,
+      "VZ": 130.39431183734374,
       "WMT": 27.390937776516836,
       "XOM": 49.99193521796846
     },
@@ -15822,6 +15955,60 @@
         "shares": 45.381758101097546,
         "status": "filled",
         "ticker": "INTC"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 144.13999938964844,
+        "shares": 38.16134486553934,
+        "status": "filled",
+        "ticker": "ORCL"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 239.3000030517578,
+        "shares": 13.791666081434926,
+        "status": "filled",
+        "ticker": "ACN"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 562.27001953125,
+        "shares": 5.869681150931034,
+        "status": "filled",
+        "ticker": "AMD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 342.0,
+        "shares": 8.041778107641802,
+        "status": "filled",
+        "ticker": "AVGO"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 43.86000061035156,
+        "shares": 50.16485316079801,
+        "status": "filled",
+        "ticker": "VZ"
+      },
+      {
+        "action": "sell",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 192.3699951171875,
+        "shares": 4.551624155135806,
+        "status": "filled",
+        "ticker": "MS"
       }
     ]
   },
@@ -16127,6 +16314,10 @@
       {
         "date": "2026-10-30",
         "nav": 157130.70954039093
+      },
+      {
+        "date": "2026-10-31",
+        "nav": 156581.44166583003
       }
     ],
     "pending_orders": [],
@@ -17489,6 +17680,11 @@
       },
       {
         "date": "2026-10-30",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
+      },
+      {
+        "date": "2026-10-31",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
       }
@@ -19116,6 +19312,10 @@
       {
         "date": "2026-10-30",
         "nav": 100000
+      },
+      {
+        "date": "2026-10-31",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -19320,12 +19520,17 @@
         "date": "2026-10-30",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
+      },
+      {
+        "date": "2026-10-31",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
       }
     ],
     "trades": []
   },
   "llama": {
-    "cash": -298670.00852753624,
+    "cash": -303526.99971840373,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -19626,28 +19831,47 @@
       {
         "date": "2026-10-30",
         "nav": 122852.80436047999
+      },
+      {
+        "date": "2026-10-31",
+        "nav": 121904.65086223866
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
-        "ticker": "T",
-        "weight_pct": 1.0
+        "ticker": "AMZN",
+        "weight_pct": 0.2
       },
       {
         "action": "buy",
-        "ticker": "TMO",
-        "weight_pct": 1.0
+        "ticker": "TSLA",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 0.05
       },
       {
         "action": "buy",
-        "ticker": "TMUS",
-        "weight_pct": 1.0
+        "ticker": "MA",
+        "weight_pct": 0.05
       },
       {
         "action": "buy",
         "ticker": "V",
-        "weight_pct": 1.0
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "WFC",
+        "weight_pct": 0.05
       }
     ],
     "positions": {
@@ -19698,16 +19922,16 @@
       "SBUX": 47.63720320310907,
       "SO": 1.267726023906762,
       "SPG": 0.280794581649,
-      "T": 450.6045632217671,
+      "T": 508.2064513674757,
       "TGT": 34.720576653984075,
-      "TMO": 8.779031101273722,
-      "TMUS": 62.50978561137905,
+      "TMO": 10.504844467519185,
+      "TMUS": 70.57359078438738,
       "TSLA": 171.0912942309017,
       "TXN": 4.138446992223581,
       "UNH": 0.2756420273988197,
       "UPS": 1.5144891858303422,
       "USB": 1.958325852851086,
-      "V": 40.6058093260863,
+      "V": 43.604840602200596,
       "VZ": 44.8692105101584,
       "WFC": 9.720329128033192,
       "WMT": 0.9945748697557786,
@@ -20374,6 +20598,15 @@
           "weight_pct": 0.01
         },
         "reason": "cannot short BKNG (long_only)"
+      },
+      {
+        "date": "2026-10-31",
+        "raw": {
+          "action": "sell",
+          "ticker": "CAT",
+          "weight_pct": 0.05
+        },
+        "reason": "cannot short CAT (long_only)"
       }
     ],
     "trades": [
@@ -26253,6 +26486,42 @@
         "shares": 0.1942616204478537,
         "status": "filled",
         "ticker": "TXN"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 21.079999923706055,
+        "shares": 57.60188814570865,
+        "status": "filled",
+        "ticker": "T"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 703.5800170898438,
+        "shares": 1.7258133662454622,
+        "status": "filled",
+        "ticker": "TMO"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 150.5800018310547,
+        "shares": 8.063805173008328,
+        "status": "filled",
+        "ticker": "TMUS"
+      },
+      {
+        "action": "buy",
+        "date": "2026-10-31",
+        "fee": 0.0,
+        "price": 404.8800048828125,
+        "shares": 2.999031276114293,
+        "status": "filled",
+        "ticker": "V"
       }
     ]
   },
@@ -26557,6 +26826,10 @@
       },
       {
         "date": "2026-10-30",
+        "nav": 100000
+      },
+      {
+        "date": "2026-10-31",
         "nav": 100000
       }
     ],
@@ -26935,6 +27208,11 @@
       },
       {
         "date": "2026-10-30",
+        "raw": null,
+        "reason": "unparseable response: 'NoneType' object is not subscriptable"
+      },
+      {
+        "date": "2026-10-31",
         "raw": null,
         "reason": "unparseable response: 'NoneType' object is not subscriptable"
       }
