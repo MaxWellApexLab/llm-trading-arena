@@ -24114,5 +24114,79 @@
     "nav": 42712.44089232932,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-01",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-01",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-01",
+    "trader": "deepseek",
+    "nav": 99711.98839271674,
+    "commentary": "Crypto's been hammered on election jitters, but these dips are pure fear \u2014 I'm loading up on the oversold names and will flip them on the bounce.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "trader": "llama",
+    "nav": 92646.97284839848,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-01",
+    "trader": "gemini",
+    "nav": 100040.08315473466,
+    "commentary": "Rebalancing towards higher volatility assets and away from recent relative weakness.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "trader": "qwen",
+    "nav": 41952.585086414416,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
