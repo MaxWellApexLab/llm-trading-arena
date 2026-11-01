@@ -3686,6 +3686,10 @@
       {
         "date": "2026-11-01T05:39Z",
         "nav": 100000
+      },
+      {
+        "date": "2026-11-01",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -4120,6 +4124,11 @@
       },
       {
         "date": "2026-10-31",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5)."
+      },
+      {
+        "date": "2026-11-01",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5)."
       }
@@ -11894,9 +11903,24 @@
       {
         "date": "2026-11-01T05:39Z",
         "nav": 100000
+      },
+      {
+        "date": "2026-11-01",
+        "nav": 100000
       }
     ],
-    "pending_orders": [],
+    "pending_orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20.0
+      }
+    ],
     "positions": {},
     "rejected": [
       {
@@ -20031,9 +20055,39 @@
       {
         "date": "2026-11-01T05:39Z",
         "nav": 100000
+      },
+      {
+        "date": "2026-11-01",
+        "nav": 100000
       }
     ],
-    "pending_orders": [],
+    "pending_orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ],
     "positions": {},
     "rejected": [
       {
@@ -31674,6 +31728,10 @@
       {
         "date": "2026-11-01T05:39Z",
         "nav": 100000
+      },
+      {
+        "date": "2026-11-01",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -32662,6 +32720,11 @@
       },
       {
         "date": "2026-10-31",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
+      },
+      {
+        "date": "2026-11-01",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
       }
@@ -37806,24 +37869,43 @@
       {
         "date": "2026-11-01T05:39Z",
         "nav": 93062.39375086607
+      },
+      {
+        "date": "2026-11-01",
+        "nav": 93085.13250080032
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
         "ticker": "ETH-USD",
-        "weight_pct": 0.02
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
       },
       {
         "action": "sell",
         "ticker": "DOGE-USD",
-        "weight_pct": 0.02
+        "weight_pct": 30.0
       }
     ],
     "positions": {
       "BTC-USD": 0.4858664122444516,
-      "DOGE-USD": 164606.1530394728,
-      "ETH-USD": 17.399810207942362,
+      "DOGE-USD": 164360.89902998344,
+      "ETH-USD": 17.408035217817854,
       "SOL-USD": 313.1641811309801,
       "XRP-USD": 44269.05602795621
     },
@@ -44800,6 +44882,24 @@
         "shares": 12395.97011684438,
         "status": "filled",
         "ticker": "DOGE-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-01",
+        "fee": 0.0,
+        "price": 2252.59130859375,
+        "shares": 0.00822500987549098,
+        "status": "filled",
+        "ticker": "ETH-USD"
+      },
+      {
+        "action": "sell",
+        "date": "2026-11-01",
+        "fee": 0.0,
+        "price": 0.07554447650909424,
+        "shares": 245.25400948934157,
+        "status": "filled",
+        "ticker": "DOGE-USD"
       }
     ]
   },
@@ -48470,6 +48570,10 @@
       {
         "date": "2026-11-01T05:39Z",
         "nav": 42463.996823327034
+      },
+      {
+        "date": "2026-11-01",
+        "nav": 42712.44089232932
       }
     ],
     "pending_orders": [],
@@ -49172,6 +49276,11 @@
       },
       {
         "date": "2026-10-31",
+        "raw": null,
+        "reason": "unparseable response: 'NoneType' object is not subscriptable"
+      },
+      {
+        "date": "2026-11-01",
         "raw": null,
         "reason": "unparseable response: 'NoneType' object is not subscriptable"
       }
