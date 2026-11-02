@@ -1965,5 +1965,12 @@
     "overtaker": "gpt",
     "overtaken": "deepseek",
     "rank": 3
+  },
+  {
+    "ts": "2026-11-02T21:51:43.100972+00:00",
+    "game": "crypto",
+    "overtaker": "deepseek",
+    "overtaken": "gemini",
+    "rank": 3
   }
 ]
