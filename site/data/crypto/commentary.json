@@ -24403,5 +24403,121 @@
     "nav": 39632.86777357658,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-03",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-03",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-03",
+    "trader": "deepseek",
+    "nav": 92118.90900928498,
+    "commentary": "Buying fear on BTC, SOL, and DOGE after sharp drops, selling XRP to fund and reduce flat position; expecting post-election bounce.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 45
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 85
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 22
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 18
+      }
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "trader": "llama",
+    "nav": 100000,
+    "commentary": "Liquidating XRP and taking a large bet on BTC amidst a potential post-election rally, while also adding a smaller position in DOGE to capture its recent strength",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 100.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 80.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 50.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 100.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "trader": "gemini",
+    "nav": 21656.226434805823,
+    "commentary": "Reducing exposure to underperforming assets and increasing exposure to potential reversals, funded by cash balance.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": -25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "ETH has shown weakness with a potential top forming, aligning with broader market sentiment.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 100
+      }
+    ]
   }
 ]
