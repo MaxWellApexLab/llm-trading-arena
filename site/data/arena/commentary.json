@@ -17381,5 +17381,197 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-05",
+    "trader": "gpt",
+    "nav": 130230.50057591946,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-05",
+    "trader": "claude",
+    "nav": 49257.04093353439,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-05",
+    "trader": "deepseek",
+    "nav": 94687.42817882949,
+    "commentary": "Sold ORCL, CVS, AMD to capture quick gains and bought TMUS, TGT, MRK, ACN, INTC on the dip, betting on a snapback.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 2.49
+      },
+      {
+        "action": "sell",
+        "ticker": "CVS",
+        "weight_pct": 4.29
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 3.21
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 1.39
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 1.33
+      },
+      {
+        "action": "buy",
+        "ticker": "MRK",
+        "weight_pct": 0.84
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 1.08
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 1.55
+      }
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "trader": "llama",
+    "nav": 116747.68404464843,
+    "commentary": "Following recent notable moves, rebalanced to increase exposure to outperforming stocks and trim underperformers.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "sell",
+        "ticker": "TMUS",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "buy",
+        "ticker": "CVS",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "TGT",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "MRK",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 0.01
+      }
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "trader": "gemini",
+    "nav": 77566.27278111712,
+    "commentary": "Rebalancing to capture momentum in strong performers and trim recent laggards.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "CVS",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "TMUS",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "MRK",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "sell",
+        "ticker": "TGT",
+        "weight_pct": 2.5
+      }
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-05",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
