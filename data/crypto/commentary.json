@@ -24945,5 +24945,121 @@
     "nav": 102124.22240659005,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-05",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-05",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-05",
+    "trader": "deepseek",
+    "nav": 75121.39725930872,
+    "commentary": "The AI/hack panic is a non-fundamental broad selloff, so I'm leaning into the dip across BTC, SOL, XRP, and DOGE for the mean-reversion.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 75
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 450
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 90
+      }
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "trader": "llama",
+    "nav": 95422.59512651307,
+    "commentary": "Rotating into sectors with recent capital inflows, reducing DOGE-USD exposure",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "trader": "gemini",
+    "nav": 100000,
+    "commentary": "Rebalancing to capture recent volatility by increasing exposure to underperforming assets while maintaining overall portfolio diversification.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "trader": "qwen",
+    "nav": 99071.72663744775,
+    "commentary": " BTC-USD has broken below the recent support level, indicating a potential trend reversal.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -100
+      }
+    ]
   }
 ]
