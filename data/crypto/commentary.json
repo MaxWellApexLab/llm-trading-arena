@@ -25061,5 +25061,105 @@
         "weight_pct": -100
       }
     ]
+  },
+  {
+    "date": "2026-11-06",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-06",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-06",
+    "trader": "deepseek",
+    "nav": 76179.14897664846,
+    "commentary": "Rotating out of SOL/DOGE strength into the BTC/ETH/XRP panic while cutting leverage from near-liquidation levels.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 160
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 140
+      }
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "trader": "llama",
+    "nav": 94302.1875238416,
+    "commentary": "Rotating into the improving sector of altcoins, particularly Solana and XRP, as recent moves suggest capital is flowing toward these assets.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "trader": "gemini",
+    "nav": 100000,
+    "commentary": "Rebalancing towards higher volatility assets like BTC and ETH, while maintaining a slight exposure to SOL.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 35
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "trader": "qwen",
+    "nav": 98709.6048172329,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
