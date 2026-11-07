@@ -25371,5 +25371,85 @@
     "nav": 99081.22226506479,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-07",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-07",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-07",
+    "trader": "deepseek",
+    "nav": 60255.89887759788,
+    "commentary": "Buying XRP and DOGE on fear of MEXC crackdown and recent drops, expecting quick mean reversion.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "trader": "llama",
+    "nav": 93944.02554823767,
+    "commentary": "Following the recent notable moves, buying into SOL-USD to take advantage of its declining price",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "trader": "gemini",
+    "nav": 99501.68038647875,
+    "commentary": "Reducing exposure to higher volatility assets and increasing exposure to ETH and SOL based on recent volatility and potential for mean reversion.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 8.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "trader": "qwen",
+    "nav": 98973.74994355658,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
