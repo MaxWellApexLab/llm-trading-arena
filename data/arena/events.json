@@ -796,5 +796,19 @@
     "overtaker": "deepseek",
     "overtaken": "qwen",
     "rank": 3
+  },
+  {
+    "ts": "2026-11-07T01:03:09.516109+00:00",
+    "game": "arena",
+    "overtaker": "headline_arena",
+    "overtaken": "deepseek",
+    "rank": 3
+  },
+  {
+    "ts": "2026-11-07T01:03:09.516109+00:00",
+    "game": "arena",
+    "overtaker": "qwen",
+    "overtaken": "deepseek",
+    "rank": 4
   }
 ]
