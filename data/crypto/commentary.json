@@ -25261,5 +25261,115 @@
     "nav": 98886.8245439346,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-07",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-07",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-07",
+    "trader": "deepseek",
+    "nav": 75321.49202006077,
+    "commentary": "XRP got hammered 3.6% with no catalyst, so I'm loading up; trimming SOL's overweight to take a quick profit and deleverage slightly.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 900
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 750
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "trader": "llama",
+    "nav": 94554.77742472969,
+    "commentary": "Rotating out of SOL-USD, cautious on the sector, and buying into BTC-USD as it's still relatively stable and the overall market is in a macro regime of capital flowing toward risk-on assets",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "trader": "gemini",
+    "nav": 99964.22473635676,
+    "commentary": "Reducing exposure to underperforming altcoins and reallocating to the more stable BTC and ETH, while maintaining a modest SOL position.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -15
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -10
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "trader": "qwen",
+    "nav": 99081.22226506479,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
