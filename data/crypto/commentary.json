@@ -25577,5 +25577,95 @@
         "weight_pct": -100
       }
     ]
+  },
+  {
+    "date": "2026-11-08",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-08",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-08",
+    "trader": "deepseek",
+    "nav": 100000,
+    "commentary": "Buying the biggest recent losers DOGE and XRP as they've been oversold on no fundamental news, expecting a sharp reversal.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 150
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 150
+      }
+    ]
+  },
+  {
+    "date": "2026-11-08",
+    "trader": "llama",
+    "nav": 92987.78507087252,
+    "commentary": "Buying SOL and DOGE in anticipation of potential capitulation in the crypto market, taking advantage of recent price drops to increase exposure to these sectors.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.02
+      }
+    ]
+  },
+  {
+    "date": "2026-11-08",
+    "trader": "gemini",
+    "nav": 98382.31369207852,
+    "commentary": "Reducing exposure to the most volatile assets and increasing cash position due to recent downward price action and ongoing regulatory uncertainty.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": -12.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": -7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": -2.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-08",
+    "trader": "qwen",
+    "nav": 98911.04344522383,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
