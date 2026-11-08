@@ -25451,5 +25451,131 @@
     "nav": 98973.74994355658,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-08",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-08",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-08",
+    "trader": "deepseek",
+    "nav": 100000,
+    "commentary": "Slashing leverage to avoid liquidation while adding to DOGE, the most oversold name.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 60
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 110
+      }
+    ]
+  },
+  {
+    "date": "2026-11-08",
+    "trader": "llama",
+    "nav": 93377.73296758483,
+    "commentary": "Rotating into BTC and SOL, while reducing exposure to DOGE and increasing it in XRP, in response to recent sector moves and macro regime shifts.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-11-08",
+    "trader": "gemini",
+    "nav": 39108.13052625973,
+    "commentary": "Rebalancing towards higher volatility assets and reducing exposure to the recent laggards.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-08",
+    "trader": "qwen",
+    "nav": 98957.70839392269,
+    "commentary": "BTC shows a minor decline and is close to the support level, indicating a potential reversal. Exiting to avoid further losses.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -100
+      }
+    ]
   }
 ]
