@@ -3886,6 +3886,10 @@
       {
         "date": "2026-11-09T20:36Z",
         "nav": 100000
+      },
+      {
+        "date": "2026-11-09",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -4400,6 +4404,11 @@
       },
       {
         "date": "2026-11-08",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5)."
+      },
+      {
+        "date": "2026-11-09",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5)."
       },
@@ -8481,7 +8490,7 @@
     ]
   },
   "deepseek": {
-    "cash": -200000.0,
+    "cash": -260000.0,
     "liquidations": 11,
     "nav_history": [
       {
@@ -12383,22 +12392,28 @@
       {
         "date": "2026-11-09T20:36Z",
         "nav": 99632.29258198792
+      },
+      {
+        "date": "2026-11-09",
+        "nav": 100768.06910387834
       }
     ],
     "pending_orders": [
       {
-        "action": "buy",
-        "ticker": "SOL-USD",
-        "weight_pct": 30.0
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100.0
       },
       {
         "action": "buy",
-        "ticker": "ETH-USD",
-        "weight_pct": 30.0
+        "ticker": "XRP-USD",
+        "weight_pct": 200.0
       }
     ],
     "positions": {
       "DOGE-USD": 2180080.443330593,
+      "ETH-USD": 14.122123499395085,
+      "SOL-USD": 347.56008956290884,
       "XRP-USD": 134998.73347278545
     },
     "rejected": [
@@ -17255,6 +17270,24 @@
         "shares": 134998.73347278545,
         "status": "filled",
         "ticker": "XRP-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-09",
+        "fee": 0.0,
+        "price": 86.31600952148438,
+        "shares": 347.56008956290884,
+        "status": "filled",
+        "ticker": "SOL-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-09",
+        "fee": 0.0,
+        "price": 2124.326416015625,
+        "shares": 14.122123499395085,
+        "status": "filled",
+        "ticker": "ETH-USD"
       }
     ]
   },
@@ -21161,9 +21194,29 @@
       {
         "date": "2026-11-09T20:36Z",
         "nav": 89699.9056541858
+      },
+      {
+        "date": "2026-11-09",
+        "nav": 90759.85818722431
       }
     ],
-    "pending_orders": [],
+    "pending_orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      }
+    ],
     "positions": {
       "BTC-USD": 1.3173863400780785,
       "DOGE-USD": 277236.91051416943,
@@ -23617,6 +23670,15 @@
           "weight_pct": 0.0
         },
         "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-11-09",
+        "raw": {
+          "action": "sell",
+          "ticker": "DOGE-USD",
+          "weight_pct": -25.0
+        },
+        "reason": "invalid sell weight_pct -25.0"
       }
     ],
     "trades": [
@@ -33649,6 +33711,10 @@
       {
         "date": "2026-11-09T20:36Z",
         "nav": 100000
+      },
+      {
+        "date": "2026-11-09",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -34717,6 +34783,11 @@
       },
       {
         "date": "2026-11-08",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
+      },
+      {
+        "date": "2026-11-09",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
       },
@@ -36188,7 +36259,7 @@
     ]
   },
   "llama": {
-    "cash": -128613.51759395964,
+    "cash": -172399.20186567938,
     "liquidations": 6,
     "nav_history": [
       {
@@ -40070,18 +40141,43 @@
       {
         "date": "2026-11-09T20:36Z",
         "nav": 87066.66540593136
+      },
+      {
+        "date": "2026-11-09",
+        "nav": 87936.72037582679
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
         "ticker": "ETH-USD",
-        "weight_pct": 50.0
+        "weight_pct": 10.0
       }
     ],
     "positions": {
       "BTC-USD": 1.194268604738211,
       "DOGE-USD": 254.55017060966443,
+      "ETH-USD": 20.611561359691574,
       "SOL-USD": 1009.3286657450459,
       "XRP-USD": 35829.21608952766
     },
@@ -47648,6 +47744,15 @@
         "shares": 254.55017060966443,
         "status": "filled",
         "ticker": "DOGE-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-09",
+        "fee": 0.0,
+        "price": 2124.326416015625,
+        "shares": 20.611561359691574,
+        "status": "filled",
+        "ticker": "ETH-USD"
       }
     ]
   },
@@ -51522,6 +51627,10 @@
       {
         "date": "2026-11-09T20:36Z",
         "nav": 98263.97521519972
+      },
+      {
+        "date": "2026-11-09",
+        "nav": 98557.71013142049
       }
     ],
     "pending_orders": [],
@@ -52302,6 +52411,11 @@
       },
       {
         "date": "2026-11-08",
+        "raw": null,
+        "reason": "unparseable response: Error code: 400 - Provider returned error"
+      },
+      {
+        "date": "2026-11-09",
         "raw": null,
         "reason": "unparseable response: Error code: 400 - Provider returned error"
       },

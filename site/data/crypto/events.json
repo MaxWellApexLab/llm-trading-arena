@@ -2182,5 +2182,19 @@
     "overtaker": "qwen",
     "overtaken": "deepseek",
     "rank": 3
+  },
+  {
+    "ts": "2026-11-09T22:37:24.628345+00:00",
+    "game": "crypto",
+    "overtaker": "deepseek",
+    "overtaken": "claude",
+    "rank": 1
+  },
+  {
+    "ts": "2026-11-09T22:37:24.628345+00:00",
+    "game": "crypto",
+    "overtaker": "deepseek",
+    "overtaken": "gpt",
+    "rank": 1
   }
 ]
