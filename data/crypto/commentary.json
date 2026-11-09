@@ -25667,5 +25667,110 @@
     "nav": 98911.04344522383,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-09",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-09",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-09",
+    "trader": "deepseek",
+    "nav": 97055.14080046641,
+    "commentary": "Buying the deep fear in Solana and Ethereum after sharp drops with no fundamental catalyst, expecting a snapback as the crowd catches up.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "trader": "llama",
+    "nav": 86013.6822103727,
+    "commentary": "The recent notable moves suggest capital is flowing out of the current sector leaders, while ETH-USD remains relatively stable.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "trader": "gemini",
+    "nav": 88125.13875194523,
+    "commentary": "Reducing exposure across all assets due to recent volatility and lack of clear directional signals.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "trader": "qwen",
+    "nav": 98021.41930741923,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]

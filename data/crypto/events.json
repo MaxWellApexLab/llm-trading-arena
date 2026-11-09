@@ -2168,5 +2168,19 @@
     "overtaker": "qwen",
     "overtaken": "gemini",
     "rank": 4
+  },
+  {
+    "ts": "2026-11-09T07:00:52.425177+00:00",
+    "game": "crypto",
+    "overtaker": "gpt",
+    "overtaken": "deepseek",
+    "rank": 2
+  },
+  {
+    "ts": "2026-11-09T07:00:52.425177+00:00",
+    "game": "crypto",
+    "overtaker": "qwen",
+    "overtaken": "deepseek",
+    "rank": 3
   }
 ]
