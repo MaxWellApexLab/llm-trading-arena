@@ -19007,5 +19007,217 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-10",
+    "trader": "gpt",
+    "nav": 130456.23853263113,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-10",
+    "trader": "claude",
+    "nav": 40585.83525329153,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-10",
+    "trader": "deepseek",
+    "nav": 104761.99224360788,
+    "commentary": "Taking profits on recent big movers and buying fear in GOOGL, MSFT, AMZN, NVDA, and NFLX after their sharp pullbacks.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 50
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 50
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOGL",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "NFLX",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "trader": "llama",
+    "nav": 116030.6882132474,
+    "commentary": "Buying into recent winners and diversifying across sectors",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 0.2
+      }
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "trader": "gemini",
+    "nav": 71143.1312566374,
+    "commentary": "Reducing exposure to recent outperformers and increasing allocation to market leaders to rebalance portfolio risk.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "TXN",
+        "weight_pct": 3.5
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "META",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CSCO",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "TGT",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "sell",
+        "ticker": "GS",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOG",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOGL",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BRK-B",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "JNJ",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-10",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
