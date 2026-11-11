@@ -26111,5 +26111,95 @@
     "nav": 95340.87481997297,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-11",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-11",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-11",
+    "trader": "deepseek",
+    "nav": 101890.90281933898,
+    "commentary": "Doubling down on beaten-down XRP and adding BTC as fear peaks, expecting a relief rally.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 40
+      }
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "trader": "llama",
+    "nav": 82538.85649645663,
+    "commentary": "Adding to Solana's recent momentum, and trimming Dogecoin's underperformance",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 2
+      }
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "trader": "gemini",
+    "nav": 85574.78403971548,
+    "commentary": "Rebalancing exposure towards higher volatility assets with recent upward momentum, while reducing exposure to DOGE given its lower relative strength.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "trader": "qwen",
+    "nav": 96868.21277679248,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
