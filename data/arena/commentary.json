@@ -20271,5 +20271,632 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "gpt",
+    "nav": 133058.5199012297,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "claude",
+    "nav": 35351.26663622144,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "deepseek",
+    "nav": 105931.37779065035,
+    "commentary": "Buying the panic in NVDA and CAT after sharp drops with no fundamental catalyst, trimming the recent jump in CHTR to lock in quick profits.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 8.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CAT",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "NFLX",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 3.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "llama",
+    "nav": 117894.11095363536,
+    "commentary": "Buying the recent winners, selling the laggards, and adjusting the portfolio to maintain sector balance",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "AIG",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "LMT",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": -0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "CAT",
+        "weight_pct": -0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "gemini",
+    "nav": 75004.40233881958,
+    "commentary": "Rebalancing to equalize weights across the S&P 100 after recent volatility.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "CVS",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "AIG",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "NKE",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "BKNG",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "LMT",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "TGT",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AAPL",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "ABBV",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "ABT",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AMGN",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AMT",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "AXP",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "BA",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "BAC",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "BLK",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "BMY",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "BRK-B",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "C",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "CL",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "CMCSA",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "COF",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "COP",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "COST",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "CVS",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "CVX",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "DHR",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "DIS",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "DOW",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "DUK",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "EMR",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "F",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "FDX",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "GD",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "GE",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "GILD",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "GM",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOG",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOGL",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "GS",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "HD",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "HON",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "JNJ",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "JPM",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "KHC",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "KO",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "LIN",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "LLY",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "LMT",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "LOW",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MA",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MCD",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MDLZ",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MDT",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MET",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MMM",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MO",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MRK",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MS",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "NEE",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "NFLX",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "PEP",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "PFE",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "PG",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "PM",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "RTX",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "SBUX",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "SCHW",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "SO",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "SPG",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "UNP",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "UPS",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "USB",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "WFC",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "WMT",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 1.5
+      }
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
