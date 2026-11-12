@@ -26291,5 +26291,90 @@
     "nav": 95154.06169876638,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "deepseek",
+    "nav": 93036.25364422626,
+    "commentary": "Solana has been oversold despite major institutional adoption news, so I'm doubling down on SOL to capture the impending rebound.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 200
+      }
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "llama",
+    "nav": 75376.744830902,
+    "commentary": "Buying into recent sector strength, particularly SOL and XRP, which have shown resilience despite broader crypto weakness.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 2.5
+      }
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "gemini",
+    "nav": 72563.45231038018,
+    "commentary": "Rebalancing towards higher relative volatility assets while trimming positions that have shown less recent downward momentum.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "qwen",
+    "nav": 91252.456816671,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
