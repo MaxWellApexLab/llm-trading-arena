@@ -26201,5 +26201,95 @@
     "nav": 96868.21277679248,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "deepseek",
+    "nav": 98464.33068454111,
+    "commentary": "Buying the fear on XRP and DOGE after their sharp drops with no fundamental catalysts, betting on a quick bounce as Ripple's bank-lending launch nears.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "llama",
+    "nav": 78613.81549343487,
+    "commentary": "Liquidate the entire portfolio in anticipation of a potential market crash following the recent decline in most assets and the negative news surrounding the industry.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "gemini",
+    "nav": 80103.70204473572,
+    "commentary": "Increasing exposure to XRP on a recent dip, reducing DOGE exposure given its recent underperformance.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "trader": "qwen",
+    "nav": 95154.06169876638,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
