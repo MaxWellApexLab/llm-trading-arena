@@ -26376,5 +26376,90 @@
     "nav": 91252.456816671,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-13",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-13",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-13",
+    "trader": "deepseek",
+    "nav": 84421.38658992568,
+    "commentary": "BTC and ETH have been beaten down the most; buying fear while others panic, expecting a snap-back.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 80
+      }
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "trader": "llama",
+    "nav": 71332.82219673757,
+    "commentary": "Deteriorating fundamentals for Bitcoin; opportunistic entry into a sector that's shown resilience.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 50.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 50.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "trader": "gemini",
+    "nav": 61137.524653873756,
+    "commentary": "Rebalancing towards higher conviction assets like BTC and ETH given their recent volatility and market news.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": -7.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "trader": "qwen",
+    "nav": 86567.63150106902,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
