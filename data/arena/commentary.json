@@ -22460,5 +22460,177 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "gpt",
+    "nav": 136678.66886255651,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "claude",
+    "nav": 41347.1131942895,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "deepseek",
+    "nav": 110820.24807853624,
+    "commentary": "Taking profits on CHTR and PEP after their surges and deploying into the steepest decliners AMD, CSCO, AVGO, QCOM, TXN, INTC, NVDA, PYPL to catch the rebound.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "PEP",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 12
+      },
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "AVGO",
+        "weight_pct": 8
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 4
+      }
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "llama",
+    "nav": 120863.42674862279,
+    "commentary": "Buying these stocks to rotate into the sector with recent capital flow, in line with our macro regime",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 0.25
+      },
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 0.25
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 0.25
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 0.25
+      }
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "gemini",
+    "nav": 85597.01592080249,
+    "commentary": "Reducing exposure to recent underperformers and reallocating to those showing relative strength to capture mean reversion.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CSCO",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "PYPL",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "PEP",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 0.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
