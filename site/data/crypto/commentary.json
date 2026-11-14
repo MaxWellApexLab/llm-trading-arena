@@ -26566,5 +26566,100 @@
     "nav": 86330.70487313405,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "deepseek",
+    "nav": 100000,
+    "commentary": "Buying fear across the board as the Anthropic IPO frenzy is a temporary jitter; these assets are oversold and due for a rebound.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 21039375
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 23621875
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 5950000
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 1965938
+      }
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "llama",
+    "nav": 2222.7228423157358,
+    "commentary": "Rotate into BTC as it appears to be the most resilient asset in this environment, with a notable move but relatively stable price action compared to the other cryptos.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.5
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.5
+      }
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "gemini",
+    "nav": 34285.87675950694,
+    "commentary": "Reducing exposure to recent losers to rebalance towards higher volatility assets and capitalize on potential mean reversion.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": -20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": -10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "qwen",
+    "nav": 83134.48162404248,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
