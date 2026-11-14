@@ -26661,5 +26661,120 @@
     "nav": 83134.48162404248,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "deepseek",
+    "nav": 100000,
+    "commentary": "Betting big on the two hardest-hit coins as fear peaks, expecting a snapback rally.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 150
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 150
+      }
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "llama",
+    "nav": 58184.46860318289,
+    "commentary": "Taking advantage of recent sector downtrends, shifting towards stablecoins and utility-focused assets.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 60
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 60
+      }
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "gemini",
+    "nav": 32681.826654234843,
+    "commentary": "Reducing exposure to the most volatile assets and increasing exposure to the least volatile to rebalance volatility-weighted positions.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 12.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "trader": "qwen",
+    "nav": 80114.13736209864,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]

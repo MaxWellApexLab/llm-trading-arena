@@ -3994,6 +3994,10 @@
       {
         "date": "2026-11-14T16:41Z",
         "nav": 100000
+      },
+      {
+        "date": "2026-11-14",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -4558,6 +4562,11 @@
       },
       {
         "date": "2026-11-13",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5)."
+      },
+      {
+        "date": "2026-11-14",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5)."
       },
@@ -12657,9 +12666,24 @@
       {
         "date": "2026-11-14T16:41Z",
         "nav": 100000
+      },
+      {
+        "date": "2026-11-14",
+        "nav": 100000
       }
     ],
-    "pending_orders": [],
+    "pending_orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 150.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 150.0
+      }
+    ],
     "positions": {},
     "rejected": [
       {
@@ -21745,9 +21769,34 @@
       {
         "date": "2026-11-14T16:41Z",
         "nav": 32268.951025232614
+      },
+      {
+        "date": "2026-11-14",
+        "nav": 32681.826654234843
       }
     ],
-    "pending_orders": [],
+    "pending_orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 12.0
+      }
+    ],
     "positions": {
       "BTC-USD": 1.734304115807631,
       "ETH-USD": 92.90532952957477,
@@ -34691,6 +34740,10 @@
       {
         "date": "2026-11-14T16:41Z",
         "nav": 100000
+      },
+      {
+        "date": "2026-11-14",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -35809,6 +35862,11 @@
       },
       {
         "date": "2026-11-13",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
+      },
+      {
+        "date": "2026-11-14",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
       },
@@ -41270,23 +41328,37 @@
       {
         "date": "2026-11-14T16:41Z",
         "nav": 58819.48321993851
+      },
+      {
+        "date": "2026-11-14",
+        "nav": 58184.46860318289
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
-        "ticker": "BTC-USD",
-        "weight_pct": 0.5
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
       },
       {
         "action": "sell",
-        "ticker": "ETH-USD",
-        "weight_pct": 0.5
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 60.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 60.0
       }
     ],
     "positions": {
-      "BTC-USD": 0.34849955150014866,
-      "ETH-USD": 9.318800265717144,
+      "BTC-USD": 0.3535271336185986,
+      "ETH-USD": 9.14080287970214,
       "SOL-USD": 956.2714751376055,
       "XRP-USD": 62864.92209112895
     },
@@ -42718,6 +42790,42 @@
           "weight_pct": 55.0
         },
         "reason": "no open price for XRP-USD"
+      },
+      {
+        "date": "2026-11-14",
+        "raw": {
+          "action": "buy",
+          "ticker": "BTC-USD",
+          "weight_pct": 0
+        },
+        "reason": "weight_pct 0.0 out of range (0, 10000]"
+      },
+      {
+        "date": "2026-11-14",
+        "raw": {
+          "action": "sell",
+          "ticker": "BTC-USD",
+          "weight_pct": 0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-11-14",
+        "raw": {
+          "action": "buy",
+          "ticker": "ETH-USD",
+          "weight_pct": 0
+        },
+        "reason": "weight_pct 0.0 out of range (0, 10000]"
+      },
+      {
+        "date": "2026-11-14",
+        "raw": {
+          "action": "sell",
+          "ticker": "ETH-USD",
+          "weight_pct": 0
+        },
+        "reason": "invalid sell weight_pct 0.0"
       }
     ],
     "trades": [
@@ -49101,6 +49209,24 @@
         "shares": 13.197591106720095,
         "status": "filled",
         "ticker": "SOL-USD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-14",
+        "fee": -5.684341886080802e-14,
+        "price": 68238.2109375,
+        "shares": 0.005027582118449971,
+        "status": "filled",
+        "ticker": "BTC-USD"
+      },
+      {
+        "action": "sell",
+        "date": "2026-11-14",
+        "fee": 0.0,
+        "price": 1927.4058837890625,
+        "shares": 0.17799738601500428,
+        "status": "filled",
+        "ticker": "ETH-USD"
       }
     ]
   },
@@ -53083,6 +53209,10 @@
       {
         "date": "2026-11-14T16:41Z",
         "nav": 79441.19539328548
+      },
+      {
+        "date": "2026-11-14",
+        "nav": 80114.13736209864
       }
     ],
     "pending_orders": [],
@@ -53908,6 +54038,11 @@
       },
       {
         "date": "2026-11-13",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - qwen/qwen-2.5-7b-instruct is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models"
+      },
+      {
+        "date": "2026-11-14",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - qwen/qwen-2.5-7b-instruct is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models"
       },
