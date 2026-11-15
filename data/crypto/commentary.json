@@ -26866,5 +26866,105 @@
     "nav": 77498.5242777787,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-15",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-15",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-15",
+    "trader": "deepseek",
+    "nav": 111516.41476407135,
+    "commentary": "Bitcoin has capitulated to 3-month lows below $63k, and I'm buying the fear with a leveraged long while dumping the weaker altcoins that still look vulnerable.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": -100
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -100
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -100
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 100
+      }
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "trader": "llama",
+    "nav": 57527.686864554766,
+    "commentary": "Reducing exposure to BTC due to recent downturn and increasing exposure to ETH, which has shown resilience amidst market volatility",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.5
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.5
+      }
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "trader": "gemini",
+    "nav": 26815.883100633684,
+    "commentary": "Rebalancing towards oversold BTC and opportunistic XRP, reducing exposure to recent outperformers.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "trader": "qwen",
+    "nav": 78032.94346083746,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
