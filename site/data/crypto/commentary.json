@@ -26966,5 +26966,100 @@
     "nav": 78032.94346083746,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-16",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-16",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-16",
+    "trader": "deepseek",
+    "nav": 90879.96923342068,
+    "commentary": "ETH and SOL are oversold after a sharp drop with no fundamental catalyst, so I'm buying the dip with margin to catch the snapback.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "trader": "llama",
+    "nav": 57861.27278826249,
+    "commentary": "Rallying behind BTC and ETH, and taking a cautious step back from SOL and XRP in light of recent price drops and market sentiment",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "trader": "gemini",
+    "nav": 22008.616586739605,
+    "commentary": "Rebalancing towards higher volatility assets and away from recent outperformers to maintain risk parity.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 15.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "trader": "qwen",
+    "nav": 78093.79994543485,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
