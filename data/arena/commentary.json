@@ -22632,5 +22632,147 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-17",
+    "trader": "gpt",
+    "nav": 124102.82095675374,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-17",
+    "trader": "claude",
+    "nav": 24345.201079214807,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-17",
+    "trader": "deepseek",
+    "nav": 101244.84617421764,
+    "commentary": "Selling extended losers and buying deep fear-driven drops in fundamentally sound names.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "CAT",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOGL",
+        "weight_pct": 25
+      }
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "trader": "llama",
+    "nav": 111867.68113456026,
+    "commentary": "I'm buying into the recent weakness in VZ and XOM, as they've both seen significant declines in recent trading sessions, and I believe they offer a good value proposition for investors looking to get into these large-cap stocks.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 1.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "trader": "gemini",
+    "nav": 53965.213146293536,
+    "commentary": "Reducing exposure to recent decliners to reallocate capital based on volatility and potential mean reversion.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "GOOGL",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "GOOG",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BA",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "EMR",
+        "weight_pct": 0.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-17",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]

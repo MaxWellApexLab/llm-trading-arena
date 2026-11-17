@@ -345,6 +345,10 @@
       {
         "date": "2026-11-14",
         "nav": 41347.1131942895
+      },
+      {
+        "date": "2026-11-17",
+        "nav": 24345.201079214807
       }
     ],
     "pending_orders": [],
@@ -628,6 +632,11 @@
       },
       {
         "date": "2026-11-14",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5)."
+      },
+      {
+        "date": "2026-11-17",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5)."
       }
@@ -1653,7 +1662,7 @@
     ]
   },
   "deepseek": {
-    "cash": -816801.9652364714,
+    "cash": -885650.2581285146,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -1998,57 +2007,53 @@
       {
         "date": "2026-11-14",
         "nav": 110820.24807853624
+      },
+      {
+        "date": "2026-11-17",
+        "nav": 101244.84617421764
       }
     ],
     "pending_orders": [
       {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 100.0
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 100.0
+      },
+      {
         "action": "buy",
         "ticker": "AMD",
-        "weight_pct": 12.0
+        "weight_pct": 25.0
       },
       {
         "action": "buy",
-        "ticker": "CSCO",
-        "weight_pct": 10.0
+        "ticker": "CAT",
+        "weight_pct": 25.0
       },
       {
         "action": "buy",
-        "ticker": "AVGO",
-        "weight_pct": 8.0
+        "ticker": "ORCL",
+        "weight_pct": 25.0
       },
       {
         "action": "buy",
-        "ticker": "QCOM",
-        "weight_pct": 20.0
-      },
-      {
-        "action": "buy",
-        "ticker": "TXN",
-        "weight_pct": 2.0
-      },
-      {
-        "action": "buy",
-        "ticker": "INTC",
-        "weight_pct": 2.0
-      },
-      {
-        "action": "buy",
-        "ticker": "NVDA",
-        "weight_pct": 2.0
-      },
-      {
-        "action": "buy",
-        "ticker": "PYPL",
-        "weight_pct": 4.0
+        "ticker": "GOOGL",
+        "weight_pct": 25.0
       }
     ],
     "positions": {
       "AAPL": 95.91948689248679,
       "ACN": 93.67392765118424,
       "ADBE": 144.2972085312643,
+      "AMD": 27.350597367244156,
       "AMGN": 34.15502022914367,
       "AMT": 1.7326648507721174,
       "AMZN": 110.46725408067562,
+      "AVGO": 27.609169163663783,
       "AXP": 16.92650984793096,
       "BA": 207.85048621634616,
       "BMY": 504.87548347756723,
@@ -2060,7 +2065,7 @@
       "COF": 91.50540785885622,
       "COP": 145.54424933240458,
       "COST": 10.499755985490737,
-      "CSCO": 0.02709750511513409,
+      "CSCO": 121.46551153228907,
       "CVS": 566.1813284982833,
       "DHR": 3.1400545811985943,
       "DIS": 13.138195564300085,
@@ -2072,6 +2077,7 @@
       "GOOGL": 95.94134827646396,
       "HON": 35.4104031509565,
       "IBM": 3.668501355464921,
+      "INTC": 40.46805031654124,
       "KHC": 67.44527048405669,
       "LIN": 21.692833188363245,
       "LLY": 29.64314646016727,
@@ -2086,12 +2092,12 @@
       "NEE": 58.02759279941519,
       "NFLX": 370.1344614283658,
       "NKE": 1125.973988802278,
-      "NVDA": 4.867092420867209,
+      "NVDA": 19.29888109362657,
       "ORCL": 4.66592889924604,
       "PEP": 36.27021442827535,
       "PM": 22.598949253096848,
-      "PYPL": 58.55408551673626,
-      "QCOM": 100.40786855162875,
+      "PYPL": 135.85092132409514,
+      "QCOM": 236.0107415079372,
       "RTX": 54.44430297691278,
       "SCHW": 36.24059445775421,
       "SO": 19.038372818036116,
@@ -2100,7 +2106,7 @@
       "TGT": 0.7072285175100745,
       "TMO": 11.71249435814256,
       "TMUS": 87.65133297709663,
-      "TXN": 0.003850911143615736,
+      "TXN": 7.797320829600279,
       "UNH": 15.124806568528292,
       "UPS": 63.523298147979474,
       "VZ": 71.88411399794427,
@@ -7169,6 +7175,78 @@
         "shares": 52.38191320778934,
         "status": "filled",
         "ticker": "ACN"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-17",
+        "fee": 0.0,
+        "price": 503.45001220703125,
+        "shares": 27.350597367244156,
+        "status": "filled",
+        "ticker": "AMD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-17",
+        "fee": 0.0,
+        "price": 94.48999786376953,
+        "shares": 121.43841402717393,
+        "status": "filled",
+        "ticker": "CSCO"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-17",
+        "fee": 0.0,
+        "price": 332.489990234375,
+        "shares": 27.609169163663783,
+        "status": "filled",
+        "ticker": "AVGO"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-17",
+        "fee": 0.0,
+        "price": 169.24000549316406,
+        "shares": 135.60287295630846,
+        "status": "filled",
+        "ticker": "QCOM"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-17",
+        "fee": 0.0,
+        "price": 294.4700012207031,
+        "shares": 7.793469918456664,
+        "status": "filled",
+        "ticker": "TXN"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-17",
+        "fee": 0.0,
+        "price": 56.709999084472656,
+        "shares": 40.46805031654124,
+        "status": "filled",
+        "ticker": "INTC"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-17",
+        "fee": 0.0,
+        "price": 159.02000427246094,
+        "shares": 14.43178867275936,
+        "status": "filled",
+        "ticker": "NVDA"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-17",
+        "fee": 0.0,
+        "price": 59.380001068115234,
+        "shares": 77.29683580735889,
+        "status": "filled",
+        "ticker": "PYPL"
       }
     ]
   },
@@ -7518,6 +7596,10 @@
       {
         "date": "2026-11-14",
         "nav": 85597.01592080249
+      },
+      {
+        "date": "2026-11-17",
+        "nav": 53965.213146293536
       }
     ],
     "pending_orders": [],
@@ -11716,6 +11798,96 @@
           "weight_pct": 0.0
         },
         "reason": "weight_pct 0.0 out of range (0, 50]"
+      },
+      {
+        "date": "2026-11-17",
+        "raw": {
+          "action": "sell",
+          "ticker": "INTC",
+          "weight_pct": 0.0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-11-17",
+        "raw": {
+          "action": "sell",
+          "ticker": "AMD",
+          "weight_pct": 0.0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-11-17",
+        "raw": {
+          "action": "sell",
+          "ticker": "ORCL",
+          "weight_pct": 0.0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-11-17",
+        "raw": {
+          "action": "sell",
+          "ticker": "CAT",
+          "weight_pct": 0.0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-11-17",
+        "raw": {
+          "action": "sell",
+          "ticker": "NVDA",
+          "weight_pct": 0.0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-11-17",
+        "raw": {
+          "action": "sell",
+          "ticker": "GOOGL",
+          "weight_pct": 0.0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-11-17",
+        "raw": {
+          "action": "sell",
+          "ticker": "AVGO",
+          "weight_pct": 0.0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-11-17",
+        "raw": {
+          "action": "sell",
+          "ticker": "GOOG",
+          "weight_pct": 0.0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-11-17",
+        "raw": {
+          "action": "sell",
+          "ticker": "BA",
+          "weight_pct": 0.0
+        },
+        "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-11-17",
+        "raw": {
+          "action": "sell",
+          "ticker": "EMR",
+          "weight_pct": 0.0
+        },
+        "reason": "invalid sell weight_pct 0.0"
       }
     ],
     "trades": [
@@ -23299,6 +23471,10 @@
       {
         "date": "2026-11-14",
         "nav": 136678.66886255651
+      },
+      {
+        "date": "2026-11-17",
+        "nav": 124102.82095675374
       }
     ],
     "pending_orders": [],
@@ -24716,6 +24892,11 @@
       },
       {
         "date": "2026-11-14",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
+      },
+      {
+        "date": "2026-11-17",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
       }
@@ -26387,6 +26568,10 @@
       {
         "date": "2026-11-14",
         "nav": 100000
+      },
+      {
+        "date": "2026-11-17",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -26646,12 +26831,17 @@
         "date": "2026-11-14",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
+      },
+      {
+        "date": "2026-11-17",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
       }
     ],
     "trades": []
   },
   "llama": {
-    "cash": -280380.2425523549,
+    "cash": -281544.44640438113,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -26996,28 +27186,22 @@
       {
         "date": "2026-11-14",
         "nav": 120863.42674862279
+      },
+      {
+        "date": "2026-11-17",
+        "nav": 111867.68113456026
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
-        "ticker": "CHTR",
-        "weight_pct": 0.25
+        "ticker": "VZ",
+        "weight_pct": 1.0
       },
       {
         "action": "buy",
-        "ticker": "CSCO",
-        "weight_pct": 0.25
-      },
-      {
-        "action": "buy",
-        "ticker": "TXN",
-        "weight_pct": 0.25
-      },
-      {
-        "action": "buy",
-        "ticker": "QCOM",
-        "weight_pct": 0.25
+        "ticker": "XOM",
+        "weight_pct": 1.0
       }
     ],
     "positions": {
@@ -27033,10 +27217,10 @@
       "BKNG": 11.030933731947393,
       "BLK": 1.4540863365093095,
       "CAT": 19.16999382422425,
-      "CHTR": 82.13516732356233,
+      "CHTR": 84.22605072433397,
       "COP": 57.82214555940736,
       "CRM": 83.6373556036727,
-      "CSCO": 135.33458776437016,
+      "CSCO": 138.41481815474611,
       "CVS": 0.28064959969374437,
       "DOW": 195.35314583347926,
       "GM": 50.199528667361655,
@@ -27051,13 +27235,14 @@
       "NVDA": 56.998376566335835,
       "ORCL": 43.90270078283042,
       "PYPL": 71.5577776110077,
+      "QCOM": 1.719752739066761,
       "SBUX": 33.17015395986015,
       "T": 442.52658717721124,
       "TGT": 21.113457953758967,
       "TMO": 0.32951963788514504,
       "TMUS": 30.008552850338596,
       "TSLA": 200.94270362024756,
-      "TXN": 37.70363071351402,
+      "TXN": 38.69201989339657,
       "V": 28.739476219319652
     },
     "rejected": [
@@ -36048,6 +36233,42 @@
         "shares": 23.590326296673197,
         "status": "filled",
         "ticker": "CRM"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-17",
+        "fee": 0.0,
+        "price": 139.1999969482422,
+        "shares": 2.0908834007716415,
+        "status": "filled",
+        "ticker": "CHTR"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-17",
+        "fee": 0.0,
+        "price": 94.48999786376953,
+        "shares": 3.0802303903759634,
+        "status": "filled",
+        "ticker": "CSCO"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-17",
+        "fee": 0.0,
+        "price": 294.4700012207031,
+        "shares": 0.9883891798825444,
+        "status": "filled",
+        "ticker": "TXN"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-17",
+        "fee": 0.0,
+        "price": 169.24000549316406,
+        "shares": 1.719752739066761,
+        "status": "filled",
+        "ticker": "QCOM"
       }
     ]
   },
@@ -36396,6 +36617,10 @@
       },
       {
         "date": "2026-11-14",
+        "nav": 100000
+      },
+      {
+        "date": "2026-11-17",
         "nav": 100000
       }
     ],
@@ -36829,6 +37054,11 @@
       },
       {
         "date": "2026-11-14",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - qwen/qwen-2.5-7b-instruct is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models"
+      },
+      {
+        "date": "2026-11-17",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - qwen/qwen-2.5-7b-instruct is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models"
       }
