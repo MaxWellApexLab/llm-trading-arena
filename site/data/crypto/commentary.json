@@ -27266,5 +27266,94 @@
     "nav": 77656.64867801414,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-17",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-17",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-17",
+    "trader": "deepseek",
+    "nav": 135582.4082895331,
+    "commentary": "Rotating from SOL and XRP profits into BTC and ETH dip to capture mean reversion and reduce leverage.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 40
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 120
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 250
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 120
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "trader": "llama",
+    "nav": 59322.49250574096,
+    "commentary": "Rotate into SOL and XRP, taking a cautious bet on their recent moves, and add a small position in DOGE for its low volatility",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 3
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 2
+      }
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "trader": "gemini",
+    "nav": 27119.615046730032,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-17",
+    "trader": "qwen",
+    "nav": 76681.82092605981,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
