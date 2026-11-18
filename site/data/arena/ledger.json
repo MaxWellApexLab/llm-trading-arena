@@ -349,6 +349,10 @@
       {
         "date": "2026-11-17",
         "nav": 24345.201079214807
+      },
+      {
+        "date": "2026-11-18",
+        "nav": 16014.43503414467
       }
     ],
     "pending_orders": [],
@@ -637,6 +641,11 @@
       },
       {
         "date": "2026-11-17",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5)."
+      },
+      {
+        "date": "2026-11-18",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5)."
       }
@@ -1662,7 +1671,7 @@
     ]
   },
   "deepseek": {
-    "cash": -885650.2581285146,
+    "cash": -978444.4367122715,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -2011,45 +2020,54 @@
       {
         "date": "2026-11-17",
         "nav": 101244.84617421764
+      },
+      {
+        "date": "2026-11-18",
+        "nav": 85572.84760323283
       }
     ],
     "pending_orders": [
       {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMT",
+        "weight_pct": 1.0
+      },
+      {
         "action": "sell",
-        "ticker": "INTC",
-        "weight_pct": 100.0
+        "ticker": "AVGO",
+        "weight_pct": 0.8864
       },
       {
         "action": "sell",
-        "ticker": "NVDA",
-        "weight_pct": 100.0
-      },
-      {
-        "action": "buy",
-        "ticker": "AMD",
-        "weight_pct": 25.0
-      },
-      {
-        "action": "buy",
-        "ticker": "CAT",
-        "weight_pct": 25.0
-      },
-      {
-        "action": "buy",
-        "ticker": "ORCL",
-        "weight_pct": 25.0
-      },
-      {
-        "action": "buy",
-        "ticker": "GOOGL",
-        "weight_pct": 25.0
+        "ticker": "RTX",
+        "weight_pct": 1.0129
       }
     ],
     "positions": {
       "AAPL": 95.91948689248679,
       "ACN": 93.67392765118424,
       "ADBE": 144.2972085312643,
-      "AMD": 27.350597367244156,
+      "AMD": 75.21769692707608,
       "AMGN": 34.15502022914367,
       "AMT": 1.7326648507721174,
       "AMZN": 110.46725408067562,
@@ -2058,7 +2076,7 @@
       "BA": 207.85048621634616,
       "BMY": 504.87548347756723,
       "C": 51.73790797626103,
-      "CAT": 0.47033578551127597,
+      "CAT": 43.21138215017529,
       "CHTR": 286.16938422173644,
       "CL": 9.150242001184083,
       "CMCSA": 408.3162625650554,
@@ -2074,10 +2092,9 @@
       "FDX": 28.4621486536957,
       "GE": 111.35679090975749,
       "GM": 313.50873135045975,
-      "GOOGL": 95.94134827646396,
+      "GOOGL": 182.43993444724924,
       "HON": 35.4104031509565,
       "IBM": 3.668501355464921,
-      "INTC": 40.46805031654124,
       "KHC": 67.44527048405669,
       "LIN": 21.692833188363245,
       "LLY": 29.64314646016727,
@@ -2092,8 +2109,7 @@
       "NEE": 58.02759279941519,
       "NFLX": 370.1344614283658,
       "NKE": 1125.973988802278,
-      "NVDA": 19.29888109362657,
-      "ORCL": 4.66592889924604,
+      "ORCL": 210.6287879503189,
       "PEP": 36.27021442827535,
       "PM": 22.598949253096848,
       "PYPL": 135.85092132409514,
@@ -7247,6 +7263,60 @@
         "shares": 77.29683580735889,
         "status": "filled",
         "ticker": "PYPL"
+      },
+      {
+        "action": "sell",
+        "date": "2026-11-18",
+        "fee": 0.0,
+        "price": 55.16999816894531,
+        "shares": 40.46805031654124,
+        "status": "filled",
+        "ticker": "INTC"
+      },
+      {
+        "action": "sell",
+        "date": "2026-11-18",
+        "fee": 0.0,
+        "price": 156.89999389648438,
+        "shares": 19.29888109362657,
+        "status": "filled",
+        "ticker": "NVDA"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-18",
+        "fee": 0.0,
+        "price": 512.1199951171875,
+        "shares": 47.86709955983192,
+        "status": "filled",
+        "ticker": "AMD"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-18",
+        "fee": 0.0,
+        "price": 573.5399780273438,
+        "shares": 42.741046364664015,
+        "status": "filled",
+        "ticker": "CAT"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-18",
+        "fee": 0.0,
+        "price": 119.0199966430664,
+        "shares": 205.96285905107285,
+        "status": "filled",
+        "ticker": "ORCL"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-18",
+        "fee": 0.0,
+        "price": 283.3999938964844,
+        "shares": 86.4985861707853,
+        "status": "filled",
+        "ticker": "GOOGL"
       }
     ]
   },
@@ -7600,6 +7670,10 @@
       {
         "date": "2026-11-17",
         "nav": 53965.213146293536
+      },
+      {
+        "date": "2026-11-18",
+        "nav": 30616.379054644378
       }
     ],
     "pending_orders": [],
@@ -11888,6 +11962,11 @@
           "weight_pct": 0.0
         },
         "reason": "invalid sell weight_pct 0.0"
+      },
+      {
+        "date": "2026-11-18",
+        "raw": null,
+        "reason": "unparseable response: Error code: 429 - Provider returned error"
       }
     ],
     "trades": [
@@ -23475,6 +23554,10 @@
       {
         "date": "2026-11-17",
         "nav": 124102.82095675374
+      },
+      {
+        "date": "2026-11-18",
+        "nav": 114142.5967731424
       }
     ],
     "pending_orders": [],
@@ -24897,6 +24980,11 @@
       },
       {
         "date": "2026-11-17",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
+      },
+      {
+        "date": "2026-11-18",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
       }
@@ -26572,6 +26660,10 @@
       {
         "date": "2026-11-17",
         "nav": 100000
+      },
+      {
+        "date": "2026-11-18",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -26836,12 +26928,17 @@
         "date": "2026-11-17",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
+      },
+      {
+        "date": "2026-11-18",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
       }
     ],
     "trades": []
   },
   "llama": {
-    "cash": -281544.44640438113,
+    "cash": -283781.83704155026,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -27190,18 +27287,62 @@
       {
         "date": "2026-11-17",
         "nav": 111867.68113456026
+      },
+      {
+        "date": "2026-11-18",
+        "nav": 107413.04650210106
       }
     ],
     "pending_orders": [
       {
         "action": "buy",
-        "ticker": "VZ",
-        "weight_pct": 1.0
+        "ticker": "CRM",
+        "weight_pct": 0.5
       },
       {
         "action": "buy",
-        "ticker": "XOM",
-        "weight_pct": 1.0
+        "ticker": "NKE",
+        "weight_pct": 0.4
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 0.4
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "buy",
+        "ticker": "AMT",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "COF",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "CVS",
+        "weight_pct": 0.1
       }
     ],
     "positions": {
@@ -27243,7 +27384,9 @@
       "TMUS": 30.008552850338596,
       "TSLA": 200.94270362024756,
       "TXN": 38.69201989339657,
-      "V": 28.739476219319652
+      "V": 28.739476219319652,
+      "VZ": 24.293058352198113,
+      "XOM": 6.680373066603688
     },
     "rejected": [
       {
@@ -36269,6 +36412,24 @@
         "shares": 1.719752739066761,
         "status": "filled",
         "ticker": "QCOM"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-18",
+        "fee": 0.0,
+        "price": 46.04999923706055,
+        "shares": 24.293058352198113,
+        "status": "filled",
+        "ticker": "VZ"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-18",
+        "fee": 0.0,
+        "price": 167.4600067138672,
+        "shares": 6.680373066603688,
+        "status": "filled",
+        "ticker": "XOM"
       }
     ]
   },
@@ -36621,6 +36782,10 @@
       },
       {
         "date": "2026-11-17",
+        "nav": 100000
+      },
+      {
+        "date": "2026-11-18",
         "nav": 100000
       }
     ],
@@ -37059,6 +37224,11 @@
       },
       {
         "date": "2026-11-17",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - qwen/qwen-2.5-7b-instruct is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models"
+      },
+      {
+        "date": "2026-11-18",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - qwen/qwen-2.5-7b-instruct is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models"
       }

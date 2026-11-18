@@ -22774,5 +22774,141 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-18",
+    "trader": "gpt",
+    "nav": 114142.5967731424,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-18",
+    "trader": "claude",
+    "nav": 16014.43503414467,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-18",
+    "trader": "deepseek",
+    "nav": 85572.84760323283,
+    "commentary": "Buying fear in CRM, NKE, UNH, IBM, AMT after sharp drops; selling AVGO and RTX on the rebound to lock in quick profits.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMT",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 0.8864
+      },
+      {
+        "action": "sell",
+        "ticker": "RTX",
+        "weight_pct": 1.0129
+      }
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "trader": "llama",
+    "nav": 107413.04650210106,
+    "commentary": "Investing in companies with recent notable moves to rotate broad exposure into sectors with capital flowing toward.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 0.5
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 0.4
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 0.4
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "buy",
+        "ticker": "AMT",
+        "weight_pct": 0.2
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "COF",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "CVS",
+        "weight_pct": 0.1
+      }
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "trader": "gemini",
+    "nav": 30616.379054644378,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-18",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-18",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
