@@ -27355,5 +27355,94 @@
     "nav": 76681.82092605981,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-18",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-18",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-18",
+    "trader": "deepseek",
+    "nav": 169149.85210447083,
+    "commentary": "Holding steady as the crowd hasn't caught up yet; we're already heavily positioned in beaten-down names and will wait for the recovery.",
+    "orders": []
+  },
+  {
+    "date": "2026-11-18",
+    "trader": "llama",
+    "nav": 63768.60764332014,
+    "commentary": "Capital flowing towards 'risk-on' sectors, taking bold positions to capture upside",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "trader": "gemini",
+    "nav": 33715.42197801295,
+    "commentary": "Rebalancing towards lower volatility assets and away from recent XRP strength while increasing ETH and SOL exposure.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 35.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 20.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "trader": "qwen",
+    "nav": 77960.57937361173,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
