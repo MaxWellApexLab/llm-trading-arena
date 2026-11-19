@@ -838,5 +838,68 @@
     "overtaker": "qwen",
     "overtaken": "deepseek",
     "rank": 4
+  },
+  {
+    "ts": "2026-11-19T02:43:22.882824+00:00",
+    "game": "arena",
+    "overtaker": "gemini",
+    "overtaken": "headline_arena",
+    "rank": 1
+  },
+  {
+    "ts": "2026-11-19T02:43:22.882824+00:00",
+    "game": "arena",
+    "overtaker": "gemini",
+    "overtaken": "qwen",
+    "rank": 1
+  },
+  {
+    "ts": "2026-11-19T02:43:22.882824+00:00",
+    "game": "arena",
+    "overtaker": "gemini",
+    "overtaken": "gpt",
+    "rank": 1
+  },
+  {
+    "ts": "2026-11-19T02:43:22.882824+00:00",
+    "game": "arena",
+    "overtaker": "gemini",
+    "overtaken": "llama",
+    "rank": 1
+  },
+  {
+    "ts": "2026-11-19T02:43:22.882824+00:00",
+    "game": "arena",
+    "overtaker": "gemini",
+    "overtaken": "deepseek",
+    "rank": 1
+  },
+  {
+    "ts": "2026-11-19T02:43:22.882824+00:00",
+    "game": "arena",
+    "overtaker": "headline_arena",
+    "overtaken": "gpt",
+    "rank": 2
+  },
+  {
+    "ts": "2026-11-19T02:43:22.882824+00:00",
+    "game": "arena",
+    "overtaker": "headline_arena",
+    "overtaken": "llama",
+    "rank": 2
+  },
+  {
+    "ts": "2026-11-19T02:43:22.882824+00:00",
+    "game": "arena",
+    "overtaker": "qwen",
+    "overtaken": "gpt",
+    "rank": 3
+  },
+  {
+    "ts": "2026-11-19T02:43:22.882824+00:00",
+    "game": "arena",
+    "overtaker": "qwen",
+    "overtaken": "llama",
+    "rank": 3
   }
 ]

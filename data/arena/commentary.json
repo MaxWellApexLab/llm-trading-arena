@@ -22910,5 +22910,462 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-19",
+    "trader": "gpt",
+    "nav": 96530.96284080151,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-19",
+    "trader": "claude",
+    "nav": 1551.7355113775702,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-19",
+    "trader": "deepseek",
+    "nav": 35658.54880846746,
+    "commentary": "Selling recent winners AMD, DIS, TGT to buy oversold names UNH, CVS, ACN, CVX, QCOM, ADBE, XOM for a mean reversion play.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DIS",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "TGT",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "CVS",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "ADBE",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "CVX",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "trader": "llama",
+    "nav": 96146.84679256106,
+    "commentary": "Rotate into growth stocks with recent notable moves, reducing positions in sectors with recent weakness.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "MA",
+        "weight_pct": 7.01
+      },
+      {
+        "action": "buy",
+        "ticker": "PYPL",
+        "weight_pct": 6.51
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 5.85
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 5.71
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 5.42
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 4.93
+      },
+      {
+        "action": "sell",
+        "ticker": "CVX",
+        "weight_pct": 4.74
+      },
+      {
+        "action": "sell",
+        "ticker": "DIS",
+        "weight_pct": 4.63
+      },
+      {
+        "action": "sell",
+        "ticker": "TGT",
+        "weight_pct": 4.01
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 3.97
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 3.79
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 3.71
+      },
+      {
+        "action": "sell",
+        "ticker": "CVS",
+        "weight_pct": 3.2
+      },
+      {
+        "action": "buy",
+        "ticker": "LIN",
+        "weight_pct": 3.16
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 3.03
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 2.92
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 2.85
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 2.77
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 2.73
+      },
+      {
+        "action": "buy",
+        "ticker": "LOW",
+        "weight_pct": 2.66
+      },
+      {
+        "action": "buy",
+        "ticker": "WMT",
+        "weight_pct": 2.62
+      },
+      {
+        "action": "buy",
+        "ticker": "COST",
+        "weight_pct": 2.56
+      },
+      {
+        "action": "buy",
+        "ticker": "KHC",
+        "weight_pct": 2.48
+      },
+      {
+        "action": "buy",
+        "ticker": "PG",
+        "weight_pct": 2.47
+      },
+      {
+        "action": "buy",
+        "ticker": "KO",
+        "weight_pct": 2.45
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 2.43
+      },
+      {
+        "action": "buy",
+        "ticker": "JPM",
+        "weight_pct": 2.4
+      },
+      {
+        "action": "buy",
+        "ticker": "GS",
+        "weight_pct": 2.39
+      },
+      {
+        "action": "buy",
+        "ticker": "BAC",
+        "weight_pct": 2.37
+      },
+      {
+        "action": "buy",
+        "ticker": "JNJ",
+        "weight_pct": 2.36
+      },
+      {
+        "action": "buy",
+        "ticker": "HD",
+        "weight_pct": 2.35
+      },
+      {
+        "action": "buy",
+        "ticker": "HON",
+        "weight_pct": 2.33
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 2.32
+      },
+      {
+        "action": "buy",
+        "ticker": "RTX",
+        "weight_pct": 2.31
+      },
+      {
+        "action": "buy",
+        "ticker": "SCHW",
+        "weight_pct": 2.29
+      },
+      {
+        "action": "buy",
+        "ticker": "WFC",
+        "weight_pct": 2.28
+      },
+      {
+        "action": "buy",
+        "ticker": "UNP",
+        "weight_pct": 2.26
+      },
+      {
+        "action": "buy",
+        "ticker": "UPS",
+        "weight_pct": 2.25
+      },
+      {
+        "action": "buy",
+        "ticker": "USB",
+        "weight_pct": 2.24
+      },
+      {
+        "action": "buy",
+        "ticker": "CMCSA",
+        "weight_pct": 2.22
+      },
+      {
+        "action": "buy",
+        "ticker": "MAA",
+        "weight_pct": 2.2
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 2.19
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 2.17
+      },
+      {
+        "action": "buy",
+        "ticker": "PEP",
+        "weight_pct": 2.16
+      },
+      {
+        "action": "buy",
+        "ticker": "SBUX",
+        "weight_pct": 2.14
+      },
+      {
+        "action": "buy",
+        "ticker": "SO",
+        "weight_pct": 2.13
+      },
+      {
+        "action": "buy",
+        "ticker": "SPG",
+        "weight_pct": 2.11
+      },
+      {
+        "action": "buy",
+        "ticker": "T",
+        "weight_pct": 2.09
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 2.08
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 2.07
+      },
+      {
+        "action": "buy",
+        "ticker": "TMUS",
+        "weight_pct": 2.06
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 2.04
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 2.03
+      },
+      {
+        "action": "buy",
+        "ticker": "UNP",
+        "weight_pct": 2.01
+      },
+      {
+        "action": "buy",
+        "ticker": "UPS",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "USB",
+        "weight_pct": 1.99
+      },
+      {
+        "action": "buy",
+        "ticker": "V",
+        "weight_pct": 1.97
+      },
+      {
+        "action": "buy",
+        "ticker": "VZ",
+        "weight_pct": 1.96
+      },
+      {
+        "action": "buy",
+        "ticker": "WFC",
+        "weight_pct": 1.94
+      },
+      {
+        "action": "buy",
+        "ticker": "WMT",
+        "weight_pct": 1.93
+      },
+      {
+        "action": "buy",
+        "ticker": "XOM",
+        "weight_pct": 1.92
+      }
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "trader": "gemini",
+    "nav": 100000,
+    "commentary": "Rebalancing to capture mean reversion from recent sharp moves in both directions.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "UNH",
+        "weight_pct": 1.78
+      },
+      {
+        "action": "sell",
+        "ticker": "CVS",
+        "weight_pct": 1.65
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 1.57
+      },
+      {
+        "action": "sell",
+        "ticker": "CVX",
+        "weight_pct": 1.47
+      },
+      {
+        "action": "sell",
+        "ticker": "ADBE",
+        "weight_pct": 1.42
+      },
+      {
+        "action": "sell",
+        "ticker": "XOM",
+        "weight_pct": 1.33
+      },
+      {
+        "action": "buy",
+        "ticker": "DIS",
+        "weight_pct": 1.59
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 1.45
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 1.55
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 1.35
+      }
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-19",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
