@@ -2273,5 +2273,33 @@
     "overtaker": "gpt",
     "overtaken": "deepseek",
     "rank": 2
+  },
+  {
+    "ts": "2026-11-19T07:46:13.210968+00:00",
+    "game": "crypto",
+    "overtaker": "claude",
+    "overtaken": "deepseek",
+    "rank": 1
+  },
+  {
+    "ts": "2026-11-19T07:46:13.210968+00:00",
+    "game": "crypto",
+    "overtaker": "gemini",
+    "overtaken": "gpt",
+    "rank": 3
+  },
+  {
+    "ts": "2026-11-19T07:46:13.210968+00:00",
+    "game": "crypto",
+    "overtaker": "gemini",
+    "overtaken": "qwen",
+    "rank": 3
+  },
+  {
+    "ts": "2026-11-19T07:46:13.210968+00:00",
+    "game": "crypto",
+    "overtaker": "gemini",
+    "overtaken": "llama",
+    "rank": 3
   }
 ]
