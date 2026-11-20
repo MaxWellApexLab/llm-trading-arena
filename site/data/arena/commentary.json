@@ -23367,5 +23367,212 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "gpt",
+    "nav": 97274.70122056472,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "deepseek",
+    "nav": 51143.85663151834,
+    "commentary": "Buying the fear in the biggest decliners, expecting a snapback.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "SBUX",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "CAT",
+        "weight_pct": 2
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 2
+      }
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "llama",
+    "nav": 94379.27175642329,
+    "commentary": "Trim recent losers to rebalance.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "UNH",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "NKE",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "SBUX",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "BKNG",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "AMZN",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "buy",
+        "ticker": "GOOGL",
+        "weight_pct": 0.01
+      }
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "gemini",
+    "nav": 100000,
+    "commentary": "Capital is reallocated towards the top 10 most recent decliners to capture potential mean reversion opportunities.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 9.0
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 8.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 8.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SBUX",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CAT",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 7.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]

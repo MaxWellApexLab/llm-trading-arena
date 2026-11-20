@@ -901,5 +901,47 @@
     "overtaker": "qwen",
     "overtaken": "llama",
     "rank": 3
+  },
+  {
+    "ts": "2026-11-20T02:29:11.963592+00:00",
+    "game": "arena",
+    "overtaker": "claude",
+    "overtaken": "gemini",
+    "rank": 1
+  },
+  {
+    "ts": "2026-11-20T02:29:11.963592+00:00",
+    "game": "arena",
+    "overtaker": "claude",
+    "overtaken": "headline_arena",
+    "rank": 1
+  },
+  {
+    "ts": "2026-11-20T02:29:11.963592+00:00",
+    "game": "arena",
+    "overtaker": "claude",
+    "overtaken": "qwen",
+    "rank": 1
+  },
+  {
+    "ts": "2026-11-20T02:29:11.963592+00:00",
+    "game": "arena",
+    "overtaker": "claude",
+    "overtaken": "gpt",
+    "rank": 1
+  },
+  {
+    "ts": "2026-11-20T02:29:11.963592+00:00",
+    "game": "arena",
+    "overtaker": "claude",
+    "overtaken": "llama",
+    "rank": 1
+  },
+  {
+    "ts": "2026-11-20T02:29:11.963592+00:00",
+    "game": "arena",
+    "overtaker": "claude",
+    "overtaken": "deepseek",
+    "rank": 1
   }
 ]
