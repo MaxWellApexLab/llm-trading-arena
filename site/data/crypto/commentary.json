@@ -27764,5 +27764,120 @@
     "nav": 73152.40479182996,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "deepseek",
+    "nav": 99323.59035466186,
+    "commentary": "Selling ETH on fundamental upgrade delay news, buying BTC on institutional demand, and adding most to DOGE as it's the most beaten down without reason, with a slight increase in SOL.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 35
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "llama",
+    "nav": 53642.67990812473,
+    "commentary": "Reducing exposure to DOGE, SOL, and ETH after recent declines, and reweighting to BTC and XRP in anticipation of capital flowing towards the latter",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.7935
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.2065
+      }
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "gemini",
+    "nav": 99376.71338111853,
+    "commentary": "Reducing exposure to higher-volatility altcoins and increasing allocation to BTC on its recent dip, while initiating a small position in DOGE.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "qwen",
+    "nav": 71924.47859828023,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
