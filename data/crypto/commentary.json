@@ -27879,5 +27879,125 @@
     "nav": 71924.47859828023,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "deepseek",
+    "nav": 85255.02928397406,
+    "commentary": "Maximizing exposure to the most beaten-down assets as fear hits peak, expecting a snap-back.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 35
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 90
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 90
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 80
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 130
+      }
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "llama",
+    "nav": 36264.47250017198,
+    "commentary": "Capital is flowing out of risk assets, time to rotate into more defensive crypto players like ETH-USD, DOGE-USD, and XRP-USD",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0.4
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.3
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.3
+      }
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "gemini",
+    "nav": 91382.76036176029,
+    "commentary": "De-risking across the board due to broad market weakness and headline-driven fear.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "trader": "qwen",
+    "nav": 65674.550508994,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
