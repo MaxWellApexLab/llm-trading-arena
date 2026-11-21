@@ -23574,5 +23574,222 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-21",
+    "trader": "gpt",
+    "nav": 77861.82375227899,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-21",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-21",
+    "trader": "deepseek",
+    "nav": 24460.071223330684,
+    "commentary": "Selling Nike's dead weight to buy the biggest fear-driven semis dip\u2014NVDA and AMD are getting hammered but their fundamentals haven't changed.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "NKE",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "trader": "llama",
+    "nav": 70380.42844282376,
+    "commentary": "Reduce positions in tech stocks that have recently declined.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 0.03
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "sell",
+        "ticker": "TXN",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "sell",
+        "ticker": "QCOM",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "sell",
+        "ticker": "GS",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "META",
+        "weight_pct": 0.01
+      }
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "trader": "gemini",
+    "nav": 97618.80295959956,
+    "commentary": "Reducing exposure to recent high-volatility tech names and reallocating to more stable, uncorrelated names.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 7.32
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 8.43
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 6.89
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 4.74
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 4.46
+      },
+      {
+        "action": "sell",
+        "ticker": "TXN",
+        "weight_pct": 4.31
+      },
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 4.27
+      },
+      {
+        "action": "sell",
+        "ticker": "QCOM",
+        "weight_pct": 4.17
+      },
+      {
+        "action": "sell",
+        "ticker": "GS",
+        "weight_pct": 3.76
+      },
+      {
+        "action": "sell",
+        "ticker": "META",
+        "weight_pct": 3.32
+      },
+      {
+        "action": "buy",
+        "ticker": "CAT",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 2.8
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 2.5
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 2.3
+      },
+      {
+        "action": "buy",
+        "ticker": "SBUX",
+        "weight_pct": 2.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 1.8
+      },
+      {
+        "action": "buy",
+        "ticker": "AMZN",
+        "weight_pct": 1.5
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 1.2
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 1.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ABBV",
+        "weight_pct": 0.8
+      }
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-21",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
