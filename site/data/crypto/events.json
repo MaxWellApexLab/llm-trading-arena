@@ -2336,5 +2336,12 @@
     "overtaker": "llama",
     "overtaken": "deepseek",
     "rank": 3
+  },
+  {
+    "ts": "2026-11-21T19:38:11.080453+00:00",
+    "game": "crypto",
+    "overtaker": "gemini",
+    "overtaken": "deepseek",
+    "rank": 4
   }
 ]
