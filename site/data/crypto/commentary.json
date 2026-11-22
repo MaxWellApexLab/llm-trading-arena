@@ -28214,5 +28214,125 @@
     "nav": 69264.73137285009,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-22",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-22",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-22",
+    "trader": "deepseek",
+    "nav": 88713.65728571283,
+    "commentary": "Buying the panic on ETH, SOL, and XRP after severe drops with no fundamental catalyst, leveraging into fear for a quick bounce.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 35
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-11-22",
+    "trader": "llama",
+    "nav": 99277.19146666572,
+    "commentary": "XRP's 10% drop and DOGE and SOL's similar drops suggest capital is flowing out of altcoins and into the top two, so rebalance into BTC and ETH.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 30.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-22",
+    "trader": "gemini",
+    "nav": 94761.71481195577,
+    "commentary": "Reducing exposure to the leaders and adding to the laggards to rebalance volatility exposure.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": -20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-22",
+    "trader": "qwen",
+    "nav": 66887.81119965923,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
