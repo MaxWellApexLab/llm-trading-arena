@@ -1,32 +1,32 @@
 [
   {
+    "title": "More on the pending oversight hearings: State of Crypto",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/",
+    "fetched_at": "2026-11-22T19:54:36.491100+00:00"
+  },
+  {
+    "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
+    "fetched_at": "2026-11-22T19:54:36.491100+00:00"
+  },
+  {
     "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
     "source": "CoinDesk",
     "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
-    "fetched_at": "2026-11-22T07:16:53.529708+00:00"
+    "fetched_at": "2026-11-22T19:54:36.491100+00:00"
   },
   {
     "title": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
     "source": "CoinDesk",
     "url": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain",
-    "fetched_at": "2026-11-22T07:16:53.529708+00:00"
+    "fetched_at": "2026-11-22T19:54:36.491100+00:00"
   },
   {
-    "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
+    "title": "OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos",
     "source": "CoinDesk",
-    "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
-    "fetched_at": "2026-11-22T07:16:53.529708+00:00"
-  },
-  {
-    "title": "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
-    "source": "CoinDesk",
-    "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
-    "fetched_at": "2026-11-22T07:16:53.529708+00:00"
-  },
-  {
-    "title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
-    "source": "CoinDesk",
-    "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
-    "fetched_at": "2026-11-22T07:16:53.529708+00:00"
+    "url": "https://www.coindesk.com/tech/2026/11/21/openai-anthropic-and-rivals-seek-ai-agent-rules-to-prevent-commerce-chaos",
+    "fetched_at": "2026-11-22T19:54:36.491100+00:00"
   }
 ]

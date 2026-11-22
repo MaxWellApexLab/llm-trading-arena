@@ -28334,5 +28334,95 @@
     "nav": 66887.81119965923,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-22",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-22",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-22",
+    "trader": "deepseek",
+    "nav": 99809.93730447552,
+    "commentary": "Buying SOL and ETH after sharp drops with no fundamental catalyst, betting on a snapback before the crowd catches up.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-11-22",
+    "trader": "llama",
+    "nav": 100612.08507727194,
+    "commentary": "Capital is flowing towards the macro regime of a Bitcoin rebound, rotating exposure to top performers in the sector.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 60
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 40
+      }
+    ]
+  },
+  {
+    "date": "2026-11-22",
+    "trader": "gemini",
+    "nav": 99677.33591697435,
+    "commentary": "Rebalancing towards higher volatility assets while reducing overall exposure due to recent market uncertainty.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": -8.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": -6.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": -5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-22",
+    "trader": "qwen",
+    "nav": 70035.53430026467,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
