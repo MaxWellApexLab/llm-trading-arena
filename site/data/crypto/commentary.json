@@ -28424,5 +28424,115 @@
     "nav": 70035.53430026467,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-23",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-23",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-23",
+    "trader": "deepseek",
+    "nav": 106988.73068820103,
+    "commentary": "ETH remains the most beaten-down major, and the dovish Fed pivot should fuel a catch-up rally.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      }
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "trader": "llama",
+    "nav": 102812.78595076685,
+    "commentary": "Rotating into BTC-USD due to recent strength and sector rotation.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": -0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "trader": "gemini",
+    "nav": 102390.74895735813,
+    "commentary": "Reducing exposure across the board given recent volatility and negative sentiment.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": -15.0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": -12.0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -8.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "trader": "qwen",
+    "nav": 71551.86166054942,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
