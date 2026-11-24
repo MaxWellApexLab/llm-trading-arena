@@ -28619,5 +28619,115 @@
     "nav": 70864.62457308518,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "deepseek",
+    "nav": 98111.03450662724,
+    "commentary": "Buying the dip on BTC, ETH, and SOL as fear peaks from the Nvidia distraction and rebound fatigue, while DOGE and XRP lag on fundamentals.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 130
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 60
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 40
+      }
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "llama",
+    "nav": 96860.46967730281,
+    "commentary": "Liquidate the entire portfolio due to the decline in major cryptocurrencies across the board following the fading Nvidia rally and concerns over AI trade returns and regulatory scrutiny.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "gemini",
+    "nav": 98137.54833294684,
+    "commentary": "Re-allocating capital towards higher volatility assets after a recent dip, increasing exposure to BTC and ETH while adding to the smaller cap altcoins.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 5
+      }
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "qwen",
+    "nav": 68674.21167119716,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
