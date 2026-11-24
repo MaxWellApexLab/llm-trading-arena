@@ -23791,5 +23791,212 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "gpt",
+    "nav": 99206.73357875709,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "deepseek",
+    "nav": 39505.6822517924,
+    "commentary": "Selling recent winners to take profits, buying beaten-down UNH and CRM on fear.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 0.56
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 1.16
+      },
+      {
+        "action": "sell",
+        "ticker": "QCOM",
+        "weight_pct": 2.09
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 1.2
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 2.06
+      },
+      {
+        "action": "sell",
+        "ticker": "CSCO",
+        "weight_pct": 0.57
+      },
+      {
+        "action": "sell",
+        "ticker": "META",
+        "weight_pct": 0.52
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CRM",
+        "weight_pct": 4.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "llama",
+    "nav": 90584.14418252488,
+    "commentary": "Rotating into semiconductor stocks and growth names after recent notable moves.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 0.1
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "gemini",
+    "nav": 99855.03130074486,
+    "commentary": "Rebalancing into recent high-momentum tech names while reducing exposure to slower-moving or declining sectors.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 8.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TSLA",
+        "weight_pct": 6.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CAT",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "CSCO",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ACN",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMZN",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "BKNG",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CRM",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "NKE",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "UNH",
+        "weight_pct": 0.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ABBV",
+        "weight_pct": 0.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
