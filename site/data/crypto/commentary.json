@@ -28729,5 +28729,94 @@
     "nav": 68674.21167119716,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "deepseek",
+    "nav": 100000,
+    "commentary": "Assets are already heavily positioned in beaten-down names; waiting for a clearer reversal signal before adding more leverage.",
+    "orders": []
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "llama",
+    "nav": 56064.79375006014,
+    "commentary": "Reducing exposure to BTC and ETH due to recent weakness, while taking a contrarian bet on XRP and DOGE amidst the recent downtrend.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": -50
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": -30
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "gemini",
+    "nav": 54353.63458263539,
+    "commentary": "Rebalancing into a slightly more diversified allocation, capturing potential upside across uncorrelated assets after recent dips.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 25.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 20.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "qwen",
+    "nav": 68730.64862468545,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
