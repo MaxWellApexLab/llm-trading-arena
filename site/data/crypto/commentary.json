@@ -28534,5 +28534,90 @@
     "nav": 71551.86166054942,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "deepseek",
+    "nav": 105919.4545521863,
+    "commentary": "No trades; the bounce is too small to take profits, and fear remains high.",
+    "orders": []
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "llama",
+    "nav": 101668.97151992441,
+    "commentary": "Rotate into DOGE and XRP following strong recent moves",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": -100,
+        "commentary": "Strong DOGE and SOL moves, rotate into XRP"
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": -50,
+        "commentary": "Strong DOGE and SOL moves, rotate into XRP"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "gemini",
+    "nav": 101244.34173141568,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-24",
+    "trader": "qwen",
+    "nav": 70864.62457308518,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
