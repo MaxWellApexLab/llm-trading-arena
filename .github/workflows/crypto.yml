@@ -55,7 +55,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -65,4 +65,13 @@ jobs:
         with:
           path: site
       - id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      # The uploaded github-pages artifact is sometimes not visible to deploy-pages yet
+      # ("No artifacts named github-pages were found"); wait and try once more.
+      - name: Wait before retrying deploy
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 30
+      - id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
