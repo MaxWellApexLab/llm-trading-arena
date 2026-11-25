@@ -23998,5 +23998,187 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-25",
+    "trader": "gpt",
+    "nav": 92797.72846843378,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-25",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-25",
+    "trader": "deepseek",
+    "nav": 55182.07612803229,
+    "commentary": "Sell the MDT breakdown on no fundamental news, and buy the panic in semis\u2014NVDA, TXN, INTC, AMD, and MSFT\u2014all beaten down with strong long-term catalysts.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "MDT",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 20
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "trader": "llama",
+    "nav": 85377.41213276854,
+    "commentary": "Rebalance to capitalize on recent moves.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "TXN",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "NKE",
+        "weight_pct": 0.17
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "AMGN",
+        "weight_pct": 0.17
+      },
+      {
+        "action": "buy",
+        "ticker": "TGT",
+        "weight_pct": 0.17
+      },
+      {
+        "action": "buy",
+        "ticker": "MDT",
+        "weight_pct": 0.15
+      },
+      {
+        "action": "buy",
+        "ticker": "GILD",
+        "weight_pct": 0.15
+      }
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "trader": "gemini",
+    "nav": 100638.19243329915,
+    "commentary": "Rebalancing to capture mean reversion in recent large movers and reduce exposure to prior outperformers.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMD",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "INTC",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "NKE",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMGN",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "TGT",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "MDT",
+        "weight_pct": 4.0
+      },
+      {
+        "action": "sell",
+        "ticker": "GILD",
+        "weight_pct": 4.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-25",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
