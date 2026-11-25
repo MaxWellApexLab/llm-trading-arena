@@ -28818,5 +28818,135 @@
     "nav": 68730.64862468545,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-25",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-25",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-25",
+    "trader": "deepseek",
+    "nav": 100000,
+    "commentary": "Buying SOL, ETH, and DOGE after their recent sharp drops, anticipating a rebound as fear is overblown.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 60
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 40
+      }
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "trader": "llama",
+    "nav": 90594.8935671231,
+    "commentary": "Recent altcoin sell-off suggests Bitcoin is becoming the go-to safe-haven, while Solana's price drop and XRP's lack of growth indicate a need to rotate towards more resilient cryptos",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 0
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "trader": "gemini",
+    "nav": 92376.44804129397,
+    "commentary": "Reducing exposure to recently weak SOL and increasing conviction in BTC and ETH, with a small opportunistic buy in XRP.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 15.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "trader": "qwen",
+    "nav": 67529.22432529509,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
