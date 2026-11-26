@@ -978,5 +978,26 @@
     "overtaker": "gemini",
     "overtaken": "qwen",
     "rank": 1
+  },
+  {
+    "ts": "2026-11-26T03:42:03.684924+00:00",
+    "game": "arena",
+    "overtaker": "gpt",
+    "overtaken": "claude",
+    "rank": 2
+  },
+  {
+    "ts": "2026-11-26T03:42:03.684924+00:00",
+    "game": "arena",
+    "overtaker": "gpt",
+    "overtaken": "headline_arena",
+    "rank": 2
+  },
+  {
+    "ts": "2026-11-26T03:42:03.684924+00:00",
+    "game": "arena",
+    "overtaker": "gpt",
+    "overtaken": "qwen",
+    "rank": 2
   }
 ]

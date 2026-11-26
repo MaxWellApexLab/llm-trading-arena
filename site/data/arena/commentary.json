@@ -24180,5 +24180,162 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-26",
+    "trader": "gpt",
+    "nav": 101872.27684154437,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-26",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-26",
+    "trader": "deepseek",
+    "nav": 65623.37516585644,
+    "commentary": "Buying the NVDA panic dip on no fundamental catalyst, selling ORCL into its continued weakness to fund it.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 100
+      },
+      {
+        "action": "buy",
+        "ticker": "NVDA",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "trader": "llama",
+    "nav": 93877.25976379012,
+    "commentary": "Reducing exposure to recent laggards, adding exposure to recent winners in tech and consumer staples",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "sell",
+        "ticker": "AMZN",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "KHC",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 0.05
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 0.05
+      }
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "trader": "gemini",
+    "nav": 102403.45334527211,
+    "commentary": "Rebalancing to capture recent momentum and mitigate exposure to declining names, while staying within volatility and sector diversification constraints.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "CHTR",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "ORCL",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "KHC",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "META",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "IBM",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMZN",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "PYPL",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-26",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
