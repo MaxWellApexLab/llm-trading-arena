@@ -29248,5 +29248,130 @@
     "nav": 70460.08455165113,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "deepseek",
+    "nav": 93038.46003803558,
+    "commentary": "Taking profits on SOL and XRP after their recent gains to buy ETH on the Glamsterdam upgrade catalyst.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 52.13
+      },
+      {
+        "action": "sell",
+        "ticker": "XRP-USD",
+        "weight_pct": 27.88
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 20.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "llama",
+    "nav": 100000,
+    "commentary": "Riding recent XRP and SOL gains, cutting exposure to BTC, ETH, DOGE due to recent price weakness, and rebalancing with fresh bets on ETH and BTC.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "BTC-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "gemini",
+    "nav": 92896.9762211931,
+    "commentary": "Rebalancing towards uncorrelated assets with recent positive momentum and reducing exposure to the underperforming DOGE.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 25
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": -20
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "qwen",
+    "nav": 72007.41744592789,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
