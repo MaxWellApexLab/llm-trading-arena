@@ -24337,5 +24337,111 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "gpt",
+    "nav": 101872.27684154437,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "deepseek",
+    "nav": 66270.75201897579,
+    "commentary": "Selling CHTR and half of NVDA into strength to buy the fear in ORCL's sharp drop and TXN's panic sell-off, betting on quick mean-reversion.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 100
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 50
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 30
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "llama",
+    "nav": 93887.79228980659,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "gemini",
+    "nav": 104977.18713249908,
+    "commentary": "Reducing exposure to highly volatile names like AMD and NVDA while increasing positions in more stable, uncorrelated sectors.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 100.0
+      },
+      {
+        "action": "sell",
+        "ticker": "NVDA",
+        "weight_pct": 100.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "AMGN",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "HON",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 10.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]

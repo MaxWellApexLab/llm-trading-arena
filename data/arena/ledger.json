@@ -382,6 +382,10 @@
       {
         "date": "2026-11-26",
         "nav": 100000
+      },
+      {
+        "date": "2026-11-27",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -671,6 +675,11 @@
       },
       {
         "date": "2026-11-26",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5)."
+      },
+      {
+        "date": "2026-11-27",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5)."
       }
@@ -1705,7 +1714,7 @@
     ]
   },
   "deepseek": {
-    "cash": -1047575.4299027494,
+    "cash": -1047695.3651571919,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -2082,18 +2091,32 @@
       {
         "date": "2026-11-26",
         "nav": 65623.37516585644
+      },
+      {
+        "date": "2026-11-27",
+        "nav": 66270.75201897579
       }
     ],
     "pending_orders": [
       {
         "action": "sell",
-        "ticker": "ORCL",
+        "ticker": "CHTR",
         "weight_pct": 100.0
       },
       {
-        "action": "buy",
+        "action": "sell",
         "ticker": "NVDA",
         "weight_pct": 50.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ORCL",
+        "weight_pct": 30.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TXN",
+        "weight_pct": 20.0
       }
     ],
     "positions": {
@@ -2146,8 +2169,7 @@
       "NEE": 58.02759279941519,
       "NFLX": 370.1344614283658,
       "NKE": 47.58916013488465,
-      "NVDA": 128.2217654758571,
-      "ORCL": 206.40999687294666,
+      "NVDA": 276.9771677654487,
       "PEP": 36.27021442827535,
       "PM": 22.598949253096848,
       "PYPL": 135.85092132409514,
@@ -7761,11 +7783,29 @@
         "shares": 17.66560386247009,
         "status": "filled",
         "ticker": "MSFT"
+      },
+      {
+        "action": "sell",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 103.23999786376953,
+        "shares": 206.40999687294666,
+        "status": "filled",
+        "ticker": "ORCL"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 144.05999755859375,
+        "shares": 148.75540228959164,
+        "status": "filled",
+        "ticker": "NVDA"
       }
     ]
   },
   "gemini": {
-    "cash": -50002.30636532374,
+    "cash": -83858.71249587463,
     "liquidations": 1,
     "nav_history": [
       {
@@ -8147,74 +8187,68 @@
       {
         "date": "2026-11-26",
         "nav": 102403.45334527211
+      },
+      {
+        "date": "2026-11-27",
+        "nav": 104977.18713249908
       }
     ],
     "pending_orders": [
       {
-        "action": "buy",
-        "ticker": "CHTR",
-        "weight_pct": 10.0
-      },
-      {
         "action": "sell",
-        "ticker": "ORCL",
-        "weight_pct": 10.0
-      },
-      {
-        "action": "buy",
-        "ticker": "TXN",
-        "weight_pct": 10.0
+        "ticker": "AMD",
+        "weight_pct": 100.0
       },
       {
         "action": "sell",
         "ticker": "NVDA",
+        "weight_pct": 100.0
+      },
+      {
+        "action": "buy",
+        "ticker": "TMO",
         "weight_pct": 10.0
       },
       {
         "action": "buy",
-        "ticker": "KHC",
+        "ticker": "AMGN",
         "weight_pct": 10.0
       },
       {
         "action": "buy",
-        "ticker": "ACN",
+        "ticker": "HON",
         "weight_pct": 10.0
       },
       {
         "action": "buy",
-        "ticker": "META",
+        "ticker": "UNH",
         "weight_pct": 10.0
       },
       {
         "action": "buy",
-        "ticker": "IBM",
-        "weight_pct": 10.0
-      },
-      {
-        "action": "sell",
-        "ticker": "AMZN",
+        "ticker": "MSFT",
         "weight_pct": 10.0
       }
     ],
     "positions": {
       "ABBV": 2.790984936560024,
-      "ACN": 39.60514234104845,
+      "ACN": 80.87588735738584,
       "AMD": 23.25919663983109,
-      "AMZN": 33.3602150884806,
       "BKNG": 55.21553124369001,
       "CAT": 26.00985889782184,
-      "CHTR": 41.1409952898739,
+      "CHTR": 112.231015699483,
       "CRM": 43.62408294452108,
       "CSCO": 41.58645914813507,
+      "IBM": 41.473998563210095,
       "INTC": 213.39438421053114,
-      "META": 6.7511857736466885,
+      "KHC": 372.484352948912,
+      "META": 23.58400241184068,
       "NKE": 200.33885719549272,
-      "NVDA": 89.426959544629,
-      "ORCL": 62.53090496933495,
+      "NVDA": 22.200850001397313,
       "QCOM": 30.964645235652853,
       "SBUX": 85.69097137342239,
       "TSLA": 15.555505097441094,
-      "TXN": 33.45828119012695,
+      "TXN": 72.26028975925595,
       "UNH": 32.19271944043998
     },
     "rejected": [
@@ -24172,6 +24206,87 @@
         "shares": 108.66303239444755,
         "status": "filled",
         "ticker": "NKE"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 136.22999572753906,
+        "shares": 71.0900204096091,
+        "status": "filled",
+        "ticker": "CHTR"
+      },
+      {
+        "action": "sell",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 103.23999786376953,
+        "shares": 62.53090496933495,
+        "status": "filled",
+        "ticker": "ORCL"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 249.58999633789062,
+        "shares": 38.802008569129015,
+        "status": "filled",
+        "ticker": "TXN"
+      },
+      {
+        "action": "sell",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 144.05999755859375,
+        "shares": 67.22610954323169,
+        "status": "filled",
+        "ticker": "NVDA"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 26.0,
+        "shares": 372.484352948912,
+        "status": "filled",
+        "ticker": "KHC"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 234.66000366210938,
+        "shares": 41.27074501633738,
+        "status": "filled",
+        "ticker": "ACN"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 575.3400268554688,
+        "shares": 16.83281663819399,
+        "status": "filled",
+        "ticker": "META"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 233.50999450683594,
+        "shares": 41.473998563210095,
+        "status": "filled",
+        "ticker": "IBM"
+      },
+      {
+        "action": "sell",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 243.1300048828125,
+        "shares": 33.3602150884806,
+        "status": "filled",
+        "ticker": "AMZN"
       }
     ]
   },
@@ -24552,6 +24667,10 @@
       },
       {
         "date": "2026-11-26",
+        "nav": 101872.27684154437
+      },
+      {
+        "date": "2026-11-27",
         "nav": 101872.27684154437
       }
     ],
@@ -26010,6 +26129,11 @@
       },
       {
         "date": "2026-11-26",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
+      },
+      {
+        "date": "2026-11-27",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
       }
@@ -27713,6 +27837,10 @@
       {
         "date": "2026-11-26",
         "nav": 100000
+      },
+      {
+        "date": "2026-11-27",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -28012,12 +28140,17 @@
         "date": "2026-11-26",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
+      },
+      {
+        "date": "2026-11-27",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
       }
     ],
     "trades": []
   },
   "llama": {
-    "cash": -438658.98300919106,
+    "cash": -438779.20826631243,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -28394,70 +28527,28 @@
       {
         "date": "2026-11-26",
         "nav": 93877.25976379012
+      },
+      {
+        "date": "2026-11-27",
+        "nav": 93887.79228980659
       }
     ],
-    "pending_orders": [
-      {
-        "action": "sell",
-        "ticker": "ORCL",
-        "weight_pct": 0.05
-      },
-      {
-        "action": "sell",
-        "ticker": "NVDA",
-        "weight_pct": 0.05
-      },
-      {
-        "action": "sell",
-        "ticker": "AMZN",
-        "weight_pct": 0.05
-      },
-      {
-        "action": "buy",
-        "ticker": "CHTR",
-        "weight_pct": 0.05
-      },
-      {
-        "action": "buy",
-        "ticker": "TXN",
-        "weight_pct": 0.05
-      },
-      {
-        "action": "buy",
-        "ticker": "KHC",
-        "weight_pct": 0.05
-      },
-      {
-        "action": "buy",
-        "ticker": "ACN",
-        "weight_pct": 0.05
-      },
-      {
-        "action": "buy",
-        "ticker": "META",
-        "weight_pct": 0.05
-      },
-      {
-        "action": "buy",
-        "ticker": "IBM",
-        "weight_pct": 0.05
-      }
-    ],
+    "pending_orders": [],
     "positions": {
-      "ACN": 61.54712577585083,
+      "ACN": 61.71790513782867,
       "ADBE": 59.001799000381084,
       "AIG": 0.7432108203427803,
       "AMD": 70.63289696381744,
       "AMGN": 0.4202756973863044,
       "AMT": 10.71692709593701,
-      "AMZN": 38.712656481338655,
+      "AMZN": 38.54782661705905,
       "AVGO": 81.08697974115873,
       "AXP": 17.354521614199612,
       "BAC": 54.35160969327875,
       "BKNG": 10.969669581429716,
       "BLK": 1.4540863365093095,
       "CAT": 19.152800163873447,
-      "CHTR": 85.0415951210909,
+      "CHTR": 85.33576738097472,
       "CMCSA": 100.0180368064153,
       "COF": 0.5244290683191098,
       "COP": 57.82214555940736,
@@ -28471,11 +28562,11 @@
       "GS": 8.202510602022217,
       "HD": 15.501120767872868,
       "HON": 11.793762688899767,
-      "IBM": 12.292045041312626,
+      "IBM": 12.463665471486378,
       "INTC": 162.05752215144184,
       "JNJ": 9.898630421130038,
       "JPM": 8.315469530417092,
-      "KHC": 112.71984914536513,
+      "KHC": 114.2611985956395,
       "KO": 28.79684794905383,
       "LIN": 6.970656138249684,
       "LMT": 0.10225413689695553,
@@ -28483,12 +28574,12 @@
       "MA": 12.443529613059413,
       "MDT": 1.2655290223305284,
       "MET": 52.61347191979914,
-      "META": 7.228157215927191,
+      "META": 7.297811826829486,
       "MMM": 11.325103020576575,
       "MSFT": 67.67894512073619,
       "NKE": 160.67300700803523,
-      "NVDA": 58.440822890977365,
-      "ORCL": 66.43017875614095,
+      "NVDA": 58.16263958967033,
+      "ORCL": 66.04200472924863,
       "PEP": 17.417303135127383,
       "PG": 16.63487192808618,
       "PYPL": 199.12203365245497,
@@ -28503,7 +28594,7 @@
       "TMO": 8.168254020653155,
       "TMUS": 63.11592774123113,
       "TSLA": 217.56131198166295,
-      "TXN": 45.97101565131972,
+      "TXN": 46.1315793209184,
       "UNH": 19.724761468551186,
       "UNP": 16.084286943332838,
       "UPS": 43.336761840782884,
@@ -30300,6 +30391,11 @@
           "weight_pct": 2.2
         },
         "reason": "MAA not in universe"
+      },
+      {
+        "date": "2026-11-27",
+        "raw": null,
+        "reason": "unparseable response: Error code: 400 - Provider returned error"
       }
     ],
     "trades": [
@@ -38519,6 +38615,87 @@
         "shares": 0.6737195807084853,
         "status": "filled",
         "ticker": "GILD"
+      },
+      {
+        "action": "sell",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 103.23999786376953,
+        "shares": 0.38817402689231517,
+        "status": "filled",
+        "ticker": "ORCL"
+      },
+      {
+        "action": "sell",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 144.05999755859375,
+        "shares": 0.2781833013070377,
+        "status": "filled",
+        "ticker": "NVDA"
+      },
+      {
+        "action": "sell",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 243.1300048828125,
+        "shares": 0.16482986427960383,
+        "status": "filled",
+        "ticker": "AMZN"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 136.22999572753906,
+        "shares": 0.2941722598838207,
+        "status": "filled",
+        "ticker": "CHTR"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 249.58999633789062,
+        "shares": 0.16056366959868235,
+        "status": "filled",
+        "ticker": "TXN"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 26.0,
+        "shares": 1.5413494502743617,
+        "status": "filled",
+        "ticker": "KHC"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 234.66000366210938,
+        "shares": 0.17077936197784338,
+        "status": "filled",
+        "ticker": "ACN"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 575.3400268554688,
+        "shares": 0.06965461090229465,
+        "status": "filled",
+        "ticker": "META"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-27",
+        "fee": 0.0,
+        "price": 233.50999450683594,
+        "shares": 0.17162043017375106,
+        "status": "filled",
+        "ticker": "IBM"
       }
     ]
   },
@@ -38899,6 +39076,10 @@
       },
       {
         "date": "2026-11-26",
+        "nav": 100000
+      },
+      {
+        "date": "2026-11-27",
         "nav": 100000
       }
     ],
@@ -39372,6 +39553,11 @@
       },
       {
         "date": "2026-11-26",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - qwen/qwen-2.5-7b-instruct is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models"
+      },
+      {
+        "date": "2026-11-27",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - qwen/qwen-2.5-7b-instruct is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models"
       }
