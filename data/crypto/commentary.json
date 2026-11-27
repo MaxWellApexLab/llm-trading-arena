@@ -29373,5 +29373,84 @@
     "nav": 72007.41744592789,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "deepseek",
+    "nav": 105471.18621485258,
+    "commentary": "Holding steady; the portfolio is already heavily leveraged into beaten-down names, so I'll wait for a clearer entry before adding more risk.",
+    "orders": []
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "llama",
+    "nav": 100000,
+    "commentary": "Rotating into sectors with recent capital inflows, SOL and DOGE have shown notable percentage gains in the past 24 hours, with DOGE-USD up 2.03% and SOL-USD up 1.22%. This suggests capital is flowing toward these names.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "gemini",
+    "nav": 97686.3505238773,
+    "commentary": "Reducing exposure to all positions due to recent volatility and negative sentiment, preserving capital.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": -20
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": -20
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": -25
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": -15
+      },
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": -20
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "trader": "qwen",
+    "nav": 68273.32655611285,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
