@@ -999,5 +999,33 @@
     "overtaker": "gpt",
     "overtaken": "qwen",
     "rank": 2
+  },
+  {
+    "ts": "2026-11-28T03:26:20.781562+00:00",
+    "game": "arena",
+    "overtaker": "gpt",
+    "overtaken": "gemini",
+    "rank": 1
+  },
+  {
+    "ts": "2026-11-28T03:26:20.781562+00:00",
+    "game": "arena",
+    "overtaker": "llama",
+    "overtaken": "claude",
+    "rank": 3
+  },
+  {
+    "ts": "2026-11-28T03:26:20.781562+00:00",
+    "game": "arena",
+    "overtaker": "llama",
+    "overtaken": "headline_arena",
+    "rank": 3
+  },
+  {
+    "ts": "2026-11-28T03:26:20.781562+00:00",
+    "game": "arena",
+    "overtaker": "llama",
+    "overtaken": "qwen",
+    "rank": 3
   }
 ]

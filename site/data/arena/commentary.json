@@ -24443,5 +24443,357 @@
     "nav": 100000,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-28",
+    "trader": "gpt",
+    "nav": 112805.59798094217,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-28",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-28",
+    "trader": "deepseek",
+    "nav": 85125.10988984152,
+    "commentary": "Taking profits on the biggest recent gainers to reduce leverage and lock in gains from the fear-buying strategy.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "QCOM",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "TXN",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMZN",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 3.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-28",
+    "trader": "llama",
+    "nav": 107018.45071245899,
+    "commentary": "Trim weak performers and free up cash for new opportunities.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "AAPL",
+        "weight_pct": 0.02
+      },
+      {
+        "action": "sell",
+        "ticker": "AIG",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "BMY",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "DUK",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "EMR",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "F",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "LLY",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "LMT",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "LOW",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "MA",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "MCD",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "MDLZ",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "MDT",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "MET",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "MRK",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "MS",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "NEE",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "NFLX",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "NKE",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "PEP",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "PFE",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "PG",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "PYPL",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "QCOM",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "SBUX",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "SCHW",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "SO",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "SPG",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "T",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "TGT",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "TMO",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "TMUS",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "UPS",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "USB",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "VZ",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "WFC",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "WMT",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "XOM",
+        "weight_pct": 0.01
+      }
+    ]
+  },
+  {
+    "date": "2026-11-28",
+    "trader": "gemini",
+    "nav": 109961.39076272643,
+    "commentary": "Rebalancing from recent outperformers to capture mean reversion, while increasing exposure to the strongest recent performer.",
+    "orders": [
+      {
+        "action": "sell",
+        "ticker": "TSLA",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CHTR",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "TXN",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMZN",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "QCOM",
+        "weight_pct": 10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ABBV",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ACN",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "UNH",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "MSFT",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "HON",
+        "weight_pct": 5.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-28",
+    "trader": "qwen",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-28",
+    "trader": "headline_arena",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]

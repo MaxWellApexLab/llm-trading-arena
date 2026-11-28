@@ -386,6 +386,10 @@
       {
         "date": "2026-11-27",
         "nav": 100000
+      },
+      {
+        "date": "2026-11-28",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -680,6 +684,11 @@
       },
       {
         "date": "2026-11-27",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5)."
+      },
+      {
+        "date": "2026-11-28",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - Claude 3 Haiku was deprecated on Sep 10, 2026. We recommend migrating to Claude Haiku 4.5 (openrouter.ai/anthropic/claude-haiku-4.5)."
       }
@@ -1714,7 +1723,7 @@
     ]
   },
   "deepseek": {
-    "cash": -1047695.3651571919,
+    "cash": -1004306.0245457847,
     "nav_history": [
       {
         "date": "2026-07-21",
@@ -2095,28 +2104,47 @@
       {
         "date": "2026-11-27",
         "nav": 66270.75201897579
+      },
+      {
+        "date": "2026-11-28",
+        "nav": 85125.10988984152
       }
     ],
     "pending_orders": [
       {
         "action": "sell",
-        "ticker": "CHTR",
-        "weight_pct": 100.0
+        "ticker": "QCOM",
+        "weight_pct": 3.0
       },
       {
         "action": "sell",
-        "ticker": "NVDA",
-        "weight_pct": 50.0
+        "ticker": "INTC",
+        "weight_pct": 3.0
       },
       {
-        "action": "buy",
-        "ticker": "ORCL",
-        "weight_pct": 30.0
+        "action": "sell",
+        "ticker": "AMD",
+        "weight_pct": 3.0
       },
       {
-        "action": "buy",
+        "action": "sell",
         "ticker": "TXN",
-        "weight_pct": 20.0
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AMZN",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "AVGO",
+        "weight_pct": 3.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 3.0
       }
     ],
     "positions": {
@@ -2134,7 +2162,6 @@
       "BMY": 504.87548347756723,
       "C": 51.73790797626103,
       "CAT": 44.28682659514141,
-      "CHTR": 293.86618628529635,
       "CL": 9.150242001184083,
       "CMCSA": 408.3162625650554,
       "COF": 91.50540785885622,
@@ -2169,7 +2196,8 @@
       "NEE": 58.02759279941519,
       "NFLX": 370.1344614283658,
       "NKE": 47.58916013488465,
-      "NVDA": 276.9771677654487,
+      "NVDA": 19.67846855124958,
+      "ORCL": 219.5711782214239,
       "PEP": 36.27021442827535,
       "PM": 22.598949253096848,
       "PYPL": 135.85092132409514,
@@ -2183,7 +2211,7 @@
       "TGT": 0.7072285175100745,
       "TMO": 11.71249435814256,
       "TMUS": 87.65133297709663,
-      "TXN": 42.141169870176476,
+      "TXN": 99.06466062987597,
       "UNH": 37.98312454311579,
       "UPS": 63.523298147979474,
       "VZ": 71.88411399794427,
@@ -7801,11 +7829,47 @@
         "shares": 148.75540228959164,
         "status": "filled",
         "ticker": "NVDA"
+      },
+      {
+        "action": "sell",
+        "date": "2026-11-28",
+        "fee": 0.0,
+        "price": 147.64999389648438,
+        "shares": 293.86618628529635,
+        "status": "filled",
+        "ticker": "CHTR"
+      },
+      {
+        "action": "sell",
+        "date": "2026-11-28",
+        "fee": 0.0,
+        "price": 151.89999389648438,
+        "shares": 257.29869921419913,
+        "status": "filled",
+        "ticker": "NVDA"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-28",
+        "fee": 0.0,
+        "price": 106.80000305175781,
+        "shares": 219.5711782214239,
+        "status": "filled",
+        "ticker": "ORCL"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-28",
+        "fee": 0.0,
+        "price": 274.6400146484375,
+        "shares": 56.9234907596995,
+        "status": "filled",
+        "ticker": "TXN"
       }
     ]
   },
   "gemini": {
-    "cash": -83858.71249587463,
+    "cash": -124570.72876932772,
     "liquidations": 1,
     "nav_history": [
       {
@@ -8191,65 +8255,96 @@
       {
         "date": "2026-11-27",
         "nav": 104977.18713249908
+      },
+      {
+        "date": "2026-11-28",
+        "nav": 109961.39076272643
       }
     ],
     "pending_orders": [
       {
         "action": "sell",
-        "ticker": "AMD",
-        "weight_pct": 100.0
+        "ticker": "TSLA",
+        "weight_pct": 10.0
       },
       {
         "action": "sell",
-        "ticker": "NVDA",
-        "weight_pct": 100.0
+        "ticker": "CHTR",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "INTC",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "TXN",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "sell",
+        "ticker": "CAT",
+        "weight_pct": 5.0
       },
       {
         "action": "buy",
-        "ticker": "TMO",
+        "ticker": "QCOM",
         "weight_pct": 10.0
       },
       {
         "action": "buy",
-        "ticker": "AMGN",
-        "weight_pct": 10.0
+        "ticker": "ABBV",
+        "weight_pct": 5.0
       },
       {
         "action": "buy",
-        "ticker": "HON",
-        "weight_pct": 10.0
+        "ticker": "ACN",
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BKNG",
+        "weight_pct": 5.0
       },
       {
         "action": "buy",
         "ticker": "UNH",
-        "weight_pct": 10.0
+        "weight_pct": 5.0
       },
       {
         "action": "buy",
         "ticker": "MSFT",
-        "weight_pct": 10.0
+        "weight_pct": 5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "HON",
+        "weight_pct": 5.0
       }
     ],
     "positions": {
       "ABBV": 2.790984936560024,
       "ACN": 80.87588735738584,
-      "AMD": 23.25919663983109,
+      "AMGN": 23.01686648267126,
       "BKNG": 55.21553124369001,
       "CAT": 26.00985889782184,
       "CHTR": 112.231015699483,
       "CRM": 43.62408294452108,
       "CSCO": 41.58645914813507,
+      "HON": 47.15001837228042,
       "IBM": 41.473998563210095,
       "INTC": 213.39438421053114,
       "KHC": 372.484352948912,
       "META": 23.58400241184068,
+      "MSFT": 21.554132590444564,
       "NKE": 200.33885719549272,
-      "NVDA": 22.200850001397313,
       "QCOM": 30.964645235652853,
       "SBUX": 85.69097137342239,
+      "TMO": 15.657049763500963,
       "TSLA": 15.555505097441094,
       "TXN": 72.26028975925595,
-      "UNH": 32.19271944043998
+      "UNH": 62.92565385952742
     },
     "rejected": [
       {
@@ -12630,6 +12725,33 @@
           "weight_pct": 10.0
         },
         "reason": "cannot short PYPL (long_only)"
+      },
+      {
+        "date": "2026-11-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "AMD",
+          "weight_pct": 5.0
+        },
+        "reason": "cannot short AMD (long_only)"
+      },
+      {
+        "date": "2026-11-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "AMZN",
+          "weight_pct": 5.0
+        },
+        "reason": "cannot short AMZN (long_only)"
+      },
+      {
+        "date": "2026-11-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "AVGO",
+          "weight_pct": 5.0
+        },
+        "reason": "cannot short AVGO (long_only)"
       }
     ],
     "trades": [
@@ -24287,6 +24409,69 @@
         "shares": 33.3602150884806,
         "status": "filled",
         "ticker": "AMZN"
+      },
+      {
+        "action": "sell",
+        "date": "2026-11-28",
+        "fee": 0.0,
+        "price": 420.2699890136719,
+        "shares": 23.25919663983109,
+        "status": "filled",
+        "ticker": "AMD"
+      },
+      {
+        "action": "sell",
+        "date": "2026-11-28",
+        "fee": 0.0,
+        "price": 151.89999389648438,
+        "shares": 22.200850001397313,
+        "status": "filled",
+        "ticker": "NVDA"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-28",
+        "fee": 0.0,
+        "price": 687.989990234375,
+        "shares": 15.657049763500963,
+        "status": "filled",
+        "ticker": "TMO"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-28",
+        "fee": 0.0,
+        "price": 468.0,
+        "shares": 23.01686648267126,
+        "status": "filled",
+        "ticker": "AMGN"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-28",
+        "fee": 0.0,
+        "price": 228.4600067138672,
+        "shares": 47.15001837228042,
+        "status": "filled",
+        "ticker": "HON"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-28",
+        "fee": 0.0,
+        "price": 350.5,
+        "shares": 30.732934419087442,
+        "status": "filled",
+        "ticker": "UNH"
+      },
+      {
+        "action": "buy",
+        "date": "2026-11-28",
+        "fee": 0.0,
+        "price": 499.760009765625,
+        "shares": 21.554132590444564,
+        "status": "filled",
+        "ticker": "MSFT"
       }
     ]
   },
@@ -24672,6 +24857,10 @@
       {
         "date": "2026-11-27",
         "nav": 101872.27684154437
+      },
+      {
+        "date": "2026-11-28",
+        "nav": 112805.59798094217
       }
     ],
     "pending_orders": [],
@@ -26134,6 +26323,11 @@
       },
       {
         "date": "2026-11-27",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
+      },
+      {
+        "date": "2026-11-28",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
       }
@@ -27841,6 +28035,10 @@
       {
         "date": "2026-11-27",
         "nav": 100000
+      },
+      {
+        "date": "2026-11-28",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -28143,6 +28341,11 @@
       },
       {
         "date": "2026-11-27",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
+      },
+      {
+        "date": "2026-11-28",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - This model is unavailable for free. The paid version is available now - use this slug instead: openai/gpt-oss-20b"
       }
@@ -28531,9 +28734,139 @@
       {
         "date": "2026-11-27",
         "nav": 93887.79228980659
+      },
+      {
+        "date": "2026-11-28",
+        "nav": 107018.45071245899
       }
     ],
-    "pending_orders": [],
+    "pending_orders": [
+      {
+        "action": "sell",
+        "ticker": "AIG",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "LMT",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "LOW",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "MA",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "MDT",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "MET",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "NKE",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "PEP",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "PG",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "PYPL",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "QCOM",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "SBUX",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "SCHW",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "SO",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "SPG",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "T",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "TGT",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "TMO",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "TMUS",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "UPS",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "USB",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "VZ",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "WFC",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "WMT",
+        "weight_pct": 0.01
+      },
+      {
+        "action": "sell",
+        "ticker": "XOM",
+        "weight_pct": 0.01
+      }
+    ],
     "positions": {
       "ACN": 61.71790513782867,
       "ADBE": 59.001799000381084,
@@ -30396,6 +30729,123 @@
         "date": "2026-11-27",
         "raw": null,
         "reason": "unparseable response: Error code: 400 - Provider returned error"
+      },
+      {
+        "date": "2026-11-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "AAPL",
+          "weight_pct": 0.02
+        },
+        "reason": "cannot short AAPL (long_only)"
+      },
+      {
+        "date": "2026-11-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "BMY",
+          "weight_pct": 0.01
+        },
+        "reason": "cannot short BMY (long_only)"
+      },
+      {
+        "date": "2026-11-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "DUK",
+          "weight_pct": 0.01
+        },
+        "reason": "cannot short DUK (long_only)"
+      },
+      {
+        "date": "2026-11-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "EMR",
+          "weight_pct": 0.01
+        },
+        "reason": "cannot short EMR (long_only)"
+      },
+      {
+        "date": "2026-11-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "F",
+          "weight_pct": 0.01
+        },
+        "reason": "cannot short F (long_only)"
+      },
+      {
+        "date": "2026-11-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "LLY",
+          "weight_pct": 0.01
+        },
+        "reason": "cannot short LLY (long_only)"
+      },
+      {
+        "date": "2026-11-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "MCD",
+          "weight_pct": 0.01
+        },
+        "reason": "cannot short MCD (long_only)"
+      },
+      {
+        "date": "2026-11-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "MDLZ",
+          "weight_pct": 0.01
+        },
+        "reason": "cannot short MDLZ (long_only)"
+      },
+      {
+        "date": "2026-11-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "MRK",
+          "weight_pct": 0.01
+        },
+        "reason": "cannot short MRK (long_only)"
+      },
+      {
+        "date": "2026-11-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "MS",
+          "weight_pct": 0.01
+        },
+        "reason": "cannot short MS (long_only)"
+      },
+      {
+        "date": "2026-11-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "NEE",
+          "weight_pct": 0.01
+        },
+        "reason": "cannot short NEE (long_only)"
+      },
+      {
+        "date": "2026-11-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "NFLX",
+          "weight_pct": 0.01
+        },
+        "reason": "cannot short NFLX (long_only)"
+      },
+      {
+        "date": "2026-11-28",
+        "raw": {
+          "action": "sell",
+          "ticker": "PFE",
+          "weight_pct": 0.01
+        },
+        "reason": "cannot short PFE (long_only)"
       }
     ],
     "trades": [
@@ -39081,6 +39531,10 @@
       {
         "date": "2026-11-27",
         "nav": 100000
+      },
+      {
+        "date": "2026-11-28",
+        "nav": 100000
       }
     ],
     "pending_orders": [],
@@ -39558,6 +40012,11 @@
       },
       {
         "date": "2026-11-27",
+        "raw": null,
+        "reason": "unparseable response: Error code: 404 - qwen/qwen-2.5-7b-instruct is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models"
+      },
+      {
+        "date": "2026-11-28",
         "raw": null,
         "reason": "unparseable response: Error code: 404 - qwen/qwen-2.5-7b-instruct is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models"
       }
