@@ -29452,5 +29452,99 @@
     "nav": 68273.32655611285,
     "commentary": "(no valid response today)",
     "orders": []
+  },
+  {
+    "date": "2026-11-28",
+    "trader": "gpt",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-28",
+    "trader": "claude",
+    "nav": 100000,
+    "commentary": "(no valid response today)",
+    "orders": []
+  },
+  {
+    "date": "2026-11-28",
+    "trader": "deepseek",
+    "nav": 102546.5458877782,
+    "commentary": "Holding through the fear; current positions already heavily leveraged into beaten-down names awaiting a rebound.",
+    "orders": []
+  },
+  {
+    "date": "2026-11-28",
+    "trader": "llama",
+    "nav": 99722.95565003739,
+    "commentary": "Rotating into Bitcoin as it breaks below its recent range and may be setting up for a reversal, and increasing exposure to Ethereum as it holds support and begins to show signs of a potential breakout, while trimming Solana and Dogecoin due to their recent declines and lack of momentum.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": 20
+      },
+      {
+        "action": "sell",
+        "ticker": "SOL-USD",
+        "weight_pct": 15
+      },
+      {
+        "action": "sell",
+        "ticker": "DOGE-USD",
+        "weight_pct": 10
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": 5
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": 50
+      }
+    ]
+  },
+  {
+    "date": "2026-11-28",
+    "trader": "gemini",
+    "nav": 92381.12373375671,
+    "commentary": "Increasing exposure to higher volatility assets while reducing exposure to lower volatility assets to rebalance risk.",
+    "orders": [
+      {
+        "action": "buy",
+        "ticker": "DOGE-USD",
+        "weight_pct": -10.0
+      },
+      {
+        "action": "buy",
+        "ticker": "SOL-USD",
+        "weight_pct": -8.0
+      },
+      {
+        "action": "buy",
+        "ticker": "XRP-USD",
+        "weight_pct": -7.0
+      },
+      {
+        "action": "buy",
+        "ticker": "ETH-USD",
+        "weight_pct": -5.0
+      },
+      {
+        "action": "buy",
+        "ticker": "BTC-USD",
+        "weight_pct": -3.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-28",
+    "trader": "qwen",
+    "nav": 67828.53668734615,
+    "commentary": "(no valid response today)",
+    "orders": []
   }
 ]
